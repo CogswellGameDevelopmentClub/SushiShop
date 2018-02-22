@@ -1,0 +1,1136 @@
+﻿Log file open, 02/21/18 16:33:37
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-853707913) SRandInit(-853707913).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.921381
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.22-00.33.39:327][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.22-00.33.39:327][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.22-00.33.39:349][  0]LogInit: Computer: DESKTOP-2QNA1SC
+[2018.02.22-00.33.39:349][  0]LogInit: User: darkm
+[2018.02.22-00.33.39:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.22-00.33.39:349][  0]LogInit: High frequency timer resolution =1.945309 MHz
+[2018.02.22-00.33.39:350][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.02.22-00.33.39:350][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.22-00.33.39:350][  0]LogMemory: Process Physical Memory: 272.19 MB used, 272.19 MB peak
+[2018.02.22-00.33.39:350][  0]LogMemory: Process Virtual Memory: 269.79 MB used, 269.79 MB peak
+[2018.02.22-00.33.39:350][  0]LogMemory: Physical Memory: 6266.41 MB used,  10033.20 MB free, 16299.60 MB total
+[2018.02.22-00.33.39:350][  0]LogMemory: Virtual Memory: 682.20 MB used,  10033.20 MB free, 134217728.00 MB total
+[2018.02.22-00.33.39:725][  0]LogInit: Using OS detected language (en-US).
+[2018.02.22-00.33.39:725][  0]LogInit: Using OS detected locale (en-US).
+[2018.02.22-00.33.39:775][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.22-00.33.40:192][  0]LogInit: Setting process to per monitor DPI aware
+[2018.02.22-00.33.41:936][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.22-00.33.41:948][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.02.22-00.33.41:949][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.02.22-00.33.41:979][  0]LogD3D11RHI:    1. 'Radeon 500 Series' (Feature Level 11_0)
+[2018.02.22-00.33.41:979][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2018.02.22-00.33.41:980][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.22-00.33.41:980][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.22-00.33.41:980][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.02.22-00.33.41:987][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.22-00.33.41:987][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2018.02.22-00.33.41:987][  0]LogWindows: EnumDisplayDevices:
+[2018.02.22-00.33.41:987][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.02.22-00.33.41:988][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:988][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:989][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:990][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:990][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:990][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
+[2018.02.22-00.33.41:990][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.22-00.33.41:990][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
+[2018.02.22-00.33.41:990][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.22-00.33.41:990][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.22-00.33.41:990][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2018.02.22-00.33.42:039][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.22-00.33.42:077][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.02.22-00.33.42:089][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/8904/).
+[2018.02.22-00.33.42:089][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/5A0B95FF468D049373BDCAB363048F41/'.
+[2018.02.22-00.33.42:090][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.02.22-00.33.43:709][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.22-00.33.43:751][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.02.22-00.33.43:794][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.22-00.33.43:836][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.02.22-00.33.43:883][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.02.22-00.33.43:926][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.22-00.33.43:969][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.22-00.33.44:011][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.22-00.33.44:049][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.02.22-00.33.44:092][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.22-00.33.44:134][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.22-00.33.44:176][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.22-00.33.44:218][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.22-00.33.44:260][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.22-00.33.44:345][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.22-00.33.44:345][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.22-00.33.44:392][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.02.22-00.33.44:426][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.02.22-00.33.44:511][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.02.22-00.33.44:534][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.02.22-00.33.44:576][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.22-00.33.44:618][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.22-00.33.44:664][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.22-00.33.44:711][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.02.22-00.33.44:711][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.02.22-00.33.45:181][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: Loaded boot cache 0.43s 82MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.22-00.33.45:614][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.22-00.33.45:639][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.22-00.33.45:651][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.22-00.33.45:665][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.22-00.33.45:676][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.22-00.33.45:693][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.22-00.33.45:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.22-00.33.46:788][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.22-00.33.47:357][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.22-00.33.47:400][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.22-00.33.47:401][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.22-00.33.47:401][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.02.22-00.33.47:401][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.02.22-00.33.47:401][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.02.22-00.33.47:494][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.02.22-00.33.47:940][  0]LogAssetRegistry: FAssetRegistry took 0.0299 seconds to start up
+[2018.02.22-00.33.49:188][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.075444 seconds
+[2018.02.22-00.33.49:194][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.02.22-00.33.49:194][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.02.22-00.33.49:194][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.22-00.33.49:238][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.22-00.33.54:513][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.22-00.33.54:551][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.22-00.33.55:279][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.02.22-00.33.55:282][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:282][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:342][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.22-00.33.55:361][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.02.22-00.33.55:361][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:361][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:368][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.02.22-00.33.55:368][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:368][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:375][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.02.22-00.33.55:375][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:375][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:382][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.02.22-00.33.55:382][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:382][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:389][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.02.22-00.33.55:390][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:390][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:431][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.02.22-00.33.55:431][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:431][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:439][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.02.22-00.33.55:439][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:439][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:447][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.02.22-00.33.55:447][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.22-00.33.55:447][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.02.22-00.33.55:850][  0]SourceControl: Source control is disabled
+[2018.02.22-00.33.55:851][  0]SourceControl: Source control is disabled
+[2018.02.22-00.33.55:905][  0]SourceControl: Source control is disabled
+[2018.02.22-00.33.55:957][  0]SourceControl: Source control is disabled
+[2018.02.22-00.33.56:724][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.22-00.33.56:952][  0]LogOcInput: OculusInput pre-init called
+[2018.02.22-00.33.57:252][  0]LogEngine: Initializing Engine...
+[2018.02.22-00.33.57:259][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.22-00.33.57:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.22-00.33.57:608][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.22-00.33.57:762][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.22-00.33.57:778][  0]LogInit: XAudio2 using 'Headphones (TaoTronics TT-BH07 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.22-00.33.57:790][  0]LogInit: FAudioDevice initialized.
+[2018.02.22-00.33.57:863][  0]LogDerivedDataCache: Saved boot cache 0.07s 82MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.02.22-00.33.57:870][  0]LogInit: Texture streaming: Enabled
+[2018.02.22-00.33.57:961][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.22-00.33.58:081][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.22-00.33.58:081][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.02.22-00.33.58:113][  0]LogInit: Transaction tracking system initialized
+[2018.02.22-00.33.58:599][  0]BlueprintLog: New page: Editor Load
+[2018.02.22-00.33.59:511][  0]LocalizationService: Localization service is disabled
+[2018.02.22-00.34.00:308][  0]LogConsoleResponse: Display: 
+[2018.02.22-00.34.00:813][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.02.22-00.34.00:813][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.22-00.34.00:813][  0]LogCook: Display: Mobile HDR setting 1
+[2018.02.22-00.34.00:813][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.02.22-00.34.01:959][  0]SourceControl: Source control is disabled
+[2018.02.22-00.34.01:963][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.22-00.34.01:971][  0]LightingResults: New page: Lighting Build
+[2018.02.22-00.34.02:022][  0]MapCheck: New page: Map Check
+[2018.02.22-00.34.02:022][  0]LightingResults: New page: Lighting Build
+[2018.02.22-00.34.02:320][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.02.22-00.34.02:347][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.22-00.34.02:361][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.22-00.34.02:411][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.588ms to complete.
+[2018.02.22-00.34.02:411][  0]LogFileHelpers: Loading map 'StartupMap' took 0.451
+[2018.02.22-00.34.02:719][  0]LogCollectionManager: Loaded 0 collections in 0.001825 seconds
+[2018.02.22-00.34.02:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.02.22-00.34.02:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
+[2018.02.22-00.34.02:823][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.02.22-00.34.02:823][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.22-00.34.02:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2363 classes and 519 folders.
+[2018.02.22-00.34.02:893][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.22-00.34.03:500][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.02.22-00.34.03:556][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.22-00.34.03:683][  0]LogSlate: Took 0.005554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.22-00.34.03:693][  0]LogSlate: Took 0.005671 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.22-00.34.03:701][  0]LogSlate: Took 0.004870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.22-00.34.03:851][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 26 NumSamples 1 (Frame:1).
+[2018.02.22-00.34.04:256][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.02.22-00.34.04:256][  0]LogLoad: (Engine Initialization) Total time: 29.18 seconds
+[2018.02.22-00.34.04:256][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.02.22-00.34.04:256][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.22-00.34.04:288][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.22-00.34.04:354][  0]LogSlate: Took 0.006362 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.22-00.34.04:375][  1]LogAssetRegistry: Asset discovery search completed in 16.4583 seconds
+[2018.02.22-00.34.04:377][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.22-00.34.04:377][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.02.22-00.34.05:314][ 66]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.22-00.34.27:740][456]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.22-00.34.28:467][456]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.02.22-00.34.28:722][456]LogAIModule: Creating AISystem for world Shop_Main
+[2018.02.22-00.34.28:812][456]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.22-00.34.28:813][456]LightingResults: New page: Lighting Build
+[2018.02.22-00.34.28:813][456]LoadErrors: New page: Loading map: Shop_Main.umap
+[2018.02.22-00.34.28:815][456]MapCheck: New page: Map Check
+[2018.02.22-00.34.28:815][456]LightingResults: New page: Lighting Build
+[2018.02.22-00.34.28:834][456]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.22-00.34.28:875][456]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.22-00.34.28:926][456]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.881ms to complete.
+[2018.02.22-00.34.28:926][456]LogFileHelpers: Loading map 'Shop_Main' took 0.115
+[2018.02.22-00.34.31:353][584]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
+[2018.02.22-00.34.34:199][773]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.34.36:733][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
+[2018.02.22-00.34.37:193][969]LogEditorViewport: Clicking on Actor (LMB): UI_C (Order_UI)
+[2018.02.22-00.34.40:002][158]Cmd: TRANSACTION UNDO
+[2018.02.22-00.34.40:002][158]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.34.40:943][186]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
+[2018.02.22-00.34.42:255][244]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.34.46:343][515]Cmd: TRANSACTION UNDO
+[2018.02.22-00.34.46:343][515]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.35.04:568][677]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.02.22-00.35.05:301][677]LogSlate: Took 0.004130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.22-00.35.15:035][651]LogSlate: Took 0.030983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.02.22-00.36.07:844][875]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
+[2018.02.22-00.36.08:049][878]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.36.34:680][893]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
+[2018.02.22-00.36.34:888][901]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.36.38:265][ 74]MapCheck: New page: Map Check
+[2018.02.22-00.36.38:334][ 74]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.22-00.36.38:334][ 74]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.22-00.36.38:428][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_13, compiling. 
+[2018.02.22-00.36.38:442][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.22-00.36.38:450][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.02.22-00.36.38:468][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-00.36.38:477][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.02.22-00.36.38:485][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M, compiling. 
+[2018.02.22-00.36.38:492][ 74]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.22-00.36.39:273][ 74]TextureStreamingBuild: Display: Compiling optional shaders took 0.852 seconds.
+[2018.02.22-00.36.39:331][ 74]LogLevel: Display: Export Material TexCoord Scales took 0.057 seconds.
+[2018.02.22-00.36.39:336][ 74]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2018.02.22-00.36.39:357][ 74]LightingResults: New page: Lighting Build - Feb 21, 2018, 8:36:39 AM
+[2018.02.22-00.36.39:400][ 74]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.22-00.36.39:487][ 74]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.22-00.36.39:567][ 74]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.22-00.36.40:096][ 74]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.22-00.36.40:096][ 74]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8904
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.22-00.36.42:532][ 74]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.22-00.36.42:658][ 74]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.22-00.36.42:658][ 74]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:36:42 AM
+[2018.02.22-00.36.42:708][ 74]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.98ms to complete.
+[2018.02.22-00.36.42:731][ 74]LogEditorBuildUtils: Build time 0:04
+[2018.02.22-00.36.44:887][157]LightingResults: Warning: InvertedBox Object has overlapping UVs.
+[2018.02.22-00.36.44:907][158]LightingResults: InvertedBox Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-00.36.45:259][172]Job is a success!
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.012s
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:      BrickData 45x5x5 = 0.0Mb
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:          0: 11.1% covering 100.0% of volume
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:          1: 44.4% covering 6.3% of volume
+[2018.02.22-00.36.45:485][174]LogVolumetricLightmapImport:          2: 44.4% covering 0.1% of volume
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2018.02.22-00.36.45:690][174]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
+[2018.02.22-00.36.45:778][174]Lightmass on DESKTOP-2QNA1SC: 2.18 sec total, 289 ms importing, 24 ms setup, 386 ms photons, 1.46 sec processing, 0 ms extra exporting [10/10 mappings]. Threads: 10.0 sec total, 2.53 sec processing.
+[2018.02.22-00.36.45:874][174]LogStaticLightingSystem: Illumination: 6.44 sec (95 ms encoding lightmaps, 16 ms encoding shadowmaps)
+[2018.02.22-00.36.45:874][174]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.22-00.36.45:874][174]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.22-00.36.46:537][174]DumpUnbuiltLightIteractions
+[2018.02.22-00.36.46:537][174]Lights with unbuilt interactions: 0
+[2018.02.22-00.36.46:537][174]
+[2018.02.22-00.36.46:537][174]Primitives with unbuilt interactions: 0
+[2018.02.22-00.36.46:550][175]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.22-00.36.46:550][175]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:36:46 AM
+[2018.02.22-00.36.46:601][175]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.127ms to complete.
+[2018.02.22-00.37.16:958][914]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.37.30:061][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.02.22-00.37.30:277][705]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.37.40:318][275]Cmd: TRANSACTION UNDO
+[2018.02.22-00.37.40:318][275]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.37.52:701][929]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2018.02.22-00.37.52:708][929]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.37.53:177][929]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.22-00.37.53:265][929]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.37.53:287][929]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.37.53:342][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.02.22-00.37.53:349][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.22-00.37.53:356][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_0, compiling. 
+[2018.02.22-00.37.53:362][929]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureObject_1, compiling. 
+[2018.02.22-00.37.53:509][930]LogSlate: Took 0.006064 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.38.00:932][380]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.38.29:077][334]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (InvertedBox)
+[2018.02.22-00.38.29:295][338]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.38.30:981][444]Cmd: TRANSACTION UNDO
+[2018.02.22-00.38.30:981][444]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.38.31:025][444]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.38.36:234][636]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.38.36:810][661]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.40.25:662][ 40]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/EntireSushiBar.fbx)
+[2018.02.22-00.40.25:697][ 40]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.02.22-00.40.25:698][ 40]LogFbx: ItemName: Geometry, ItemCount : 15
+[2018.02.22-00.40.25:698][ 40]LogFbx: ItemName: Material, ItemCount : 1
+[2018.02.22-00.40.25:698][ 40]LogFbx: ItemName: Model, ItemCount : 15
+[2018.02.22-00.40.25:698][ 40]LogFbx: ItemName: CollectionExclusive, ItemCount : 3
+[2018.02.22-00.40.25:706][ 40]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/EntireSushiBar.fbx
+[2018.02.22-00.40.25:722][ 40]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.22-00.40.27:192][ 40]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/EntireSushiBar.fbx
+[2018.02.22-00.40.27:202][ 40]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.22-00.40.27:207][ 40]LogFbx: Warning: Triangulating static mesh Bar
+[2018.02.22-00.40.27:223][ 40]LogStaticMesh: Building static mesh EntireSushiBar_Bar...
+[2018.02.22-00.40.27:236][ 40]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/EntireSushiBar_Bar.EntireSushiBar_Bar
+[2018.02.22-00.40.27:248][ 40]LogFbx: Warning: Triangulating static mesh Refrigerator
+[2018.02.22-00.40.27:260][ 40]LogStaticMesh: Building static mesh EntireSushiBar_Refrigerator...
+[2018.02.22-00.40.27:277][ 40]LogStaticMesh: Built static mesh [0.02s] /Game/SushiShop/Assets/EntireSushiBar_Refrigerator.EntireSushiBar_Refrigerator
+[2018.02.22-00.40.27:285][ 40]LogFbx: Warning: Triangulating static mesh GlassOuter
+[2018.02.22-00.40.27:286][ 40]LogStaticMesh: Building static mesh EntireSushiBar_GlassOuter...
+[2018.02.22-00.40.27:290][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_GlassOuter.EntireSushiBar_GlassOuter
+[2018.02.22-00.40.27:297][ 40]LogFbx: Warning: Triangulating static mesh polySurface11
+[2018.02.22-00.40.27:299][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface11...
+[2018.02.22-00.40.27:299][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface11.EntireSushiBar_polySurface11
+[2018.02.22-00.40.27:306][ 40]LogFbx: Warning: Triangulating static mesh polySurface14
+[2018.02.22-00.40.27:307][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface14...
+[2018.02.22-00.40.27:308][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface14.EntireSushiBar_polySurface14
+[2018.02.22-00.40.27:314][ 40]LogFbx: Warning: Triangulating static mesh polySurface12
+[2018.02.22-00.40.27:316][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface12...
+[2018.02.22-00.40.27:316][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface12.EntireSushiBar_polySurface12
+[2018.02.22-00.40.27:323][ 40]LogFbx: Warning: Triangulating static mesh polySurface17
+[2018.02.22-00.40.27:325][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface17...
+[2018.02.22-00.40.27:326][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface17.EntireSushiBar_polySurface17
+[2018.02.22-00.40.27:333][ 40]LogFbx: Warning: Triangulating static mesh polySurface10
+[2018.02.22-00.40.27:335][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface10...
+[2018.02.22-00.40.27:336][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface10.EntireSushiBar_polySurface10
+[2018.02.22-00.40.27:343][ 40]LogFbx: Warning: Triangulating static mesh polySurface15
+[2018.02.22-00.40.27:345][ 40]LogStaticMesh: Building static mesh EntireSushiBar_polySurface15...
+[2018.02.22-00.40.27:347][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_polySurface15.EntireSushiBar_polySurface15
+[2018.02.22-00.40.27:353][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle
+[2018.02.22-00.40.27:356][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle...
+[2018.02.22-00.40.27:359][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle.EntireSushiBar_DoorHandle
+[2018.02.22-00.40.27:365][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle1
+[2018.02.22-00.40.27:370][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle1...
+[2018.02.22-00.40.27:372][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle1.EntireSushiBar_DoorHandle1
+[2018.02.22-00.40.27:379][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle2
+[2018.02.22-00.40.27:386][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle2...
+[2018.02.22-00.40.27:389][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle2.EntireSushiBar_DoorHandle2
+[2018.02.22-00.40.27:397][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle3
+[2018.02.22-00.40.27:402][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle3...
+[2018.02.22-00.40.27:404][ 40]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle3.EntireSushiBar_DoorHandle3
+[2018.02.22-00.40.27:411][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle4
+[2018.02.22-00.40.27:419][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle4...
+[2018.02.22-00.40.27:425][ 40]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle4.EntireSushiBar_DoorHandle4
+[2018.02.22-00.40.27:433][ 40]LogFbx: Warning: Triangulating static mesh DoorHandle5
+[2018.02.22-00.40.27:442][ 40]LogStaticMesh: Building static mesh EntireSushiBar_DoorHandle5...
+[2018.02.22-00.40.27:447][ 40]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/EntireSushiBar_DoorHandle5.EntireSushiBar_DoorHandle5
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.27:463][ 40]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.02.22-00.40.44:421][770]LogRenderer: Reallocating scene render targets to support 964x464 Format 26 NumSamples 1 (Frame:10546).
+[2018.02.22-00.40.44:468][771]LogRenderer: Reallocating scene render targets to support 964x488 Format 26 NumSamples 1 (Frame:10548).
+[2018.02.22-00.40.44:533][772]LogRenderer: Reallocating scene render targets to support 964x508 Format 26 NumSamples 1 (Frame:10550).
+[2018.02.22-00.40.44:574][773]LogRenderer: Reallocating scene render targets to support 964x512 Format 26 NumSamples 1 (Frame:10552).
+[2018.02.22-00.40.44:661][779]LogRenderer: Reallocating scene render targets to support 964x516 Format 26 NumSamples 1 (Frame:10554).
+[2018.02.22-00.40.45:867][853]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.40.53:272][308]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.40.54:050][348]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Refrigerator)
+[2018.02.22-00.41.02:273][803]Cmd: TRANSACTION UNDO
+[2018.02.22-00.41.02:274][803]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.41.02:280][803]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Floor.StaticMeshComponent0) Component already registered.
+[2018.02.22-00.41.02:290][803]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.41.07:889][987]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.41.07:889][987]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.41.07:889][987]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.41.07:890][987]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.41.07:890][987]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.41.07:890][987]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.41.20:455][648]Cmd: TRANSACTION UNDO
+[2018.02.22-00.41.20:455][648]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.41.20:469][648]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.41.23:071][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.41.23:286][735]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.41.26:310][856]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.41.26:310][856]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.41.26:311][856]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.41.26:311][856]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.41.26:311][856]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.41.26:311][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.41.29:817][ 28]Cmd: TRANSACTION UNDO
+[2018.02.22-00.41.29:817][ 28]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.22-00.41.29:870][ 28]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.41.30:252][ 32]Cmd: TRANSACTION UNDO
+[2018.02.22-00.41.30:252][ 32]LogEditorTransaction: Undo Animatable Property Changed
+[2018.02.22-00.41.30:273][ 32]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.41.30:824][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.41.31:528][ 74]Cmd: DELETE
+[2018.02.22-00.41.31:528][ 74]Cmd: ACTOR DELETE
+[2018.02.22-00.41.31:542][ 74]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.41.31:580][ 74]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2018.02.22-00.41.36:157][200]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.41.36:158][200]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.41.36:158][200]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.41.36:158][200]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.41.36:158][200]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.41.36:158][200]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.41.57:933][893]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.41.57:933][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface10
+[2018.02.22-00.41.57:934][893]LogActorFactory: Actor Factory created EntireSushiBar_GlassOuter
+[2018.02.22-00.41.57:934][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface11
+[2018.02.22-00.41.57:934][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface12
+[2018.02.22-00.41.57:935][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface14
+[2018.02.22-00.41.57:935][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface15
+[2018.02.22-00.41.57:936][893]LogActorFactory: Actor Factory created EntireSushiBar_polySurface17
+[2018.02.22-00.41.57:936][893]LogActorFactory: Actor Factory created EntireSushiBar_Refrigerator
+[2018.02.22-00.41.57:937][893]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle
+[2018.02.22-00.41.57:937][893]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle1
+[2018.02.22-00.41.59:864][994]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.41.59:894][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface10
+[2018.02.22-00.41.59:923][994]LogActorFactory: Actor Factory created EntireSushiBar_GlassOuter
+[2018.02.22-00.41.59:952][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface11
+[2018.02.22-00.41.59:980][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface12
+[2018.02.22-00.42.00:006][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface14
+[2018.02.22-00.42.00:032][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface15
+[2018.02.22-00.42.00:056][994]LogActorFactory: Actor Factory created EntireSushiBar_polySurface17
+[2018.02.22-00.42.00:081][994]LogActorFactory: Actor Factory created EntireSushiBar_Refrigerator
+[2018.02.22-00.42.00:105][994]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle
+[2018.02.22-00.42.00:128][994]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle1
+[2018.02.22-00.42.18:364][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface15)
+[2018.02.22-00.43.00:367][361]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface12)
+[2018.02.22-00.43.00:703][377]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.43.03:965][582]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface12)
+[2018.02.22-00.43.26:498][896]Cmd: TRANSACTION UNDO
+[2018.02.22-00.43.26:498][896]LogEditorTransaction: Undo Move Actors
+[2018.02.22-00.43.26:507][896]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.43.28:157][946]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.43.32:339][123]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.43.32:339][123]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.43.32:340][123]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.43.32:340][123]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.43.32:340][123]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.43.32:340][123]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.43.46:788][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.43.47:269][942]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.43.50:016][ 84]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.44.00:837][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_GlassOuter)
+[2018.02.22-00.44.05:525][936]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.44.12:863][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_GlassOuter)
+[2018.02.22-00.44.18:603][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.44.20:687][672]Cmd: TRANSACTION UNDO
+[2018.02.22-00.44.20:687][672]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.22-00.44.20:735][672]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.44.21:752][696]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.44.29:288][947]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.44.37:387][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface12)
+[2018.02.22-00.44.37:621][284]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.44.52:390][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Refrigerator)
+[2018.02.22-00.45.19:764][ 73]MapCheck: New page: Map Check
+[2018.02.22-00.45.19:823][ 73]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.22-00.45.19:824][ 73]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.22-00.45.19:864][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_18, compiling. 
+[2018.02.22-00.45.19:873][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.22-00.45.19:883][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.02.22-00.45.19:890][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-00.45.19:899][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.02.22-00.45.19:907][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M, compiling. 
+[2018.02.22-00.45.19:917][ 73]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.22-00.45.20:558][ 73]TextureStreamingBuild: Display: Compiling optional shaders took 0.697 seconds.
+[2018.02.22-00.45.20:624][ 73]LogLevel: Display: Export Material TexCoord Scales took 0.066 seconds.
+[2018.02.22-00.45.20:635][ 73]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
+[2018.02.22-00.45.20:659][ 73]LightingResults: New page: Lighting Build - Feb 21, 2018, 8:45:20 AM
+[2018.02.22-00.45.20:665][ 73]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.22-00.45.20:667][ 73]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.22-00.45.20:667][ 73]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.22-00.45.20:668][ 73]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.22-00.45.20:668][ 73]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8904
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.22-00.45.25:202][ 73]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.22-00.45.25:376][ 73]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.22-00.45.25:376][ 73]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:45:25 AM
+[2018.02.22-00.45.25:425][ 73]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.373ms to complete.
+[2018.02.22-00.45.25:448][ 73]LogEditorBuildUtils: Build time 0:05
+[2018.02.22-00.45.27:753][156]LightingResults: Warning: InvertedBox Object has overlapping UVs.
+[2018.02.22-00.45.27:753][156]LightingResults: InvertedBox Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-00.45.28:052][168]Job is a success!
+[2018.02.22-00.45.28:284][169]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
+[2018.02.22-00.45.28:284][169]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.22-00.45.28:284][169]LogVolumetricLightmapImport:      BrickData 50x5x5 = 0.0Mb
+[2018.02.22-00.45.28:285][169]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.22-00.45.28:285][169]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2018.02.22-00.45.28:285][169]LogVolumetricLightmapImport:          1: 40.0% covering 6.3% of volume
+[2018.02.22-00.45.28:285][169]LogVolumetricLightmapImport:          2: 50.0% covering 0.1% of volume
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.22-00.45.28:573][169]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.22-00.45.28:611][169]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2018.02.22-00.45.28:612][169]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X64)
+[2018.02.22-00.45.28:663][169]Lightmass on DESKTOP-2QNA1SC: 2.69 sec total, 173 ms importing, 29 ms setup, 437 ms photons, 2.03 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 14.0 sec total, 4.97 sec processing.
+[2018.02.22-00.45.28:744][169]LogStaticLightingSystem: Illumination: 7.99 sec (217 ms encoding lightmaps, 18 ms encoding shadowmaps)
+[2018.02.22-00.45.28:744][169]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.22-00.45.28:744][169]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.22-00.45.29:209][169]DumpUnbuiltLightIteractions
+[2018.02.22-00.45.29:209][169]Lights with unbuilt interactions: 0
+[2018.02.22-00.45.29:209][169]
+[2018.02.22-00.45.29:209][169]Primitives with unbuilt interactions: 0
+[2018.02.22-00.45.29:222][170]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.22-00.45.29:222][170]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:45:29 AM
+[2018.02.22-00.45.29:272][170]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.475ms to complete.
+[2018.02.22-00.45.38:713][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface14)
+[2018.02.22-00.45.44:341][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface12)
+[2018.02.22-00.46.05:135][ 45]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.46.07:919][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface14)
+[2018.02.22-00.46.50:291][239]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle5
+[2018.02.22-00.46.52:005][340]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle5
+[2018.02.22-00.46.52:725][379]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.46.59:864][818]Cmd: TRANSACTION UNDO
+[2018.02.22-00.46.59:864][818]LogEditorTransaction: Undo Create Actors
+[2018.02.22-00.46.59:915][818]LogMaterial: Missing cached shader map for material stainlessSteel_M, compiling. 
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: Base pass shader: 628 instructions
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: Base pass shader with Surface Lightmap: 637 instructions
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 694 instructions
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: Texture samplers: 8/16
+[2018.02.22-00.47.05:955][ 48]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.47.08:724][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:725][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:726][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:727][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:728][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:729][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:729][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:730][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:731][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:732][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:733][204]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.08:768][204]LogEditorActor: Deleted 11 Actors (0.053 secs)
+[2018.02.22-00.47.22:232][720]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.47.22:232][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle
+[2018.02.22-00.47.22:233][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle1
+[2018.02.22-00.47.22:234][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle2
+[2018.02.22-00.47.22:234][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle3
+[2018.02.22-00.47.22:235][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle4
+[2018.02.22-00.47.22:235][720]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle5
+[2018.02.22-00.47.22:236][720]LogActorFactory: Actor Factory created EntireSushiBar_GlassOuter
+[2018.02.22-00.47.22:236][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface10
+[2018.02.22-00.47.22:237][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface11
+[2018.02.22-00.47.22:237][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface12
+[2018.02.22-00.47.22:238][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface14
+[2018.02.22-00.47.22:238][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface15
+[2018.02.22-00.47.22:239][720]LogActorFactory: Actor Factory created EntireSushiBar_polySurface17
+[2018.02.22-00.47.22:240][720]LogActorFactory: Actor Factory created EntireSushiBar_Refrigerator
+[2018.02.22-00.47.22:240][720]LogActorFactory: Actor Factory created Water
+[2018.02.22-00.47.24:710][829]LogActorFactory: Actor Factory created EntireSushiBar_Bar
+[2018.02.22-00.47.24:727][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle
+[2018.02.22-00.47.24:743][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle1
+[2018.02.22-00.47.24:759][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle2
+[2018.02.22-00.47.24:776][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle3
+[2018.02.22-00.47.24:792][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle4
+[2018.02.22-00.47.24:807][829]LogActorFactory: Actor Factory created EntireSushiBar_DoorHandle5
+[2018.02.22-00.47.24:823][829]LogActorFactory: Actor Factory created EntireSushiBar_GlassOuter
+[2018.02.22-00.47.24:838][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface10
+[2018.02.22-00.47.24:854][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface11
+[2018.02.22-00.47.24:869][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface12
+[2018.02.22-00.47.24:885][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface14
+[2018.02.22-00.47.24:900][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface15
+[2018.02.22-00.47.24:916][829]LogActorFactory: Actor Factory created EntireSushiBar_polySurface17
+[2018.02.22-00.47.24:935][829]LogActorFactory: Actor Factory created EntireSushiBar_Refrigerator
+[2018.02.22-00.47.24:952][829]LogActorFactory: Actor Factory created Water
+[2018.02.22-00.47.28:480][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water2)
+[2018.02.22-00.47.29:901][ 86]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.47.34:468][329]Cmd: DELETE
+[2018.02.22-00.47.34:468][329]Cmd: ACTOR DELETE
+[2018.02.22-00.47.34:470][329]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.22-00.47.34:489][329]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.22-00.47.49:405][489]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/Water.fbx)
+[2018.02.22-00.47.49:416][489]LogEditorFactories: Performing atomic reimport of [C:/Users/darkm/Downloads/Water.fbx]
+[2018.02.22-00.47.49:423][489]LogFbx: Loading FBX Scene from C:/Users/darkm/Downloads/Water.fbx
+[2018.02.22-00.47.49:428][489]LogFbx: FBX Scene Loaded Succesfully
+[2018.02.22-00.47.49:429][489]LogFbx: Warning: Triangulating static mesh Water
+[2018.02.22-00.47.49:430][489]LogStaticMesh: Building static mesh Water...
+[2018.02.22-00.47.49:431][489]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Water.Water
+[2018.02.22-00.47.49:431][489]LogEditorFactories: -- imported successfully
+[2018.02.22-00.47.52:440][576]LogActorFactory: Actor Factory created Water
+[2018.02.22-00.47.58:011][809]LogActorFactory: Actor Factory created Water
+[2018.02.22-00.47.58:971][866]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.48.05:803][257]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface11)
+[2018.02.22-00.48.06:523][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Refrigerator)
+[2018.02.22-00.48.24:786][ 15]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.48.39:485][749]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water2)
+[2018.02.22-00.48.45:685][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface15)
+[2018.02.22-00.48.56:482][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_GlassOuter)
+[2018.02.22-00.49.06:870][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.49.33:499][210]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface10)
+[2018.02.22-00.49.34:396][256]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface10)
+[2018.02.22-00.49.34:855][282]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_polySurface10)
+[2018.02.22-00.49.35:298][307]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_DoorHandle4)
+[2018.02.22-00.49.36:071][348]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.49.48:834][ 44]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2018.02.22-00.49.52:808][271]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.50.02:913][770]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.50.08:225][ 63]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.22-00.50.09:773][155]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.22-00.50.14:365][427]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.22-00.50.17:672][624]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.02.22-00.50.20:234][764]Cmd: DELETE
+[2018.02.22-00.50.20:234][764]Cmd: ACTOR DELETE
+[2018.02.22-00.50.20:238][764]LogEditorActor: Deleted Actor: PlayerStart
+[2018.02.22-00.50.20:271][764]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.02.22-00.50.22:400][884]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
+[2018.02.22-00.50.34:334][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water2)
+[2018.02.22-00.50.34:753][566]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.22-00.50.52:239][566]MapCheck: New page: Map Check
+[2018.02.22-00.50.52:269][566]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.22-00.50.52:269][566]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.22-00.50.52:332][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_23, compiling. 
+[2018.02.22-00.50.52:348][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.22-00.50.52:360][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.02.22-00.50.52:374][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-00.50.52:390][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.02.22-00.50.52:405][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M, compiling. 
+[2018.02.22-00.50.52:419][566]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.22-00.50.53:092][566]TextureStreamingBuild: Display: Compiling optional shaders took 0.764 seconds.
+[2018.02.22-00.50.53:123][566]LogLevel: Display: Export Material TexCoord Scales took 0.031 seconds.
+[2018.02.22-00.50.53:129][566]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.02.22-00.50.53:144][566]LightingResults: New page: Lighting Build - Feb 21, 2018, 8:50:53 AM
+[2018.02.22-00.50.53:150][566]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.22-00.50.53:153][566]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.22-00.50.53:153][566]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.22-00.50.53:154][566]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.22-00.50.53:154][566]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8904
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.22-00.50.57:669][566]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.22-00.50.57:800][566]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.22-00.50.57:800][566]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:50:57 AM
+[2018.02.22-00.50.57:848][566]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.422ms to complete.
+[2018.02.22-00.50.57:871][566]LogEditorBuildUtils: Build time 0:05
+[2018.02.22-00.50.59:863][640]LightingResults: Warning: EntireSushiBar_DoorHandle4 Object has overlapping UVs.
+[2018.02.22-00.50.59:863][640]LightingResults: EntireSushiBar_DoorHandle4 Lightmap UV are overlapping by 57.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-00.50.59:944][644]LightingResults: Warning: EntireSushiBar_DoorHandle5 Object has overlapping UVs.
+[2018.02.22-00.50.59:944][644]LightingResults: EntireSushiBar_DoorHandle5 Lightmap UV are overlapping by 57.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-00.51.00:326][658]LightingResults: Warning: InvertedBox Object has overlapping UVs.
+[2018.02.22-00.51.00:326][658]LightingResults: InvertedBox Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-00.51.00:653][672]Job is a success!
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:      BrickData 45x5x5 = 0.0Mb
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:          0: 11.1% covering 100.0% of volume
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:          1: 44.4% covering 6.3% of volume
+[2018.02.22-00.51.00:939][673]LogVolumetricLightmapImport:          2: 44.4% covering 0.1% of volume
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.02.22-00.51.01:246][673]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.02.22-00.51.01:285][673]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2018.02.22-00.51.01:286][673]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X64)
+[2018.02.22-00.51.01:341][673]Lightmass on DESKTOP-2QNA1SC: 2.96 sec total, 176 ms importing, 31 ms setup, 487 ms photons, 2.24 sec processing, 0 ms extra exporting [26/26 mappings]. Threads: 15.5 sec total, 5.99 sec processing.
+[2018.02.22-00.51.01:419][673]LogStaticLightingSystem: Illumination: 8.17 sec (240 ms encoding lightmaps, 16 ms encoding shadowmaps)
+[2018.02.22-00.51.01:419][673]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.22-00.51.01:419][673]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.22-00.51.01:673][673]DumpUnbuiltLightIteractions
+[2018.02.22-00.51.01:673][673]Lights with unbuilt interactions: 0
+[2018.02.22-00.51.01:673][673]
+[2018.02.22-00.51.01:673][673]Primitives with unbuilt interactions: 0
+[2018.02.22-00.51.01:686][674]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.22-00.51.01:686][674]MapCheck: New page: Shop_Main - Feb 21, 2018, 8:51:01 AM
+[2018.02.22-00.51.01:739][674]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.83ms to complete.
+[2018.02.22-00.51.08:898][987]LogRenderer: Reallocating scene render targets to support 964x536 Format 26 NumSamples 1 (Frame:39217).
+[2018.02.22-00.51.08:956][988]LogRenderer: Reallocating scene render targets to support 964x580 Format 26 NumSamples 1 (Frame:39219).
+[2018.02.22-00.51.09:006][989]LogRenderer: Reallocating scene render targets to support 964x608 Format 26 NumSamples 1 (Frame:39221).
+[2018.02.22-00.51.09:047][990]LogRenderer: Reallocating scene render targets to support 964x628 Format 26 NumSamples 1 (Frame:39223).
+[2018.02.22-00.51.09:086][991]LogRenderer: Reallocating scene render targets to support 964x644 Format 26 NumSamples 1 (Frame:39225).
+[2018.02.22-00.51.09:126][992]LogRenderer: Reallocating scene render targets to support 964x668 Format 26 NumSamples 1 (Frame:39227).
+[2018.02.22-00.51.09:175][993]LogRenderer: Reallocating scene render targets to support 964x688 Format 26 NumSamples 1 (Frame:39229).
+[2018.02.22-00.51.09:224][994]LogRenderer: Reallocating scene render targets to support 964x696 Format 26 NumSamples 1 (Frame:39231).
+[2018.02.22-00.51.10:209][ 49]LogRenderer: Reallocating scene render targets to support 972x696 Format 26 NumSamples 1 (Frame:39281).
+[2018.02.22-00.51.10:298][ 51]LogRenderer: Reallocating scene render targets to support 1052x696 Format 26 NumSamples 1 (Frame:39283).
+[2018.02.22-00.51.10:377][ 52]LogRenderer: Reallocating scene render targets to support 1076x696 Format 26 NumSamples 1 (Frame:39285).
+[2018.02.22-00.51.10:441][ 53]LogRenderer: Reallocating scene render targets to support 1128x696 Format 26 NumSamples 1 (Frame:39287).
+[2018.02.22-00.51.10:518][ 54]LogRenderer: Reallocating scene render targets to support 1176x696 Format 26 NumSamples 1 (Frame:39289).
+[2018.02.22-00.51.10:599][ 55]LogRenderer: Reallocating scene render targets to support 1192x696 Format 26 NumSamples 1 (Frame:39291).
+[2018.02.22-00.51.25:619][755]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-00.51.46:921][777]LogSavePackage: Save=71.23ms
+[2018.02.22-00.51.46:922][777]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main822EB3FB46446F7B899FEEB19B10B6C2.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.02.22-00.51.46:930][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.02.22-00.51.46:979][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.02.22-00.51.47:073][777]LogSavePackage: Save=70.99ms
+[2018.02.22-00.51.47:073][777]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataA551F8E8410C95404E01B181C4EEFDF1.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.02.22-00.51.47:077][777]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.02.22-00.51.47:714][807]LogSavePackage: Save=51.75ms
+[2018.02.22-00.51.47:714][807]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main465C0D3442DCB4508A36E39EFFC306EB.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.02.22-00.51.47:716][807]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.02.22-00.51.47:751][807]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.02.22-00.51.47:814][807]LogSavePackage: Save=55.10ms
+[2018.02.22-00.51.47:814][807]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData88689569497430DB851E34BD353AFA93.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.02.22-00.51.47:816][807]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.02.22-00.51.49:148][872]LogSavePackage: Save=18.94ms
+[2018.02.22-00.51.49:148][872]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Display_OrderE8B2198D42C48E14AE3F2AA9A73A7505.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Display_Order.uasset'
+[2018.02.22-00.51.49:151][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Display_Order.uasset
+[2018.02.22-00.52.00:061][270]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-00.52.00:293][270]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-00.52.00:328][270]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-00.52.00:394][270]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: Base pass shader with Surface Lightmap: 623 instructions
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-00.52.05:686][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-00.58.49:141][105]LogSavePackage: Save=44.39ms
+[2018.02.22-00.58.49:141][105]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main5752D13349606C14A2B52DB80F016537.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.02.22-00.58.49:143][105]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.02.22-00.58.49:181][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.02.22-00.58.49:242][105]LogSavePackage: Save=49.05ms
+[2018.02.22-00.58.49:242][105]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataA33903374341A083E5B27CA2B9D13371.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.02.22-00.58.49:243][105]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.02.22-01.00.32:711][802]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: Base pass shader with Surface Lightmap: 623 instructions
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.00.36:685][936]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.00.46:679][475]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.00.46:709][475]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: Base pass shader with Surface Lightmap: 623 instructions
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.00.51:662][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.00.53:542][865]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.00.55:374][967]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: Base pass shader: 610 instructions
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: Base pass shader with Surface Lightmap: 624 instructions
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 679 instructions
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.01.01:692][328]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.01.02:669][383]LogMaterialEditor: Saving and Compiling material bamboo_light_Mat
+[2018.02.22-01.01.03:166][383]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.03:250][383]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.03:320][383]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.03:390][383]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.05:714][383]TextureStreamingBuild: Display: Compiling optional shaders took 2.331 seconds.
+[2018.02.22-01.01.11:388][383]LogSavePackage: Save=20.81ms
+[2018.02.22-01.01.11:388][383]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat340429D04A4DCA33D4E9D5AD8D5D2395.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset'
+[2018.02.22-01.01.11:393][383]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset
+[2018.02.22-01.01.16:550][662]MapCheck: New page: Map Check
+[2018.02.22-01.01.16:571][662]Cmd: MAP REBUILD ALLVISIBLE
+[2018.02.22-01.01.16:571][662]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.02.22-01.01.16:607][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_29, compiling. 
+[2018.02.22-01.01.16:648][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.02.22-01.01.16:657][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
+[2018.02.22-01.01.16:665][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.16:683][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.02.22-01.01.16:694][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M, compiling. 
+[2018.02.22-01.01.16:703][662]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.02.22-01.01.17:060][662]TextureStreamingBuild: Display: Compiling optional shaders took 0.456 seconds.
+[2018.02.22-01.01.17:098][662]LogLevel: Display: Export Material TexCoord Scales took 0.039 seconds.
+[2018.02.22-01.01.17:105][662]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
+[2018.02.22-01.01.17:119][662]LightingResults: New page: Lighting Build - Feb 21, 2018, 9:01:17 AM
+[2018.02.22-01.01.17:125][662]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.02.22-01.01.17:129][662]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.02.22-01.01.17:129][662]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.02.22-01.01.17:129][662]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.02.22-01.01.17:129][662]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8904
+[2018.02.22-01.01.21:646][662]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.02.22-01.01.21:647][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.02.22-01.01.21:647][662]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.02.22-01.01.21:647][662]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.02.22-01.01.21:647][662]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.02.22-01.01.21:647][662]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.02.22-01.01.21:766][662]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.02.22-01.01.21:767][662]MapCheck: New page: Shop_Main - Feb 21, 2018, 9:01:21 AM
+[2018.02.22-01.01.21:816][662]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 49.146ms to complete.
+[2018.02.22-01.01.21:839][662]LogEditorBuildUtils: Build time 0:05
+[2018.02.22-01.01.21:857][662]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.21:863][662]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.24:505][748]LightingResults: Warning: EntireSushiBar_DoorHandle4 Object has overlapping UVs.
+[2018.02.22-01.01.24:505][748]LightingResults: EntireSushiBar_DoorHandle4 Lightmap UV are overlapping by 57.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-01.01.24:525][749]LightingResults: Warning: EntireSushiBar_DoorHandle5 Object has overlapping UVs.
+[2018.02.22-01.01.24:556][750]LightingResults: EntireSushiBar_DoorHandle5 Lightmap UV are overlapping by 57.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-01.01.24:921][764]LightingResults: Warning: InvertedBox Object has overlapping UVs.
+[2018.02.22-01.01.24:921][764]LightingResults: InvertedBox Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.02.22-01.01.25:224][777]Job is a success!
+[2018.02.22-01.01.25:426][778]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.02.22-01.01.25:426][778]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.02.22-01.01.25:426][778]LogVolumetricLightmapImport:      BrickData 55x5x5 = 0.0Mb
+[2018.02.22-01.01.25:426][778]LogVolumetricLightmapImport:      Bricks at Level
+[2018.02.22-01.01.25:427][778]LogVolumetricLightmapImport:          0: 9.1% covering 100.0% of volume
+[2018.02.22-01.01.25:427][778]LogVolumetricLightmapImport:          1: 36.4% covering 6.3% of volume
+[2018.02.22-01.01.25:427][778]LogVolumetricLightmapImport:          2: 54.5% covering 0.1% of volume
+[2018.02.22-01.01.25:720][778]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.02.22-01.01.25:721][778]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.22-01.01.25:721][778]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2018.02.22-01.01.25:721][778]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.22-01.01.25:721][778]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2018.02.22-01.01.25:721][778]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2018.02.22-01.01.25:760][778]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
+[2018.02.22-01.01.25:760][778]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X64)
+[2018.02.22-01.01.25:819][778]Lightmass on DESKTOP-2QNA1SC: 2.86 sec total, 172 ms importing, 30 ms setup, 458 ms photons, 2.19 sec processing, 0 ms extra exporting [26/26 mappings]. Threads: 15.1 sec total, 6.31 sec processing.
+[2018.02.22-01.01.25:915][778]LogStaticLightingSystem: Illumination: 8.71 sec (225 ms encoding lightmaps, 15 ms encoding shadowmaps)
+[2018.02.22-01.01.25:915][778]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2018.02.22-01.01.25:915][778]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.02.22-01.01.26:656][778]DumpUnbuiltLightIteractions
+[2018.02.22-01.01.26:656][778]Lights with unbuilt interactions: 0
+[2018.02.22-01.01.26:656][778]
+[2018.02.22-01.01.26:656][778]Primitives with unbuilt interactions: 0
+[2018.02.22-01.01.26:683][779]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.02.22-01.01.26:684][779]MapCheck: New page: Shop_Main - Feb 21, 2018, 9:01:26 AM
+[2018.02.22-01.01.26:733][779]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 50.03ms to complete.
+[2018.02.22-01.01.51:800][ 25]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.53:769][ 78]LogMaterialEditor: Saving and Compiling material bamboo_light_Mat
+[2018.02.22-01.01.54:626][ 78]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.54:746][ 78]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.54:815][ 78]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.54:885][ 78]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-01.01.57:813][ 78]TextureStreamingBuild: Display: Compiling optional shaders took 2.938 seconds.
+[2018.02.22-01.02.03:325][ 78]LogSavePackage: Save=23.13ms
+[2018.02.22-01.02.03:325][ 78]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat5D2BD62D4460A4CA7D2E1E98C04C0D9D.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset'
+[2018.02.22-01.02.03:329][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: Base pass shader: 610 instructions
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: Base pass shader with Surface Lightmap: 624 instructions
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 679 instructions
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.02.03:354][ 78]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.02.08:504][234]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.09:620][263]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.12:120][303]LogMaterialEditor: Applying material bamboo_light_Mat
+[2018.02.22-01.02.12:894][303]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.13:037][303]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.13:109][303]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.13:179][303]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.15:847][303]TextureStreamingBuild: Display: Compiling optional shaders took 2.676 seconds.
+[2018.02.22-01.02.21:294][417]LogMaterialEditor: Saving and Compiling material bamboo_light_Mat
+[2018.02.22-01.02.23:488][417]LogSavePackage: Save=17.36ms
+[2018.02.22-01.02.23:488][417]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat031A016B4A9B4A4F490F96A5031EF9DA.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset'
+[2018.02.22-01.02.23:491][417]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: Base pass shader: 610 instructions
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: Base pass shader with Surface Lightmap: 624 instructions
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 679 instructions
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.02.23:541][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.02.34:714][692]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.36:949][737]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.39:817][768]LogMaterialEditor: Saving and Compiling material bamboo_light_Mat
+[2018.02.22-01.02.40:554][768]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.40:774][768]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.40:846][768]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.40:919][768]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.02.22-01.02.43:288][768]TextureStreamingBuild: Display: Compiling optional shaders took 2.375 seconds.
+[2018.02.22-01.02.49:185][768]LogSavePackage: Save=19.02ms
+[2018.02.22-01.02.49:185][768]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat012024E94E5C696B20C026868411423E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset'
+[2018.02.22-01.02.49:188][768]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset
+[2018.02.22-01.02.49:253][768]MaterialEditorStats: Base pass shader: 610 instructions
+[2018.02.22-01.02.49:253][768]MaterialEditorStats: Base pass shader with Surface Lightmap: 624 instructions
+[2018.02.22-01.02.49:254][768]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 679 instructions
+[2018.02.22-01.02.49:254][768]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.02.22-01.02.49:254][768]MaterialEditorStats: Texture samplers: 7/16
+[2018.02.22-01.02.49:254][768]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.02.22-01.03.39:427][867]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-01.03.39:984][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-01.03.42:307][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EntireSushiBar_Bar)
+[2018.02.22-01.03.43:881][960]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.02.22-01.03.44:899][960]LogWindows: Error: === Critical error: ===
+[2018.02.22-01.03.44:899][960]LogWindows: Error: 
+[2018.02.22-01.03.44:899][960]LogWindows: Error: Assertion failed: SetWindowRgn( HWnd, Region, false ) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsWindow.cpp] [Line: 400] 
+[2018.02.22-01.03.44:899][960]LogWindows: Error: 
+[2018.02.22-01.03.44:899][960]LogWindows: Error: 
+[2018.02.22-01.03.44:899][960]LogWindows: Error: 
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000DA5B4008 KERNELBASE.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000C21376D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x0000000090D9330B UE4Editor-Core.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x0000000090D247F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000C2134CF3 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x0000000097A00F7D UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000983A6A5D UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x0000000098372D46 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000983A7389 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x0000000098374140 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000983CD867 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000983CC953 UE4Editor-Slate.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x000000008E6869CA UE4Editor.exe!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x000000008E695430 UE4Editor.exe!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x000000008E6954AA UE4Editor.exe!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x000000008E6A2379 UE4Editor.exe!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x000000008E6A3D57 UE4Editor.exe!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000DD6E1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000DD93EFC1 ntdll.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: [Callstack] 0x00000000DD93EFC1 ntdll.dll!UnknownFunction []
+[2018.02.22-01.03.44:899][960]LogWindows: Error: 
+[2018.02.22-01.03.44:917][960]LogExit: Executing StaticShutdownAfterError
+[2018.02.22-01.03.44:921][960]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.02.22-01.03.44:921][960]Log file closed, 02/21/18 17:03:44
