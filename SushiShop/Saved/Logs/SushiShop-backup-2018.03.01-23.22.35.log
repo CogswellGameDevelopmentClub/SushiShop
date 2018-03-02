@@ -1,0 +1,691 @@
+﻿Log file open, 03/01/18 22:29:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-526455690) SRandInit(-526455690).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.166422
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.02-06.29.58:768][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.02-06.29.58:768][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.02-06.29.58:780][  0]LogInit: Computer: DESKTOP-2QNA1SC
+[2018.03.02-06.29.58:780][  0]LogInit: User: darkm
+[2018.03.02-06.29.58:780][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.02-06.29.58:780][  0]LogInit: High frequency timer resolution =1.945316 MHz
+[2018.03.02-06.29.58:780][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.02-06.29.58:780][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.02-06.29.58:780][  0]LogMemory: Process Physical Memory: 272.75 MB used, 272.75 MB peak
+[2018.03.02-06.29.58:780][  0]LogMemory: Process Virtual Memory: 271.88 MB used, 271.88 MB peak
+[2018.03.02-06.29.58:780][  0]LogMemory: Physical Memory: 6998.77 MB used,  9300.83 MB free, 16299.60 MB total
+[2018.03.02-06.29.58:780][  0]LogMemory: Virtual Memory: 684.27 MB used,  9300.83 MB free, 134217728.00 MB total
+[2018.03.02-06.29.58:937][  0]LogInit: Using OS detected language (en-US).
+[2018.03.02-06.29.58:937][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.02-06.29.58:940][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.02-06.29.59:400][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.02-06.29.59:670][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.02-06.29.59:683][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.03.02-06.29.59:683][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.02-06.29.59:719][  0]LogD3D11RHI:    1. 'Radeon 500 Series' (Feature Level 11_0)
+[2018.03.02-06.29.59:719][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2018.03.02-06.29.59:721][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.02-06.29.59:721][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.02-06.29.59:721][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.03.02-06.29.59:728][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.02-06.29.59:728][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2018.03.02-06.29.59:729][  0]LogWindows: EnumDisplayDevices:
+[2018.03.02-06.29.59:729][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.03.02-06.29.59:729][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.02-06.29.59:729][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.02-06.29.59:729][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:729][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:729][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:729][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:730][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:731][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:731][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:731][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:731][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.02-06.29.59:731][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.02-06.29.59:731][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
+[2018.03.02-06.29.59:731][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.02-06.29.59:731][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.02-06.29.59:731][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2018.03.02-06.29.59:777][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.02-06.29.59:793][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.03.02-06.29.59:795][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/11016/).
+[2018.03.02-06.29.59:795][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/C0685E1B4B97111835CEDFA16B79B62E/'.
+[2018.03.02-06.29.59:795][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.02-06.30.00:745][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.02-06.30.00:802][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.02-06.30.00:860][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.02-06.30.00:920][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.02-06.30.00:976][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.02-06.30.01:031][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.02-06.30.01:090][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.02-06.30.01:147][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.02-06.30.01:205][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.02-06.30.01:263][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.02-06.30.01:317][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.02-06.30.01:370][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.02-06.30.01:424][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.02-06.30.01:476][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.02-06.30.01:525][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.02-06.30.01:624][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.02-06.30.01:624][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.02-06.30.01:661][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.02-06.30.01:752][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.02-06.30.01:781][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.02-06.30.01:834][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.02-06.30.01:886][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.02-06.30.01:938][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.02-06.30.01:995][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.02-06.30.01:995][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.02-06.30.02:583][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: Loaded boot cache 0.10s 92MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.02-06.30.02:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.02-06.30.02:705][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.02-06.30.02:717][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.02-06.30.02:736][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.02-06.30.02:736][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.02-06.30.02:737][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.02-06.30.02:737][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.02-06.30.03:159][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.02-06.30.03:494][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.02-06.30.03:533][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.02-06.30.03:533][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.02-06.30.03:533][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.02-06.30.03:533][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.02-06.30.03:533][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.02-06.30.03:553][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.03.02-06.30.03:715][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.03.02-06.30.04:268][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.089529 seconds
+[2018.03.02-06.30.04:275][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.02-06.30.04:275][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.03.02-06.30.04:275][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.02-06.30.04:343][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.02-06.30.07:307][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.02-06.30.07:340][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.02-06.30.07:876][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.03.02-06.30.07:876][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:876][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:895][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.02-06.30.07:904][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.03.02-06.30.07:904][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:904][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:907][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.03.02-06.30.07:907][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:907][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:909][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.03.02-06.30.07:909][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:909][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:911][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.03.02-06.30.07:911][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:911][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:914][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.03.02-06.30.07:914][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:914][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:929][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.03.02-06.30.07:930][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:930][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:932][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.03.02-06.30.07:932][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:932][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.07:935][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.03.02-06.30.07:935][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.02-06.30.07:935][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.02-06.30.08:248][  0]SourceControl: Source control is disabled
+[2018.03.02-06.30.08:248][  0]SourceControl: Source control is disabled
+[2018.03.02-06.30.08:292][  0]SourceControl: Source control is disabled
+[2018.03.02-06.30.08:334][  0]SourceControl: Source control is disabled
+[2018.03.02-06.30.09:032][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.02-06.30.09:261][  0]LogOcInput: OculusInput pre-init called
+[2018.03.02-06.30.09:516][  0]LogEngine: Initializing Engine...
+[2018.03.02-06.30.09:518][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.02-06.30.09:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.02-06.30.09:728][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.02-06.30.09:848][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.02-06.30.09:854][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-06.30.09:869][  0]LogInit: FAudioDevice initialized.
+[2018.03.02-06.30.09:967][  0]LogDerivedDataCache: Saved boot cache 0.10s 110MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.02-06.30.09:982][  0]LogInit: Texture streaming: Enabled
+[2018.03.02-06.30.10:089][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.02-06.30.10:252][  0]LogInit: Transaction tracking system initialized
+[2018.03.02-06.30.10:600][  0]BlueprintLog: New page: Editor Load
+[2018.03.02-06.30.11:450][  0]LocalizationService: Localization service is disabled
+[2018.03.02-06.30.12:152][  0]LogConsoleResponse: Display: 
+[2018.03.02-06.30.12:333][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.02-06.30.12:333][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.02-06.30.12:333][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.02-06.30.12:363][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.01s
+[2018.03.02-06.30.13:544][  0]SourceControl: Source control is disabled
+[2018.03.02-06.30.13:544][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.02-06.30.13:545][  0]LightingResults: New page: Lighting Build
+[2018.03.02-06.30.13:588][  0]MapCheck: New page: Map Check
+[2018.03.02-06.30.13:588][  0]LightingResults: New page: Lighting Build
+[2018.03.02-06.30.13:700][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.02-06.30.13:706][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.02-06.30.13:715][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.02-06.30.13:767][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.217ms to complete.
+[2018.03.02-06.30.13:767][  0]LogFileHelpers: Loading map 'StartupMap' took 0.222
+[2018.03.02-06.30.14:030][  0]LogCollectionManager: Loaded 0 collections in 0.001951 seconds
+[2018.03.02-06.30.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.03.02-06.30.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
+[2018.03.02-06.30.14:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.03.02-06.30.14:116][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.02-06.30.14:125][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2364 classes and 521 folders.
+[2018.03.02-06.30.14:200][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.03.02-06.30.14:235][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.02-06.30.14:326][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.02-06.30.14:326][  0]LogLoad: (Engine Initialization) Total time: 17.47 seconds
+[2018.03.02-06.30.14:326][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.02-06.30.14:326][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.02-06.30.14:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.02-06.30.14:686][  0]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.02-06.30.14:689][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.02-06.30.14:691][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.02-06.30.15:003][  1]LogRenderer: Reallocating scene render targets to support 488x364 Format 26 NumSamples 1 (Frame:1).
+[2018.03.02-06.30.15:003][  1]LogAssetRegistry: Asset discovery search completed in 11.3100 seconds
+[2018.03.02-06.30.15:005][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.02-06.30.15:005][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
+[2018.03.02-06.30.15:670][  3]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-06.33.07:324][546]LogRenderer: Reallocating scene render targets to support 488x436 Format 26 NumSamples 1 (Frame:34).
+[2018.03.02-06.33.25:684][ 92]LogRenderer: Reallocating scene render targets to support 492x436 Format 26 NumSamples 1 (Frame:476).
+[2018.03.02-06.34.03:606][431]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-06.34.05:522][537]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SetEnumSelect : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SetEnumSelect : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:605][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'StaticMeshComponent' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SetEnumSelect : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'SushiStruct' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_DisplayName : 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SushiMaterial : 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SetEnumSelect : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set Local_SetEnumSelect : 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set : 'SushiName' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Set SushiName : 'SushiName' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:606][537]LogBlueprint: Warning: [Compiler BoatTrigger] Get : 'SushiNames' variable not found. Base class was probably changed. /Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger
+[2018.03.02-06.34.05:609][537]LogBlueprint: Error: [Compiler BoatTrigger] No structure in SubCategoryObject in pin  Output
+[2018.03.02-06.34.05:609][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "SushiNames" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get SushiNames
+[2018.03.02-06.34.05:609][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "StaticMeshComponent" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get StaticMeshComponent
+[2018.03.02-06.34.05:609][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SushiMaterial" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get Local_SushiMaterial
+[2018.03.02-06.34.05:609][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "SushiStruct" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get SushiStruct
+[2018.03.02-06.34.05:609][537]LogBlueprint: Error: [Compiler BoatTrigger] In use pin  Ingredient Name  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.03.02-06.34.05:609][537]LogBlueprint: Error: [Compiler BoatTrigger] In use pin  Material  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_DisplayName" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_DisplayName
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SushiMaterial" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set Local_SushiMaterial
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_SetEnumSelect" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get Local_SetEnumSelect
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "SushiName" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Set SushiName
+[2018.03.02-06.34.05:610][537]LogBlueprint: Warning: [Compiler BoatTrigger] Could not find a variable named "Local_DisplayName" in 'BoatTrigger_C'.
+Make sure 'BoatTrigger_C' has been compiled for  Get Local_DisplayName
+[2018.03.02-06.34.05:610][537]LogBlueprint: Error: [Compiler BoatTrigger] Could not find a function named "None" in 'BoatTrigger'.
+Make sure 'BoatTrigger' has been compiled for  Get (a ref)
+[2018.03.02-06.34.05:610][537]LogBlueprint: Error: [Compiler BoatTrigger] This blueprint (self) is not a Display_Order_C, therefore ' Target ' must have a connection.
+[2018.03.02-06.34.05:610][537]LogBlueprint: Error: [Compiler BoatTrigger] This blueprint (self) is not a Display_Order_C, therefore ' Target ' must have a connection.
+[2018.03.02-06.34.05:611][537]LogBlueprint: Warning: [Compiler BoatTrigger] [0248.75] Compile of BoatTrigger failed. 6 Fatal Issue(s) 36 Warning(s) [in 6 ms] (/Game/SushiShop/BluePrints/BoatTrigger.BoatTrigger)
+[2018.03.02-06.34.06:321][537]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.02-06.34.06:352][537]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.02-06.34.06:352][537]LightingResults: New page: Lighting Build
+[2018.03.02-06.34.06:352][537]LoadErrors: New page: Loading map: Shop_Main.umap
+[2018.03.02-06.34.06:353][537]MapCheck: New page: Map Check
+[2018.03.02-06.34.06:353][537]LightingResults: New page: Lighting Build
+[2018.03.02-06.34.06:376][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.02-06.34.06:433][537]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.02-06.34.06:487][537]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.175ms to complete.
+[2018.03.02-06.34.06:487][537]LogFileHelpers: Loading map 'Shop_Main' took 0.136
+[2018.03.02-06.38.10:994][834]LogSavePackage: Save=18.25ms
+[2018.03.02-06.38.10:994][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat47402B2144BA6718AB9173ACDB140A6C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset'
+[2018.03.02-06.38.11:004][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset
+[2018.03.02-06.38.11:045][834]LogSavePackage: Save=3.58ms
+[2018.03.02-06.38.11:045][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat9CB02AD84570E17BCE58FBA84A4344A2.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset'
+[2018.03.02-06.38.11:048][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/bamboo_light_Mat.uasset
+[2018.03.02-06.38.11:105][834]LogSavePackage: Save=36.92ms
+[2018.03.02-06.38.11:105][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Bamboo_R9875F9E74AFF61FEB3D81F84A2795ABF.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_R.uasset'
+[2018.03.02-06.38.11:108][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_R.uasset
+[2018.03.02-06.38.11:243][834]LogSavePackage: Save=107.33ms
+[2018.03.02-06.38.11:243][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Bamboo_N6DB069DC41FDEFEEB9B738A5E6CB6539.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_N.uasset'
+[2018.03.02-06.38.11:246][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_N.uasset
+[2018.03.02-06.38.11:379][834]LogSavePackage: Save=112.28ms
+[2018.03.02-06.38.11:379][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_diffuseC86D4C674B5CEBDC30A04EB4B48D9EE3.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_diffuse.uasset'
+[2018.03.02-06.38.11:382][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_diffuse.uasset
+[2018.03.02-06.38.11:507][834]LogSavePackage: Save=102.89ms
+[2018.03.02-06.38.11:507][834]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Bamboo_BC9BEFF0C64D8A2F008344738510D23649.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_BC.uasset'
+[2018.03.02-06.38.11:510][834]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Bamboo_BC.uasset
+[2018.03.02-06.38.42:536][342]LogSavePackage: Save=23.76ms
+[2018.03.02-06.38.42:536][342]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_EmissiveC5F34FA7430315BB48D08BA43F252767.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_M/Glass_Emissive.uasset'
+[2018.03.02-06.38.42:539][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_M/Glass_Emissive.uasset
+[2018.03.02-06.38.42:598][342]LogSavePackage: Save=13.42ms
+[2018.03.02-06.38.42:598][342]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_Emissive_Inst9CAE0CCC468F7DB3AC0D2E87C3DFEE90.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_M/Glass_Emissive_Inst.uasset'
+[2018.03.02-06.38.42:601][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_M/Glass_Emissive_Inst.uasset
+[2018.03.02-06.38.42:645][342]LogSavePackage: Save=3.80ms
+[2018.03.02-06.38.42:645][342]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_Emissive_Inst7C5ADCCD43A6B403A704BDB3790A4FB4.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_Inst.uasset'
+[2018.03.02-06.38.42:648][342]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_Emissive_Inst.uasset
+[2018.03.02-06.38.53:147][697]LogSavePackage: Save=24.23ms
+[2018.03.02-06.38.53:147][697]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_M67B31823433B2FD7368E169CC3C41A73.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/Glass_M.uasset'
+[2018.03.02-06.38.53:150][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/Glass_M.uasset
+[2018.03.02-06.38.53:205][697]LogSavePackage: Save=15.70ms
+[2018.03.02-06.38.53:205][697]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/glass_m_InstC434371A45CCC6EEBCE0CD8E4DA8F1B2.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/glass_m_Inst.uasset'
+[2018.03.02-06.38.53:208][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/glass_m_Inst.uasset
+[2018.03.02-06.38.53:211][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Materials/glass_m_Inst" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/glass_m_Inst.uasset" SILENT=true
+[2018.03.02-06.38.53:249][697]LogSavePackage: Save=3.77ms
+[2018.03.02-06.38.53:249][697]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/glass_m_Inst3E252D5C4042C9DB02399CAEA7BC7930.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/glass_m_Inst.uasset'
+[2018.03.02-06.38.53:252][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/glass_m_Inst.uasset
+[2018.03.02-06.38.53:320][697]LogSavePackage: Save=15.16ms
+[2018.03.02-06.38.53:320][697]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/glass_m_Inst_UID756522647472A9DDA7EE2971C926F2D.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/glass_m_Inst_UI.uasset'
+[2018.03.02-06.38.53:323][697]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/glass_m_Inst_UI.uasset
+[2018.03.02-06.39.19:017][744]LogSavePackage: Save=42.04ms
+[2018.03.02-06.39.19:018][744]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Water1CA53395429F9ACDDAAA3AA5AC0217BA.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_M/Water.uasset'
+[2018.03.02-06.39.19:020][744]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_M/Water.uasset
+[2018.03.02-06.39.19:074][744]LogSavePackage: Save=13.81ms
+[2018.03.02-06.39.19:074][744]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Water_Inst614604C54D2DBB8424C236B5CEC35851.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_M/Water_Inst.uasset'
+[2018.03.02-06.39.19:077][744]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_M/Water_Inst.uasset
+[2018.03.02-06.39.19:082][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Materials/Water_Inst" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_Inst.uasset" SILENT=true
+[2018.03.02-06.39.19:127][744]LogSavePackage: Save=3.74ms
+[2018.03.02-06.39.19:127][744]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Water_Inst286DC5304CB1571C20964A9411554F5E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_Inst.uasset'
+[2018.03.02-06.39.19:130][744]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Water_Inst.uasset
+[2018.03.02-06.39.25:559][872]LogSavePackage: Save=65.43ms
+[2018.03.02-06.39.25:559][872]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Tuna_BCE4156ABB496AA067145B848669F541F9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_BC.uasset'
+[2018.03.02-06.39.25:562][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_BC.uasset
+[2018.03.02-06.39.25:595][872]LogSavePackage: Save=20.10ms
+[2018.03.02-06.39.25:595][872]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Tuna_RC4C5E0B64579D2464FC0D3BF6CC2AD40.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_R.uasset'
+[2018.03.02-06.39.25:599][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_R.uasset
+[2018.03.02-06.39.25:651][872]LogSavePackage: Save=29.64ms
+[2018.03.02-06.39.25:651][872]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Tuna_NCCCC5DA24A3A0701AD7514BB289DD9EC.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_N.uasset'
+[2018.03.02-06.39.25:654][872]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Tuna_M/Tuna_N.uasset
+[2018.03.02-06.39.50:192][852]LogSavePackage: Save=15.22ms
+[2018.03.02-06.39.50:192][852]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Salmon52EF02DB425BFECD471E01BAADD92180.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Salmon.uasset'
+[2018.03.02-06.39.50:196][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Salmon.uasset
+[2018.03.02-06.39.50:219][852]LogSavePackage: Save=13.05ms
+[2018.03.02-06.39.50:219][852]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Tuna76357C7843DCDB9C89B85EA92CBB2EE0.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Tuna.uasset'
+[2018.03.02-06.39.50:222][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Tuna.uasset
+[2018.03.02-06.39.50:244][852]LogSavePackage: Save=12.04ms
+[2018.03.02-06.39.50:244][852]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/WhiteTunaD72AA1D844E067611AE8BEA8CCCC0062.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/WhiteTuna.uasset'
+[2018.03.02-06.39.50:248][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/WhiteTuna.uasset
+[2018.03.02-06.39.50:278][852]LogSavePackage: Save=12.31ms
+[2018.03.02-06.39.50:278][852]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/UnagiFD49099449810B1E306D0EA2D74CBDE3.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Unagi.uasset'
+[2018.03.02-06.39.50:281][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Smol_Art/Unagi.uasset
+[2018.03.02-06.39.51:046][852]LogSavePackage: Save=173.48ms
+[2018.03.02-06.39.51:046][852]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Display_OrderA919CA7346FDC3387CC26DAE2485FF0A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Display_Order.uasset'
+[2018.03.02-06.39.51:049][852]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Display_Order.uasset
+[2018.03.02-06.40.15:498][465]LogSavePackage: Save=13.06ms
+[2018.03.02-06.40.15:498][465]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Stainless_diffuseEE5D440741C2AC89BECF2B9A428E523D.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/Stainless_diffuse.uasset'
+[2018.03.02-06.40.15:501][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/Stainless_diffuse.uasset
+[2018.03.02-06.40.15:561][465]LogSavePackage: Save=46.74ms
+[2018.03.02-06.40.15:561][465]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Stainless_NormalF2745B284564EE311B8043A53886D4B9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/Stainless_Normal.uasset'
+[2018.03.02-06.40.15:564][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/Stainless_Normal.uasset
+[2018.03.02-06.40.15:627][465]LogSavePackage: Save=18.01ms
+[2018.03.02-06.40.15:627][465]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/stainlessSteel_MF125B1FC4D4412C97DB9C089D85AD75C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/stainlessSteel_M.uasset'
+[2018.03.02-06.40.15:630][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/stainlessSteel_M.uasset
+[2018.03.02-06.40.15:683][465]LogSavePackage: Save=13.55ms
+[2018.03.02-06.40.15:683][465]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/stainlessSteel_M_Inst14D63F6C418B00B3F09AEFB226A0E090.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/stainlessSteel_M_Inst.uasset'
+[2018.03.02-06.40.15:685][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Stainless_M/stainlessSteel_M_Inst.uasset
+[2018.03.02-06.40.15:726][465]LogSavePackage: Save=3.70ms
+[2018.03.02-06.40.15:726][465]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/stainlessSteel_M_InstA872305648A54FA9C5260296BDE975A9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/stainlessSteel_M_Inst.uasset'
+[2018.03.02-06.40.15:729][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/stainlessSteel_M_Inst.uasset
+[2018.03.02-06.40.24:726][646]LogSavePackage: Save=370.54ms
+[2018.03.02-06.40.24:726][646]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Grey_BambooA29A58EC46D2AA884AE82B915FDE394C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Grey_Bamboo.uasset'
+[2018.03.02-06.40.24:729][646]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/Grey_Bamboo.uasset
+[2018.03.02-06.40.25:275][646]LogSavePackage: Save=7.21ms
+[2018.03.02-06.40.25:275][646]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat9029D7054BA2F3B267ACAEBD6B724BE3.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset'
+[2018.03.02-06.40.25:276][646]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset
+[2018.03.02-06.47.22:557][330]LogSavePackage: Save=16.97ms
+[2018.03.02-06.47.22:557][330]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Salmon_M_Inst4EDABA8B47917785DCB57F8B291F393E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Salmon_M/Salmon_M_Inst.uasset'
+[2018.03.02-06.47.22:560][330]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Salmon_M/Salmon_M_Inst.uasset
+[2018.03.02-06.48.19:123][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.008
+[2018.03.02-06.48.19:157][187]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/Structs/Struct_SushiStruct] ([1] browsable assets)...
+[2018.03.02-06.48.19:157][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Structs/Struct_SushiStruct]
+[2018.03.02-06.48.19:196][187]LogSavePackage: Save=4.95ms
+[2018.03.02-06.48.19:196][187]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Struct_SushiStruct_Auto17C376F85484EFEB2A6B573B12F5D475F.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Structs/Struct_SushiStruct_Auto1.uasset'
+[2018.03.02-06.48.19:199][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Structs/Struct_SushiStruct_Auto1.uasset
+[2018.03.02-06.48.19:199][187]LogFileHelpers: Auto-saving content packages took 0.043
+[2018.03.02-06.51.54:243][ 53]LogSavePackage: Save=5.06ms
+[2018.03.02-06.51.54:243][ 53]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Struct_SushiStruct61390B69475A6CCBAA4FB3B0E6F62DBC.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Structs/Struct_SushiStruct.uasset'
+[2018.03.02-06.51.54:245][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Structs/Struct_SushiStruct.uasset
+[2018.03.02-06.52.02:863][449]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.03.02-06.52.03:475][449]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.02-06.52.03:553][449]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.02-06.52.08:456][717]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'SushiNames' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'SushiStruct' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SushiMaterial' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:343][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_SetEnumSelect' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:344][666]LogBlueprint: Warning: [BP_PickupCube] 'SushiName' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:344][666]LogBlueprint: Warning: [BP_PickupCube] 'SushiName' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.56.52:344][666]LogBlueprint: Warning: [BP_PickupCube] 'Local_DisplayName' variable not found. Base class was probably changed. /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube
+[2018.03.02-06.57.28:529][202]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.02-06.57.37:868][613]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'SushiNames' instances, change its type, and recompile?
+[2018.03.02-06.58.12:178][ 31]LogClass: Warning: Type mismatch in SushiString of SKEL_BP_PickupCube_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2018.03.02-06.58.50:581][849]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'SushiName' instances, change its type, and recompile?
+[2018.03.02-06.58.53:968][921]LogDialogs: Warning: Suppressed: This could break connections, do you want to search all Variable 'SushiName' instances, change its type, and recompile?
+[2018.03.02-06.59.01:486][172]BlueprintLog: New page: Compile BP_PickupCube
+[2018.03.02-06.59.01:509][172]LogBlueprint: Error: [Compiler BP_PickupCube] No structure in SubCategoryObject in pin  Output
+[2018.03.02-06.59.01:509][172]LogBlueprint: Error: [Compiler BP_PickupCube] Can't connect pins  Sushi Names  and  Selection : 
+[2018.03.02-06.59.01:509][172]LogBlueprint: Error: [Compiler BP_PickupCube] Can't connect pins  Selection  and  Sushi Names : 
+[2018.03.02-06.59.01:509][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SushiMaterial" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Get Local_SushiMaterial
+[2018.03.02-06.59.01:509][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "SushiStruct" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Get SushiStruct
+[2018.03.02-06.59.01:510][172]LogBlueprint: Error: [Compiler BP_PickupCube] In use pin  Ingredient Name  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.03.02-06.59.01:510][172]LogBlueprint: Error: [Compiler BP_PickupCube] In use pin  Material  no longer exists on node  Get (a ref) . Please refresh node or break links to remove pin.
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_DisplayName" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_DisplayName
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SushiMaterial" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Set Local_SushiMaterial
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_SetEnumSelect" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Get Local_SetEnumSelect
+[2018.03.02-06.59.01:510][172]LogBlueprint: Warning: [Compiler BP_PickupCube] Could not find a variable named "Local_DisplayName" in 'BP_PickupCube_C'.
+Make sure 'BP_PickupCube_C' has been compiled for  Get Local_DisplayName
+[2018.03.02-06.59.01:510][172]LogBlueprint: Error: [Compiler BP_PickupCube] Could not find a function named "None" in 'BP_PickupCube'.
+Make sure 'BP_PickupCube' has been compiled for  Get (a ref)
+[2018.03.02-06.59.01:860][172]LogBlueprint: Warning: [Compiler BP_PickupCube] [1745.00] Compile of BP_PickupCube failed. 6 Fatal Issue(s) 11 Warning(s) [in 373 ms] (/Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube)
+[2018.03.02-06.59.42:164][136]LogSavePackage: Save=56.55ms
+[2018.03.02-06.59.42:164][136]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_Auto280B88C314877A06195487E8BD1C6F928.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto2.umap'
+[2018.03.02-06.59.42:167][136]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto2.umap
+[2018.03.02-06.59.42:168][136]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.132
+[2018.03.02-06.59.42:168][136]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2018.03.02-06.59.42:202][136]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/BluePrints/BoatTrigger] ([1] browsable assets)...
+[2018.03.02-06.59.42:202][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/BluePrints/BoatTrigger]
+[2018.03.02-06.59.42:272][136]LogSavePackage: Save=34.64ms
+[2018.03.02-06.59.42:272][136]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BoatTrigger_Auto294CAEFDE40B7FED5745829AD3E0BB86C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/BoatTrigger_Auto2.uasset'
+[2018.03.02-06.59.42:274][136]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/BoatTrigger_Auto2.uasset
+[2018.03.02-06.59.42:274][136]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/Assets/BP_PickupCube] ([1] browsable assets)...
+[2018.03.02-06.59.42:315][136]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube]
+[2018.03.02-06.59.42:315][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Assets/BP_PickupCube]
+[2018.03.02-06.59.42:400][136]LogSavePackage: Save=51.79ms
+[2018.03.02-06.59.42:400][136]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_PickupCube_Auto21D9DC5A34B0F58B6019F7592324ED2EC.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Assets/BP_PickupCube_Auto2.uasset'
+[2018.03.02-06.59.42:407][136]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Assets/BP_PickupCube_Auto2.uasset
+[2018.03.02-06.59.42:407][136]LogFileHelpers: Auto-saving content packages took 0.206
+[2018.03.02-07.03.07:688][276]BlueprintLog: New page: Compile BP_PickupCube
+[2018.03.02-07.09.43:447][453]LogSavePackage: Save=60.33ms
+[2018.03.02-07.09.43:447][453]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_Auto3584C4388421560FF1E53AA8A544B6606.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto3.umap'
+[2018.03.02-07.09.43:449][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto3.umap
+[2018.03.02-07.09.43:509][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.215
+[2018.03.02-07.09.43:509][453]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
+[2018.03.02-07.09.43:564][453]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/Assets/BP_PickupCube] ([1] browsable assets)...
+[2018.03.02-07.09.43:656][453]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SushiShop/Assets/BP_PickupCube.BP_PickupCube]
+[2018.03.02-07.09.43:656][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Assets/BP_PickupCube]
+[2018.03.02-07.09.43:749][453]LogSavePackage: Save=57.92ms
+[2018.03.02-07.09.43:749][453]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_PickupCube_Auto3E0DE32154005DA1D155625A4F8E5889E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Assets/BP_PickupCube_Auto3.uasset'
+[2018.03.02-07.09.43:751][453]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Assets/BP_PickupCube_Auto3.uasset
+[2018.03.02-07.09.43:751][453]LogFileHelpers: Auto-saving content packages took 0.188
+[2018.03.02-07.22.25:708][852]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.03.02-07.22.26:370][852]LogWindows: Error: === Critical error: ===
+[2018.03.02-07.22.26:370][852]LogWindows: Error: 
+[2018.03.02-07.22.26:370][852]LogWindows: Error: Assertion failed: SetWindowRgn( HWnd, Region, false ) [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\ApplicationCore\Private\Windows\WindowsWindow.cpp] [Line: 400] 
+[2018.03.02-07.22.26:370][852]LogWindows: Error: 
+[2018.03.02-07.22.26:370][852]LogWindows: Error: 
+[2018.03.02-07.22.26:370][852]LogWindows: Error: 
+[2018.03.02-07.22.26:370][852]LogWindows: Error: [Callstack] 0x00000000CB6B4008 KERNELBASE.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000AF1076D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097DA330B UE4Editor-Core.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097D347F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000AF104CF3 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000094E50F7D UE4Editor-SlateCore.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097696A5D UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097696B13 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097662D46 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097697389 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x0000000097664140 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000976BD867 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000976BC953 UE4Editor-Slate.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000C4C969CA UE4Editor-opengl4.exe!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000C4CA5430 UE4Editor-opengl4.exe!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000C4CA54AA UE4Editor-opengl4.exe!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000C4CB2379 UE4Editor-opengl4.exe!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000C4CB3D57 UE4Editor-opengl4.exe!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000CC221FE4 KERNEL32.DLL!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000CEA3EFC1 ntdll.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: [Callstack] 0x00000000CEA3EFC1 ntdll.dll!UnknownFunction []
+[2018.03.02-07.22.26:371][852]LogWindows: Error: 
+[2018.03.02-07.22.26:444][852]LogExit: Executing StaticShutdownAfterError
+[2018.03.02-07.22.26:450][852]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.03.02-07.22.26:450][852]Log file closed, 03/01/18 23:22:26
