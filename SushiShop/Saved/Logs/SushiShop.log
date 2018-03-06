@@ -1,20 +1,18 @@
-﻿Log file open, 03/05/18 12:58:31
+﻿Log file open, 03/06/18 15:10:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-472148122) SRandInit(-472148122).
+LogInit: Display: RandInit(-1767241501) SRandInit(-1767241501).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.179610
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.143155
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,1317 +189,310 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.05-20.58.32:455][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-20.58.32:455][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.05-20.58.32:467][  0]LogInit: Computer: DESKTOP-2QNA1SC
-[2018.03.05-20.58.32:467][  0]LogInit: User: darkm
-[2018.03.05-20.58.32:467][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.05-20.58.32:467][  0]LogInit: High frequency timer resolution =1.945316 MHz
-[2018.03.05-20.58.32:467][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.05-20.58.32:467][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.05-20.58.32:467][  0]LogMemory: Process Physical Memory: 272.68 MB used, 272.68 MB peak
-[2018.03.05-20.58.32:467][  0]LogMemory: Process Virtual Memory: 269.92 MB used, 269.92 MB peak
-[2018.03.05-20.58.32:467][  0]LogMemory: Physical Memory: 6025.18 MB used,  10274.42 MB free, 16299.60 MB total
-[2018.03.05-20.58.32:467][  0]LogMemory: Virtual Memory: 682.20 MB used,  10274.42 MB free, 134217728.00 MB total
-[2018.03.05-20.58.32:614][  0]LogInit: Using OS detected language (en-US).
-[2018.03.05-20.58.32:614][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.05-20.58.32:617][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.05-20.58.33:030][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.05-20.58.33:299][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.05-20.58.33:578][  0]LogD3D11RHI:    0. 'Radeon 500 Series' (Feature Level 11_0)
-[2018.03.05-20.58.33:578][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.03.05-20.58.33:591][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.03.05-20.58.33:591][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.03.05-20.58.33:592][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.05-20.58.33:592][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.05-20.58.33:592][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.03.05-20.58.33:600][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.05-20.58.33:600][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
-[2018.03.05-20.58.33:600][  0]LogWindows: EnumDisplayDevices:
-[2018.03.05-20.58.33:600][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.03.05-20.58.33:600][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.03.05-20.58.33:600][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.03.05-20.58.33:600][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:600][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:601][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.05-20.58.33:602][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.05-20.58.33:602][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
-[2018.03.05-20.58.33:602][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.05-20.58.33:602][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.05-20.58.33:602][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
-[2018.03.05-20.58.33:644][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.05-20.58.33:657][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2018.03.05-20.58.33:658][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/14496/).
-[2018.03.05-20.58.33:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/8300832E47319F5D303A0A89D9E63282/'.
-[2018.03.05-20.58.33:658][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.05-20.58.34:579][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.05-20.58.34:634][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.05-20.58.34:689][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.05-20.58.34:743][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.05-20.58.34:796][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.05-20.58.34:850][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.05-20.58.34:906][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.05-20.58.34:958][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.05-20.58.35:005][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.05-20.58.35:059][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.05-20.58.35:114][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.05-20.58.35:170][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.05-20.58.35:223][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.05-20.58.35:275][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.05-20.58.35:380][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.05-20.58.35:380][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.05-20.58.35:432][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.05-20.58.35:471][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.05-20.58.35:564][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.05-20.58.35:593][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.05-20.58.35:645][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.05-20.58.35:696][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.05-20.58.35:749][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.05-20.58.35:801][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.05-20.58.35:801][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.05-20.58.36:270][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.05-20.58.36:344][  0]LogDerivedDataCache: Loaded boot cache 0.07s 83MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-20.58.36:344][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.05-20.58.36:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.05-20.58.36:345][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.05-20.58.36:345][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.05-20.58.36:345][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.05-20.58.36:361][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.05-20.58.36:373][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.05-20.58.36:383][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.05-20.58.36:384][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.05-20.58.36:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-20.58.36:384][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.05-20.58.36:741][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.05-20.58.37:089][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.05-20.58.37:133][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.05-20.58.37:133][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.05-20.58.37:133][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.05-20.58.37:133][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.05-20.58.37:133][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.05-20.58.37:160][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
-[2018.03.05-20.58.37:333][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
-[2018.03.05-20.58.37:873][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.068296 seconds
-[2018.03.05-20.58.37:879][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.05-20.58.37:879][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.03.05-20.58.37:879][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.05-20.58.37:940][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.05-20.58.40:740][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.05-20.58.40:779][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.05-20.58.41:421][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2018.03.05-20.58.41:421][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:421][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:442][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.05-20.58.41:451][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2018.03.05-20.58.41:452][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:452][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:454][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2018.03.05-20.58.41:455][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:455][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:457][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2018.03.05-20.58.41:457][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:457][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:460][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2018.03.05-20.58.41:460][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:460][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:463][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2018.03.05-20.58.41:463][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:463][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:481][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2018.03.05-20.58.41:481][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:481][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:484][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2018.03.05-20.58.41:484][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:484][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:487][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2018.03.05-20.58.41:488][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.05-20.58.41:488][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.05-20.58.41:867][  0]SourceControl: Source control is disabled
-[2018.03.05-20.58.41:868][  0]SourceControl: Source control is disabled
-[2018.03.05-20.58.41:920][  0]SourceControl: Source control is disabled
-[2018.03.05-20.58.41:972][  0]SourceControl: Source control is disabled
-[2018.03.05-20.58.42:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.05-20.58.43:056][  0]LogOcInput: OculusInput pre-init called
-[2018.03.05-20.58.43:347][  0]LogEngine: Initializing Engine...
-[2018.03.05-20.58.43:349][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.05-20.58.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.05-20.58.43:568][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.05-20.58.43:702][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.05-20.58.43:709][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-20.58.43:768][  0]LogInit: FAudioDevice initialized.
-[2018.03.05-20.58.43:855][  0]LogDerivedDataCache: Saved boot cache 0.09s 83MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.05-20.58.43:862][  0]LogInit: Texture streaming: Enabled
-[2018.03.05-20.58.43:962][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.05-20.58.43:962][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5F9AAEB5-48B7-2204-E0D7-18A92E6C5BD1}
-[2018.03.05-20.58.44:098][  0]LogInit: Transaction tracking system initialized
-[2018.03.05-20.58.44:422][  0]BlueprintLog: New page: Editor Load
-[2018.03.05-20.58.45:350][  0]LocalizationService: Localization service is disabled
-[2018.03.05-20.58.46:127][  0]LogConsoleResponse: Display: 
-[2018.03.05-20.58.46:314][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.05-20.58.46:314][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.05-20.58.46:314][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.05-20.58.46:341][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.01s
-[2018.03.05-20.58.47:555][  0]SourceControl: Source control is disabled
-[2018.03.05-20.58.47:555][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.05-20.58.47:555][  0]LightingResults: New page: Lighting Build
-[2018.03.05-20.58.47:599][  0]MapCheck: New page: Map Check
-[2018.03.05-20.58.47:599][  0]LightingResults: New page: Lighting Build
-[2018.03.05-20.58.47:705][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.03.05-20.58.47:712][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.05-20.58.47:721][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.05-20.58.47:774][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 52.39ms to complete.
-[2018.03.05-20.58.47:774][  0]LogFileHelpers: Loading map 'StartupMap' took 0.219
-[2018.03.05-20.58.47:882][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.05-20.58.47:882][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.05-20.58.48:043][  0]LogCollectionManager: Loaded 0 collections in 0.001587 seconds
-[2018.03.05-20.58.48:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
-[2018.03.05-20.58.48:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
-[2018.03.05-20.58.48:129][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
-[2018.03.05-20.58.48:129][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.03.05-20.58.48:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2364 classes and 521 folders.
-[2018.03.05-20.58.48:210][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.05-20.58.48:245][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.05-20.58.48:262][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.05-20.58.48:268][  0]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.05-20.58.48:271][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.05-20.58.48:378][  0]LogRenderer: Reallocating scene render targets to support 928x456 Format 26 NumSamples 1 (Frame:1).
-[2018.03.05-20.58.48:763][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.05-20.58.48:764][  0]LogLoad: (Engine Initialization) Total time: 18.50 seconds
-[2018.03.05-20.58.48:764][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.05-20.58.48:764][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.05-20.58.48:804][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.05-20.58.48:846][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-20.58.48:875][  1]LogAssetRegistry: Asset discovery search completed in 11.5647 seconds
-[2018.03.05-20.58.48:877][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.05-20.58.48:877][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000056 seconds (updated 0 objects)
-[2018.03.05-20.58.49:802][ 46]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-20.59.01:010][655]LogSlate: Took 0.000292 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.05-20.59.01:814][655]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-20.59.01:953][655]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.05-20.59.01:953][655]LightingResults: New page: Lighting Build
-[2018.03.05-20.59.01:954][655]LoadErrors: New page: Loading map: Shop_Main.umap
-[2018.03.05-20.59.01:955][655]MapCheck: New page: Map Check
-[2018.03.05-20.59.01:955][655]LightingResults: New page: Lighting Build
-[2018.03.05-20.59.01:973][655]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.05-20.59.02:026][655]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.05-20.59.02:092][655]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 65.647ms to complete.
-[2018.03.05-20.59.02:093][655]LogFileHelpers: Loading map 'Shop_Main' took 0.141
-[2018.03.05-20.59.04:186][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-21_Bar)
-[2018.03.05-20.59.04:470][751]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-20.59.11:983][ 58]LogEditorViewport: Clicking on Actor (LMB): UI_C (Order_UI)
-[2018.03.05-20.59.12:306][ 69]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-20.59.17:213][233]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.00.32:136][950]LogEditorViewport: Clicking on Actor (LMB): UI_C (Order_UI)
-[2018.03.05-21.00.57:322][378]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.01.01:534][560]LogSavePackage: Save=46.52ms
-[2018.03.05-21.01.01:534][560]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainEEFC3A63403113D2416116A671B0E85A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.01.01:540][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.01.01:591][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.01.01:699][560]LogSavePackage: Save=56.72ms
-[2018.03.05-21.01.01:699][560]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData022EFC1D4279C003E75E5E9729BEB669.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.01.01:702][560]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.01.08:028][738]LogStaticMesh: Building static mesh Boat...
-[2018.03.05-21.01.08:127][738]LogStaticMesh: Built static mesh [0.10s] /Game/SushiShop/Assets/Boat.Boat
-[2018.03.05-21.01.08:260][739]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 388 triangles, Range [-0.1, 0.5], Boat
-[2018.03.05-21.01.50:129][124]EditorErrors: New page: Actor attachment
-[2018.03.05-21.02.01:947][802]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.02.03:826][884]LogSavePackage: Save=41.90ms
-[2018.03.05-21.02.03:826][884]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main14C886CC479A881BB5CAACB1D71262D3.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.02.03:830][884]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.02.03:875][884]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.02.03:972][884]LogSavePackage: Save=50.10ms
-[2018.03.05-21.02.03:972][884]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData153165EC45CCBBF6F686B9BF49232DC8.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.02.03:974][884]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.02.04:380][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.03.05-21.02.06:318][993]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.02.06:395][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.02.06:396][993]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:02:06 AM)
-[2018.03.05-21.02.06:396][993]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.02.06:398][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002381s)
-[2018.03.05-21.02.06:399][993]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.02.06:399][993]LogPlayLevel: PIE: World Init took: (0.000742s)
-[2018.03.05-21.02.06:399][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003413s)
-[2018.03.05-21.02.06:412][993]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.02.06:426][993]LogInit: FAudioDevice initialized.
-[2018.03.05-21.02.06:487][993]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.02.06:487][993]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.02.06:490][993]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.02.06
-[2018.03.05-21.02.06:491][993]LogWorld: Bringing up level for play took: 0.003216
-[2018.03.05-21.02.06:492][993]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.02.06:552][993]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.03.05-21.02.06:560][993]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.727
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Widget Constructed
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Order2Checkbox
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Tuna
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Salmon
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] Unagi
-[2018.03.05-21.02.06:581][993]LogBlueprintUserMessages: [Display_Order_C_0] WhiteTuna
-[2018.03.05-21.02.37:416][762]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Pickup_M_C /Engine/Transient.World_2:PersistentLevel.Pickup_M_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.37:416][762]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Pickup_M_C /Engine/Transient.World_2:PersistentLevel.Pickup_M_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.37:416][762]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Pickup_M_C /Engine/Transient.World_2:PersistentLevel.Pickup_M_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.37:416][762]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Pickup_M_C /Engine/Transient.World_2:PersistentLevel.Pickup_M_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:581][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Engine/Transient.World_3:PersistentLevel.Salmon_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:581][823]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Engine/Transient.World_3:PersistentLevel.Salmon_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:581][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Engine/Transient.World_3:PersistentLevel.Salmon_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:581][823]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Engine/Transient.World_3:PersistentLevel.Salmon_C_0
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:776][823]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:787][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:787][823]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.38:787][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:787][823]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.38:792][823]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:841][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+[2018.03.06-23.10.30:669][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-23.10.30:669][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.06-23.10.30:733][  0]LogInit: Computer: LAPTOP-EKCCQ7VU
+[2018.03.06-23.10.30:733][  0]LogInit: User: PaolaV
+[2018.03.06-23.10.30:733][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.03.06-23.10.30:733][  0]LogInit: High frequency timer resolution =2.835938 MHz
+[2018.03.06-23.10.30:734][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.03.06-23.10.30:734][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.06-23.10.30:734][  0]LogMemory: Process Physical Memory: 272.23 MB used, 272.23 MB peak
+[2018.03.06-23.10.30:734][  0]LogMemory: Process Virtual Memory: 269.70 MB used, 269.70 MB peak
+[2018.03.06-23.10.30:734][  0]LogMemory: Physical Memory: 7082.73 MB used,  977.40 MB free, 8060.13 MB total
+[2018.03.06-23.10.30:734][  0]LogMemory: Virtual Memory: 678.36 MB used,  977.40 MB free, 134217728.00 MB total
+[2018.03.06-23.10.31:332][  0]LogInit: Using OS detected language (en-US).
+[2018.03.06-23.10.31:332][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.06-23.10.31:401][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.06-23.10.31:873][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.06-23.10.35:383][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.06-23.10.35:459][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.03.06-23.10.35:459][  0]LogD3D11RHI:       2019/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.06-23.10.35:468][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 620' (Feature Level 11_0)
+[2018.03.06-23.10.35:468][  0]LogD3D11RHI:       128/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.06-23.10.35:471][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.06-23.10.35:471][  0]LogD3D11RHI:       0/0/4030 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.06-23.10.35:471][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.06-23.10.35:481][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.06-23.10.35:482][  0]LogD3D11RHI:     GPU DeviceId: 0x179c (for the marketing name, search the web for "GPU Device Id")
+[2018.03.06-23.10.35:482][  0]LogWindows: EnumDisplayDevices:
+[2018.03.06-23.10.35:482][  0]LogWindows:    0. 'Intel(R) HD Graphics 620' (P:1 D:1)
+[2018.03.06-23.10.35:483][  0]LogWindows:    1. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.06-23.10.35:483][  0]LogWindows:    2. 'Intel(R) HD Graphics 620' (P:0 D:0)
+[2018.03.06-23.10.35:483][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.06-23.10.35:483][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.03.06-23.10.35:483][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.06-23.10.35:483][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.06-23.10.35:483][  0]LogRHI: Texture pool is 1413 MB (70% of 2019 MB)
+[2018.03.06-23.10.35:520][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.06-23.10.35:562][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.06-23.10.35:571][  0]LogShaderCompilers: Guid format shader working directory is 19 characters bigger than the processId version (D:/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/9520/).
+[2018.03.06-23.10.35:571][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Paola V/AppData/Local/Temp/UnrealShaderWorkingDir/DDC22C904C0B90314E48DCB7567ADF31/'.
+[2018.03.06-23.10.35:572][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.06-23.10.38:106][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.06-23.10.38:168][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.06-23.10.38:219][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.06-23.10.38:281][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.06-23.10.38:337][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.06-23.10.38:421][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.06-23.10.38:561][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.06-23.10.38:747][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.06-23.10.38:858][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.06-23.10.38:950][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.06-23.10.39:023][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.06-23.10.39:099][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.06-23.10.39:149][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.06-23.10.39:199][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.06-23.10.39:306][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.06-23.10.39:306][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.06-23.10.39:363][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.06-23.10.39:408][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.06-23.10.39:518][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.06-23.10.39:549][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.06-23.10.39:617][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.06-23.10.39:673][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.06-23.10.39:740][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.06-23.10.39:808][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.06-23.10.39:808][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.06-23.10.40:532][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.06-23.10.40:894][  0]LogDerivedDataCache: Loaded boot cache 0.36s 83MB C:/Users/Paola V/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-23.10.40:894][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Paola V/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.06-23.10.40:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.06-23.10.40:895][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.06-23.10.40:895][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.06-23.10.40:895][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.06-23.10.40:922][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.06-23.10.40:936][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Paola V/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.06-23.10.40:954][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.06-23.10.40:961][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.06-23.10.40:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-23.10.40:982][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.06-23.10.42:265][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.06-23.10.42:991][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.06-23.10.43:043][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.06-23.10.43:044][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.06-23.10.43:044][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.06-23.10.43:044][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.06-23.10.43:044][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.06-23.10.43:155][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.03.06-23.10.43:645][  0]LogAssetRegistry: FAssetRegistry took 0.0306 seconds to start up
+[2018.03.06-23.10.44:976][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.136803 seconds
+[2018.03.06-23.10.44:987][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.06-23.10.44:987][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.06-23.10.44:987][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.06-23.10.45:039][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.06-23.10.56:561][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.06-23.10.56:627][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.06-23.10.58:353][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.03.06-23.10.58:359][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:359][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:446][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.06-23.10.58:465][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.03.06-23.10.58:465][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:465][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:473][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.03.06-23.10.58:473][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:473][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:480][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.03.06-23.10.58:480][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:480][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:487][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.03.06-23.10.58:488][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:488][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:495][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.03.06-23.10.58:495][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:495][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:559][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.03.06-23.10.58:560][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:560][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:570][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.03.06-23.10.58:571][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:571][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.58:581][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.03.06-23.10.58:582][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.06-23.10.58:582][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.06-23.10.59:269][  0]SourceControl: Source control is disabled
+[2018.03.06-23.10.59:271][  0]SourceControl: Source control is disabled
+[2018.03.06-23.10.59:340][  0]SourceControl: Source control is disabled
+[2018.03.06-23.10.59:401][  0]SourceControl: Source control is disabled
+[2018.03.06-23.11.00:531][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.06-23.11.00:873][  0]LogOcInput: OculusInput pre-init called
+[2018.03.06-23.11.01:274][  0]LogEngine: Initializing Engine...
+[2018.03.06-23.11.01:282][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.06-23.11.01:875][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.06-23.11.01:876][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.06-23.11.02:185][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.06-23.11.02:221][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.06-23.11.02:244][  0]LogInit: FAudioDevice initialized.
+[2018.03.06-23.11.02:328][  0]LogDerivedDataCache: Saved boot cache 0.08s 83MB C:/Users/Paola V/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.06-23.11.02:343][  0]LogInit: Texture streaming: Enabled
+[2018.03.06-23.11.02:494][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.06-23.11.02:840][  0]LogInit: Transaction tracking system initialized
+[2018.03.06-23.11.03:523][  0]BlueprintLog: New page: Editor Load
+[2018.03.06-23.11.05:825][  0]LocalizationService: Localization service is disabled
+[2018.03.06-23.11.06:861][  0]LogConsoleResponse: Display: 
+[2018.03.06-23.11.07:494][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.06-23.11.07:495][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.06-23.11.07:495][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.06-23.11.09:241][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SushiShop/SushiShop/Content/' took 0.12s
+[2018.03.06-23.11.10:537][  0]SourceControl: Source control is disabled
+[2018.03.06-23.11.10:539][  0]Cmd: MAP LOAD FILE="D:/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.06-23.11.10:590][  0]LightingResults: New page: Lighting Build
+[2018.03.06-23.11.10:648][  0]MapCheck: New page: Map Check
+[2018.03.06-23.11.10:648][  0]LightingResults: New page: Lighting Build
+[2018.03.06-23.11.11:381][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.06-23.11.11:434][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.06-23.11.11:461][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.06-23.11.11:521][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.454ms to complete.
+[2018.03.06-23.11.11:521][  0]LogFileHelpers: Loading map 'StartupMap' took 0.983
+[2018.03.06-23.11.11:810][  0]LogCollectionManager: Loaded 0 collections in 0.001927 seconds
+[2018.03.06-23.11.11:918][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.03.06-23.11.11:918][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SushiShop/SushiShop/Content/Developers/PaolaV/Collections/' took 0.01s
+[2018.03.06-23.11.11:918][  0]LogFileCache: Scanning file cache for directory 'D:/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.03.06-23.11.11:918][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.06-23.11.11:930][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2363 classes and 519 folders.
+[2018.03.06-23.11.12:006][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.06-23.11.12:465][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.03.06-23.11.12:522][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.03.06-23.11.12:751][  0]LogSlate: Took 0.008454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-23.11.12:762][  0]LogSlate: Took 0.006207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.06-23.11.12:780][  0]LogSlate: Took 0.007591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.06-23.11.12:981][  0]LogRenderer: Reallocating scene render targets to support 940x684 Format 26 NumSamples 1 (Frame:1).
+[2018.03.06-23.11.13:299][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.06-23.11.13:299][  0]LogLoad: (Engine Initialization) Total time: 48.45 seconds
+[2018.03.06-23.11.13:299][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.06-23.11.13:300][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.06-23.11.13:300][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.06-23.11.13:666][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.06-23.11.13:982][  1]LogAssetRegistry: Asset discovery search completed in 30.3593 seconds
+[2018.03.06-23.11.13:983][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.06-23.11.13:983][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
+[2018.03.06-23.12.57:732][813]LogRenderer: Reallocating scene render targets to support 940x712 Format 26 NumSamples 1 (Frame:481).
+[2018.03.06-23.12.57:875][819]LogSlate: Took 0.009553 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-23.13.07:948][589]LogRenderer: Reallocating scene render targets to support 948x712 Format 26 NumSamples 1 (Frame:1061).
+[2018.03.06-23.13.07:996][590]LogRenderer: Reallocating scene render targets to support 972x712 Format 26 NumSamples 1 (Frame:1063).
+[2018.03.06-23.13.08:040][591]LogRenderer: Reallocating scene render targets to support 988x712 Format 26 NumSamples 1 (Frame:1065).
+[2018.03.06-23.13.08:085][592]LogRenderer: Reallocating scene render targets to support 1000x712 Format 26 NumSamples 1 (Frame:1067).
+[2018.03.06-23.13.08:126][593]LogRenderer: Reallocating scene render targets to support 1016x712 Format 26 NumSamples 1 (Frame:1069).
+[2018.03.06-23.13.08:170][594]LogRenderer: Reallocating scene render targets to support 1024x712 Format 26 NumSamples 1 (Frame:1071).
+[2018.03.06-23.13.08:214][595]LogRenderer: Reallocating scene render targets to support 1028x712 Format 26 NumSamples 1 (Frame:1073).
+[2018.03.06-23.13.08:257][596]LogRenderer: Reallocating scene render targets to support 1040x712 Format 26 NumSamples 1 (Frame:1075).
+[2018.03.06-23.13.08:343][598]LogRenderer: Reallocating scene render targets to support 1048x712 Format 26 NumSamples 1 (Frame:1079).
+[2018.03.06-23.13.08:433][600]LogRenderer: Reallocating scene render targets to support 1052x712 Format 26 NumSamples 1 (Frame:1083).
+[2018.03.06-23.13.08:481][601]LogRenderer: Reallocating scene render targets to support 1056x712 Format 26 NumSamples 1 (Frame:1085).
+[2018.03.06-23.13.45:242][989]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.06-23.13.46:123][989]LogSlate: Took 0.000293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.06-23.13.47:998][989]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.03.06-23.13.48:242][989]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2018.03.06-23.13.48:242][989]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.03.06-23.13.48:463][989]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2018.03.06-23.13.48:463][989]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.03.06-23.13.48:463][989]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2018.03.06-23.13.48:769][989]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:841][871]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:841][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.39:842][871]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.39:871][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.39:872][871]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.44:307][126]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.44:307][126]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.44:307][126]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.44:308][126]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-21.02.44:308][126]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-21.02.47:832][327]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.02.53:060][631]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.02.53:084][631]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.02.53:085][631]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:02:53 AM)
-[2018.03.05-21.02.53:085][631]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.02.53:087][631]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002836s)
-[2018.03.05-21.02.53:088][631]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.02.53:088][631]LogPlayLevel: PIE: World Init took: (0.000702s)
-[2018.03.05-21.02.53:088][631]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003805s)
-[2018.03.05-21.02.53:100][631]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.02.53:116][631]LogInit: FAudioDevice initialized.
-[2018.03.05-21.02.53:163][631]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.02.53:163][631]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.02.53:165][631]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.02.53
-[2018.03.05-21.02.53:166][631]LogWorld: Bringing up level for play took: 0.002234
-[2018.03.05-21.02.53:166][631]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.02.53:169][631]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.118
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Widget Constructed
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Tuna
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Salmon
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] Unagi
-[2018.03.05-21.02.53:194][631]LogBlueprintUserMessages: [Display_Order_C_1] WhiteTuna
-[2018.03.05-21.03.17:453][ 73]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.03.17:476][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.03.17:476][ 73]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:03:17 AM)
-[2018.03.05-21.03.17:476][ 73]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.03.17:478][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002147s)
-[2018.03.05-21.03.17:479][ 73]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.03.17:479][ 73]LogPlayLevel: PIE: World Init took: (0.000799s)
-[2018.03.05-21.03.17:479][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003194s)
-[2018.03.05-21.03.17:493][ 73]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.03.17:508][ 73]LogInit: FAudioDevice initialized.
-[2018.03.05-21.03.17:540][ 73]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.03.17:541][ 73]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.03.17:543][ 73]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.03.17
-[2018.03.05-21.03.17:544][ 73]LogWorld: Bringing up level for play took: 0.002162
-[2018.03.05-21.03.17:544][ 73]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.03.17:547][ 73]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.26
-[2018.03.05-21.03.17:551][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Widget Constructed
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Tuna
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Salmon
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] Unagi
-[2018.03.05-21.03.17:552][ 73]LogBlueprintUserMessages: [Display_Order_C_2] WhiteTuna
-[2018.03.05-21.03.23:796][441]LogEditorViewport: Clicking on Actor (LMB): Salmon_C (Salmon)
-[2018.03.05-21.03.30:216][804]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.03.45:653][620]LogSavePackage: Save=39.04ms
-[2018.03.05-21.03.45:653][620]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main8607425E472D30640A112DB8ADDDF175.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.03.45:657][620]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.03.45:710][620]LogFileHelpers: Saving map 'Shop_Main' took 0.207
-[2018.03.05-21.03.48:992][771]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.03.05-21.03.49:761][771]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.03.05-21.03.51:113][842]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.03.05-21.04.44:196][569]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/BluePrints/BoatTrigger" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset" SILENT=true
-[2018.03.05-21.04.44:306][569]LogSavePackage: Save=57.44ms
-[2018.03.05-21.04.44:306][569]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BoatTrigger553C78F1493E0DA443B1BA9DCF6041B2.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset'
-[2018.03.05-21.04.44:309][569]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset
-[2018.03.05-21.06.06:705][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/BluePrints/BoatTrigger" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset" SILENT=true
-[2018.03.05-21.06.06:809][979]LogSavePackage: Save=62.03ms
-[2018.03.05-21.06.06:809][979]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BoatTriggerEABD17AD4A3E43CB0F22A09A15B5F404.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset'
-[2018.03.05-21.06.06:812][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/BoatTrigger.uasset
-[2018.03.05-21.06.09:255][ 32]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.06.09:298][ 32]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.03.05-21.06.09:307][ 32]LogPlayLevel: [PlayLevel] Compiling BoatTrigger before play...
-[2018.03.05-21.06.09:526][ 32]LogPlayLevel: PlayLevel: Blueprint regeneration took 228 ms (1 blueprints)
-[2018.03.05-21.06.09:526][ 32]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:06:09 AM)
-[2018.03.05-21.06.09:526][ 32]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.06.09:528][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001820s)
-[2018.03.05-21.06.09:529][ 32]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.06.09:529][ 32]LogPlayLevel: PIE: World Init took: (0.000633s)
-[2018.03.05-21.06.09:529][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002674s)
-[2018.03.05-21.06.09:547][ 32]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.06.09:560][ 32]LogInit: FAudioDevice initialized.
-[2018.03.05-21.06.09:615][ 32]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.06.09:615][ 32]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.06.09:618][ 32]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.06.09
-[2018.03.05-21.06.09:618][ 32]LogWorld: Bringing up level for play took: 0.001870
-[2018.03.05-21.06.09:618][ 32]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.06.09:621][ 32]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.334
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Widget Constructed
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Order1Checkbox
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Order2Checkbox
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Tuna
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Salmon
-[2018.03.05-21.06.09:645][ 32]LogBlueprintUserMessages: [Display_Order_C_6] Unagi
-[2018.03.05-21.06.09:646][ 32]LogBlueprintUserMessages: [Display_Order_C_6] WhiteTuna
-[2018.03.05-21.06.14:587][308]MapCheck: New page: Map Check
-[2018.03.05-21.06.14:610][308]Cmd: MAP REBUILD ALLVISIBLE
-[2018.03.05-21.06.14:610][308]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.03.05-21.06.14:647][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_11, compiling. 
-[2018.03.05-21.06.14:656][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.03.05-21.06.14:664][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
-[2018.03.05-21.06.14:671][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
-[2018.03.05-21.06.14:680][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainless_M_Mat, compiling. 
-[2018.03.05-21.06.14:688][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
-[2018.03.05-21.06.14:697][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.03.05-21.06.14:705][308]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.03.05-21.06.15:650][308]TextureStreamingBuild: Display: Compiling optional shaders took 1.008 seconds.
-[2018.03.05-21.06.15:712][308]LogLevel: Display: Export Material TexCoord Scales took 0.061 seconds.
-[2018.03.05-21.06.15:720][308]TextureStreamingBuild: Display: Build Texture Streaming took 0.007 seconds.
-[2018.03.05-21.06.15:744][308]LightingResults: New page: Lighting Build - Mar 5, 2018, 5:06:15 AM
-[2018.03.05-21.06.15:799][308]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.03.05-21.06.15:894][308]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.03.05-21.06.15:909][308]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.03.05-21.06.16:431][308]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.03.05-21.06.16:431][308]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14496
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.03.05-21.06.18:879][308]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.03.05-21.06.19:040][308]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.03.05-21.06.19:040][308]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:06:19 AM
-[2018.03.05-21.06.19:041][308]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2018.03.05-21.06.19:095][308]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 55.075ms to complete.
-[2018.03.05-21.06.19:118][308]LogEditorBuildUtils: Build time 0:04
-[2018.03.05-21.06.19:208][309]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stainless_M_Mat, compiling. 
-[2018.03.05-21.06.19:215][309]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stainless_M_Mat, compiling. 
-[2018.03.05-21.06.21:600][380]LightingResults: Warning: SushiBar_2-21_GlassDoor2 Object has overlapping UVs.
-[2018.03.05-21.06.21:600][380]LightingResults: SushiBar_2-21_GlassDoor2 Lightmap UV are overlapping by 49.9%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.21:642][382]LightingResults: Warning: SushiBar_2-21_GlassDoor3 Object has overlapping UVs.
-[2018.03.05-21.06.21:642][382]LightingResults: SushiBar_2-21_GlassDoor3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.21:804][390]LightingResults: Warning: SushiBar_2-21_GlassDoor6 Object has overlapping UVs.
-[2018.03.05-21.06.21:804][390]LightingResults: SushiBar_2-21_GlassDoor6 Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.21:946][397]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
-[2018.03.05-21.06.21:946][397]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.21:987][399]LightingResults: Warning: SushiBar_2-21_GlassDoor4 Object has overlapping UVs.
-[2018.03.05-21.06.21:987][399]LightingResults: SushiBar_2-21_GlassDoor4 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.22:028][401]LightingResults: Warning: SushiBar_2-21_GlassDoor1 Object has overlapping UVs.
-[2018.03.05-21.06.22:028][401]LightingResults: SushiBar_2-21_GlassDoor1 Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.22:170][408]LightingResults: Warning: SushiBar_2-21_GlassDoor5 Object has overlapping UVs.
-[2018.03.05-21.06.22:170][408]LightingResults: SushiBar_2-21_GlassDoor5 Lightmap UV are overlapping by 50.1%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.06.22:370][420]Job is a success!
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:      BrickData 95x5x5 = 0.1Mb
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:      Bricks at Level
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:          1: 5.3% covering 1.6% of volume
-[2018.03.05-21.06.22:574][421]LogVolumetricLightmapImport:          2: 89.5% covering 0.4% of volume
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.03.05-21.06.22:837][421]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.03.05-21.06.22:886][421]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 32X32)
-[2018.03.05-21.06.22:886][421]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X64)
-[2018.03.05-21.06.22:949][421]Lightmass on DESKTOP-2QNA1SC: 2.32 sec total, 267 ms importing, 25 ms setup, 434 ms photons, 1.58 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 10.9 sec total, 4.14 sec processing.
-[2018.03.05-21.06.23:042][421]LogStaticLightingSystem: Illumination: 7.20 sec (195 ms encoding lightmaps, 20 ms encoding shadowmaps)
-[2018.03.05-21.06.23:042][421]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.03.05-21.06.23:043][421]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.03.05-21.06.23:884][421]DumpUnbuiltLightIteractions
-[2018.03.05-21.06.23:884][421]Lights with unbuilt interactions: 0
-[2018.03.05-21.06.23:884][421]
-[2018.03.05-21.06.23:884][421]Primitives with unbuilt interactions: 0
-[2018.03.05-21.06.23:896][422]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.03.05-21.06.23:896][422]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:06:23 AM
-[2018.03.05-21.06.23:953][422]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.52ms to complete.
-[2018.03.05-21.06.30:999][794]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.06.31:027][794]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.06.31:027][794]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:06:31 AM)
-[2018.03.05-21.06.31:027][794]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.06.31:030][794]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002586s)
-[2018.03.05-21.06.31:030][794]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.06.31:031][794]LogPlayLevel: PIE: World Init took: (0.000626s)
-[2018.03.05-21.06.31:031][794]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003448s)
-[2018.03.05-21.06.31:049][794]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.06.31:062][794]LogInit: FAudioDevice initialized.
-[2018.03.05-21.06.31:096][794]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.06.31:097][794]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.06.31:099][794]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.06.31
-[2018.03.05-21.06.31:099][794]LogWorld: Bringing up level for play took: 0.001695
-[2018.03.05-21.06.31:099][794]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.06.31:102][794]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.186
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Widget Constructed
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Order1Checkbox
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Order2Checkbox
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Tuna
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Salmon
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] Unagi
-[2018.03.05-21.06.31:123][794]LogBlueprintUserMessages: [Display_Order_C_12] WhiteTuna
-[2018.03.05-21.06.33:859][953]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.06.33:885][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.06.33:885][953]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:06:33 AM)
-[2018.03.05-21.06.33:885][953]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.06.33:887][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001791s)
-[2018.03.05-21.06.33:887][953]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.06.33:888][953]LogPlayLevel: PIE: World Init took: (0.000548s)
-[2018.03.05-21.06.33:888][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002556s)
-[2018.03.05-21.06.33:908][953]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.06.33:920][953]LogInit: FAudioDevice initialized.
-[2018.03.05-21.06.33:953][953]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.06.33:953][953]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.06.33:956][953]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.06.33
-[2018.03.05-21.06.33:956][953]LogWorld: Bringing up level for play took: 0.001713
-[2018.03.05-21.06.33:956][953]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.06.33:959][953]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.672
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Widget Constructed
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Order1Checkbox
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Order2Checkbox
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Tuna
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Salmon
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] Unagi
-[2018.03.05-21.06.33:963][953]LogBlueprintUserMessages: [Display_Order_C_15] WhiteTuna
-[2018.03.05-21.06.35:810][ 60]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
-[2018.03.05-21.06.50:384][849]EditorErrors: New page: Actor attachment
-[2018.03.05-21.07.04:756][673]Cmd: TRANSACTION UNDO
-[2018.03.05-21.07.04:756][673]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-21.07.07:420][797]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.07.14:777][237]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.07.23:578][764]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.07.48:227][238]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
-[2018.03.05-21.07.55:683][680]Cmd: TRANSACTION UNDO
-[2018.03.05-21.07.55:683][680]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-21.07.56:116][691]Cmd: TRANSACTION UNDO
-[2018.03.05-21.07.56:116][691]LogEditorTransaction: Undo Animatable Property Changed
-[2018.03.05-21.07.58:805][804]EditorErrors: New page: Actor attachment
-[2018.03.05-21.08.00:789][881]EditorErrors: New page: Actor attachment
-[2018.03.05-21.08.05:573][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-21_Bar)
-[2018.03.05-21.08.15:702][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-21_Bar)
-[2018.03.05-21.08.35:790][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.09.09:063][664]EditorErrors: New page: Actor attachment
-[2018.03.05-21.09.11:627][803]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.09.17:810][173]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
-[2018.03.05-21.09.24:466][568]Cmd: TRANSACTION UNDO
-[2018.03.05-21.09.24:466][568]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-21.09.30:274][814]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-21_Bar)
-[2018.03.05-21.09.41:391][422]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
-[2018.03.05-21.09.53:730][ 86]Cmd: TRANSACTION UNDO
-[2018.03.05-21.09.53:730][ 86]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-21.11.55:705][524]Cmd: TRANSACTION UNDO
-[2018.03.05-21.11.55:705][524]LogEditorTransaction: Undo Move Actors
-[2018.03.05-21.12.00:942][652]LogSavePackage: Save=45.45ms
-[2018.03.05-21.12.00:942][652]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainF99603D6429ECE3DC8DF87AF9C924A19.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.12.00:947][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.12.00:996][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.12.01:089][652]LogSavePackage: Save=44.85ms
-[2018.03.05-21.12.01:089][652]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData69ED60A4413BA698D58475A754A00E20.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.12.01:092][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.17.46:029][ 13]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.17.53:010][426]LogTemp: Repeating last play command: Simulate
-[2018.03.05-21.17.53:049][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-21.17.53:049][426]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 5:17:53 AM)
-[2018.03.05-21.17.53:049][426]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-21.17.53:051][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002490s)
-[2018.03.05-21.17.53:052][426]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-21.17.53:052][426]LogPlayLevel: PIE: World Init took: (0.000829s)
-[2018.03.05-21.17.53:053][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003651s)
-[2018.03.05-21.17.53:074][426]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-21.17.53:089][426]LogInit: FAudioDevice initialized.
-[2018.03.05-21.17.53:124][426]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-21.17.53:124][426]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-21.17.53:126][426]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-13.17.53
-[2018.03.05-21.17.53:127][426]LogWorld: Bringing up level for play took: 0.002377
-[2018.03.05-21.17.53:127][426]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-21.17.53:137][426]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.151
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Widget Constructed
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Order1Checkbox
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Order2Checkbox
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Tuna
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Salmon
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] Unagi
-[2018.03.05-21.17.53:141][426]LogBlueprintUserMessages: [Display_Order_C_19] WhiteTuna
-[2018.03.05-21.17.53:404][441]LogBlueprintUserMessages: [Display_Order_C_19] Order1Checkbox
-[2018.03.05-21.17.53:404][441]LogBlueprintUserMessages: [Display_Order_C_19] Order2Checkbox
-[2018.03.05-21.17.53:405][441]LogBlueprintUserMessages: [Display_Order_C_19] Order1Checkbox
-[2018.03.05-21.17.53:405][441]LogBlueprintUserMessages: [Display_Order_C_19] Unchecked
-[2018.03.05-21.17.53:405][441]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-21.17.58:294][716]LogSavePackage: Save=50.10ms
-[2018.03.05-21.17.58:294][716]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main61BF3FE14EFC653EC261EA86F47B2FB9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.17.58:296][716]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.17.58:334][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.17.58:424][716]LogSavePackage: Save=40.67ms
-[2018.03.05-21.17.58:425][716]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataFB7A8CCA4BB2D4FC66E095A4713C0D96.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.17.58:426][716]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.20.32:463][921]MapCheck: New page: Map Check
-[2018.03.05-21.20.32:486][921]Cmd: MAP REBUILD ALLVISIBLE
-[2018.03.05-21.20.32:486][921]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.03.05-21.20.32:532][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_16, compiling. 
-[2018.03.05-21.20.32:540][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.03.05-21.20.32:547][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
-[2018.03.05-21.20.32:555][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
-[2018.03.05-21.20.32:564][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainless_M_Mat, compiling. 
-[2018.03.05-21.20.32:574][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
-[2018.03.05-21.20.32:584][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.03.05-21.20.32:593][921]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.03.05-21.20.33:471][921]TextureStreamingBuild: Display: Compiling optional shaders took 0.942 seconds.
-[2018.03.05-21.20.33:530][921]LogLevel: Display: Export Material TexCoord Scales took 0.059 seconds.
-[2018.03.05-21.20.33:536][921]TextureStreamingBuild: Display: Build Texture Streaming took 0.006 seconds.
-[2018.03.05-21.20.33:557][921]LightingResults: New page: Lighting Build - Mar 5, 2018, 5:20:33 AM
-[2018.03.05-21.20.33:572][921]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.03.05-21.20.33:577][921]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.03.05-21.20.33:577][921]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.03.05-21.20.33:578][921]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.03.05-21.20.33:578][921]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14496
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.03.05-21.20.38:097][921]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.03.05-21.20.38:185][921]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.03.05-21.20.38:185][921]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:20:38 AM
-[2018.03.05-21.20.38:186][921]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2018.03.05-21.20.38:237][921]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 52.484ms to complete.
-[2018.03.05-21.20.38:259][921]LogEditorBuildUtils: Build time 0:05
-[2018.03.05-21.20.39:680][977]LightingResults: Warning: SushiBar_2-21_GlassDoor2 Object has overlapping UVs.
-[2018.03.05-21.20.39:700][978]LightingResults: SushiBar_2-21_GlassDoor2 Lightmap UV are overlapping by 49.9%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.39:722][979]LightingResults: Warning: SushiBar_2-21_GlassDoor3 Object has overlapping UVs.
-[2018.03.05-21.20.39:722][979]LightingResults: SushiBar_2-21_GlassDoor3 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.39:935][989]LightingResults: Warning: SushiBar_2-21_GlassDoor6 Object has overlapping UVs.
-[2018.03.05-21.20.39:935][989]LightingResults: SushiBar_2-21_GlassDoor6 Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.40:118][997]LightingResults: Warning: SushiBar_2-21_GlassDoor4 Object has overlapping UVs.
-[2018.03.05-21.20.40:118][997]LightingResults: SushiBar_2-21_GlassDoor4 Lightmap UV are overlapping by 50.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.40:118][997]LightingResults: Warning: SushiBar_2-21_GlassDoor1 Object has overlapping UVs.
-[2018.03.05-21.20.40:118][997]LightingResults: SushiBar_2-21_GlassDoor1 Lightmap UV are overlapping by 49.7%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.40:239][  3]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
-[2018.03.05-21.20.40:240][  3]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.40:401][ 11]LightingResults: Warning: SushiBar_2-21_GlassDoor5 Object has overlapping UVs.
-[2018.03.05-21.20.40:401][ 11]LightingResults: SushiBar_2-21_GlassDoor5 Lightmap UV are overlapping by 50.1%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.20.40:595][ 22]Job is a success!
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:      BrickData 95x5x5 = 0.1Mb
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:      Bricks at Level
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:          0: 5.3% covering 100.0% of volume
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:          1: 5.3% covering 1.6% of volume
-[2018.03.05-21.20.40:776][ 23]LogVolumetricLightmapImport:          2: 89.5% covering 0.4% of volume
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.03.05-21.20.41:013][ 23]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.03.05-21.20.41:067][ 23]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2018.03.05-21.20.41:067][ 23]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X64)
-[2018.03.05-21.20.41:127][ 23]Lightmass on DESKTOP-2QNA1SC: 2.32 sec total, 132 ms importing, 25 ms setup, 422 ms photons, 1.74 sec processing, 0 ms extra exporting [15/15 mappings]. Threads: 12.0 sec total, 4.81 sec processing.
-[2018.03.05-21.20.41:215][ 23]LogStaticLightingSystem: Illumination: 7.57 sec (194 ms encoding lightmaps, 21 ms encoding shadowmaps)
-[2018.03.05-21.20.41:215][ 23]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.03.05-21.20.41:215][ 23]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.03.05-21.20.42:100][ 23]DumpUnbuiltLightIteractions
-[2018.03.05-21.20.42:101][ 23]Lights with unbuilt interactions: 0
-[2018.03.05-21.20.42:101][ 23]
-[2018.03.05-21.20.42:101][ 23]Primitives with unbuilt interactions: 0
-[2018.03.05-21.20.42:113][ 24]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.03.05-21.20.42:113][ 24]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:20:42 AM
-[2018.03.05-21.20.42:168][ 24]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.314ms to complete.
-[2018.03.05-21.21.19:969][754]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-21_Refrigerator)
-[2018.03.05-21.22.41:400][987]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.23.07:267][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:267][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:268][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:268][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:268][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:269][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:269][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:269][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:270][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:271][216]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.07:293][216]LogEditorActor: Deleted 10 Actors (0.038 secs)
-[2018.03.05-21.23.17:151][706]LogSavePackage: Save=29.27ms
-[2018.03.05-21.23.17:151][706]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main628758A0406AA9EB6D2807A9A5D56300.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.23.17:154][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.23.17:192][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.23.17:276][706]LogSavePackage: Save=39.60ms
-[2018.03.05-21.23.17:276][706]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataCB708BAF41BDDF7278545D87698D8CFD.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.23.17:280][706]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.23.19:713][799]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.03.05-21.23.19:741][799]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.03.05-21.24.20:748][  9]LogActorFactory: Actor Factory created SushiBar_2-26_Bar
-[2018.03.05-21.24.20:748][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle
-[2018.03.05-21.24.20:749][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle1
-[2018.03.05-21.24.20:749][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle2
-[2018.03.05-21.24.20:750][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle3
-[2018.03.05-21.24.20:750][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle4
-[2018.03.05-21.24.20:751][  9]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle5
-[2018.03.05-21.24.20:751][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor
-[2018.03.05-21.24.20:752][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor1
-[2018.03.05-21.24.20:752][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor2
-[2018.03.05-21.24.20:753][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor3
-[2018.03.05-21.24.20:753][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor4
-[2018.03.05-21.24.20:754][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor5
-[2018.03.05-21.24.20:754][  9]LogActorFactory: Actor Factory created SushiBar_2-26_GlassOuter
-[2018.03.05-21.24.20:754][  9]LogActorFactory: Actor Factory created SushiBar_2-26_Refrigerator
-[2018.03.05-21.24.20:755][  9]LogActorFactory: Actor Factory created SushiBar_2-26_Water
-[2018.03.05-21.24.26:668][345]LogActorFactory: Actor Factory created SushiBar_2-26_Bar
-[2018.03.05-21.24.26:685][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle
-[2018.03.05-21.24.26:701][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle1
-[2018.03.05-21.24.26:717][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle2
-[2018.03.05-21.24.26:734][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle3
-[2018.03.05-21.24.26:751][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle4
-[2018.03.05-21.24.26:767][345]LogActorFactory: Actor Factory created SushiBar_2-26_DoorHandle5
-[2018.03.05-21.24.26:783][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor
-[2018.03.05-21.24.26:800][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor1
-[2018.03.05-21.24.26:816][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor2
-[2018.03.05-21.24.26:833][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor3
-[2018.03.05-21.24.26:852][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor4
-[2018.03.05-21.24.26:871][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassDoor5
-[2018.03.05-21.24.26:890][345]LogActorFactory: Actor Factory created SushiBar_2-26_GlassOuter
-[2018.03.05-21.24.26:909][345]LogActorFactory: Actor Factory created SushiBar_2-26_Refrigerator
-[2018.03.05-21.24.26:928][345]LogActorFactory: Actor Factory created SushiBar_2-26_Water
-[2018.03.05-21.24.31:007][558]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.24.37:520][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.24.37:981][973]Cmd: TRANSACTION UNDO
-[2018.03.05-21.24.37:981][973]LogEditorTransaction: Undo Move Actors
-[2018.03.05-21.24.37:985][973]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.SushiBar_2-26_DoorHandle2_23.StaticMeshComponent0) Component already registered.
-[2018.03.05-21.24.37:986][973]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.SushiBar_2-26_DoorHandle5_29.StaticMeshComponent0) Component already registered.
-[2018.03.05-21.24.40:854][140]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.24.58:350][177]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.25.19:101][409]LogEditorViewport: Clicking on Actor (LMB): BoatTrigger_C (BoatTrigger)
-[2018.03.05-21.25.19:557][434]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.25.52:741][974]LogSavePackage: Save=45.23ms
-[2018.03.05-21.25.52:741][974]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main2C6B4AA94EB2FAB6AD1D2384E38A5C28.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.25.52:745][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.25.52:782][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.25.52:869][974]LogSavePackage: Save=42.94ms
-[2018.03.05-21.25.52:869][974]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataAE14F2084098724663C35C9C63265A1E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.25.52:870][974]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.25.55:017][ 63]LogRenderer: Reallocating scene render targets to support 928x460 Format 26 NumSamples 1 (Frame:41851).
-[2018.03.05-21.25.55:057][ 64]LogRenderer: Reallocating scene render targets to support 928x468 Format 26 NumSamples 1 (Frame:41853).
-[2018.03.05-21.25.55:098][ 65]LogRenderer: Reallocating scene render targets to support 928x472 Format 26 NumSamples 1 (Frame:41855).
-[2018.03.05-21.25.55:137][ 66]LogRenderer: Reallocating scene render targets to support 928x476 Format 26 NumSamples 1 (Frame:41857).
-[2018.03.05-21.25.55:292][ 74]LogRenderer: Reallocating scene render targets to support 928x480 Format 26 NumSamples 1 (Frame:41859).
-[2018.03.05-21.25.55:373][ 76]LogRenderer: Reallocating scene render targets to support 928x484 Format 26 NumSamples 1 (Frame:41863).
-[2018.03.05-21.25.55:413][ 77]LogRenderer: Reallocating scene render targets to support 928x488 Format 26 NumSamples 1 (Frame:41865).
-[2018.03.05-21.25.55:504][ 79]LogRenderer: Reallocating scene render targets to support 928x496 Format 26 NumSamples 1 (Frame:41869).
-[2018.03.05-21.25.55:586][ 81]LogRenderer: Reallocating scene render targets to support 928x500 Format 26 NumSamples 1 (Frame:41873).
-[2018.03.05-21.26.16:355][290]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.26.32:777][272]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
-[2018.03.05-21.26.41:603][798]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_GlassDoor)
-[2018.03.05-21.26.41:996][818]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.26.48:875][204]LogSavePackage: Save=53.84ms
-[2018.03.05-21.26.48:875][204]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainDD2606BF4F34304684FCAAA6CBB2F9F5.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.26.48:879][204]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.26.48:940][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.26.49:031][204]LogSavePackage: Save=44.96ms
-[2018.03.05-21.26.49:031][204]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData2274A19C4322E3F6A6E6FF9B33517216.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.26.49:033][204]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.27.11:036][392]EditorErrors: New page: Actor attachment
-[2018.03.05-21.27.14:801][562]LogSavePackage: Save=45.68ms
-[2018.03.05-21.27.14:801][562]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainEC3F353D466813F38100A5BA3D697EFD.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.27.14:804][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.27.14:847][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.27.14:932][562]LogSavePackage: Save=42.07ms
-[2018.03.05-21.27.14:932][562]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData0089590F49E8B62517C471B4CEC94493.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.27.14:934][562]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.27.18:155][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Bar)
-[2018.03.05-21.27.25:673][138]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Refrigerator)
-[2018.03.05-21.27.53:230][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_GlassDoor1)
-[2018.03.05-21.28.07:398][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_GlassOuter)
-[2018.03.05-21.28.11:980][ 50]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Water)
-[2018.03.05-21.28.21:719][343]LogSavePackage: Save=47.96ms
-[2018.03.05-21.28.21:719][343]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main66D0054545B9927E5C587BA08661275C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.28.21:722][343]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.28.21:763][343]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.28.21:854][343]LogSavePackage: Save=41.32ms
-[2018.03.05-21.28.21:854][343]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData4F87E7204AB81317E98C788E0AF84D0D.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.28.21:856][343]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.28.38:229][311]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.28.53:509][192]LogSavePackage: Save=54.70ms
-[2018.03.05-21.28.53:509][192]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main9E693B68479B3B3F4A5CC0B402E3ED1A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.28.53:513][192]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.28.53:566][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.28.53:661][192]LogSavePackage: Save=46.95ms
-[2018.03.05-21.28.53:661][192]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData92393A414F58DF3E8EB2A2A7EDA4AD7B.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.28.53:663][192]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.29.27:469][851]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.29.44:541][841]LogSavePackage: Save=62.01ms
-[2018.03.05-21.29.44:541][841]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main9D22F872474AE5A16BE523B276EA674A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.29.44:546][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.29.44:598][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.29.44:710][841]LogSavePackage: Save=56.04ms
-[2018.03.05-21.29.44:710][841]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataF4E34DF74A11E38FB4CA54A4AF36BE44.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.29.44:712][841]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.29.46:191][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.29.53:505][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.30.01:869][844]LogPhysics: Warning: ForeachShape(Trimesh): [/Engine/BasicShapes/Cube.Cube] ScaledElem[0] invalid
-[2018.03.05-21.30.01:869][844]LogPhysics: Warning: ForeachShape(Trimesh): [/Engine/BasicShapes/Cube.Cube] ScaledElem[0] invalid
-[2018.03.05-21.30.06:922][135]LogPhysics: Warning: ForeachShape(Trimesh): [/Engine/BasicShapes/Cube.Cube] ScaledElem[0] invalid
-[2018.03.05-21.30.06:922][135]LogPhysics: Warning: ForeachShape(Trimesh): [/Engine/BasicShapes/Cube.Cube] ScaledElem[0] invalid
-[2018.03.05-21.31.06:398][550]Cmd: EDIT COPY
-[2018.03.05-21.31.06:842][559]Cmd: EDIT PASTE
-[2018.03.05-21.31.27:659][732]Cmd: EDIT COPY
-[2018.03.05-21.31.28:151][761]Cmd: EDIT PASTE
-[2018.03.05-21.31.32:641][ 27]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.31.43:724][683]Cmd: TRANSACTION UNDO
-[2018.03.05-21.31.43:724][683]LogEditorTransaction: Undo Move Actors
-[2018.03.05-21.31.48:966][836]LogSavePackage: Save=54.55ms
-[2018.03.05-21.31.48:966][836]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainB9D401074107CCE955E4ABA1E21841A7.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.31.48:970][836]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.31.49:033][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.31.49:123][836]LogSavePackage: Save=44.43ms
-[2018.03.05-21.31.49:123][836]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataA6AA63CB4631D8447D6A38A1CB04076C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.31.49:125][836]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.31.50:416][878]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-21.31.52:352][980]Cmd: EDIT COPY
-[2018.03.05-21.31.53:143][ 27]Cmd: EDIT PASTE
-[2018.03.05-21.32.02:084][551]Cmd: TRANSACTION UNDO
-[2018.03.05-21.32.02:084][551]LogEditorTransaction: Undo Move Actors
-[2018.03.05-21.32.20:803][540]Cmd: EDIT COPY
-[2018.03.05-21.32.22:158][621]Cmd: EDIT PASTE
-[2018.03.05-21.32.29:215][ 37]Cmd: TRANSACTION UNDO
-[2018.03.05-21.32.29:215][ 37]LogEditorTransaction: Undo Move Actors
-[2018.03.05-21.32.34:672][156]LogSavePackage: Save=60.98ms
-[2018.03.05-21.32.34:672][156]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main531FE1CB45C4C02BEEAADF90BFFAA3F0.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.32.34:675][156]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.32.34:718][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.32.34:810][156]LogSavePackage: Save=45.57ms
-[2018.03.05-21.32.34:810][156]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData4DF0CC6445F4418CA06524AB9E971D6A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.32.34:812][156]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-21.32.45:240][577]Cmd: TRANSACTION UNDO
-[2018.03.05-21.32.45:240][577]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-21.32.52:239][868]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.33.04:042][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
-[2018.03.05-21.33.12:068][889]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2018.03.05-21.33.34:466][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Refrigerator)
-[2018.03.05-21.33.34:820][ 31]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-21.33.40:287][327]MapCheck: New page: Map Check
-[2018.03.05-21.33.40:387][327]Cmd: MAP REBUILD ALLVISIBLE
-[2018.03.05-21.33.40:388][327]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.03.05-21.33.40:432][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_25, compiling. 
-[2018.03.05-21.33.40:441][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.03.05-21.33.40:450][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
-[2018.03.05-21.33.40:458][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.03.05-21.33.40:467][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
-[2018.03.05-21.33.40:476][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
-[2018.03.05-21.33.40:487][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
-[2018.03.05-21.33.40:500][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
-[2018.03.05-21.33.40:512][327]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.03.05-21.33.41:650][327]TextureStreamingBuild: Display: Compiling optional shaders took 1.220 seconds.
-[2018.03.05-21.33.41:717][327]LogLevel: Display: Export Material TexCoord Scales took 0.067 seconds.
-[2018.03.05-21.33.41:727][327]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
-[2018.03.05-21.33.41:754][327]LightingResults: New page: Lighting Build - Mar 5, 2018, 5:33:41 AM
-[2018.03.05-21.33.41:772][327]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.03.05-21.33.41:775][327]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.03.05-21.33.41:775][327]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.03.05-21.33.41:776][327]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.03.05-21.33.41:776][327]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14496
-[2018.03.05-21.33.46:286][327]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.03.05-21.33.46:286][327]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.03.05-21.33.46:286][327]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.03.05-21.33.46:286][327]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.03.05-21.33.46:286][327]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.03.05-21.33.46:287][327]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.03.05-21.33.46:409][327]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.03.05-21.33.46:409][327]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:33:46 AM
-[2018.03.05-21.33.46:409][327]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
-[2018.03.05-21.33.46:472][327]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 62.976ms to complete.
-[2018.03.05-21.33.46:494][327]LogEditorBuildUtils: Build time 0:06
-[2018.03.05-21.33.48:252][394]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
-[2018.03.05-21.33.48:273][395]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-21.33.50:453][468]Job is a success!
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:      BrickData 195x5x5 = 0.2Mb
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:      Bricks at Level
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:          1: 7.7% covering 4.7% of volume
-[2018.03.05-21.33.50:758][469]LogVolumetricLightmapImport:          2: 89.7% covering 0.9% of volume
-[2018.03.05-21.33.51:160][469]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2018.03.05-21.33.51:160][469]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2018.03.05-21.33.51:160][469]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2018.03.05-21.33.51:160][469]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2018.03.05-21.33.51:160][469]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.03.05-21.33.51:161][469]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.03.05-21.33.51:238][469]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
-[2018.03.05-21.33.51:239][469]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X128)
-[2018.03.05-21.33.51:285][469]Lightmass on DESKTOP-2QNA1SC: 4.10 sec total, 315 ms importing, 28 ms setup, 593 ms photons, 3.15 sec processing, 0 ms extra exporting [24/24 mappings]. Threads: 21.8 sec total, 9.90 sec processing.
-[2018.03.05-21.33.51:442][469]LogStaticLightingSystem: Illumination: 9.52 sec (325 ms encoding lightmaps, 41 ms encoding shadowmaps)
-[2018.03.05-21.33.51:442][469]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.03.05-21.33.51:442][469]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.03.05-21.34.01:295][469]DumpUnbuiltLightIteractions
-[2018.03.05-21.34.01:295][469]Lights with unbuilt interactions: 0
-[2018.03.05-21.34.01:295][469]
-[2018.03.05-21.34.01:295][469]Primitives with unbuilt interactions: 0
-[2018.03.05-21.34.01:306][470]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.03.05-21.34.01:306][470]MapCheck: New page: Shop_Main - Mar 5, 2018, 5:34:01 AM
-[2018.03.05-21.34.01:360][470]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.553ms to complete.
-[2018.03.05-21.34.04:086][617]LogSavePackage: Save=50.35ms
-[2018.03.05-21.34.04:086][617]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainAA3FD95C4F1D83618335DEB734E5A4BD.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-21.34.04:089][617]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-21.34.04:133][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-21.34.04:224][617]LogSavePackage: Save=51.14ms
-[2018.03.05-21.34.04:224][617]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataBEBEFA6E425F110708D9DB9418A3B967.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-21.34.04:228][617]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-22.20.07:264][438]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-22.20.10:748][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
-[2018.03.05-22.20.11:090][663]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-22.36.51:572][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
-[2018.03.05-22.36.51:867][293]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-22.36.55:964][536]MapCheck: New page: Map Check
-[2018.03.05-22.36.55:988][536]Cmd: MAP REBUILD ALLVISIBLE
-[2018.03.05-22.36.55:988][536]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.03.05-22.36.56:030][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_30, compiling. 
-[2018.03.05-22.36.56:038][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.03.05-22.36.56:045][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
-[2018.03.05-22.36.56:053][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.03.05-22.36.56:061][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert1, compiling. 
-[2018.03.05-22.36.56:069][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
-[2018.03.05-22.36.56:078][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
-[2018.03.05-22.36.56:090][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
-[2018.03.05-22.36.56:100][536]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.03.05-22.36.57:031][536]TextureStreamingBuild: Display: Compiling optional shaders took 1.003 seconds.
-[2018.03.05-22.36.57:089][536]LogLevel: Display: Export Material TexCoord Scales took 0.058 seconds.
-[2018.03.05-22.36.57:099][536]TextureStreamingBuild: Display: Build Texture Streaming took 0.010 seconds.
-[2018.03.05-22.36.57:119][536]LightingResults: New page: Lighting Build - Mar 5, 2018, 6:36:57 AM
-[2018.03.05-22.36.57:133][536]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.03.05-22.36.57:135][536]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.03.05-22.36.57:135][536]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.03.05-22.36.57:136][536]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.03.05-22.36.57:136][536]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14496
-[2018.03.05-22.37.01:717][536]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.03.05-22.37.01:718][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.03.05-22.37.01:718][536]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.03.05-22.37.01:718][536]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.03.05-22.37.01:718][536]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.03.05-22.37.01:718][536]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.03.05-22.37.01:830][536]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.03.05-22.37.01:830][536]MapCheck: New page: Shop_Main - Mar 5, 2018, 6:37:01 AM
-[2018.03.05-22.37.01:887][536]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.104ms to complete.
-[2018.03.05-22.37.01:909][536]LogEditorBuildUtils: Build time 0:05
-[2018.03.05-22.37.03:123][582]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
-[2018.03.05-22.37.03:123][582]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-22.37.04:423][645]Job is a success!
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.008s
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:      BrickData 195x5x5 = 0.2Mb
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:      Bricks at Level
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:          1: 7.7% covering 4.7% of volume
-[2018.03.05-22.37.04:620][646]LogVolumetricLightmapImport:          2: 89.7% covering 0.9% of volume
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2018.03.05-22.37.04:929][646]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2018.03.05-22.37.04:993][646]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 32X32)
-[2018.03.05-22.37.04:993][646]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X128)
-[2018.03.05-22.37.05:023][646]Lightmass on DESKTOP-2QNA1SC: 2.58 sec total, 144 ms importing, 27 ms setup, 459 ms photons, 1.94 sec processing, 0 ms extra exporting [24/24 mappings]. Threads: 13.4 sec total, 5.35 sec processing.
-[2018.03.05-22.37.05:116][646]LogStaticLightingSystem: Illumination: 7.90 sec (249 ms encoding lightmaps, 39 ms encoding shadowmaps)
-[2018.03.05-22.37.05:117][646]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.03.05-22.37.05:117][646]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.03.05-22.37.05:721][646]DumpUnbuiltLightIteractions
-[2018.03.05-22.37.05:721][646]Lights with unbuilt interactions: 0
-[2018.03.05-22.37.05:721][646]
-[2018.03.05-22.37.05:721][646]Primitives with unbuilt interactions: 0
-[2018.03.05-22.37.05:731][647]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.03.05-22.37.05:731][647]MapCheck: New page: Shop_Main - Mar 5, 2018, 6:37:05 AM
-[2018.03.05-22.37.05:791][647]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.851ms to complete.
-[2018.03.05-22.37.28:948][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Refrigerator)
-[2018.03.05-22.37.34:543][218]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
-[2018.03.05-22.37.34:969][241]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-22.37.44:987][836]MapCheck: New page: Map Check
-[2018.03.05-22.37.45:013][836]Cmd: MAP REBUILD ALLVISIBLE
-[2018.03.05-22.37.45:013][836]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2018.03.05-22.37.45:051][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_35, compiling. 
-[2018.03.05-22.37.45:060][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2018.03.05-22.37.45:068][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
-[2018.03.05-22.37.45:075][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
-[2018.03.05-22.37.45:081][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
-[2018.03.05-22.37.45:091][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
-[2018.03.05-22.37.45:102][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
-[2018.03.05-22.37.45:113][836]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2018.03.05-22.37.46:076][836]TextureStreamingBuild: Display: Compiling optional shaders took 1.027 seconds.
-[2018.03.05-22.37.46:132][836]LogLevel: Display: Export Material TexCoord Scales took 0.055 seconds.
-[2018.03.05-22.37.46:140][836]TextureStreamingBuild: Display: Build Texture Streaming took 0.008 seconds.
-[2018.03.05-22.37.46:161][836]LightingResults: New page: Lighting Build - Mar 5, 2018, 6:37:46 AM
-[2018.03.05-22.37.46:176][836]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2018.03.05-22.37.46:178][836]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2018.03.05-22.37.46:178][836]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2018.03.05-22.37.46:179][836]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2018.03.05-22.37.46:179][836]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14496
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2018.03.05-22.37.50:692][836]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2018.03.05-22.37.50:772][836]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2018.03.05-22.37.50:772][836]MapCheck: New page: Shop_Main - Mar 5, 2018, 6:37:50 AM
-[2018.03.05-22.37.50:831][836]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.994ms to complete.
-[2018.03.05-22.37.50:853][836]LogEditorBuildUtils: Build time 0:05
-[2018.03.05-22.37.52:077][880]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
-[2018.03.05-22.37.52:077][880]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
-[2018.03.05-22.37.53:658][951]Job is a success!
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.010s
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:      BrickData 195x5x5 = 0.2Mb
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:      Bricks at Level
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:          0: 2.6% covering 100.0% of volume
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:          1: 7.7% covering 4.7% of volume
-[2018.03.05-22.37.53:873][953]LogVolumetricLightmapImport:          2: 89.7% covering 0.9% of volume
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
-[2018.03.05-22.37.54:216][953]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
-[2018.03.05-22.37.54:281][953]LogTexture: Display: Building textures: ShadowMapTexture2D_9 (G8, 32X32)
-[2018.03.05-22.37.54:281][953]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 1024X128)
-[2018.03.05-22.37.54:316][953]Lightmass on DESKTOP-2QNA1SC: 2.92 sec total, 142 ms importing, 29 ms setup, 456 ms photons, 2.28 sec processing, 0 ms extra exporting [24/24 mappings]. Threads: 15.8 sec total, 6.45 sec processing.
-[2018.03.05-22.37.54:413][953]LogStaticLightingSystem: Illumination: 8.16 sec (267 ms encoding lightmaps, 36 ms encoding shadowmaps)
-[2018.03.05-22.37.54:413][953]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2018.03.05-22.37.54:413][953]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
-[2018.03.05-22.37.54:696][953]DumpUnbuiltLightIteractions
-[2018.03.05-22.37.54:696][953]Lights with unbuilt interactions: 0
-[2018.03.05-22.37.54:696][953]
-[2018.03.05-22.37.54:696][953]Primitives with unbuilt interactions: 0
-[2018.03.05-22.37.54:706][954]Cmd: MAP CHECK NOTIFYRESULTS
-[2018.03.05-22.37.54:707][954]MapCheck: New page: Shop_Main - Mar 5, 2018, 6:37:54 AM
-[2018.03.05-22.37.54:771][954]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 64.744ms to complete.
-[2018.03.05-22.37.58:871][122]LogTemp: Repeating last play command: Simulate
-[2018.03.05-22.37.58:895][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-22.37.58:895][122]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 6:37:58 AM)
-[2018.03.05-22.37.58:895][122]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-22.37.58:899][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004097s)
-[2018.03.05-22.37.58:900][122]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-22.37.58:901][122]LogPlayLevel: PIE: World Init took: (0.001551s)
-[2018.03.05-22.37.58:902][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.006043s)
-[2018.03.05-22.37.58:921][122]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-22.37.58:934][122]LogInit: FAudioDevice initialized.
-[2018.03.05-22.37.58:971][122]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-22.37.58:971][122]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-22.37.58:974][122]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-14.37.58
-[2018.03.05-22.37.58:974][122]LogWorld: Bringing up level for play took: 0.002494
-[2018.03.05-22.37.58:975][122]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-22.37.58:979][122]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.293
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Widget Constructed
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Order1Checkbox
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Order2Checkbox
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Tuna
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Salmon
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] Unagi
-[2018.03.05-22.37.59:004][122]LogBlueprintUserMessages: [Display_Order_C_47] WhiteTuna
-[2018.03.05-22.37.59:282][138]LogBlueprintUserMessages: [Display_Order_C_47] Order1Checkbox
-[2018.03.05-22.37.59:282][138]LogBlueprintUserMessages: [Display_Order_C_47] Order2Checkbox
-[2018.03.05-22.37.59:282][138]LogBlueprintUserMessages: [Display_Order_C_47] Order1Checkbox
-[2018.03.05-22.37.59:282][138]LogBlueprintUserMessages: [Display_Order_C_47] Unchecked
-[2018.03.05-22.37.59:282][138]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-22.38.10:327][792]LogEditorViewport: Clicking on Actor (LMB): Salmon_C (Salmon)
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:740][933]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_3
-	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+[2018.03.06-23.13.48:781][989]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
 	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:117][420]LogAIModule: Creating AISystem for world Shop_Main1
+[2018.03.06-23.13.54:120][420]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:741][933]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:762][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:762][933]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:762][933]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:762][933]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.13.54:121][420]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main1.Shop_Main1:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:798][934]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.14.14:244][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_environment" FILE="D:/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:798][934]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.12:798][934]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:798][934]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
-[2018.03.05-22.38.12:816][935]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
-	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon2
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
 	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
-[2018.03.05-22.38.14:579][ 40]LogTemp: Repeating last play command: Simulate
-[2018.03.05-22.38.14:603][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-22.38.14:603][ 40]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 6:38:14 AM)
-[2018.03.05-22.38.14:603][ 40]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-22.38.14:607][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003551s)
-[2018.03.05-22.38.14:607][ 40]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-22.38.14:608][ 40]LogPlayLevel: PIE: World Init took: (0.000853s)
-[2018.03.05-22.38.14:608][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.004753s)
-[2018.03.05-22.38.14:629][ 40]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-22.38.14:643][ 40]LogInit: FAudioDevice initialized.
-[2018.03.05-22.38.14:679][ 40]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-22.38.14:679][ 40]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-22.38.14:682][ 40]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-14.38.14
-[2018.03.05-22.38.14:682][ 40]LogWorld: Bringing up level for play took: 0.002177
-[2018.03.05-22.38.14:683][ 40]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-22.38.14:686][ 40]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.001
-[2018.03.05-22.38.14:708][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Widget Constructed
-[2018.03.05-22.38.14:708][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Order1Checkbox
-[2018.03.05-22.38.14:708][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Order2Checkbox
-[2018.03.05-22.38.14:709][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Tuna
-[2018.03.05-22.38.14:709][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Salmon
-[2018.03.05-22.38.14:709][ 40]LogBlueprintUserMessages: [Display_Order_C_50] Unagi
-[2018.03.05-22.38.14:709][ 40]LogBlueprintUserMessages: [Display_Order_C_50] WhiteTuna
-[2018.03.05-22.38.14:982][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order1Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order2Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order1Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Unchecked
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order1Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order2Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Order1Checkbox
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [Display_Order_C_50] Unchecked
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-22.38.14:983][ 56]LogBlueprintUserMessages: [BoatTrigger_2] Salmon2
-[2018.03.05-22.38.19:717][334]LogEditorViewport: Clicking on Actor (LMB): Salmon_C (Salmon2)
-[2018.03.05-22.39.10:835][971]Cmd: TRANSACTION UNDO
-[2018.03.05-22.39.10:836][971]LogEditorTransaction: Undo Clicking on Actors
-[2018.03.05-22.39.23:920][514]LogSavePackage: Save=51.63ms
-[2018.03.05-22.39.23:920][514]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainA0081EC14CFF3FA20C434BBE5F780032.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-22.39.23:925][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-22.39.23:969][514]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-22.39.24:066][514]LogSavePackage: Save=52.19ms
-[2018.03.05-22.39.24:066][514]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataB439612D42989D9B86D96391402C35C3.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-22.39.24:075][514]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
-[2018.03.05-22.46.28:050][434]LogTemp: Repeating last play command: Simulate
-[2018.03.05-22.46.28:074][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.03.05-22.46.28:074][434]PIE: New page: SIE session: Shop_Main (Mar 5, 2018, 6:46:28 AM)
-[2018.03.05-22.46.28:074][434]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
-[2018.03.05-22.46.28:077][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002692s)
-[2018.03.05-22.46.28:078][434]LogAIModule: Creating AISystem for world Shop_Main
-[2018.03.05-22.46.28:078][434]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.03.05-22.46.28:078][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003690s)
-[2018.03.05-22.46.28:097][434]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.05-22.46.28:108][434]LogInit: FAudioDevice initialized.
-[2018.03.05-22.46.28:154][434]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.03.05-22.46.28:154][434]LogLoad: Game class is 'GameModeBase'
-[2018.03.05-22.46.28:157][434]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.05-14.46.28
-[2018.03.05-22.46.28:157][434]LogWorld: Bringing up level for play took: 0.002231
-[2018.03.05-22.46.28:157][434]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.03.05-22.46.28:160][434]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.527
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Widget Constructed
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Order1Checkbox
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Order2Checkbox
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Tuna
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Salmon
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] Unagi
-[2018.03.05-22.46.28:164][434]LogBlueprintUserMessages: [Display_Order_C_55] WhiteTuna
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order1Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order2Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order1Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Unchecked
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order1Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order2Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Order1Checkbox
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [Display_Order_C_55] Unchecked
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
-[2018.03.05-22.46.28:427][449]LogBlueprintUserMessages: [BoatTrigger_2] Salmon2
-[2018.03.05-22.46.46:259][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
-[2018.03.05-22.47.36:778][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
-[2018.03.05-22.47.41:488][818]Cmd: TRANSACTION UNDO
-[2018.03.05-22.47.41:488][818]LogEditorTransaction: Undo Scale Actors
-[2018.03.05-22.47.42:574][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
-[2018.03.05-22.47.45:766][ 70]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
-[2018.03.05-22.47.49:607][297]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
-[2018.03.05-22.48.07:772][366]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor5)
-[2018.03.05-22.48.14:580][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
-[2018.03.05-22.48.20:731][137]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
-[2018.03.05-22.48.28:951][622]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Bar)
-[2018.03.05-22.48.29:155][631]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.03.05-22.48.50:110][883]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
-[2018.03.05-22.49.41:515][837]LogSavePackage: Save=56.01ms
-[2018.03.05-22.49.41:515][837]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_Auto175ECE5BF4D5C12D5E308B2BCDFE79AD8.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto1.umap'
-[2018.03.05-22.49.41:517][837]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto1.umap
-[2018.03.05-22.49.41:522][837]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.142
-[2018.03.05-22.49.41:522][837]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
-[2018.03.05-22.49.57:030][652]LogSavePackage: Save=60.72ms
-[2018.03.05-22.49.57:030][652]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainFECC44BA482019E91C970A8073F26010.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
-[2018.03.05-22.49.57:034][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
-[2018.03.05-22.49.57:078][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
-[2018.03.05-22.49.57:185][652]LogSavePackage: Save=58.35ms
-[2018.03.05-22.49.57:186][652]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData2ADFE52F4CCA68EA3737D493ADC27E1C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
-[2018.03.05-22.49.57:187][652]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:254][346]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:451][346]LogSavePackage: Save=165.90ms
+[2018.03.06-23.14.14:451][346]LogSavePackage: Moving 'D:/GitHub/SushiShop/SushiShop/Saved/Shop_Main_environment218710E14333A60FE791B6ADA3EF3777.tmp' to 'D:/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment.umap'
+[2018.03.06-23.14.14:458][346]LogSavePackage: Display: Finished SavePackage D:/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment.umap
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:461][346]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main_environment.Shop_Main_environment:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.06-23.14.14:465][346]LogFileHelpers: Saving map 'Shop_Main_environment' took 0.301
