@@ -1,4 +1,4 @@
-﻿Log file open, 03/14/18 17:39:14
+﻿Log file open, 03/14/18 17:56:04
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-320282269) SRandInit(-320282269).
+LogInit: Display: RandInit(1645126457) SRandInit(1645126457).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.160560
+LogStats: Stats thread started at 0.167815
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -193,200 +196,1348 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.03.15-00.39.15:240][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.15-00.39.15:240][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.03.15-00.39.15:260][  0]LogInit: Computer: DESKTOP-2QNA1SC
-[2018.03.15-00.39.15:260][  0]LogInit: User: darkm
-[2018.03.15-00.39.15:260][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.03.15-00.39.15:260][  0]LogInit: High frequency timer resolution =1.945313 MHz
-[2018.03.15-00.39.15:260][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.03.15-00.39.15:260][  0]LogMemory: Platform Memory Stats for Windows
-[2018.03.15-00.39.15:261][  0]LogMemory: Process Physical Memory: 272.53 MB used, 272.53 MB peak
-[2018.03.15-00.39.15:261][  0]LogMemory: Process Virtual Memory: 269.91 MB used, 269.91 MB peak
-[2018.03.15-00.39.15:261][  0]LogMemory: Physical Memory: 7505.03 MB used,  8794.57 MB free, 16299.60 MB total
-[2018.03.15-00.39.15:261][  0]LogMemory: Virtual Memory: 682.22 MB used,  8794.57 MB free, 134217728.00 MB total
-[2018.03.15-00.39.15:376][  0]LogInit: Using OS detected language (en-US).
-[2018.03.15-00.39.15:376][  0]LogInit: Using OS detected locale (en-US).
-[2018.03.15-00.39.15:378][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.03.15-00.39.15:722][  0]LogInit: Setting process to per monitor DPI aware
-[2018.03.15-00.39.15:979][  0]LogD3D11RHI: D3D11 adapters:
-[2018.03.15-00.39.15:988][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.03.15-00.39.15:989][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.03.15-00.39.16:090][  0]LogD3D11RHI:    1. 'Radeon 500 Series' (Feature Level 11_0)
-[2018.03.15-00.39.16:090][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2018.03.15-00.39.16:091][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.03.15-00.39.16:091][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.03.15-00.39.16:092][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2018.03.15-00.39.16:098][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.03.15-00.39.16:098][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
-[2018.03.15-00.39.16:098][  0]LogWindows: EnumDisplayDevices:
-[2018.03.15-00.39.16:098][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.03.15-00.39.16:098][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.03.15-00.39.16:098][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:099][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:100][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:100][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:100][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:101][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:101][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
-[2018.03.15-00.39.16:101][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.03.15-00.39.16:101][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
-[2018.03.15-00.39.16:101][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.03.15-00.39.16:101][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.03.15-00.39.16:101][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
-[2018.03.15-00.39.16:141][  0]LogD3D11RHI: Async texture creation enabled
-[2018.03.15-00.39.16:153][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2018.03.15-00.39.16:155][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/2864/).
-[2018.03.15-00.39.16:155][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/436C9FD8468E715C222E4081A54745ED/'.
-[2018.03.15-00.39.16:155][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.03.15-00.39.16:933][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.03.15-00.39.16:977][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.03.15-00.39.17:022][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.03.15-00.39.17:064][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.03.15-00.39.17:108][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.03.15-00.39.17:151][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.03.15-00.39.17:192][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.03.15-00.39.17:234][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.03.15-00.39.17:272][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.03.15-00.39.17:313][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.03.15-00.39.17:354][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.03.15-00.39.17:395][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.03.15-00.39.17:435][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.03.15-00.39.17:476][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.03.15-00.39.17:517][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.03.15-00.39.17:599][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.03.15-00.39.17:599][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.03.15-00.39.17:633][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.03.15-00.39.17:712][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.03.15-00.39.17:735][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.03.15-00.39.17:776][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.03.15-00.39.17:817][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.03.15-00.39.17:859][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.03.15-00.39.17:899][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.03.15-00.39.17:899][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.03.15-00.39.18:256][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: Loaded boot cache 0.05s 78MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.03.15-00.39.18:311][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.03.15-00.39.18:323][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.03.15-00.39.18:336][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.03.15-00.39.18:370][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.03.15-00.39.18:370][  0]LogSlate: Using Freetype 2.6.0
-[2018.03.15-00.39.18:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.15-00.39.18:371][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.03.15-00.39.18:647][  0]LogInit: Selected Device Profile: [Windows]
-[2018.03.15-00.39.18:984][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.03.15-00.39.19:017][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.03.15-00.39.19:017][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.03.15-00.39.19:017][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.03.15-00.39.19:017][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.03.15-00.39.19:017][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.03.15-00.39.19:052][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
-[2018.03.15-00.39.19:214][  0]LogAssetRegistry: FAssetRegistry took 0.0254 seconds to start up
-[2018.03.15-00.39.19:903][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.065617 seconds
-[2018.03.15-00.39.19:908][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.03.15-00.39.19:908][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.03.15-00.39.19:908][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.03.15-00.39.19:950][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.03.15-00.39.22:353][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.03.15-00.39.22:387][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.03.15-00.39.22:939][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2018.03.15-00.39.22:941][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:941][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.22:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.03.15-00.39.22:983][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2018.03.15-00.39.22:983][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:983][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.22:986][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2018.03.15-00.39.22:986][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:986][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.22:988][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2018.03.15-00.39.22:989][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:989][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.22:991][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2018.03.15-00.39.22:991][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:991][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.22:994][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2018.03.15-00.39.22:994][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.22:994][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.23:029][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2018.03.15-00.39.23:029][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.23:029][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.23:032][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2018.03.15-00.39.23:032][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.23:032][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.23:034][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2018.03.15-00.39.23:035][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.03.15-00.39.23:035][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.03.15-00.39.23:345][  0]SourceControl: Source control is disabled
-[2018.03.15-00.39.23:345][  0]SourceControl: Source control is disabled
-[2018.03.15-00.39.23:383][  0]SourceControl: Source control is disabled
-[2018.03.15-00.39.23:421][  0]SourceControl: Source control is disabled
-[2018.03.15-00.39.24:013][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.03.15-00.39.24:204][  0]LogOcInput: OculusInput pre-init called
-[2018.03.15-00.39.24:449][  0]LogEngine: Initializing Engine...
-[2018.03.15-00.39.24:451][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.03.15-00.39.24:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.03.15-00.39.24:828][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.03.15-00.39.24:934][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.03.15-00.39.24:940][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.03.15-00.39.24:956][  0]LogInit: FAudioDevice initialized.
-[2018.03.15-00.39.25:051][  0]LogDerivedDataCache: Saved boot cache 0.10s 96MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.03.15-00.39.25:063][  0]LogInit: Texture streaming: Enabled
-[2018.03.15-00.39.25:141][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.03.15-00.39.25:247][  0]LogInit: Transaction tracking system initialized
-[2018.03.15-00.39.25:512][  0]BlueprintLog: New page: Editor Load
-[2018.03.15-00.39.26:233][  0]LocalizationService: Localization service is disabled
-[2018.03.15-00.39.26:832][  0]LogConsoleResponse: Display: 
-[2018.03.15-00.39.27:074][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.03.15-00.39.27:074][  0]LogCook: Display: Mobile HDR setting 1
-[2018.03.15-00.39.27:074][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.03.15-00.39.27:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
-[2018.03.15-00.39.28:009][  0]SourceControl: Source control is disabled
-[2018.03.15-00.39.28:009][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.03.15-00.39.28:022][  0]LightingResults: New page: Lighting Build
-[2018.03.15-00.39.28:056][  0]MapCheck: New page: Map Check
-[2018.03.15-00.39.28:056][  0]LightingResults: New page: Lighting Build
-[2018.03.15-00.39.28:360][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.03.15-00.39.28:368][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.03.15-00.39.28:376][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.03.15-00.39.28:419][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.91ms to complete.
-[2018.03.15-00.39.28:419][  0]LogFileHelpers: Loading map 'StartupMap' took 0.410
-[2018.03.15-00.39.28:520][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.15-00.39.28:520][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.03.15-00.39.28:712][  0]LogCollectionManager: Loaded 0 collections in 0.001352 seconds
-[2018.03.15-00.39.28:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
-[2018.03.15-00.39.28:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
-[2018.03.15-00.39.28:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
-[2018.03.15-00.39.28:817][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.03.15-00.39.28:827][  0]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2364 classes and 521 folders.
-[2018.03.15-00.39.28:890][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.15-00.39.29:273][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.03.15-00.39.29:426][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.03.15-00.39.29:426][  0]LogLoad: (Engine Initialization) Total time: 15.89 seconds
-[2018.03.15-00.39.29:426][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.03.15-00.39.29:426][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.03.15-00.39.29:457][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.03.15-00.39.29:458][  0]LogSlate: Took 0.000176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.03.15-00.39.29:462][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.03.15-00.39.29:471][  0]LogSlate: Took 0.006466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.03.15-00.39.29:601][  0]LogSlate: Took 0.004610 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.15-00.39.29:626][  1]LogAssetRegistry: Asset discovery search completed in 10.4338 seconds
-[2018.03.15-00.39.29:627][  1]LogRenderer: Reallocating scene render targets to support 512x372 Format 26 NumSamples 1 (Frame:1).
-[2018.03.15-00.39.29:627][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.03.15-00.39.29:627][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
-[2018.03.15-00.39.30:461][ 52]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.03.15-00.39.35:702][593]LogRenderer: Reallocating scene render targets to support 928x456 Format 26 NumSamples 1 (Frame:585).
+[2018.03.15-00.56.05:714][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.15-00.56.05:714][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.15-00.56.05:724][  0]LogInit: Computer: DESKTOP-2QNA1SC
+[2018.03.15-00.56.05:724][  0]LogInit: User: darkm
+[2018.03.15-00.56.05:724][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.15-00.56.05:724][  0]LogInit: High frequency timer resolution =1.945313 MHz
+[2018.03.15-00.56.05:724][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.03.15-00.56.05:724][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.15-00.56.05:724][  0]LogMemory: Process Physical Memory: 272.50 MB used, 272.50 MB peak
+[2018.03.15-00.56.05:724][  0]LogMemory: Process Virtual Memory: 269.76 MB used, 269.76 MB peak
+[2018.03.15-00.56.05:724][  0]LogMemory: Physical Memory: 6645.69 MB used,  9653.91 MB free, 16299.60 MB total
+[2018.03.15-00.56.05:724][  0]LogMemory: Virtual Memory: 682.22 MB used,  9653.91 MB free, 134217728.00 MB total
+[2018.03.15-00.56.05:849][  0]LogInit: Using OS detected language (en-US).
+[2018.03.15-00.56.05:849][  0]LogInit: Using OS detected locale (en-US).
+[2018.03.15-00.56.05:851][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.03.15-00.56.06:192][  0]LogInit: Setting process to per monitor DPI aware
+[2018.03.15-00.56.06:408][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.15-00.56.07:730][  0]LogD3D11RHI:    0. 'Radeon 500 Series' (Feature Level 11_0)
+[2018.03.15-00.56.07:730][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.03.15-00.56.07:742][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.03.15-00.56.07:742][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.03.15-00.56.07:743][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.15-00.56.07:743][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.15-00.56.07:743][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.15-00.56.07:751][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.15-00.56.07:751][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2018.03.15-00.56.07:751][  0]LogWindows: EnumDisplayDevices:
+[2018.03.15-00.56.07:751][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.03.15-00.56.07:751][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.15-00.56.07:751][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.03.15-00.56.07:751][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:751][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:752][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
+[2018.03.15-00.56.07:753][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.15-00.56.07:753][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
+[2018.03.15-00.56.07:753][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.15-00.56.07:753][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.15-00.56.07:753][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2018.03.15-00.56.07:831][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.15-00.56.07:843][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.03.15-00.56.07:844][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/15388/).
+[2018.03.15-00.56.07:844][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/3592E87F4144C35FFFEF1F83C2283504/'.
+[2018.03.15-00.56.07:844][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.15-00.56.08:610][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.15-00.56.08:655][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.15-00.56.08:698][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.15-00.56.08:744][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.15-00.56.08:788][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.15-00.56.08:835][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.15-00.56.08:879][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.15-00.56.08:932][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.15-00.56.08:984][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.15-00.56.09:040][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.15-00.56.09:084][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.15-00.56.09:127][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.15-00.56.09:169][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.15-00.56.09:212][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.15-00.56.09:299][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.15-00.56.09:299][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.15-00.56.09:345][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.15-00.56.09:377][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.15-00.56.09:457][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.15-00.56.09:484][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.15-00.56.09:540][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.15-00.56.09:596][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.15-00.56.09:647][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.15-00.56.09:692][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.15-00.56.09:692][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.15-00.56.10:137][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: Loaded boot cache 0.07s 96MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.15-00.56.10:206][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.15-00.56.10:219][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.15-00.56.10:232][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.15-00.56.10:240][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.15-00.56.10:241][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.15-00.56.10:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.15-00.56.10:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.15-00.56.10:574][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.15-00.56.10:882][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.15-00.56.10:916][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.15-00.56.10:916][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.15-00.56.10:916][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.15-00.56.10:916][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.15-00.56.10:916][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.15-00.56.10:940][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.03.15-00.56.11:088][  0]LogAssetRegistry: FAssetRegistry took 0.0261 seconds to start up
+[2018.03.15-00.56.11:516][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.055797 seconds
+[2018.03.15-00.56.11:521][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.03.15-00.56.11:521][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.03.15-00.56.11:521][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.15-00.56.11:566][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.15-00.56.13:908][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.15-00.56.13:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.15-00.56.14:531][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.03.15-00.56.14:532][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:532][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:550][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.15-00.56.14:560][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.03.15-00.56.14:560][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:560][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:562][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.03.15-00.56.14:563][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:563][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:565][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.03.15-00.56.14:566][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:566][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:568][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.03.15-00.56.14:569][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:569][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:571][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.03.15-00.56.14:571][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:571][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:588][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.03.15-00.56.14:588][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:588][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:590][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.03.15-00.56.14:590][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:590][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:593][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.03.15-00.56.14:593][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.03.15-00.56.14:593][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.03.15-00.56.14:930][  0]SourceControl: Source control is disabled
+[2018.03.15-00.56.14:930][  0]SourceControl: Source control is disabled
+[2018.03.15-00.56.14:979][  0]SourceControl: Source control is disabled
+[2018.03.15-00.56.15:027][  0]SourceControl: Source control is disabled
+[2018.03.15-00.56.15:710][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.15-00.56.15:943][  0]LogOcInput: OculusInput pre-init called
+[2018.03.15-00.56.16:193][  0]LogEngine: Initializing Engine...
+[2018.03.15-00.56.16:195][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.15-00.56.16:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.15-00.56.16:367][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.15-00.56.16:478][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.15-00.56.16:483][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-00.56.18:134][  0]LogInit: FAudioDevice initialized.
+[2018.03.15-00.56.18:216][  0]LogDerivedDataCache: Saved boot cache 0.08s 83MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.03.15-00.56.18:225][  0]LogInit: Texture streaming: Enabled
+[2018.03.15-00.56.18:305][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.15-00.56.18:305][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5A5B18FD-4781-7A74-6BB5-A082ABE58FA5}
+[2018.03.15-00.56.18:411][  0]LogInit: Transaction tracking system initialized
+[2018.03.15-00.56.18:676][  0]BlueprintLog: New page: Editor Load
+[2018.03.15-00.56.19:416][  0]LocalizationService: Localization service is disabled
+[2018.03.15-00.56.20:041][  0]LogConsoleResponse: Display: 
+[2018.03.15-00.56.20:192][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.15-00.56.20:192][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.15-00.56.20:192][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.15-00.56.20:526][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.01s
+[2018.03.15-00.56.21:189][  0]SourceControl: Source control is disabled
+[2018.03.15-00.56.21:189][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.15-00.56.21:189][  0]LightingResults: New page: Lighting Build
+[2018.03.15-00.56.21:225][  0]MapCheck: New page: Map Check
+[2018.03.15-00.56.21:225][  0]LightingResults: New page: Lighting Build
+[2018.03.15-00.56.21:313][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.03.15-00.56.21:318][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.15-00.56.21:326][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.15-00.56.21:367][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.304ms to complete.
+[2018.03.15-00.56.21:367][  0]LogFileHelpers: Loading map 'StartupMap' took 0.179
+[2018.03.15-00.56.21:452][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.15-00.56.21:452][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.03.15-00.56.21:560][  0]LogCollectionManager: Loaded 0 collections in 0.001194 seconds
+[2018.03.15-00.56.21:635][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.03.15-00.56.21:635][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
+[2018.03.15-00.56.21:635][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.03.15-00.56.21:635][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.15-00.56.21:641][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2364 classes and 521 folders.
+[2018.03.15-00.56.21:698][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.15-00.56.21:727][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.03.15-00.56.21:802][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.03.15-00.56.21:802][  0]LogLoad: (Engine Initialization) Total time: 17.94 seconds
+[2018.03.15-00.56.21:802][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.15-00.56.21:802][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.15-00.56.21:839][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.15-00.56.21:839][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.15-00.56.21:843][  0]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.15-00.56.21:845][  0]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.15-00.56.21:931][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.15-00.56.21:952][  1]LogAssetRegistry: Asset discovery search completed in 10.8863 seconds
+[2018.03.15-00.56.21:953][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.15-00.56.21:953][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.03.15-00.56.21:971][  2]LogRenderer: Reallocating scene render targets to support 512x372 Format 26 NumSamples 1 (Frame:1).
+[2018.03.15-00.56.22:833][ 34]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.15-00.56.28:076][344]LogRenderer: Reallocating scene render targets to support 928x456 Format 26 NumSamples 1 (Frame:341).
+[2018.03.15-00.56.33:354][649]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.15-00.56.33:661][649]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.03.15-00.56.34:187][649]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.15-00.56.34:248][649]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.15-00.56.34:295][650]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.15-00.56.37:095][794]LogRenderer: Reallocating scene render targets to support 1028x548 Format 26 NumSamples 1 (Frame:1).
+[2018.03.15-00.56.41:522][ 57]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-00.56.41:522][ 57]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoat.uasset.
+[2018.03.15-00.56.41:522][ 57]LoadErrors: Error: /Game/SushiShop/Assets/SushiBoat_SushiBoat : Can't find file for asset. /Game/SushiShop/BluePrints/lambert1
+[2018.03.15-00.56.41:522][ 57]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-00.56.41:522][ 57]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoat.uasset.
+[2018.03.15-00.56.41:544][ 57]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-00.56.41:544][ 57]LoadErrors: Failed to load /Game/SushiShop/BluePrints/lambert1.lambert1 Referenced by SushiBoat_SushiBoat
+[2018.03.15-00.56.41:544][ 57]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading NULL.
+[2018.03.15-00.56.41:545][ 57]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-00.56.41:545][ 57]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading NULL.
+[2018.03.15-00.56.56:433][834]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-00.56.56:438][834]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:438][834]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:438][834]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:438][834]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:438][834]LogScript: Warning: Attempted to access index 5 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:439][834]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:439][834]LogScript: Warning: Attempted to access index 5 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:439][834]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:532][834]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.15-00.56.56:533][834]LightingResults: New page: Lighting Build
+[2018.03.15-00.56.56:533][834]LoadErrors: New page: Loading map: Shop_Main.umap
+[2018.03.15-00.56.56:534][834]MapCheck: New page: Map Check
+[2018.03.15-00.56.56:534][834]LightingResults: New page: Lighting Build
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Attempted to access index 5 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Attempted to access index 5 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:563][834]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Main.Shop_Main:PersistentLevel.Tuna
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.15-00.56.56:566][834]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.15-00.56.56:617][834]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.15-00.56.56:677][834]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.8ms to complete.
+[2018.03.15-00.56.56:677][834]LogFileHelpers: Loading map 'Shop_Main' took 0.145
+[2018.03.15-00.58.17:958][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Chopsticks.fbx)
+[2018.03.15-00.58.17:981][131]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.03.15-00.58.17:981][131]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.03.15-00.58.17:981][131]LogFbx: ItemName: Material, ItemCount : 1
+[2018.03.15-00.58.17:981][131]LogFbx: ItemName: Model, ItemCount : 1
+[2018.03.15-00.58.17:981][131]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.03.15-00.58.17:989][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Chopsticks.fbx
+[2018.03.15-00.58.17:998][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.37:705][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Chopsticks.fbx
+[2018.03.15-00.58.37:710][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.37:713][131]LogLinker: Can't find file '/Game/SushiShop/lambert1'
+[2018.03.15-00.58.37:713][131]LogLinker: Can't find file '/Game/SushiShop/lambert1'
+[2018.03.15-00.58.37:718][131]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.03.15-00.58.37:756][131]LogFbx: Warning: Triangulating static mesh Chopsticks
+[2018.03.15-00.58.37:762][131]LogStaticMesh: Building static mesh Chopsticks...
+[2018.03.15-00.58.37:767][131]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Chopsticks.Chopsticks
+[2018.03.15-00.58.37:791][131]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-00.58.37:884][131]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.4], Chopsticks
+[2018.03.15-00.58.37:884][131]LogStaticMesh: Warning: Main thread blocked for 0.092s for async distance field build of Chopsticks to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-00.58.37:888][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large.fbx)
+[2018.03.15-00.58.37:903][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large.fbx
+[2018.03.15-00.58.37:908][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.37:909][131]LogFbx: Warning: Triangulating static mesh plateLarge
+[2018.03.15-00.58.37:912][131]LogStaticMesh: Building static mesh Plate_Large...
+[2018.03.15-00.58.37:916][131]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Plate_Large.Plate_Large
+[2018.03.15-00.58.37:936][131]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-00.58.37:998][131]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], Plate_Large
+[2018.03.15-00.58.37:998][131]LogStaticMesh: Warning: Main thread blocked for 0.062s for async distance field build of Plate_Large to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-00.58.38:001][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large_Stack.fbx)
+[2018.03.15-00.58.38:011][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large_Stack.fbx
+[2018.03.15-00.58.38:017][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.38:017][131]LogFbx: Warning: Triangulating static mesh plateLargeStack
+[2018.03.15-00.58.38:045][131]LogStaticMesh: Building static mesh Plate_Large_Stack...
+[2018.03.15-00.58.38:079][131]LogStaticMesh: Built static mesh [0.03s] /Game/SushiShop/Plate_Large_Stack.Plate_Large_Stack
+[2018.03.15-00.58.38:103][131]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-00.58.38:165][131]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1140 triangles, Range [-0.2, 0.3], Plate_Large_Stack
+[2018.03.15-00.58.38:165][131]LogStaticMesh: Warning: Main thread blocked for 0.061s for async distance field build of Plate_Large_Stack to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-00.58.38:171][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Small.fbx)
+[2018.03.15-00.58.38:181][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Small.fbx
+[2018.03.15-00.58.38:188][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.38:188][131]LogFbx: Warning: Triangulating static mesh plateSmall
+[2018.03.15-00.58.38:191][131]LogStaticMesh: Building static mesh Plate_Small...
+[2018.03.15-00.58.38:197][131]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Plate_Small.Plate_Small
+[2018.03.15-00.58.38:218][131]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-00.58.38:218][131]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.03.15-00.58.38:280][131]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.4], Plate_Small
+[2018.03.15-00.58.38:280][131]LogStaticMesh: Warning: Main thread blocked for 0.060s for async distance field build of Plate_Small to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-00.58.38:283][131]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Small_Stack.fbx)
+[2018.03.15-00.58.38:293][131]LogFbx: Loading FBX Scene from ../../../../../../Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Small_Stack.fbx
+[2018.03.15-00.58.38:299][131]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-00.58.38:299][131]LogFbx: Warning: Triangulating static mesh plateSmallStack
+[2018.03.15-00.58.38:327][131]LogStaticMesh: Building static mesh Plate_Small_Stack...
+[2018.03.15-00.58.38:359][131]LogStaticMesh: Built static mesh [0.03s] /Game/SushiShop/Plate_Small_Stack.Plate_Small_Stack
+[2018.03.15-00.58.38:385][131]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-00.58.38:385][131]FBXImport: Warning: Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2018.03.15-00.58.38:456][131]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 900 triangles, Range [-0.3, 0.4], Plate_Small_Stack
+[2018.03.15-00.58.38:456][131]LogStaticMesh: Warning: Main thread blocked for 0.070s for async distance field build of Plate_Small_Stack to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-00.58.44:129][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Chopsticks" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset" SILENT=true
+[2018.03.15-00.58.44:143][409]LogSavePackage: Save=12.04ms
+[2018.03.15-00.58.44:143][409]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Chopsticks7A8C7774450271122B9AF4A9AD544A26.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset'
+[2018.03.15-00.58.44:145][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset
+[2018.03.15-00.58.44:188][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Plate_Large" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset" SILENT=true
+[2018.03.15-00.58.44:200][409]LogSavePackage: Save=11.47ms
+[2018.03.15-00.58.44:200][409]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_LargeD53FF37042F01A878AD5C2A6C5A7E1EF.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset'
+[2018.03.15-00.58.44:203][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset
+[2018.03.15-00.58.44:251][409]LogSavePackage: Save=11.57ms
+[2018.03.15-00.58.44:251][409]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Large_StackBB1A23EB47107019D63B3499BDD9F55B.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large_Stack.uasset'
+[2018.03.15-00.58.44:254][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large_Stack.uasset
+[2018.03.15-00.58.44:290][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Plate_Small" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset" SILENT=true
+[2018.03.15-00.58.44:309][409]LogSavePackage: Save=11.59ms
+[2018.03.15-00.58.44:309][409]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Small482751314F2B9EFAE2BB7592C8B19BE1.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset'
+[2018.03.15-00.58.44:312][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset
+[2018.03.15-00.58.44:362][409]LogSavePackage: Save=11.95ms
+[2018.03.15-00.58.44:362][409]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Small_Stack0DE769C844DB7C4904361BB3EAFB6C33.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small_Stack.uasset'
+[2018.03.15-00.58.44:365][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small_Stack.uasset
+[2018.03.15-00.58.49:529][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Materials/lambert1" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/lambert1.uasset" SILENT=true
+[2018.03.15-00.58.49:546][596]LogSavePackage: Save=15.67ms
+[2018.03.15-00.58.49:546][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/lambert1BBA383FB4D17292D9606EE80BD6C4BEF.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/lambert1.uasset'
+[2018.03.15-00.58.49:549][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/lambert1.uasset
+[2018.03.15-00.58.49:822][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Chopsticks" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset" SILENT=true
+[2018.03.15-00.58.49:881][596]LogSavePackage: Save=6.62ms
+[2018.03.15-00.58.49:882][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Chopsticks08023FBD41AAFB93BE9F5ABB83BF79B4.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset'
+[2018.03.15-00.58.49:883][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Chopsticks.uasset
+[2018.03.15-00.58.49:886][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Plate_Large" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset" SILENT=true
+[2018.03.15-00.58.49:944][596]LogSavePackage: Save=6.15ms
+[2018.03.15-00.58.49:944][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_LargeCB25EA2243245C56D1CB07AB41798300.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset'
+[2018.03.15-00.58.49:945][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset
+[2018.03.15-00.58.50:007][596]LogSavePackage: Save=6.35ms
+[2018.03.15-00.58.50:007][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Large_StackB85305B0492926EA7BB3EA920EF72585.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large_Stack.uasset'
+[2018.03.15-00.58.50:008][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large_Stack.uasset
+[2018.03.15-00.58.50:011][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Plate_Small" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset" SILENT=true
+[2018.03.15-00.58.50:070][596]LogSavePackage: Save=6.22ms
+[2018.03.15-00.58.50:070][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Small15D6406440DC4972A9A84DBFADABC4CF.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset'
+[2018.03.15-00.58.50:071][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small.uasset
+[2018.03.15-00.58.50:134][596]LogSavePackage: Save=6.47ms
+[2018.03.15-00.58.50:134][596]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_Small_Stack4E6001A14043AC8349301EA3D1E7CAD9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small_Stack.uasset'
+[2018.03.15-00.58.50:135][596]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Small_Stack.uasset
+[2018.03.15-00.59.05:506][392]LogActorFactory: Actor Factory created Chopsticks
+[2018.03.15-00.59.06:484][449]LogActorFactory: Actor Factory created Chopsticks
+[2018.03.15-00.59.07:151][486]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-00.59.12:290][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Bar)
+[2018.03.15-00.59.19:298][209]LogActorFactory: Actor Factory created Plate_Large
+[2018.03.15-00.59.20:399][267]LogActorFactory: Actor Factory created Plate_Large
+[2018.03.15-00.59.25:911][592]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-00.59.26:159][605]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-00.59.33:123][ 19]LogActorFactory: Actor Factory created Plate_Large
+[2018.03.15-00.59.34:267][ 82]LogActorFactory: Actor Factory created Plate_Large
+[2018.03.15-00.59.52:462][168]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.00.11:518][306]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plate_Large2)
+[2018.03.15-01.00.16:803][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plate_Large2)
+[2018.03.15-01.00.18:958][748]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.00.31:795][477]LogEditorFactories: Performing atomic reimport of [C:/Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large.fbx]
+[2018.03.15-01.00.31:846][477]LogFbx: Loading FBX Scene from C:/Users/darkm/Downloads/drive-download-20180315T005739Z-001/Plate_Large.fbx
+[2018.03.15-01.00.31:852][477]LogFbx: FBX Scene Loaded Succesfully
+[2018.03.15-01.00.31:859][477]LogFbx: Warning: Triangulating static mesh plateLarge
+[2018.03.15-01.00.31:887][477]LogStaticMesh: Building static mesh Plate_Large...
+[2018.03.15-01.00.31:891][477]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Plate_Large.Plate_Large
+[2018.03.15-01.00.31:919][477]LogEditorFactories: -- imported successfully
+[2018.03.15-01.00.31:922][477]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.03.15-01.00.31:973][477]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], Plate_Large
+[2018.03.15-01.00.31:973][477]LogStaticMesh: Warning: Main thread blocked for 0.051s for async distance field build of Plate_Large to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.03.15-01.00.43:107][855]LogRenderer: Reallocating scene render targets to support 1144x716 Format 26 NumSamples 1 (Frame:1).
+[2018.03.15-01.03.05:044][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T010143Z-001/PlatesAndChopsticks_AO_R_M.tga)
+[2018.03.15-01.03.05:127][204]LogTexture: Display: Building textures: PlatesAndChopsticks_AO_R_M (AutoDXT, 2048X2048)
+[2018.03.15-01.03.06:165][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T010143Z-001/PlatesAndChopsticks_BC.tga)
+[2018.03.15-01.03.06:245][204]LogTexture: Display: Building textures: PlatesAndChopsticks_BC (AutoDXT, 2048X2048)
+[2018.03.15-01.03.06:800][204]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/darkm/Downloads/drive-download-20180315T010143Z-001/PlatesAndChopsticks_N.tga)
+[2018.03.15-01.03.06:906][204]LogTexture: Display: Building textures: PlatesAndChopsticks_N (BC5, 2048X2048)
+[2018.03.15-01.03.28:390][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Plate_Large" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset" SILENT=true
+[2018.03.15-01.03.28:444][336]LogSavePackage: Save=12.55ms
+[2018.03.15-01.03.28:444][336]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plate_LargeE476A61149CE9F86CF0E69BB6DC6A65F.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset'
+[2018.03.15-01.03.28:447][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Plate_Large.uasset
+[2018.03.15-01.03.28:865][336]LogSavePackage: Save=396.19ms
+[2018.03.15-01.03.28:865][336]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/PlatesAndChopsticks_AO_R_MC893EE6D4CC3C94DF6DD2CAB7BA740AE.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_AO_R_M.uasset'
+[2018.03.15-01.03.28:868][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_AO_R_M.uasset
+[2018.03.15-01.03.29:098][336]LogSavePackage: Save=210.85ms
+[2018.03.15-01.03.29:098][336]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/PlatesAndChopsticks_BC665058024F6308203DFC7682EED3DCB7.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_BC.uasset'
+[2018.03.15-01.03.29:100][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_BC.uasset
+[2018.03.15-01.03.29:341][336]LogSavePackage: Save=220.39ms
+[2018.03.15-01.03.29:341][336]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/PlatesAndChopsticks_N3FA01E56499131FED11BA49A0AAA5C1C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_N.uasset'
+[2018.03.15-01.03.29:344][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/PlatesAndChopsticks_N.uasset
+[2018.03.15-01.03.29:514][336]LogSavePackage: Save=55.48ms
+[2018.03.15-01.03.29:514][336]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main2421713C40F81C683B0A3CB5CE1FA076.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-01.03.29:516][336]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-01.03.29:552][336]LogFileHelpers: Saving map 'Shop_Main' took 0.205
+[2018.03.15-01.04.04:872][952]LogSavePackage: Save=59.92ms
+[2018.03.15-01.04.04:872][952]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main35E909574BE6918C92FE78B16FA88E62.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-01.04.04:875][952]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-01.04.04:907][952]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-01.04.05:009][952]LogSavePackage: Save=56.99ms
+[2018.03.15-01.04.05:009][952]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData29CB1D294C22BB2FBC0A059AD02CB923.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-01.04.05:011][952]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-01.04.19:443][561]LogSavePackage: Save=12.81ms
+[2018.03.15-01.04.19:443][561]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plates_M4BE088964F879F793A29F1B3AEC5F0AF.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M.uasset'
+[2018.03.15-01.04.19:446][561]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M.uasset
+[2018.03.15-01.04.20:559][595]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.03.15-01.04.20:563][595]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.20:667][595]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.20:685][595]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.24:215][797]MaterialEditorStats: Base pass shader: 606 instructions
+[2018.03.15-01.04.24:215][797]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 677 instructions
+[2018.03.15-01.04.24:215][797]MaterialEditorStats: Vertex shader: 204 instructions
+[2018.03.15-01.04.24:215][797]MaterialEditorStats: Texture samplers: 5/16
+[2018.03.15-01.04.29:359][102]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.29:385][102]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.15-01.04.35:586][424]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.35:620][424]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.15-01.04.37:788][544]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.37:837][544]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.15-01.04.40:763][713]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.40:829][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.15-01.04.40:838][713]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.04.41:963][776]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.42:025][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.04.42:033][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.03.15-01.04.46:527][  1]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.03.15-01.04.46:527][  1]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.03.15-01.04.46:527][  1]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.04.46:527][  1]MaterialEditorStats: Texture samplers: 6/16
+[2018.03.15-01.04.46:527][  1]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.04.51:479][294]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.51:500][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.03.15-01.04.51:529][294]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.03.15-01.04.54:721][484]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.03.15-01.04.54:721][484]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.03.15-01.04.54:721][484]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.04.54:721][484]MaterialEditorStats: Texture samplers: 6/16
+[2018.03.15-01.04.54:721][484]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.04.56:922][612]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.04.56:945][612]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.00:117][791]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.03.15-01.05.00:117][791]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.03.15-01.05.00:117][791]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.05.00:117][791]MaterialEditorStats: Texture samplers: 6/16
+[2018.03.15-01.05.00:117][791]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.05.13:257][513]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.13:286][513]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.16:618][705]MaterialEditorStats: Base pass shader: 609 instructions
+[2018.03.15-01.05.16:618][705]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 678 instructions
+[2018.03.15-01.05.16:618][705]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.05.16:618][705]MaterialEditorStats: Texture samplers: 6/16
+[2018.03.15-01.05.16:618][705]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.05.29:813][403]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.29:842][403]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.32:977][590]MaterialEditorStats: Base pass shader: 611 instructions
+[2018.03.15-01.05.32:977][590]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 686 instructions
+[2018.03.15-01.05.32:977][590]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.05.32:977][590]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.15-01.05.32:977][590]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.05.43:947][227]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.43:977][227]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.47:174][417]MaterialEditorStats: Base pass shader: 611 instructions
+[2018.03.15-01.05.47:174][417]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 686 instructions
+[2018.03.15-01.05.47:174][417]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.05.47:174][417]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.15-01.05.47:174][417]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.05.50:570][618]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.50:592][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.55:135][868]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.55:160][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.05.58:412][ 40]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.05.58:443][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.03.15-01.06.01:764][238]MaterialEditorStats: Base pass shader: 619 instructions
+[2018.03.15-01.06.01:764][238]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 690 instructions
+[2018.03.15-01.06.01:764][238]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.06.01:764][238]MaterialEditorStats: Texture samplers: 7/16
+[2018.03.15-01.06.01:764][238]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.06.06:560][507]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.06:588][507]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.03.15-01.06.08:641][616]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.08:676][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.03.15-01.06.12:780][855]MaterialEditorStats: Base pass shader: 625 instructions
+[2018.03.15-01.06.12:781][855]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 696 instructions
+[2018.03.15-01.06.12:781][855]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.06.12:781][855]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.15-01.06.12:781][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.06.13:246][881]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.13:271][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.03.15-01.06.16:341][ 62]MaterialEditorStats: Base pass shader: 625 instructions
+[2018.03.15-01.06.16:341][ 62]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 696 instructions
+[2018.03.15-01.06.16:341][ 62]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.06.16:341][ 62]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.15-01.06.16:341][ 62]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.06.23:462][486]LogMaterialEditor: Saving and Compiling material Plates_M
+[2018.03.15-01.06.23:894][486]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.23:953][486]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.23:993][486]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.06.24:060][486]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M, compiling. 
+[2018.03.15-01.06.25:918][486]TextureStreamingBuild: Display: Compiling optional shaders took 1.870 seconds.
+[2018.03.15-01.06.31:727][486]LogSavePackage: Save=16.60ms
+[2018.03.15-01.06.31:727][486]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plates_M6F4E63E34419BDF2E34C81B18E711441.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M.uasset'
+[2018.03.15-01.06.31:729][486]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M.uasset
+[2018.03.15-01.06.31:742][486]MaterialEditorStats: Base pass shader: 625 instructions
+[2018.03.15-01.06.31:742][486]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 696 instructions
+[2018.03.15-01.06.31:742][486]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.06.31:742][486]MaterialEditorStats: Texture samplers: 9/16
+[2018.03.15-01.06.31:742][486]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.06.49:333][348]LogSavePackage: Save=12.75ms
+[2018.03.15-01.06.49:333][348]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plates_M_InstAE99E0B44CE593E927C02A8684F03B77.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M_Inst.uasset'
+[2018.03.15-01.06.49:335][348]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M_Inst.uasset
+[2018.03.15-01.07.12:285][636]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M_Inst, compiling. 
+[2018.03.15-01.07.12:701][636]TextureStreamingBuild: Display: Compiling optional shaders took 0.418 seconds.
+[2018.03.15-01.07.12:790][636]LogSavePackage: Save=13.07ms
+[2018.03.15-01.07.12:790][636]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plates_M_InstF0219AF6427D6EF6B9C5739281866669.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M_Inst.uasset'
+[2018.03.15-01.07.12:793][636]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plates/Plates_M_Inst.uasset
+[2018.03.15-01.07.37:068][ 46]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.08.28:876][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks)
+[2018.03.15-01.08.29:217][982]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.08.39:882][499]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Bar)
+[2018.03.15-01.08.53:912][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks)
+[2018.03.15-01.08.56:978][519]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.09.06:310][ 78]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Bar)
+[2018.03.15-01.09.25:750][203]LogSavePackage: Save=75.50ms
+[2018.03.15-01.09.25:750][203]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainA30A10774C2AA25C673F81A069999F76.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-01.09.25:754][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-01.09.25:799][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-01.09.25:906][203]LogSavePackage: Save=51.08ms
+[2018.03.15-01.09.25:906][203]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataEE86434E486268137CF76ABA1D05DE72.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-01.09.25:908][203]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-01.10.03:731][390]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.03.15-01.10.03:838][390]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.03.15-01.10.03:861][390]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.03.15-01.10.03:914][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.03.15-01.10.03:919][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2018.03.15-01.10.03:926][390]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2018.03.15-01.10.08:728][670]MaterialEditorStats: Base pass shader: 617 instructions
+[2018.03.15-01.10.08:729][670]MaterialEditorStats: Base pass shader with Surface Lightmap: 631 instructions
+[2018.03.15-01.10.08:729][670]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 686 instructions
+[2018.03.15-01.10.08:729][670]MaterialEditorStats: Vertex shader: 206 instructions
+[2018.03.15-01.10.08:729][670]MaterialEditorStats: Texture samplers: 8/16
+[2018.03.15-01.10.08:729][670]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.03.15-01.10.34:623][ 17]LogMaterialEditor: Saving and Compiling material bamboo_light_Mat
+[2018.03.15-01.10.34:793][ 17]LogSavePackage: Save=17.88ms
+[2018.03.15-01.10.34:793][ 17]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/bamboo_light_Mat015BB98B43F569F5E855F99C82669048.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset'
+[2018.03.15-01.10.34:795][ 17]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Bamboo_M/bamboo_light_Mat.uasset
+[2018.03.15-01.10.40:668][171]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.10.40:722][171]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.10.40:757][171]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.03.15-01.10.40:815][171]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M, compiling. 
+[2018.03.15-01.10.42:959][171]TextureStreamingBuild: Display: Compiling optional shaders took 2.149 seconds.
+[2018.03.15-01.15.11:094][682]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoatSail.uasset.
+[2018.03.15-01.15.11:095][682]LoadErrors: Error: /Game/SushiShop/Assets/SushiBoat_SushiBoatSail : Can't find file for asset. /Game/SushiShop/BluePrints/lambert1
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoatSail.uasset.
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-01.15.11:095][682]LoadErrors: Failed to load /Game/SushiShop/BluePrints/lambert1.lambert1 Referenced by SushiBoat_SushiBoatSail
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading NULL.
+[2018.03.15-01.15.11:095][682]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/lambert1'
+[2018.03.15-01.15.11:096][682]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/BluePrints/lambert1' while loading NULL.
+[2018.03.15-01.15.28:243][625]LogSavePackage: Save=101.70ms
+[2018.03.15-01.15.28:243][625]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatDD2AEEF94BF8797E98C7E381D1A26185.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.15.28:247][625]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.19.19:180][109]LogSavePackage: Save=103.04ms
+[2018.03.15-01.19.19:180][109]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat3620673045837E765DA582B2E43C759F.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.19.19:183][109]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.19.21:984][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks)
+[2018.03.15-01.19.22:643][287]Cmd: DELETE
+[2018.03.15-01.19.22:643][287]Cmd: ACTOR DELETE
+[2018.03.15-01.19.22:655][287]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.15-01.19.22:682][287]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2018.03.15-01.19.24:789][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plate_Large)
+[2018.03.15-01.19.25:325][444]Cmd: DELETE
+[2018.03.15-01.19.25:325][444]Cmd: ACTOR DELETE
+[2018.03.15-01.19.25:328][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.15-01.19.25:343][444]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.15-01.19.28:934][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plate_Large2)
+[2018.03.15-01.19.29:521][693]Cmd: DELETE
+[2018.03.15-01.19.29:521][693]Cmd: ACTOR DELETE
+[2018.03.15-01.19.29:524][693]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.15-01.19.29:540][693]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.15-01.19.30:781][768]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.19.30:977][778]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.19.34:828][  9]LogEditorViewport: Clicking on Actor (LMB): BPP_Ingredient_C (Food1)
+[2018.03.15-01.19.37:424][163]LogEditorViewport: Clicking on Actor (LMB): BPP_Ingredient_C (Food1)
+[2018.03.15-01.19.37:903][191]Cmd: TRANSACTION UNDO
+[2018.03.15-01.19.37:903][191]LogEditorTransaction: Undo Scale Actors
+[2018.03.15-01.19.51:862][859]LogEditorViewport: Clicking on Actor (LMB): BPP_Ingredient_C (Food2)
+[2018.03.15-01.20.00:621][207]LogSavePackage: Save=63.32ms
+[2018.03.15-01.20.00:621][207]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main1BD2641E4D0D982D726C9489A5980C55.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-01.20.00:624][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-01.20.00:666][207]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-01.20.00:765][207]LogSavePackage: Save=49.77ms
+[2018.03.15-01.20.00:765][207]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData6F07E2794E6AA5D3E6AFA9A44FA32CAE.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-01.20.00:767][207]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-01.20.01:654][229]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.20.01:715][229]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.15-01.20.01:732][229]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.03.15-01.20.02:121][229]LogPlayLevel: PlayLevel: Blueprint regeneration took 406 ms (1 blueprints)
+[2018.03.15-01.20.02:129][229]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:20:02 AM)
+[2018.03.15-01.20.02:129][229]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.20.02:131][229]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003039s)
+[2018.03.15-01.20.02:132][229]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.20.02:132][229]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2018.03.15-01.20.02:133][229]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003834s)
+[2018.03.15-01.20.02:150][229]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.20.02:161][229]LogInit: FAudioDevice initialized.
+[2018.03.15-01.20.02:228][229]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.20.02:228][229]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.20.02:238][229]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.20.02
+[2018.03.15-01.20.02:240][229]LogWorld: Bringing up level for play took: 0.004285
+[2018.03.15-01.20.02:241][229]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.20.02:283][229]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.03.15-01.20.02:293][229]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.683
+[2018.03.15-01.20.02:318][229]LogBlueprintUserMessages: [Display_Order_C_0] 0
+[2018.03.15-01.20.02:318][229]LogBlueprintUserMessages: [Display_Order_C_0] 1
+[2018.03.15-01.20.02:318][229]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Order2Checkbox
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Tuna
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Salmon
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Unagi
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] WhiteTuna
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Unagi
+[2018.03.15-01.20.02:319][229]LogBlueprintUserMessages: [Display_Order_C_0] Unagi
+[2018.03.15-01.20.02:570][237]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Order2Checkbox
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Unchecked
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
+[2018.03.15-01.20.02:654][242]LogBlueprintUserMessages: [Display_Order_C_0] Order2Checkbox
+[2018.03.15-01.20.02:655][242]LogBlueprintUserMessages: [Display_Order_C_0] Order1Checkbox
+[2018.03.15-01.20.02:655][242]LogBlueprintUserMessages: [Display_Order_C_0] Checked
+[2018.03.15-01.20.02:655][242]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.20.02:655][242]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.20.02:655][242]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.20.08:327][579]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.20.58:105][558]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.03.15-01.20.58:209][558]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.03.15-01.20.58:231][558]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.03.15-01.20.58:291][558]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.03.15-01.21.03:003][793]MaterialEditorStats: Base pass shader: 608 instructions
+[2018.03.15-01.21.03:003][793]MaterialEditorStats: Base pass shader with Surface Lightmap: 622 instructions
+[2018.03.15-01.21.03:003][793]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 677 instructions
+[2018.03.15-01.21.03:003][793]MaterialEditorStats: Vertex shader: 204 instructions
+[2018.03.15-01.21.03:003][793]MaterialEditorStats: Texture samplers: 6/16
+[2018.03.15-01.21.36:891][682]LogSavePackage: Save=14.36ms
+[2018.03.15-01.21.36:892][682]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/SushiBoat_SushiBoatSailE8F40EFC470C845D1A8F8F9DC8DA158C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoatSail.uasset'
+[2018.03.15-01.21.36:893][682]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoatSail.uasset
+[2018.03.15-01.21.56:069][656]LogSavePackage: Save=14.31ms
+[2018.03.15-01.21.56:069][656]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/SushiBoat_SushiBoatA6303880496469D3C062D39080C67F33.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoat.uasset'
+[2018.03.15-01.21.56:072][656]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/SushiBoat_SushiBoat.uasset
+[2018.03.15-01.22.03:217][967]LogSavePackage: Save=65.25ms
+[2018.03.15-01.22.03:217][967]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main381D4DAD4D7EE7DAE90FA9BEB6132584.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-01.22.03:220][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-01.22.03:259][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-01.22.03:365][967]LogSavePackage: Save=54.98ms
+[2018.03.15-01.22.03:365][967]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataA35ABA80446A63BD22EC33959310E6F6.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-01.22.03:367][967]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-01.22.05:815][ 99]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.22.05:844][ 99]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-01.22.05:844][ 99]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:22:05 AM)
+[2018.03.15-01.22.05:844][ 99]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.22.05:847][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002948s)
+[2018.03.15-01.22.05:847][ 99]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.22.05:848][ 99]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2018.03.15-01.22.05:848][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003828s)
+[2018.03.15-01.22.05:867][ 99]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.22.05:880][ 99]LogInit: FAudioDevice initialized.
+[2018.03.15-01.22.05:918][ 99]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.22.05:918][ 99]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.22.05:922][ 99]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.22.05
+[2018.03.15-01.22.05:922][ 99]LogWorld: Bringing up level for play took: 0.002663
+[2018.03.15-01.22.05:922][ 99]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.22.05:926][ 99]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.315
+[2018.03.15-01.22.05:935][ 99]LogBlueprintUserMessages: [Display_Order_C_1] 0
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] 2
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] Tuna
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] Salmon
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] Unagi
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] WhiteTuna
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] WhiteTuna
+[2018.03.15-01.22.05:936][ 99]LogBlueprintUserMessages: [Display_Order_C_1] WhiteTuna
+[2018.03.15-01.22.06:129][110]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Unchecked
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [Display_Order_C_1] Checked
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.06:214][115]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [Display_Order_C_1] Checked
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.06:281][119]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.06:331][122]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:331][122]LogBlueprintUserMessages: [Display_Order_C_1] Order2Checkbox
+[2018.03.15-01.22.06:332][122]LogBlueprintUserMessages: [Display_Order_C_1] Order1Checkbox
+[2018.03.15-01.22.06:332][122]LogBlueprintUserMessages: [Display_Order_C_1] Checked
+[2018.03.15-01.22.06:332][122]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.06:332][122]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.06:332][122]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.10:304][355]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.22.10:323][355]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-01.22.10:323][355]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:22:10 AM)
+[2018.03.15-01.22.10:323][355]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.22.10:325][355]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002434s)
+[2018.03.15-01.22.10:326][355]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.22.10:326][355]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2018.03.15-01.22.10:326][355]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003162s)
+[2018.03.15-01.22.10:342][355]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.22.10:353][355]LogInit: FAudioDevice initialized.
+[2018.03.15-01.22.10:388][355]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.22.10:388][355]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.22.10:391][355]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.22.10
+[2018.03.15-01.22.10:391][355]LogWorld: Bringing up level for play took: 0.002230
+[2018.03.15-01.22.10:391][355]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.22.10:395][355]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.784
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] 2
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] 2
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Tuna
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Salmon
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Unagi
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] WhiteTuna
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Salmon
+[2018.03.15-01.22.10:398][355]LogBlueprintUserMessages: [Display_Order_C_2] Salmon
+[2018.03.15-01.22.10:582][366]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Unchecked
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [Display_Order_C_2] Checked
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.10:666][371]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [Display_Order_C_2] Checked
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.10:733][375]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.10:782][378]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [Display_Order_C_2] Order2Checkbox
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [Display_Order_C_2] Order1Checkbox
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [Display_Order_C_2] Checked
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.10:783][378]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.14:225][581]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2018.03.15-01.22.14:865][617]LogEditorViewport: Clicking on Actor (LMB): BPP_Ingredient_C (Food2)
+[2018.03.15-01.22.16:904][737]LogEditorViewport: Clicking on Actor (CTRL LMB): BPP_Ingredient_C (Food1)
+[2018.03.15-01.22.20:433][945]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.22.20:454][945]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-01.22.20:454][945]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:22:20 AM)
+[2018.03.15-01.22.20:454][945]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.22.20:457][945]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002798s)
+[2018.03.15-01.22.20:457][945]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.22.20:457][945]LogPlayLevel: PIE: World Init took: (0.000583s)
+[2018.03.15-01.22.20:458][945]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003620s)
+[2018.03.15-01.22.20:479][945]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.22.20:490][945]LogInit: FAudioDevice initialized.
+[2018.03.15-01.22.20:526][945]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.22.20:526][945]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.22.20:529][945]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.22.20
+[2018.03.15-01.22.20:529][945]LogWorld: Bringing up level for play took: 0.002513
+[2018.03.15-01.22.20:530][945]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.22.20:533][945]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.923
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] 2
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] 2
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Order1Checkbox
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Order2Checkbox
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Tuna
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Salmon
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Unagi
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] WhiteTuna
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Unagi
+[2018.03.15-01.22.20:542][945]LogBlueprintUserMessages: [Display_Order_C_3] Unagi
+[2018.03.15-01.22.20:726][954]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order1Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order2Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order1Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Unchecked
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order1Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order2Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Order1Checkbox
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [Display_Order_C_3] Checked
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.22.20:802][958]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.22.29:492][455]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.23.10:307][878]LogSavePackage: Save=120.93ms
+[2018.03.15-01.23.10:307][878]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatF55559134F6648017F8214ADF6E78C64.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.23.10:311][878]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.24.44:058][852]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.25.00:836][763]LogSavePackage: Save=104.31ms
+[2018.03.15-01.25.00:836][763]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat2A929CEB452BFAFC99EEBA8AA8C0E9C5.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.25.00:839][763]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.25.06:291][ 63]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.25.06:314][ 63]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.15-01.25.06:330][ 63]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.03.15-01.25.06:891][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 577 ms (1 blueprints)
+[2018.03.15-01.25.06:891][ 63]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:25:06 AM)
+[2018.03.15-01.25.06:891][ 63]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.25.06:894][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002386s)
+[2018.03.15-01.25.06:894][ 63]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.25.06:894][ 63]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2018.03.15-01.25.06:894][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003123s)
+[2018.03.15-01.25.06:911][ 63]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.25.06:922][ 63]LogInit: FAudioDevice initialized.
+[2018.03.15-01.25.06:963][ 63]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.25.06:963][ 63]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.25.06:966][ 63]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.25.06
+[2018.03.15-01.25.06:966][ 63]LogWorld: Bringing up level for play took: 0.001962
+[2018.03.15-01.25.06:967][ 63]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.25.06:969][ 63]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 1.359
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] 1
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] 0
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Order2Checkbox
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Tuna
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Salmon
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Unagi
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] WhiteTuna
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Unagi
+[2018.03.15-01.25.06:978][ 63]LogBlueprintUserMessages: [Display_Order_C_4] Unagi
+[2018.03.15-01.25.07:157][ 71]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order2Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Unchecked
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order2Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [Display_Order_C_4] Checked
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.25.07:253][ 76]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [Display_Order_C_4] Order2Checkbox
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [Display_Order_C_4] Checked
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.25.07:303][ 79]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [Display_Order_C_4] Order2Checkbox
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [Display_Order_C_4] Order1Checkbox
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [Display_Order_C_4] Checked
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [BoatTrigger_2] Food3
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [BoatTrigger_2] Tuna
+[2018.03.15-01.25.07:387][ 84]LogBlueprintUserMessages: [BoatTrigger_2] Salmon
+[2018.03.15-01.25.09:444][206]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2018.03.15-01.25.31:434][414]LogSavePackage: Save=112.83ms
+[2018.03.15-01.25.31:434][414]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat67ABB19547801956B3FA1D9936F6875E.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.25.31:436][414]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.25.35:498][654]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Boat)
+[2018.03.15-01.25.36:220][695]Cmd: DELETE
+[2018.03.15-01.25.36:220][695]Cmd: ACTOR DELETE
+[2018.03.15-01.25.36:224][695]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.15-01.25.36:240][695]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.15-01.25.37:246][756]LogEditorViewport: Clicking on Actor (LMB): UI_C (Order_UI)
+[2018.03.15-01.25.37:540][772]Cmd: DELETE
+[2018.03.15-01.25.37:540][772]Cmd: ACTOR DELETE
+[2018.03.15-01.25.37:544][772]LogEditorActor: Deleted Actor: UI_C
+[2018.03.15-01.25.37:560][772]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.15-01.25.37:916][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (UI_Glass)
+[2018.03.15-01.25.38:051][800]Cmd: DELETE
+[2018.03.15-01.25.38:051][800]Cmd: ACTOR DELETE
+[2018.03.15-01.25.38:056][800]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.15-01.25.38:071][800]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.15-01.25.38:678][837]LogEditorViewport: Clicking on Actor (LMB): BPP_Ingredient_C (Food3)
+[2018.03.15-01.25.39:069][859]Cmd: DELETE
+[2018.03.15-01.25.39:069][859]Cmd: ACTOR DELETE
+[2018.03.15-01.25.39:074][859]LogEditorActor: Deleted Actor: BPP_Ingredient_C
+[2018.03.15-01.25.39:089][859]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.15-01.25.40:420][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor4)
+[2018.03.15-01.25.40:909][964]LogEditorViewport: Clicking on Actor (LMB): BoatTrigger_C (BoatTrigger)
+[2018.03.15-01.25.41:460][995]Cmd: DELETE
+[2018.03.15-01.25.41:460][995]Cmd: ACTOR DELETE
+[2018.03.15-01.25.41:464][995]LogEditorActor: Deleted Actor: BoatTrigger_C
+[2018.03.15-01.25.41:479][995]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.15-01.25.44:807][138]LogEditorViewport: Clicking on Actor (LMB): Salmon_C (Salmon)
+[2018.03.15-01.25.45:508][172]Cmd: DELETE
+[2018.03.15-01.25.45:508][172]Cmd: ACTOR DELETE
+[2018.03.15-01.25.45:512][172]LogEditorActor: Deleted Actor: Salmon_C
+[2018.03.15-01.25.45:528][172]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2018.03.15-01.25.46:017][202]LogEditorViewport: Clicking on Actor (LMB): Salmon_C (Tuna)
+[2018.03.15-01.25.46:155][208]Cmd: DELETE
+[2018.03.15-01.25.46:155][208]Cmd: ACTOR DELETE
+[2018.03.15-01.25.46:159][208]LogEditorActor: Deleted Actor: Salmon_C
+[2018.03.15-01.25.46:175][208]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.03.15-01.25.46:965][256]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-01.25.50:317][454]Cmd: TRANSACTION UNDO
+[2018.03.15-01.25.50:317][454]LogEditorTransaction: Undo Move Actors
+[2018.03.15-01.25.51:181][502]LogEditorViewport: Clicking on Actor (CTRL LMB): BPP_Ingredient_C (Food1)
+[2018.03.15-01.25.51:564][523]LogEditorViewport: Clicking on Actor (CTRL LMB): BPP_Ingredient_C (Food2)
+[2018.03.15-01.25.54:975][725]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.15-01.25.56:282][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.03.15-01.25.59:252][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.03.15-01.25.59:796][ 11]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Refrigerator)
+[2018.03.15-01.32.55:739][308]LogSavePackage: Save=53.92ms
+[2018.03.15-01.32.55:739][308]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_Auto18527E1E4429EE527F6AE0C9F4DACB6E8.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto1.umap'
+[2018.03.15-01.32.55:741][308]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto1.umap
+[2018.03.15-01.32.55:745][308]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.129
+[2018.03.15-01.32.55:745][308]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.129
+[2018.03.15-01.32.55:757][308]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/Materials/Plates/Plates_M] ([1] browsable assets)...
+[2018.03.15-01.32.55:805][308]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SushiShop/Materials/Plates/Plates_M.Plates_M]
+[2018.03.15-01.32.55:805][308]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Materials/Plates/Plates_M]
+[2018.03.15-01.32.55:868][308]LogSavePackage: Save=15.56ms
+[2018.03.15-01.32.55:868][308]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Plates_M_Auto1E1B95F354D02F19EFB44DABA842916C7.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Plates/Plates_M_Auto1.uasset'
+[2018.03.15-01.32.55:869][308]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Plates/Plates_M_Auto1.uasset
+[2018.03.15-01.32.55:869][308]LogFileHelpers: Auto-saving content packages took 0.113
+[2018.03.15-01.57.28:558][474]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.57.28:587][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-01.57.28:587][474]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:57:28 AM)
+[2018.03.15-01.57.28:587][474]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.57.28:589][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002191s)
+[2018.03.15-01.57.28:590][474]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.57.28:590][474]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2018.03.15-01.57.28:590][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003060s)
+[2018.03.15-01.57.28:608][474]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.57.28:617][474]LogInit: FAudioDevice initialized.
+[2018.03.15-01.57.28:649][474]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.57.28:649][474]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.57.28:651][474]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.57.28
+[2018.03.15-01.57.28:652][474]LogWorld: Bringing up level for play took: 0.002163
+[2018.03.15-01.57.28:652][474]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.57.28:656][474]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 1.046
+[2018.03.15-01.57.45:640][486]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.57.45:661][486]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.15-01.57.45:678][486]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.03.15-01.57.46:321][486]LogPlayLevel: PlayLevel: Blueprint regeneration took 660 ms (1 blueprints)
+[2018.03.15-01.57.46:321][486]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:57:46 AM)
+[2018.03.15-01.57.46:321][486]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.57.46:323][486]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002036s)
+[2018.03.15-01.57.46:324][486]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.57.46:324][486]LogPlayLevel: PIE: World Init took: (0.000537s)
+[2018.03.15-01.57.46:324][486]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002784s)
+[2018.03.15-01.57.46:341][486]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.57.46:351][486]LogInit: FAudioDevice initialized.
+[2018.03.15-01.57.46:384][486]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.57.46:384][486]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.57.46:386][486]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.57.46
+[2018.03.15-01.57.46:387][486]LogWorld: Bringing up level for play took: 0.001482
+[2018.03.15-01.57.46:387][486]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.57.46:390][486]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.779
+[2018.03.15-01.57.50:312][717]LogTemp: Repeating last play command: Simulate
+[2018.03.15-01.57.50:336][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-01.57.50:337][717]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 11:57:50 AM)
+[2018.03.15-01.57.50:337][717]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-01.57.50:339][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001937s)
+[2018.03.15-01.57.50:339][717]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-01.57.50:339][717]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2018.03.15-01.57.50:339][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002707s)
+[2018.03.15-01.57.50:355][717]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-01.57.50:363][717]LogInit: FAudioDevice initialized.
+[2018.03.15-01.57.50:392][717]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-01.57.50:392][717]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-01.57.50:394][717]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-18.57.50
+[2018.03.15-01.57.50:394][717]LogWorld: Bringing up level for play took: 0.001479
+[2018.03.15-01.57.50:394][717]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-01.57.50:397][717]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.787
+[2018.03.15-01.58.23:009][655]LogSavePackage: Save=111.72ms
+[2018.03.15-01.58.23:009][655]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatA967FA374314676FCDFBB4A0FE150E28.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.03.15-01.58.23:013][655]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.03.15-01.58.48:893][831]LogSavePackage: Save=53.69ms
+[2018.03.15-01.58.48:893][831]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_Auto2E9E46D5E4235420BFB895B944A5193C4.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto2.umap'
+[2018.03.15-01.58.48:895][831]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Main_Auto2.umap
+[2018.03.15-01.58.48:897][831]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Main' took 0.116
+[2018.03.15-01.58.48:897][831]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.116
+[2018.03.15-02.06.52:850][627]LogSavePackage: Save=53.78ms
+[2018.03.15-02.06.52:850][627]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main3341B61B4CABEBB0A34470BF440D8048.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-02.06.52:855][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-02.06.52:894][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-02.06.52:982][627]LogSavePackage: Save=43.49ms
+[2018.03.15-02.06.52:982][627]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData95D8FD174C2C60DF05881787252D8A76.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-02.06.52:985][627]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-02.06.54:011][679]LogTemp: Repeating last play command: Simulate
+[2018.03.15-02.06.54:028][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-02.06.54:028][679]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 12:06:54 PM)
+[2018.03.15-02.06.54:028][679]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-02.06.54:031][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002410s)
+[2018.03.15-02.06.54:031][679]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-02.06.54:031][679]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2018.03.15-02.06.54:031][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003293s)
+[2018.03.15-02.06.54:055][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-02.06.54:064][679]LogInit: FAudioDevice initialized.
+[2018.03.15-02.06.54:098][679]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-02.06.54:098][679]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-02.06.54:100][679]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-19.06.54
+[2018.03.15-02.06.54:101][679]LogWorld: Bringing up level for play took: 0.001587
+[2018.03.15-02.06.54:101][679]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-02.06.54:103][679]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.493
+[2018.03.15-02.11.19:920][279]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:920][279]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:947][280]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:947][280]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:963][281]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:963][281]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:981][282]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:981][282]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:998][283]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.19:998][283]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:017][284]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:017][284]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:035][285]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:035][285]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:054][286]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:054][286]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:070][287]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:070][287]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:088][288]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:088][288]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:106][289]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:106][289]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:123][290]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:123][290]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:140][291]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:140][291]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:157][292]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:157][292]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:174][293]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:174][293]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:191][294]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:191][294]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:207][295]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:207][295]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:225][296]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:225][296]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:241][297]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:241][297]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:258][298]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:258][298]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:274][299]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:274][299]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:292][300]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:292][300]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:308][301]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:308][301]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:326][302]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:326][302]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:342][303]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:342][303]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:775][328]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:775][328]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:792][329]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:792][329]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:808][330]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:809][330]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:825][331]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:825][331]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:842][332]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:842][332]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:858][333]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:858][333]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:875][334]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:875][334]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:892][335]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:892][335]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:908][336]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:908][336]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:926][337]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:926][337]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:943][338]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:943][338]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:959][339]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:959][339]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:976][340]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:976][340]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:992][341]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.20:992][341]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:011][342]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:011][342]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:027][343]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:027][343]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:044][344]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:044][344]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:060][345]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:060][345]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:077][346]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:077][346]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:093][347]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:093][347]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:111][348]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:111][348]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:127][349]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:127][349]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:144][350]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:144][350]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:160][351]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:160][351]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:178][352]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:178][352]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:195][353]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:195][353]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:212][354]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:213][354]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:230][355]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:230][355]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:251][356]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:251][356]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:269][357]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:269][357]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:286][358]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:286][358]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:305][359]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:305][359]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:323][360]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:323][360]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:341][361]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:341][361]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:357][362]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:357][362]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:375][363]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:375][363]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:391][364]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:391][364]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:409][365]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:409][365]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:425][366]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:425][366]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:442][367]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:443][367]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:459][368]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:459][368]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:476][369]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:477][369]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:493][370]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:493][370]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:510][371]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:510][371]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:528][372]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:528][372]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:544][373]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:544][373]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:562][374]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:562][374]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:579][375]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:579][375]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:596][376]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:597][376]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:616][377]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:616][377]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:636][378]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:636][378]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:653][379]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:653][379]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:672][380]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.21:672][380]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:125][406]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:126][406]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:142][407]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:142][407]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:159][408]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:159][408]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:176][409]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:176][409]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:193][410]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:193][410]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:209][411]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:209][411]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:227][412]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.22:227][412]PIE: Warning: Mobility of /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main:PersistentLevel.Brush_0 : BrushComponent0 has to be 'Movable' if you'd like to move. 
+[2018.03.15-02.11.35:249][163]LogSavePackage: Save=43.85ms
+[2018.03.15-02.11.35:249][163]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main47E5D39E464A93C49B4915A0AC32C3EA.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-02.11.35:250][163]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-02.11.35:282][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-02.11.35:368][163]LogSavePackage: Save=43.33ms
+[2018.03.15-02.11.35:368][163]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData673AFF384D633B00165B83ABB6E93F86.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-02.11.35:370][163]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-02.11.37:436][273]LogSavePackage: Save=45.12ms
+[2018.03.15-02.11.37:436][273]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main22022DD64829663B77143592998C3AB7.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-02.11.37:437][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-02.11.37:473][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-02.11.37:559][273]LogSavePackage: Save=43.87ms
+[2018.03.15-02.11.37:559][273]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltData805D34144B498E92CD7203A2802C4902.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-02.11.37:560][273]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-02.13.57:114][ 82]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-02.14.26:691][733]LogTemp: Repeating last play command: Simulate
+[2018.03.15-02.14.26:712][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-02.14.26:712][733]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 12:14:26 PM)
+[2018.03.15-02.14.26:712][733]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-02.14.26:714][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002311s)
+[2018.03.15-02.14.26:715][733]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-02.14.26:715][733]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2018.03.15-02.14.26:715][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003278s)
+[2018.03.15-02.14.26:734][733]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-02.14.26:746][733]LogInit: FAudioDevice initialized.
+[2018.03.15-02.14.26:786][733]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-02.14.26:786][733]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-02.14.26:788][733]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-19.14.26
+[2018.03.15-02.14.26:789][733]LogWorld: Bringing up level for play took: 0.001702
+[2018.03.15-02.14.26:789][733]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-02.14.26:792][733]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.818
+[2018.03.15-02.14.32:432][ 66]LogTemp: Repeating last play command: Simulate
+[2018.03.15-02.14.32:450][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-02.14.32:450][ 66]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 12:14:32 PM)
+[2018.03.15-02.14.32:450][ 66]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-02.14.32:452][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002158s)
+[2018.03.15-02.14.32:452][ 66]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-02.14.32:453][ 66]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.03.15-02.14.32:453][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003025s)
+[2018.03.15-02.14.32:470][ 66]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-02.14.32:479][ 66]LogInit: FAudioDevice initialized.
+[2018.03.15-02.14.32:514][ 66]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-02.14.32:515][ 66]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-02.14.32:517][ 66]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-19.14.32
+[2018.03.15-02.14.32:517][ 66]LogWorld: Bringing up level for play took: 0.001501
+[2018.03.15-02.14.32:517][ 66]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-02.14.32:520][ 66]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.91
+[2018.03.15-02.14.33:764][140]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-03.12.45:432][596]LogTemp: Repeating last play command: Simulate
+[2018.03.15-03.12.45:456][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-03.12.45:456][596]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 1:12:45 PM)
+[2018.03.15-03.12.45:456][596]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-03.12.45:459][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002260s)
+[2018.03.15-03.12.45:459][596]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-03.12.45:459][596]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.03.15-03.12.45:460][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003204s)
+[2018.03.15-03.12.45:478][596]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-03.12.45:488][596]LogInit: FAudioDevice initialized.
+[2018.03.15-03.12.45:538][596]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-03.12.45:538][596]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-03.12.45:541][596]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-20.12.45
+[2018.03.15-03.12.45:541][596]LogWorld: Bringing up level for play took: 0.001954
+[2018.03.15-03.12.45:542][596]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-03.12.45:544][596]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.066
+[2018.03.15-03.13.25:983][ 15]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor4)
+[2018.03.15-03.14.14:657][758]LogTemp: Repeating last play command: Simulate
+[2018.03.15-03.14.14:676][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-03.14.14:676][758]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 1:14:14 PM)
+[2018.03.15-03.14.14:676][758]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-03.14.14:679][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002133s)
+[2018.03.15-03.14.14:679][758]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-03.14.14:679][758]LogPlayLevel: PIE: World Init took: (0.000559s)
+[2018.03.15-03.14.14:679][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002902s)
+[2018.03.15-03.14.14:695][758]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-03.14.14:706][758]LogInit: FAudioDevice initialized.
+[2018.03.15-03.14.14:735][758]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-03.14.14:735][758]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-03.14.14:737][758]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-20.14.14
+[2018.03.15-03.14.14:738][758]LogWorld: Bringing up level for play took: 0.001580
+[2018.03.15-03.14.14:738][758]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-03.14.14:740][758]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.87
+[2018.03.15-03.15.19:390][148]LogSavePackage: Save=45.37ms
+[2018.03.15-03.15.19:390][148]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_MainDE47C1A84C62BA94528777A0FCFC946A.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap'
+[2018.03.15-03.15.19:393][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main.umap
+[2018.03.15-03.15.19:433][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Main_BuiltData" FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset" SILENT=true
+[2018.03.15-03.15.19:527][148]LogSavePackage: Save=46.83ms
+[2018.03.15-03.15.19:527][148]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_BuiltDataB87D0BCB4CC3CE55DF1B9B82D0C892B6.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset'
+[2018.03.15-03.15.19:529][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_BuiltData.uasset
+[2018.03.15-03.15.33:778][  3]LogTemp: Repeating last play command: Simulate
+[2018.03.15-03.15.33:796][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-03.15.33:796][  3]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 1:15:33 PM)
+[2018.03.15-03.15.33:796][  3]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-03.15.33:798][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002094s)
+[2018.03.15-03.15.33:798][  3]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-03.15.33:799][  3]LogPlayLevel: PIE: World Init took: (0.000606s)
+[2018.03.15-03.15.33:799][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.002910s)
+[2018.03.15-03.15.33:815][  3]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-03.15.33:826][  3]LogInit: FAudioDevice initialized.
+[2018.03.15-03.15.33:861][  3]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-03.15.33:861][  3]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-03.15.33:863][  3]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-20.15.33
+[2018.03.15-03.15.33:864][  3]LogWorld: Bringing up level for play took: 0.001569
+[2018.03.15-03.15.33:864][  3]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-03.15.33:867][  3]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.257
+[2018.03.15-03.29.52:479][279]LogTemp: Repeating last play command: Simulate
+[2018.03.15-03.29.52:500][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-03.29.52:500][279]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 1:29:52 PM)
+[2018.03.15-03.29.52:500][279]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-03.29.52:503][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002832s)
+[2018.03.15-03.29.52:503][279]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-03.29.52:504][279]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2018.03.15-03.29.52:504][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003899s)
+[2018.03.15-03.29.52:523][279]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-03.29.52:536][279]LogInit: FAudioDevice initialized.
+[2018.03.15-03.29.52:571][279]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-03.29.52:571][279]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-03.29.52:573][279]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-20.29.52
+[2018.03.15-03.29.52:573][279]LogWorld: Bringing up level for play took: 0.001587
+[2018.03.15-03.29.52:573][279]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-03.29.52:576][279]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main 0.966
+[2018.03.15-03.30.18:658][830]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.03.15-03.31.44:758][904]LogTemp: Repeating last play command: Simulate
+[2018.03.15-03.31.44:779][904]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.15-03.31.44:779][904]PIE: New page: SIE session: Shop_Main (Mar 14, 2018, 1:31:44 PM)
+[2018.03.15-03.31.44:779][904]LogPlayLevel: Creating play world package: /Game/SushiShop/UEDPIE_0_Shop_Main
+[2018.03.15-03.31.44:781][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002314s)
+[2018.03.15-03.31.44:782][904]LogAIModule: Creating AISystem for world Shop_Main
+[2018.03.15-03.31.44:782][904]LogPlayLevel: PIE: World Init took: (0.000595s)
+[2018.03.15-03.31.44:782][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Shop_Main.Shop_Main to /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main (0.003121s)
+[2018.03.15-03.31.44:801][904]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.15-03.31.44:812][904]LogInit: FAudioDevice initialized.
+[2018.03.15-03.31.44:861][904]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.03.15-03.31.44:861][904]LogLoad: Game class is 'GameModeBase'
+[2018.03.15-03.31.44:863][904]LogWorld: Bringing World /Game/SushiShop/UEDPIE_0_Shop_Main.Shop_Main up for play (max tick rate 60) at 2018.03.14-20.31.44
+[2018.03.15-03.31.44:863][904]LogWorld: Bringing up level for play took: 0.001727
+[2018.03.15-03.31.44:864][904]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.15-03.31.44:867][904]PIE: Play in editor start time for /Game/SushiShop/UEDPIE_0_Shop_Main -0.744
+[2018.03.15-03.31.45:941][965]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
