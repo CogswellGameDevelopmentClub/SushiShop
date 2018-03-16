@@ -622,3 +622,277 @@ LogInit: Object subsystem initialized
 [2018.03.16-02.27.53:622][ 71]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
 [2018.03.16-02.28.15:220][621]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVer2_pCube4_2)
 [2018.03.16-02.28.15:449][640]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.16-02.47.06:889][221]LogEditorViewport: Clicking Background
+[2018.03.16-02.47.07:241][260]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GlassCeiling)
+[2018.03.16-02.47.08:621][415]Cmd: DELETE
+[2018.03.16-02.47.08:621][415]Cmd: ACTOR DELETE
+[2018.03.16-02.47.08:636][415]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.47.08:650][415]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.03.16-02.47.09:728][543]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor6)
+[2018.03.16-02.47.12:704][885]Cmd: DELETE
+[2018.03.16-02.47.12:704][885]Cmd: ACTOR DELETE
+[2018.03.16-02.47.12:706][885]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.47.12:720][885]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.03.16-02.47.24:103][200]LogSavePackage: Save=121.90ms
+[2018.03.16-02.47.24:103][200]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_environmentF7DC588644CA33A2313160AAE74EF3C3.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment.umap'
+[2018.03.16-02.47.24:109][200]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment.umap
+[2018.03.16-02.47.24:297][200]LogSavePackage: Save=100.68ms
+[2018.03.16-02.47.24:297][200]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_environment_BuiltData7EF57DC14B2DAC182E5E2DBAE69707FD.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment_BuiltData.uasset'
+[2018.03.16-02.47.24:299][200]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Main_environment_BuiltData.uasset
+[2018.03.16-02.47.36:419][603]LogAIModule: Creating AISystem for world Shop_Test_2
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.36:426][603]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.40:294][897]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Shop_Test_2" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Test_2.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.16-02.47.40:305][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Accessed None reading structure IngredientName_2_012ADE8641A99411B752A29314B90D82
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.40:306][897]LogScript: Warning: Accessed None reading structure Material_5_C6C2C2BF4998FBAB77ED6A9A0597DF4E
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:015F
+[2018.03.16-02.47.40:445][897]LogSavePackage: Save=123.02ms
+[2018.03.16-02.47.40:445][897]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Test_20A6C1D634B26F4379B41B197014EC4B9.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Test_2.umap'
+[2018.03.16-02.47.40:447][897]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Test_2.umap
+[2018.03.16-02.47.40:450][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon_2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:450][897]LogScript: Warning: Attempted to access index 0 from array SushiStruct of length 0!
+	Salmon_C /Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.Salmon2
+	Function /Game/SushiShop/Assets/Pickup_Items/Pickup_M.Pickup_M_C:UserConstructionScript:0137
+[2018.03.16-02.47.40:455][897]LogFileHelpers: Saving map 'Shop_Test_2' took 0.243
+[2018.03.16-02.47.41:099][968]Cmd: MAP LOAD FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Shop_Test_2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.16-02.47.41:099][968]LightingResults: New page: Lighting Build
+[2018.03.16-02.47.41:099][968]LoadErrors: New page: Loading map: Shop_Test_2.umap
+[2018.03.16-02.47.41:101][968]MapCheck: New page: Map Check
+[2018.03.16-02.47.41:101][968]LightingResults: New page: Lighting Build
+[2018.03.16-02.47.41:214][968]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.16-02.47.41:260][968]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.16-02.47.41:338][968]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.793ms to complete.
+[2018.03.16-02.47.41:339][968]LogFileHelpers: Loading map 'Shop_Test_2' took 0.241
+[2018.03.16-02.47.45:400][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVer2_polySurface2_4)
+[2018.03.16-02.47.46:910][616]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (shortTable)
+[2018.03.16-02.47.55:952][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.47.55:952][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.47.55:952][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.47.55:966][638]LogEditorActor: Deleted 3 Actors (0.016 secs)
+[2018.03.16-02.47.57:396][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (chair15)
+[2018.03.16-02.48.00:867][159]Cmd: DELETE
+[2018.03.16-02.48.00:867][159]Cmd: ACTOR DELETE
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:871][159]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.16-02.48.00:885][159]LogEditorActor: Deleted 6 Actors (0.018 secs)
+[2018.03.16-02.48.04:578][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVer2_polySurface2_1)
+[2018.03.16-02.48.19:728][201]Cmd: EDIT COPY
+[2018.03.16-02.48.20:325][262]Cmd: EDIT PASTE
+[2018.03.16-02.50.10:545][339]Cmd: TRANSACTION UNDO
+[2018.03.16-02.50.10:545][339]LogEditorTransaction: Undo Move Actors
+[2018.03.16-02.50.10:551][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_polySurface2_7.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:551][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_polySurface5.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:552][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_Seats_6.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:553][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_HangingLight_7.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:553][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_PanelLight2.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:554][339]LogActorComponent: ~FComponentReregisterContext: (/Game/SushiShop/Shop_Test_2.Shop_Test_2:PersistentLevel.boothVer2_pCube4_5.StaticMeshComponent0) Component already registered.
+[2018.03.16-02.50.10:610][339]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.16-02.50.29:122][225]LogEditorViewport: Clicking Background
+[2018.03.16-02.50.43:015][886]MapCheck: New page: Map Check
+[2018.03.16-02.50.43:062][886]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.16-02.50.43:063][886]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.16-02.50.43:261][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.16-02.50.43:269][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.03.16-02.50.43:275][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy CubeMaterial, compiling. 
+[2018.03.16-02.50.43:285][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
+[2018.03.16-02.50.43:293][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.03.16-02.50.43:300][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
+[2018.03.16-02.50.43:307][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericHMDMaterial, compiling. 
+[2018.03.16-02.50.43:314][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Group1Mat, compiling. 
+[2018.03.16-02.50.43:321][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.03.16-02.50.43:327][886]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.03.16-02.50.43:931][886]TextureStreamingBuild: Display: Compiling optional shaders took 0.677 seconds.
+[2018.03.16-02.50.43:942][886]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2018.03.16-02.50.43:960][886]TextureStreamingBuild: Display: Build Texture Streaming took 0.017 seconds.
+[2018.03.16-02.50.43:976][886]LightingResults: New page: Lighting Build - Mar 15, 2018, 12:50:43 PM
+[2018.03.16-02.50.44:061][886]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.16-02.50.44:177][886]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.16-02.50.44:194][886]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.16-02.50.45:223][886]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.16-02.50.45:224][886]LogSwarmInterface: [TryOpenConnection] Local Process ID is 16468
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.16-02.50.47:714][886]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.16-02.50.48:243][886]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.16-02.50.48:243][886]MapCheck: New page: Shop_Test_2 - Mar 15, 2018, 12:50:48 PM
+[2018.03.16-02.50.48:245][886]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.03.16-02.50.48:325][886]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 82.32ms to complete.
+[2018.03.16-02.50.48:348][886]LogEditorBuildUtils: Build time 0:05
+[2018.03.16-02.50.48:389][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GenericHMDMaterial, compiling. 
+[2018.03.16-02.50.48:396][886]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer GenericHMDMaterial, compiling. 
+[2018.03.16-02.50.48:442][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Group1Mat, compiling. 
+[2018.03.16-02.50.48:449][887]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Group1Mat, compiling. 
+[2018.03.16-02.50.48:520][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.16-02.50.48:527][889]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.03.16-02.50.51:540][ 56]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:540][ 56]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:592][ 61]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:592][ 61]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:633][ 65]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:633][ 65]LightingResults: Warning: boothVer2_HangingLight_3 Object has overlapping UVs.
+[2018.03.16-02.50.51:633][ 65]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:633][ 65]LightingResults: boothVer2_HangingLight_3 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:643][ 66]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.51:643][ 66]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:653][ 67]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:653][ 67]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:685][ 70]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:685][ 70]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:716][ 72]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:716][ 72]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:747][ 75]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:747][ 75]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:758][ 76]LightingResults: Warning: BlossomSingle_polySurface5 Object has overlapping UVs.
+[2018.03.16-02.50.51:758][ 76]LightingResults: BlossomSingle_polySurface5 Lightmap UV are overlapping by 31.0%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:789][ 79]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:789][ 79]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:810][ 81]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:810][ 81]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:841][ 84]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:841][ 84]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:912][ 90]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.51:912][ 90]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:912][ 90]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:912][ 90]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:952][ 94]LightingResults: Warning: boothVer2_HangingLight_4 Object has overlapping UVs.
+[2018.03.16-02.50.51:952][ 94]LightingResults: boothVer2_HangingLight_4 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.51:983][ 97]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.51:983][ 97]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:035][102]LightingResults: Warning: boothVer2_HangingLight_1 Object has overlapping UVs.
+[2018.03.16-02.50.52:035][102]LightingResults: boothVer2_HangingLight_1 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:035][102]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:035][102]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:077][105]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:077][105]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:129][110]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:129][110]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:139][111]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:139][111]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:191][116]LightingResults: Warning: boothVer2_HangingLight Object has overlapping UVs.
+[2018.03.16-02.50.52:191][116]LightingResults: boothVer2_HangingLight Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:222][119]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:222][119]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:263][122]LightingResults: Warning: boothVer2_HangingLight_2 Object has overlapping UVs.
+[2018.03.16-02.50.52:263][122]LightingResults: boothVer2_HangingLight_2 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:294][125]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:294][125]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:315][127]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:315][127]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:315][127]LightingResults: Warning: boothVer2_HangingLight_4 Object has overlapping UVs.
+[2018.03.16-02.50.52:325][128]LightingResults: boothVer2_HangingLight_4 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:346][130]LightingResults: Warning: boothVer2_HangingLight_1 Object has overlapping UVs.
+[2018.03.16-02.50.52:357][131]LightingResults: boothVer2_HangingLight_1 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:357][131]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:357][131]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:388][134]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:388][134]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:419][137]LightingResults: Warning: boothVer2_HangingLight_3 Object has overlapping UVs.
+[2018.03.16-02.50.52:419][137]LightingResults: boothVer2_HangingLight_3 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:419][137]LightingResults: Warning: boothVer2_HangingLight Object has overlapping UVs.
+[2018.03.16-02.50.52:419][137]LightingResults: boothVer2_HangingLight Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:461][141]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:461][141]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:470][142]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:470][142]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:502][144]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:502][144]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:553][149]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:553][149]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:574][151]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:574][151]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:585][152]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:585][152]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:595][153]LightingResults: Warning: boothVer2_HangingLight_2 Object has overlapping UVs.
+[2018.03.16-02.50.52:595][153]LightingResults: boothVer2_HangingLight_2 Lightmap UV are overlapping by 1.6%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:606][154]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:606][154]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:616][155]LightingResults: Warning: chair Object has overlapping UVs.
+[2018.03.16-02.50.52:616][155]LightingResults: chair Lightmap UV are overlapping by 3.5%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:657][159]LightingResults: Warning: bar_stool Object has overlapping UVs.
+[2018.03.16-02.50.52:657][159]LightingResults: bar_stool Lightmap UV are overlapping by 10.7%. Please adjust content - Enable Error Coloring to visualize.
+[2018.03.16-02.50.52:953][188]Job is a success!
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.007s
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:      BrickData 75x5x5 = 0.1Mb
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:      Bricks at Level
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:          0: 6.7% covering 100.0% of volume
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:          1: 6.7% covering 1.6% of volume
+[2018.03.16-02.50.53:066][189]LogVolumetricLightmapImport:          2: 86.7% covering 0.3% of volume
+[2018.03.16-02.50.53:524][189]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.03.16-02.50.53:524][189]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.03.16-02.50.53:524][189]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.03.16-02.50.53:586][189]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2018.03.16-02.50.53:623][189]Lightmass on CAPTAINARCHER: 3.52 sec total, 313 ms importing, 53 ms setup, 1.02 sec photons, 2.10 sec processing, 0 ms extra exporting [113/113 mappings]. Threads: 22.7 sec total, 10.5 sec processing.
+[2018.03.16-02.50.53:645][189]LogStaticLightingSystem: Illumination: 9.62 sec (409 ms encoding lightmaps, 55 ms encoding shadowmaps)
+[2018.03.16-02.50.53:645][189]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.03.16-02.50.53:645][189]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.03.16-02.50.54:720][189]DumpUnbuiltLightIteractions
+[2018.03.16-02.50.54:721][189]Lights with unbuilt interactions: 0
+[2018.03.16-02.50.54:721][189]
+[2018.03.16-02.50.54:721][189]Primitives with unbuilt interactions: 0
+[2018.03.16-02.50.54:731][190]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.16-02.50.54:731][190]MapCheck: New page: Shop_Test_2 - Mar 15, 2018, 12:50:54 PM
+[2018.03.16-02.50.54:823][190]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.111ms to complete.
+[2018.03.16-02.57.43:590][941]LogSavePackage: Save=133.81ms
+[2018.03.16-02.57.43:591][941]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Test_2_Auto13ADF689F493BC309CB09DABE5EE34A83.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Test_2_Auto1.umap'
+[2018.03.16-02.57.43:593][941]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Test_2_Auto1.umap
+[2018.03.16-02.57.43:598][941]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Shop_Test_2' took 0.207
+[2018.03.16-02.57.43:598][941]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.207
+[2018.03.16-02.57.43:599][941]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/Shop_Test_2_BuiltData] ([1] browsable assets)...
+[2018.03.16-02.57.43:599][941]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Shop_Test_2_BuiltData]
+[2018.03.16-02.57.43:626][941]LogSavePackage: Save=24.94ms
+[2018.03.16-02.57.43:626][941]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Test_2_BuiltData_Auto18DC60D5E4757D49B98CDAF9140B2257B.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Test_2_BuiltData_Auto1.uasset'
+[2018.03.16-02.57.43:627][941]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Shop_Test_2_BuiltData_Auto1.uasset
+[2018.03.16-02.57.43:627][941]LogFileHelpers: Auto-saving content packages took 0.029
