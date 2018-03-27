@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 2/24/2018, 13:39:40
+      Time of this report: 3/26/2018, 16:39:34
              Machine name: CAPTAINARCHER
                Machine Id: {9AD98930-7DFC-456E-AE09-0A041B56C894}
          Operating System: Windows 10 Home 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz (12 CPUs), ~3.5GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16280MB RAM
-                Page File: 6858MB used, 17357MB available
+                Page File: 8394MB used, 14029MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -83,7 +83,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
  Hybrid Graphics GPU: Not Supported
       Power P-states: Not Supported
    Driver Attributes: Final Retail
-    Driver Date/Size: 1/30/2018 4:00:00 PM, 1987904 bytes
+    Driver Date/Size: 1/30/2018 5:00:00 PM, 1987904 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
    Device Identifier: {D7B71EE2-24F1-11CF-397F-8DF93BC2DA35}
@@ -146,7 +146,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
  Hybrid Graphics GPU: Not Supported
       Power P-states: Not Supported
    Driver Attributes: Final Retail
-    Driver Date/Size: 1/30/2018 4:00:00 PM, 1987904 bytes
+    Driver Date/Size: 1/30/2018 5:00:00 PM, 1987904 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
    Device Identifier: {D7B71EE2-24F1-11CF-397F-8DF93BC2DA35}
@@ -209,7 +209,7 @@ Sound Capture Devices
             Driver Name: USBAUDIO.sys
          Driver Version: 10.00.16299.0015 (English)
       Driver Attributes: Final Retail
-          Date and Size: 9/29/2017 05:40:59, 135168 bytes
+          Date and Size: 9/29/2017 06:40:59, 135168 bytes
               Cap Flags: 0x1
            Format Flags: 0xFFFFF
 
@@ -325,92 +325,92 @@ USB Devices
 | Vendor/Product ID: 0x8086, 0x8D31
 | Matching Device ID: USB\ROOT_HUB30
 | Service: USBHUB3
-| Driver: USBHUB3.SYS, 10/24/2017 20:30:40, 555416 bytes
+| Driver: USBHUB3.SYS, 2/21/2018 18:51:35, 555424 bytes
 | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x04D9, 0xA131
 | | Location: Port_#0006.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
-| | Driver: usbccgp.sys, 9/29/2017 05:41:08, 168856 bytes
+| | Driver: usbccgp.sys, 9/29/2017 06:41:08, 168856 bytes
 | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x04D9, 0xA131
 | | | Location: 0000.0014.0000.006.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
-| | | Driver: hidusb.sys, 9/29/2017 05:41:08, 40960 bytes
-| | | Driver: hidclass.sys, 9/29/2017 05:41:08, 187392 bytes
-| | | Driver: hidparse.sys, 2/9/2018 20:47:33, 46080 bytes
+| | | Driver: hidusb.sys, 9/29/2017 06:41:08, 40960 bytes
+| | | Driver: hidclass.sys, 9/29/2017 06:41:08, 187392 bytes
+| | | Driver: hidparse.sys, 2/21/2018 17:30:58, 46080 bytes
 | | | 
 | | +-+ HID Keyboard Device
 | | | | Vendor/Product ID: 0x04D9, 0xA131
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 9/29/2017 05:41:08, 40448 bytes
-| | | | Driver: kbdclass.sys, 9/29/2017 05:41:08, 63384 bytes
+| | | | Driver: kbdhid.sys, 9/29/2017 06:41:08, 40448 bytes
+| | | | Driver: kbdclass.sys, 9/29/2017 06:41:08, 63384 bytes
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x04D9, 0xA131
 | | | Location: 0000.0014.0000.006.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03
 | | | Service: HidUsb
-| | | Driver: hidusb.sys, 9/29/2017 05:41:08, 40960 bytes
-| | | Driver: hidclass.sys, 9/29/2017 05:41:08, 187392 bytes
-| | | Driver: hidparse.sys, 2/9/2018 20:47:33, 46080 bytes
+| | | Driver: hidusb.sys, 9/29/2017 06:41:08, 40960 bytes
+| | | Driver: hidclass.sys, 9/29/2017 06:41:08, 187392 bytes
+| | | Driver: hidparse.sys, 2/21/2018 17:30:58, 46080 bytes
 | | | 
 | | +-+ HID-compliant mouse
 | | | | Vendor/Product ID: 0x04D9, 0xA131
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | | Service: mouhid
-| | | | Driver: mouhid.sys, 9/29/2017 05:41:08, 32768 bytes
-| | | | Driver: mouclass.sys, 9/29/2017 05:41:08, 57240 bytes
+| | | | Driver: mouhid.sys, 9/29/2017 06:41:08, 32768 bytes
+| | | | Driver: mouclass.sys, 9/29/2017 06:41:08, 57240 bytes
 | | | | 
 | | +-+ HID Keyboard Device
 | | | | Vendor/Product ID: 0x04D9, 0xA131
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 9/29/2017 05:41:08, 40448 bytes
-| | | | Driver: kbdclass.sys, 9/29/2017 05:41:08, 63384 bytes
+| | | | Driver: kbdhid.sys, 9/29/2017 06:41:08, 40448 bytes
+| | | | Driver: kbdclass.sys, 9/29/2017 06:41:08, 63384 bytes
 | | 
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x046D, 0xC539
 | | Location: Port_#0005.Hub_#0003
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
-| | Driver: usbccgp.sys, 9/29/2017 05:41:08, 168856 bytes
+| | Driver: usbccgp.sys, 9/29/2017 06:41:08, 168856 bytes
 | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x046D, 0xC539
 | | | Location: 0000.0014.0000.005.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
-| | | Driver: hidusb.sys, 9/29/2017 05:41:08, 40960 bytes
-| | | Driver: hidclass.sys, 9/29/2017 05:41:08, 187392 bytes
-| | | Driver: hidparse.sys, 2/9/2018 20:47:33, 46080 bytes
+| | | Driver: hidusb.sys, 9/29/2017 06:41:08, 40960 bytes
+| | | Driver: hidclass.sys, 9/29/2017 06:41:08, 187392 bytes
+| | | Driver: hidparse.sys, 2/21/2018 17:30:58, 46080 bytes
 | | | 
 | | +-+ HID Keyboard Device
 | | | | Vendor/Product ID: 0x046D, 0xC539
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 9/29/2017 05:41:08, 40448 bytes
-| | | | Driver: kbdclass.sys, 9/29/2017 05:41:08, 63384 bytes
+| | | | Driver: kbdhid.sys, 9/29/2017 06:41:08, 40448 bytes
+| | | | Driver: kbdclass.sys, 9/29/2017 06:41:08, 63384 bytes
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x046D, 0xC539
 | | | Location: 0000.0014.0000.005.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
-| | | Driver: hidusb.sys, 9/29/2017 05:41:08, 40960 bytes
-| | | Driver: hidclass.sys, 9/29/2017 05:41:08, 187392 bytes
-| | | Driver: hidparse.sys, 2/9/2018 20:47:33, 46080 bytes
+| | | Driver: hidusb.sys, 9/29/2017 06:41:08, 40960 bytes
+| | | Driver: hidclass.sys, 9/29/2017 06:41:08, 187392 bytes
+| | | Driver: hidparse.sys, 2/21/2018 17:30:58, 46080 bytes
 | | | 
 | | +-+ HID-compliant mouse
 | | | | Vendor/Product ID: 0x046D, 0xC539
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | | | | Service: mouhid
-| | | | Driver: mouhid.sys, 9/29/2017 05:41:08, 32768 bytes
-| | | | Driver: mouclass.sys, 9/29/2017 05:41:08, 57240 bytes
+| | | | Driver: mouhid.sys, 9/29/2017 06:41:08, 32768 bytes
+| | | | Driver: mouclass.sys, 9/29/2017 06:41:08, 57240 bytes
 
 ----------------
 Gameport Devices
@@ -423,33 +423,33 @@ PS/2 Devices
 | Vendor/Product ID: 0x046D, 0xC232
 | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | Service: kbdhid
-| Driver: kbdhid.sys, 9/29/2017 05:41:08, 40448 bytes
-| Driver: kbdclass.sys, 9/29/2017 05:41:08, 63384 bytes
+| Driver: kbdhid.sys, 9/29/2017 06:41:08, 40448 bytes
+| Driver: kbdclass.sys, 9/29/2017 06:41:08, 63384 bytes
 | 
 + HID-compliant mouse
 | Vendor/Product ID: 0x046D, 0xC231
 | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
 | Service: mouhid
-| Driver: mouhid.sys, 9/29/2017 05:41:08, 32768 bytes
-| Driver: mouclass.sys, 9/29/2017 05:41:08, 57240 bytes
+| Driver: mouhid.sys, 9/29/2017 06:41:08, 32768 bytes
+| Driver: mouclass.sys, 9/29/2017 06:41:08, 57240 bytes
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 41.3 GB
+ Free Space: 24.8 GB
 Total Space: 237.7 GB
 File System: NTFS
       Model: Crucial_CT250MX200SSD1
 
       Drive: D:
- Free Space: 70.2 GB
+ Free Space: 25.2 GB
 Total Space: 228.8 GB
 File System: NTFS
       Model: KINGSTON SHFS37A240G
 
       Drive: E:
- Free Space: 534.7 GB
+ Free Space: 475.5 GB
 Total Space: 953.7 GB
 File System: NTFS
       Model: WDC WD10EZEX-08M2NA0
@@ -469,7 +469,7 @@ Device ID: PCI\VEN_8086&DEV_2FBD&SUBSYS_00000000&REV_02\3&103A9D54&0&A5
 
      Name: Intel(R) USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
 Device ID: PCI\VEN_8086&DEV_8D31&SUBSYS_78851462&REV_05\3&11583659&0&A0
-   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.16299.0125 (English), 12/7/2017 15:24:06, 437144 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.16299.0251 (English), 2/21/2018 18:54:20, 437144 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Integrated Memory Controller 0 Channel Target Address Decoder - 2FAC
 Device ID: PCI\VEN_8086&DEV_2FAC&SUBSYS_2FAC8086&REV_02\3&103A9D54&0&9C
@@ -501,11 +501,11 @@ Device ID: PCI\VEN_8086&DEV_2F2A&SUBSYS_78851462&REV_02\3&11583659&0&2A
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #4 - 8D16
 Device ID: PCI\VEN_8086&DEV_8D16&SUBSYS_78851462&REV_D5\3&11583659&0&E3
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 PCI Express Root Port 2 - 2F04
 Device ID: PCI\VEN_8086&DEV_2F04&SUBSYS_78851462&REV_02\3&11583659&0&10
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Hot Plug - 2F29
 Device ID: PCI\VEN_8086&DEV_2F29&SUBSYS_78851462&REV_02\3&11583659&0&29
@@ -537,156 +537,156 @@ Device ID: PCI\VEN_8086&DEV_2FE0&SUBSYS_00001462&REV_02\3&103A9D54&0&60
 
      Name: AMD Radeon (TM) R9 390 Series
 Device ID: PCI\VEN_1002&DEV_67B1&SUBSYS_E324174B&REV_80\4&105E7&0&0010
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiesrxx.exe, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 481768 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atio6axx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 35699176 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atioglxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 29528552 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atidxx32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 13367640 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atidxx64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 16190648 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ATIODCLI.exe, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 76776 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ATIODE.exe, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 358368 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalcl.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 74728 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalcl64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 81384 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticaldd.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 14328296 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticaldd64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 15737832 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalrt.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 77792 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalrt64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 88040 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atig6pxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 154088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atig6txx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 233448 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atigktxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 206304 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiglpxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 134120 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atikmpag.sys, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 546280 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiu9p64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 184264 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiu9pag.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 154664 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiuxp64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 207664 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiuxpag.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 172248 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\coinst_17.50.dll, 1.00.0005.0009 (English), 2/1/2018 08:17:44, 1247208 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticfx32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 1578632 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticfx64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 1987904 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:30, 51038696 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:32, 65603560 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdhdl32.dll, 2/1/2018 08:17:26, 321000 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdhdl64.dll, 2/1/2018 08:17:26, 397288 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmantle32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:28, 12934120 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmantle64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:28, 15443432 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativce03.dat, 2/1/2018 08:17:42, 160768 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_vi.dat, 2/1/2018 08:17:44, 326468 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_vi_nd.dat, 2/1/2018 08:17:44, 326208 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cz_nd.dat, 2/1/2018 08:17:44, 273216 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde31a.dat, 2/1/2018 08:17:26, 159072 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_FJ.dat, 2/1/2018 08:17:44, 268772 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_FJ_nd.dat, 2/1/2018 08:17:44, 268512 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdxc32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:34, 14629896 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdxc64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:34, 17511480 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl12cl.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:30, 25154536 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl12cl64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:30, 31562728 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdicdxx.dat, 2/1/2018 08:17:26, 988781 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiicdxx.dat, 2/1/2018 08:17:38, 737410 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_el_nd.dat, 2/1/2018 08:17:44, 375168 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde34a.dat, 2/1/2018 08:17:26, 166560 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_stn_nd.dat, 2/1/2018 08:17:44, 278976 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde34b.dat, 2/1/2018 08:17:26, 166560 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amduve32.dll, 15.22.0006.0000 (English), 2/1/2018 08:17:32, 144360 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amduve64.dll, 15.22.0006.0000 (English), 2/1/2018 08:17:32, 166376 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmmcl.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:28, 126440 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmmcl6.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:28, 148456 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atikmdag.sys, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 41579496 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumd64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 11882992 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumd6a.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 12477360 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumdag.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 9667256 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumdva.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 11938608 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativce02.dat, 2/1/2018 08:17:42, 100816 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cik.dat, 2/1/2018 08:17:42, 234292 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cik_nd.dat, 2/1/2018 08:17:44, 234032 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_gl_nd.dat, 2/1/2018 08:17:44, 374656 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde40a.dat, 2/1/2018 08:17:26, 165024 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_rv.dat, 2/1/2018 08:17:44, 341088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdave32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 116168 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdave64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 131264 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atitmm64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 484328 bytes
-   Driver: C:\WINDOWS\system32\atieclxx.exe, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 709608 bytes
-   Driver: C:\WINDOWS\system32\atidemgy.dll, 4.05.6605.32936 (English), 2/1/2018 08:17:38, 467944 bytes
-   Driver: C:\WINDOWS\system32\ati2erec.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 69608 bytes
-   Driver: C:\WINDOWS\system32\atig6txx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 233448 bytes
-   Driver: C:\WINDOWS\system32\atiapfxx.blb, 2/1/2018 08:17:36, 858720 bytes
-   Driver: C:\WINDOWS\system32\OpenCL.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:34, 173032 bytes
-   Driver: C:\WINDOWS\system32\clinfo.exe, 2/1/2018 08:17:44, 352232 bytes
-   Driver: C:\WINDOWS\system32\amdhcp64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 186376 bytes
-   Driver: C:\WINDOWS\system32\hsa-thunk64.dll, 2/1/2018 08:17:44, 276960 bytes
-   Driver: C:\WINDOWS\system32\kapp_ci.sbin, 12/19/2017 12:27:06, 121392 bytes
-   Driver: C:\WINDOWS\system32\kapp_si.sbin, 12/19/2017 12:27:06, 117072 bytes
-   Driver: C:\WINDOWS\system32\samu_krnl_ci.sbin, 10/13/2017 09:01:56, 154384 bytes
-   Driver: C:\WINDOWS\system32\samu_krnl_isv_ci.sbin, 10/13/2017 09:01:56, 138832 bytes
-   Driver: C:\WINDOWS\system32\mantle64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 180200 bytes
-   Driver: C:\WINDOWS\system32\mantleaxl64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 159208 bytes
-   Driver: C:\WINDOWS\system32\detoured.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 19272 bytes
-   Driver: C:\WINDOWS\system32\amdgfxinfo64.dll, 2/1/2018 08:17:26, 445928 bytes
-   Driver: C:\WINDOWS\system32\atieah64.exe, 2/1/2018 08:17:38, 414688 bytes
-   Driver: C:\WINDOWS\system32\Rapidfire64.dll, 1.01.0000.0027 (English), 2/1/2018 08:17:44, 556520 bytes
-   Driver: C:\WINDOWS\system32\RapidFireServer64.dll, 1.01.0000.0019 (English), 2/1/2018 08:17:44, 45544 bytes
-   Driver: C:\WINDOWS\system32\amdlvr64.dll, 1.00.0012.0000 (English), 2/1/2018 08:17:26, 875488 bytes
-   Driver: C:\WINDOWS\system32\amdvlk64.dll, 9.02.0010.0001 (English), 2/1/2018 08:17:34, 16044008 bytes
-   Driver: C:\WINDOWS\system32\amd-vulkan64.json, 2/1/2018 08:17:26, 700 bytes
-   Driver: C:\WINDOWS\system32\GameManager64.dll, 2/1/2018 08:17:44, 458728 bytes
-   Driver: C:\WINDOWS\system32\amdmiracast.dll, 2/1/2018 08:17:28, 548400 bytes
-   Driver: C:\WINDOWS\system32\dgtrayicon.exe, 2/1/2018 08:17:44, 480232 bytes
-   Driver: C:\WINDOWS\system32\AMDKernelEvents.man, 12/19/2017 12:26:44, 34501 bytes
-   Driver: C:\WINDOWS\system32\amfrt64.dll, 1.04.0006.0000 (English), 2/1/2018 08:17:36, 2942440 bytes
-   Driver: C:\WINDOWS\system32\amdmcl64.dll, 1.06.0000.0000 (English), 2/1/2018 08:17:28, 552928 bytes
-   Driver: C:\WINDOWS\system32\amdxc64.dll, 8.18.0010.0217 (English), 2/1/2018 08:17:34, 114152 bytes
-   Driver: C:\WINDOWS\system32\aticfx64.dll, 8.17.0010.1586 (English), 2/1/2018 08:17:38, 154728 bytes
-   Driver: C:\WINDOWS\system32\atidxx64.dll, 2/1/2018 08:17:38, 119784 bytes
-   Driver: C:\WINDOWS\system32\atimpc64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 121984 bytes
-   Driver: C:\WINDOWS\system32\atimuixx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 124904 bytes
-   Driver: C:\WINDOWS\system32\atisamu64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 157672 bytes
-   Driver: C:\WINDOWS\system32\atiumd6a.cap, 2/1/2018 08:17:42, 3437632 bytes
-   Driver: C:\WINDOWS\system32\ativvsva.dat, 10/13/2017 09:01:54, 157144 bytes
-   Driver: C:\WINDOWS\system32\ativvsvl.dat, 10/13/2017 09:01:54, 204952 bytes
-   Driver: C:\WINDOWS\system32\amdave64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 131264 bytes
-   Driver: C:\WINDOWS\system32\amdpcom64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:32, 121984 bytes
-   Driver: C:\WINDOWS\system32\atiadlxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 1471976 bytes
-   Driver: C:\WINDOWS\SysWOW64\atigktxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:38, 206304 bytes
-   Driver: C:\WINDOWS\SysWOW64\atiapfxx.blb, 2/1/2018 08:17:36, 858720 bytes
-   Driver: C:\WINDOWS\SysWOW64\OpenCL.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:34, 148968 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdhcp32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 164504 bytes
-   Driver: C:\WINDOWS\SysWOW64\hsa-thunk.dll, 2/1/2018 08:17:44, 242664 bytes
-   Driver: C:\WINDOWS\SysWOW64\mantle32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 151016 bytes
-   Driver: C:\WINDOWS\SysWOW64\mantleaxl32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 135656 bytes
-   Driver: C:\WINDOWS\SysWOW64\detoured.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:44, 19272 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdgfxinfo32.dll, 2/1/2018 08:17:26, 361448 bytes
-   Driver: C:\WINDOWS\SysWOW64\atieah32.exe, 2/1/2018 08:17:38, 334824 bytes
-   Driver: C:\WINDOWS\SysWOW64\RapidFireServer.dll, 1.01.0000.0019 (English), 2/1/2018 08:17:44, 42472 bytes
-   Driver: C:\WINDOWS\SysWOW64\Rapidfire.dll, 1.01.0000.0027 (English), 2/1/2018 08:17:44, 470504 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdlvr32.dll, 1.00.0012.0000 (English), 2/1/2018 08:17:26, 703464 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdvlk32.dll, 9.02.0010.0001 (English), 2/1/2018 08:17:34, 13616616 bytes
-   Driver: C:\WINDOWS\SysWOW64\amd-vulkan32.json, 2/1/2018 08:17:26, 700 bytes
-   Driver: C:\WINDOWS\SysWOW64\GameManager32.dll, 2/1/2018 08:17:44, 366560 bytes
-   Driver: C:\WINDOWS\SysWOW64\amfrt32.dll, 1.04.0006.0000 (English), 2/1/2018 08:17:36, 2550760 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdmcl32.dll, 1.06.0000.0000 (English), 2/1/2018 08:17:28, 382952 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdxc32.dll, 8.18.0010.0217 (English), 2/1/2018 08:17:34, 99304 bytes
-   Driver: C:\WINDOWS\SysWOW64\aticfx32.dll, 8.17.0010.1586 (English), 2/1/2018 08:17:38, 145976 bytes
-   Driver: C:\WINDOWS\SysWOW64\atidxx32.dll, 2/1/2018 08:17:38, 103400 bytes
-   Driver: C:\WINDOWS\SysWOW64\atimpc32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:40, 102624 bytes
-   Driver: C:\WINDOWS\SysWOW64\atisamu32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:42, 133608 bytes
-   Driver: C:\WINDOWS\SysWOW64\atiumdva.cap, 2/1/2018 08:17:42, 3471376 bytes
-   Driver: C:\WINDOWS\SysWOW64\ativvsva.dat, 10/13/2017 09:01:54, 157144 bytes
-   Driver: C:\WINDOWS\SysWOW64\ativvsvl.dat, 10/13/2017 09:01:54, 204952 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdave32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 116168 bytes
-   Driver: C:\WINDOWS\SysWOW64\amdpcom32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:32, 102624 bytes
-   Driver: C:\WINDOWS\SysWOW64\atiadlxx.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 1064936 bytes
-   Driver: C:\WINDOWS\SysWOW64\atiadlxy.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:36, 1064936 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-decvp9-decoder32.dll, 1.00.0000.0000 (English), 2/1/2018 08:17:36, 14852584 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-decvp9-decoder64.dll, 1.00.0000.0000 (English), 2/1/2018 08:17:36, 16340960 bytes
-   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.stz, 16.60.6034.0000 (English), 2/1/2018 08:17:26, 98800 bytes
-   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.itz, 12/19/2017 12:26:44, 1988 bytes
-   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.ctz, 12/19/2017 12:26:44, 8319 bytes
-   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.stz, 8.14.0001.6003 (English), 2/1/2018 08:17:26, 58760 bytes
-   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.itz, 12/19/2017 12:26:44, 2126 bytes
-   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.ctz, 12/19/2017 12:26:44, 10034 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 1289704 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 1524488 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_32.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 233960 bytes
-   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_64.dll, 23.20.15017.3010 (English), 2/1/2018 08:17:26, 271848 bytes
-   Driver: C:\WINDOWS\system32\coinst_17.50.dll, 1.00.0005.0009 (English), 2/1/2018 08:17:44, 1247208 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiesrxx.exe, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 481768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atio6axx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 35699176 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atioglxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 29528552 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atidxx32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 13367640 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atidxx64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 16190648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ATIODCLI.exe, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 76776 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ATIODE.exe, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 358368 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalcl.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 74728 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalcl64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 81384 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticaldd.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 14328296 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticaldd64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 15737832 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalrt.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 77792 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticalrt64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 88040 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atig6pxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 154088 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atig6txx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 233448 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atigktxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 206304 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiglpxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 134120 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atikmpag.sys, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 546280 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiu9p64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 184264 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiu9pag.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 154664 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiuxp64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 207664 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiuxpag.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 172248 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\coinst_17.50.dll, 1.00.0005.0009 (English), 2/1/2018 09:17:44, 1247208 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticfx32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 1578632 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\aticfx64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 1987904 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:30, 51038696 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:32, 65603560 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdhdl32.dll, 2/1/2018 09:17:26, 321000 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdhdl64.dll, 2/1/2018 09:17:26, 397288 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmantle32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:28, 12934120 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmantle64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:28, 15443432 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativce03.dat, 2/1/2018 09:17:42, 160768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_vi.dat, 2/1/2018 09:17:44, 326468 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_vi_nd.dat, 2/1/2018 09:17:44, 326208 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cz_nd.dat, 2/1/2018 09:17:44, 273216 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde31a.dat, 2/1/2018 09:17:26, 159072 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_FJ.dat, 2/1/2018 09:17:44, 268772 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_FJ_nd.dat, 2/1/2018 09:17:44, 268512 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdxc32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:34, 14629896 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdxc64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:34, 17511480 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl12cl.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:30, 25154536 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdocl12cl64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:30, 31562728 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdicdxx.dat, 2/1/2018 09:17:26, 988781 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiicdxx.dat, 2/1/2018 09:17:38, 737410 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_el_nd.dat, 2/1/2018 09:17:44, 375168 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde34a.dat, 2/1/2018 09:17:26, 166560 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_stn_nd.dat, 2/1/2018 09:17:44, 278976 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde34b.dat, 2/1/2018 09:17:26, 166560 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amduve32.dll, 15.22.0006.0000 (English), 2/1/2018 09:17:32, 144360 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amduve64.dll, 15.22.0006.0000 (English), 2/1/2018 09:17:32, 166376 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmmcl.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:28, 126440 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdmmcl6.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:28, 148456 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atikmdag.sys, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 41579496 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumd64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 11882992 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumd6a.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 12477360 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumdag.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 9667256 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atiumdva.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 11938608 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativce02.dat, 2/1/2018 09:17:42, 100816 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cik.dat, 2/1/2018 09:17:42, 234292 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_cik_nd.dat, 2/1/2018 09:17:44, 234032 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_gl_nd.dat, 2/1/2018 09:17:44, 374656 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amde40a.dat, 2/1/2018 09:17:26, 165024 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\ativvaxy_rv.dat, 2/1/2018 09:17:44, 341088 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdave32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 116168 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\amdave64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 131264 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\c0323782.inf_amd64_76aa306862ba7fcf\atitmm64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 484328 bytes
+   Driver: C:\WINDOWS\system32\atieclxx.exe, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 709608 bytes
+   Driver: C:\WINDOWS\system32\atidemgy.dll, 4.05.6605.32936 (English), 2/1/2018 09:17:38, 467944 bytes
+   Driver: C:\WINDOWS\system32\ati2erec.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 69608 bytes
+   Driver: C:\WINDOWS\system32\atig6txx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 233448 bytes
+   Driver: C:\WINDOWS\system32\atiapfxx.blb, 2/1/2018 09:17:36, 858720 bytes
+   Driver: C:\WINDOWS\system32\OpenCL.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:34, 173032 bytes
+   Driver: C:\WINDOWS\system32\clinfo.exe, 2/1/2018 09:17:44, 352232 bytes
+   Driver: C:\WINDOWS\system32\amdhcp64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 186376 bytes
+   Driver: C:\WINDOWS\system32\hsa-thunk64.dll, 2/1/2018 09:17:44, 276960 bytes
+   Driver: C:\WINDOWS\system32\kapp_ci.sbin, 12/19/2017 13:27:06, 121392 bytes
+   Driver: C:\WINDOWS\system32\kapp_si.sbin, 12/19/2017 13:27:06, 117072 bytes
+   Driver: C:\WINDOWS\system32\samu_krnl_ci.sbin, 10/13/2017 10:01:56, 154384 bytes
+   Driver: C:\WINDOWS\system32\samu_krnl_isv_ci.sbin, 10/13/2017 10:01:56, 138832 bytes
+   Driver: C:\WINDOWS\system32\mantle64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 180200 bytes
+   Driver: C:\WINDOWS\system32\mantleaxl64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 159208 bytes
+   Driver: C:\WINDOWS\system32\detoured.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 19272 bytes
+   Driver: C:\WINDOWS\system32\amdgfxinfo64.dll, 2/1/2018 09:17:26, 445928 bytes
+   Driver: C:\WINDOWS\system32\atieah64.exe, 2/1/2018 09:17:38, 414688 bytes
+   Driver: C:\WINDOWS\system32\Rapidfire64.dll, 1.01.0000.0027 (English), 2/1/2018 09:17:44, 556520 bytes
+   Driver: C:\WINDOWS\system32\RapidFireServer64.dll, 1.01.0000.0019 (English), 2/1/2018 09:17:44, 45544 bytes
+   Driver: C:\WINDOWS\system32\amdlvr64.dll, 1.00.0012.0000 (English), 2/1/2018 09:17:26, 875488 bytes
+   Driver: C:\WINDOWS\system32\amdvlk64.dll, 9.02.0010.0001 (English), 2/1/2018 09:17:34, 16044008 bytes
+   Driver: C:\WINDOWS\system32\amd-vulkan64.json, 2/1/2018 09:17:26, 700 bytes
+   Driver: C:\WINDOWS\system32\GameManager64.dll, 2/1/2018 09:17:44, 458728 bytes
+   Driver: C:\WINDOWS\system32\amdmiracast.dll, 2/1/2018 09:17:28, 548400 bytes
+   Driver: C:\WINDOWS\system32\dgtrayicon.exe, 2/1/2018 09:17:44, 480232 bytes
+   Driver: C:\WINDOWS\system32\AMDKernelEvents.man, 12/19/2017 13:26:44, 34501 bytes
+   Driver: C:\WINDOWS\system32\amfrt64.dll, 1.04.0006.0000 (English), 2/1/2018 09:17:36, 2942440 bytes
+   Driver: C:\WINDOWS\system32\amdmcl64.dll, 1.06.0000.0000 (English), 2/1/2018 09:17:28, 552928 bytes
+   Driver: C:\WINDOWS\system32\amdxc64.dll, 8.18.0010.0217 (English), 2/1/2018 09:17:34, 114152 bytes
+   Driver: C:\WINDOWS\system32\aticfx64.dll, 8.17.0010.1586 (English), 2/1/2018 09:17:38, 154728 bytes
+   Driver: C:\WINDOWS\system32\atidxx64.dll, 2/1/2018 09:17:38, 119784 bytes
+   Driver: C:\WINDOWS\system32\atimpc64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 121984 bytes
+   Driver: C:\WINDOWS\system32\atimuixx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 124904 bytes
+   Driver: C:\WINDOWS\system32\atisamu64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 157672 bytes
+   Driver: C:\WINDOWS\system32\atiumd6a.cap, 2/1/2018 09:17:42, 3437632 bytes
+   Driver: C:\WINDOWS\system32\ativvsva.dat, 10/13/2017 10:01:54, 157144 bytes
+   Driver: C:\WINDOWS\system32\ativvsvl.dat, 10/13/2017 10:01:54, 204952 bytes
+   Driver: C:\WINDOWS\system32\amdave64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 131264 bytes
+   Driver: C:\WINDOWS\system32\amdpcom64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:32, 121984 bytes
+   Driver: C:\WINDOWS\system32\atiadlxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 1471976 bytes
+   Driver: C:\WINDOWS\SysWOW64\atigktxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:38, 206304 bytes
+   Driver: C:\WINDOWS\SysWOW64\atiapfxx.blb, 2/1/2018 09:17:36, 858720 bytes
+   Driver: C:\WINDOWS\SysWOW64\OpenCL.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:34, 148968 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdhcp32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 164504 bytes
+   Driver: C:\WINDOWS\SysWOW64\hsa-thunk.dll, 2/1/2018 09:17:44, 242664 bytes
+   Driver: C:\WINDOWS\SysWOW64\mantle32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 151016 bytes
+   Driver: C:\WINDOWS\SysWOW64\mantleaxl32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 135656 bytes
+   Driver: C:\WINDOWS\SysWOW64\detoured.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:44, 19272 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdgfxinfo32.dll, 2/1/2018 09:17:26, 361448 bytes
+   Driver: C:\WINDOWS\SysWOW64\atieah32.exe, 2/1/2018 09:17:38, 334824 bytes
+   Driver: C:\WINDOWS\SysWOW64\RapidFireServer.dll, 1.01.0000.0019 (English), 2/1/2018 09:17:44, 42472 bytes
+   Driver: C:\WINDOWS\SysWOW64\Rapidfire.dll, 1.01.0000.0027 (English), 2/1/2018 09:17:44, 470504 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdlvr32.dll, 1.00.0012.0000 (English), 2/1/2018 09:17:26, 703464 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdvlk32.dll, 9.02.0010.0001 (English), 2/1/2018 09:17:34, 13616616 bytes
+   Driver: C:\WINDOWS\SysWOW64\amd-vulkan32.json, 2/1/2018 09:17:26, 700 bytes
+   Driver: C:\WINDOWS\SysWOW64\GameManager32.dll, 2/1/2018 09:17:44, 366560 bytes
+   Driver: C:\WINDOWS\SysWOW64\amfrt32.dll, 1.04.0006.0000 (English), 2/1/2018 09:17:36, 2550760 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdmcl32.dll, 1.06.0000.0000 (English), 2/1/2018 09:17:28, 382952 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdxc32.dll, 8.18.0010.0217 (English), 2/1/2018 09:17:34, 99304 bytes
+   Driver: C:\WINDOWS\SysWOW64\aticfx32.dll, 8.17.0010.1586 (English), 2/1/2018 09:17:38, 145976 bytes
+   Driver: C:\WINDOWS\SysWOW64\atidxx32.dll, 2/1/2018 09:17:38, 103400 bytes
+   Driver: C:\WINDOWS\SysWOW64\atimpc32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:40, 102624 bytes
+   Driver: C:\WINDOWS\SysWOW64\atisamu32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:42, 133608 bytes
+   Driver: C:\WINDOWS\SysWOW64\atiumdva.cap, 2/1/2018 09:17:42, 3471376 bytes
+   Driver: C:\WINDOWS\SysWOW64\ativvsva.dat, 10/13/2017 10:01:54, 157144 bytes
+   Driver: C:\WINDOWS\SysWOW64\ativvsvl.dat, 10/13/2017 10:01:54, 204952 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdave32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 116168 bytes
+   Driver: C:\WINDOWS\SysWOW64\amdpcom32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:32, 102624 bytes
+   Driver: C:\WINDOWS\SysWOW64\atiadlxx.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 1064936 bytes
+   Driver: C:\WINDOWS\SysWOW64\atiadlxy.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:36, 1064936 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-decvp9-decoder32.dll, 1.00.0000.0000 (English), 2/1/2018 09:17:36, 14852584 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\amf-mft-decvp9-decoder64.dll, 1.00.0000.0000 (English), 2/1/2018 09:17:36, 16340960 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.stz, 16.60.6034.0000 (English), 2/1/2018 09:17:26, 98800 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.itz, 12/19/2017 13:26:44, 1988 bytes
+   Driver: C:\Program Files\AMD\amdkmpfd\amdkmpfd.ctz, 12/19/2017 13:26:44, 8319 bytes
+   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.stz, 8.14.0001.6003 (English), 2/1/2018 09:17:26, 58760 bytes
+   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.itz, 12/19/2017 13:26:44, 2126 bytes
+   Driver: C:\Program Files\AMD\amdkmafd\amdkmafd.ctz, 12/19/2017 13:26:44, 10034 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 1289704 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDh264Enc64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 1524488 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_32.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 233960 bytes
+   Driver: C:\Program Files\Common Files\ATI Technologies\Multimedia\AMDhwDecoder_64.dll, 23.20.15017.3010 (English), 2/1/2018 09:17:26, 271848 bytes
+   Driver: C:\WINDOWS\system32\coinst_17.50.dll, 1.00.0005.0009 (English), 2/1/2018 09:17:44, 1247208 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 DDRIO (VMSE) 2 & 3 - 2FBB
 Device ID: PCI\VEN_8086&DEV_2FBB&SUBSYS_00000000&REV_02\3&103A9D54&0&BF
@@ -698,9 +698,9 @@ Device ID: PCI\VEN_8086&DEV_2FC0&SUBSYS_2FC08086&REV_02\3&103A9D54&0&F3
 
      Name: Intel(R) C610 series/X99 chipset USB Enhanced Host Controller #1 - 8D26
 Device ID: PCI\VEN_8086&DEV_8D26&SUBSYS_78851462&REV_05\3&11583659&0&E8
-   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 95640 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 454040 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 513944 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 95640 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 513944 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Buffered Ring Agent - 2FF9
 Device ID: PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02\3&103A9D54&0&79
@@ -708,9 +708,9 @@ Device ID: PCI\VEN_8086&DEV_2FF9&SUBSYS_00000000&REV_02\3&103A9D54&0&79
 
      Name: High Definition Audio Controller
 Device ID: PCI\VEN_8086&DEV_8D20&SUBSYS_D8851462&REV_05\3&11583659&0&D8
-   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 86016 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 96768 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 379392 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 86016 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 96768 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 379392 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Unicast Registers - 2FE3
 Device ID: PCI\VEN_8086&DEV_2FE3&SUBSYS_00001462&REV_02\3&103A9D54&0&63
@@ -726,11 +726,11 @@ Device ID: PCI\VEN_8086&DEV_2F7D&SUBSYS_2F7D8086&REV_02\3&103A9D54&0&86
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #3 - 8D14
 Device ID: PCI\VEN_8086&DEV_8D14&SUBSYS_78851462&REV_D5\3&11583659&0&E2
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 PCI Express Root Port 1 - 2F02
 Device ID: PCI\VEN_8086&DEV_2F02&SUBSYS_78851462&REV_02\3&11583659&0&08
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 DDRIO (VMSE) 0 & 1 - 2FBE
 Device ID: PCI\VEN_8086&DEV_2FBE&SUBSYS_00000000&REV_02\3&103A9D54&0&A6
@@ -754,9 +754,9 @@ Device ID: PCI\VEN_8086&DEV_2FB5&SUBSYS_2FB58086&REV_02\3&103A9D54&0&A9
 
      Name: High Definition Audio Controller
 Device ID: PCI\VEN_1002&DEV_AAC8&SUBSYS_AAC8174B&REV_00\4&105E7&0&0110
-   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 86016 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 96768 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 05:40:59, 379392 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 86016 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 96768 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 06:40:59, 379392 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Integrated Memory Controller 0 Channel 1 ERROR Registers - 2FB3
 Device ID: PCI\VEN_8086&DEV_2FB3&SUBSYS_2FB38086&REV_02\3&103A9D54&0&A3
@@ -768,9 +768,9 @@ Device ID: PCI\VEN_8086&DEV_2FB1&SUBSYS_2FB18086&REV_02\3&103A9D54&0&A1
 
      Name: Intel(R) C610 series/X99 chipset USB Enhanced Host Controller #2 - 8D2D
 Device ID: PCI\VEN_8086&DEV_8D2D&SUBSYS_78851462&REV_05\3&11583659&0&D0
-   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 95640 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 454040 bytes
-   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:08, 513944 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 95640 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:08, 513944 bytes
 
      Name: Intel RSTe Device - 2F9C
 Device ID: PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02\3&103A9D54&0&F4
@@ -778,7 +778,7 @@ Device ID: PCI\VEN_8086&DEV_2F9C&SUBSYS_2F9C8086&REV_02\3&103A9D54&0&F4
 
      Name: VIA USB 3.0 eXtensible Host Controller - 1.0 (Microsoft)
 Device ID: PCI\VEN_1106&DEV_3483&SUBSYS_78851462&REV_01\4&733CE37&0&00E3
-   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.16299.0125 (English), 12/7/2017 15:24:06, 437144 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.16299.0251 (English), 2/21/2018 18:54:20, 437144 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 Power Control Unit - 2F9A
 Device ID: PCI\VEN_8086&DEV_2F9A&SUBSYS_2F9A8086&REV_02\3&103A9D54&0&F2
@@ -818,11 +818,11 @@ Device ID: PCI\VEN_8086&DEV_2FE1&SUBSYS_00001462&REV_02\3&103A9D54&0&61
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 PCI Express Root Port 3 - 2F08
 Device ID: PCI\VEN_8086&DEV_2F08&SUBSYS_78851462&REV_02\3&11583659&0&18
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Standard SATA AHCI Controller
 Device ID: PCI\VEN_8086&DEV_8D02&SUBSYS_78851462&REV_05\3&11583659&0&FA
-   Driver: C:\WINDOWS\system32\DRIVERS\storahci.sys, 10.00.16299.0098 (English), 11/26/2017 05:28:15, 149400 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\storahci.sys, 10.00.16299.0251 (English), 2/21/2018 19:02:49, 149400 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 DMI2 - 2F00
 Device ID: PCI\VEN_8086&DEV_2F00&SUBSYS_78851462&REV_02\3&11583659&0&00
@@ -838,7 +838,7 @@ Device ID: PCI\VEN_8086&DEV_2FBC&SUBSYS_00000000&REV_02\3&103A9D54&0&A4
 
      Name: Intel(R) I210 Gigabit Network Connection
 Device ID: PCI\VEN_8086&DEV_1533&SUBSYS_78851462&REV_03\D8CB8AFFFF39E3F400
-   Driver: C:\WINDOWS\system32\DRIVERS\e1i63x64.sys, 12.15.0022.0006 (English), 9/29/2017 05:40:59, 524800 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\e1i63x64.sys, 12.15.0022.0006 (English), 9/29/2017 06:40:59, 524800 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 VCU - 2F88
 Device ID: PCI\VEN_8086&DEV_2F88&SUBSYS_00000000&REV_02\3&103A9D54&0&F8
@@ -878,11 +878,11 @@ Device ID: PCI\VEN_8086&DEV_2F36&SUBSYS_78851462&REV_02\3&103A9D54&0&59
 
      Name: ASMedia USB3.0 eXtensible Host Controller
 Device ID: PCI\VEN_1B21&DEV_1142&SUBSYS_78851462&REV_00\4&36647354&0&00E4
-   Driver: C:\WINDOWS\system32\DRIVERS\asmtxhci.sys, 1.16.0033.0001 (English), 2/15/2016 22:32:44, 451320 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\asmtxhci.sys, 1.16.0033.0001 (English), 2/15/2016 23:32:44, 451320 bytes
 
      Name: Intel(R) C610 series/X99 chipset LPC Controller - 8D47
 Device ID: PCI\VEN_8086&DEV_8D47&SUBSYS_78851462&REV_05\3&11583659&0&F8
-   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.16299.0015 (English), 9/29/2017 05:41:03, 18840 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.16299.0015 (English), 9/29/2017 06:41:03, 18840 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 I/O APIC - 2F2C
 Device ID: PCI\VEN_8086&DEV_2F2C&SUBSYS_78851462&REV_02\3&11583659&0&2C
@@ -894,7 +894,7 @@ Device ID: PCI\VEN_8086&DEV_2FFC&SUBSYS_00001462&REV_02\3&103A9D54&0&7C
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #5 - 8D18
 Device ID: PCI\VEN_8086&DEV_8D18&SUBSYS_78851462&REV_D5\3&11583659&0&E4
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 R3 QPI Link 0 & 1 Monitoring - 2F81
 Device ID: PCI\VEN_8086&DEV_2F81&SUBSYS_78851462&REV_02\3&103A9D54&0&58
@@ -902,7 +902,7 @@ Device ID: PCI\VEN_8086&DEV_2F81&SUBSYS_78851462&REV_02\3&103A9D54&0&58
 
      Name: Intel(R) C610 series/X99 chipset PCI Express Root Port #1 - 8D10
 Device ID: PCI\VEN_8086&DEV_8D10&SUBSYS_78851462&REV_D5\3&11583659&0&E0
-   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/9/2018 22:06:11, 362904 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0251 (English), 2/21/2018 18:50:34, 362904 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 DDRIO (VMSE) 2 & 3 - 2FBA
 Device ID: PCI\VEN_8086&DEV_2FBA&SUBSYS_00000000&REV_02\3&103A9D54&0&BE
@@ -926,7 +926,7 @@ Device ID: PCI\VEN_8086&DEV_2FB4&SUBSYS_2FB48086&REV_02\3&103A9D54&0&A8
 
      Name: Intel(R) Management Engine Interface 
 Device ID: PCI\VEN_8086&DEV_8D3A&SUBSYS_78851462&REV_05\3&11583659&0&B0
-   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverW8x64.sys, 11.00.0000.1181 (English), 2/3/2016 23:43:28, 185896 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\TeeDriverW8x64.sys, 11.00.0000.1181 (English), 2/4/2016 00:43:28, 185896 bytes
 
      Name: Intel(R) Xeon(R) E7 v3/Xeon(R) E5 v3/Core i7 DDRIO (VMSE) 2 & 3 - 2FB9
 Device ID: PCI\VEN_8086&DEV_2FB9&SUBSYS_00000000&REV_02\3&103A9D54&0&BD
@@ -974,18 +974,18 @@ Video Encoders:
   AMDh264Encoder, {ADC9BC80-0F41-46C6-AB75-D693D793597D}, 0x4, 8, AMDh264Enc64.dll, 23.20.15017.3010
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.16299.0015
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.16299.0248
-  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.16299.0015
+  Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.16299.0251
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.16299.0015
   WMVideo9 Encoder MFT, CLSID_CWMV9EncMediaObject, 0x1, wmvencod.dll, 10.00.16299.0015
   Microsoft MPEG-2 Video Encoder MFT, {E6335F02-80B7-4DC4-ADFA-DFE7210D20D5}, 0x2, msmpeg2enc.dll, 10.00.16299.0015
 Video Effects:
   Frame Rate Converter, CLSID_CFrameRateConvertDmo, 0x1, mfvdsp.dll, 10.00.16299.0015
   Resizer MFT, CLSID_CResizerDMO, 0x1, vidreszr.dll, 10.00.16299.0015
-  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.16299.0015
+  VideoStabilization MFT, {51571744-7FE4-4FF2-A498-2DC34FF74F1B}, 0x1, MSVideoDSP.dll, 10.00.16299.0309
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.16299.0015
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.16299.0015
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0098
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0309
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.16299.0015
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.16299.0015
@@ -1329,20 +1329,20 @@ P10:
 
 
 +++ WER2 +++:
-Fault bucket 108750992249, type 1
+Fault bucket 120856653306, type 4
 Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: MSIDDRService.exe
-P2: 3.0.0.16
-P3: 58a41e28
-P4: MSIDDRService.exe
-P5: 3.0.0.16
-P6: 58a41e28
+P1: Wacom_Tablet.exe
+P2: 6.3.25.5
+P3: 59e67e07
+P4: Wacom_Tablet.exe
+P5: 6.3.25.5
+P6: 59e67e07
 P7: c0000005
-P8: 00026eaf
+P8: 00000000002cf130
 P9: 
 P10: 
 
@@ -1354,95 +1354,57 @@ Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: MSIDDRService.exe
-P2: 3.0.0.16
-P3: 58a41e28
-P4: MSIDDRService.exe
-P5: 3.0.0.16
-P6: 58a41e28
+P1: Wacom_Tablet.exe
+P2: 6.3.25.5
+P3: 59e67e07
+P4: Wacom_Tablet.exe
+P5: 6.3.25.5
+P6: 59e67e07
 P7: c0000005
-P8: 00026eaf
+P8: 00000000002cf130
 P9: 
 P10: 
 
 
 +++ WER4 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
+Fault bucket 2293860450221566229, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 144
-P2: 3003
-P3: ffffc508846f4808
-P4: 40010000
-P5: 0
-P6: 10_0_16299
-P7: 0_0
-P8: 768_1
+P1: git.exe
+P2: 2.16.1.1
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER5 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
+Fault bucket 1323472835616687874, type 5
+Event Name: RADAR_PRE_LEAK_64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: 1000015e
-P2: 25
-P3: 11
-P4: ffff9c02afe73538
-P5: 0
-P6: 10_0_16299
-P7: 0_0
-P8: 768_1
+P1: EpicGamesLauncher.exe
+P2: 7.6.0.0
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER6 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 144
-P2: 3003
-P3: ffffc508846f4808
-P4: 40010000
-P5: 0
-P6: 10_0_16299
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-
-+++ WER7 +++:
-Fault bucket , type 0
-Event Name: LiveKernelEvent
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: 1000015e
-P2: 25
-P3: 11
-P4: ffff9c02afe73538
-P5: 0
-P6: 10_0_16299
-P7: 0_0
-P8: 768_1
-P9: 
-P10: 
-
-
-+++ WER8 +++:
 Fault bucket 108750992249, type 1
 Event Name: APPCRASH
 Response: Not available
@@ -1461,7 +1423,7 @@ P9:
 P10: 
 
 
-+++ WER9 +++:
++++ WER7 +++:
 Fault bucket , type 0
 Event Name: APPCRASH
 Response: Not available
@@ -1476,6 +1438,44 @@ P5: 3.0.0.16
 P6: 58a41e28
 P7: c0000005
 P8: 00026eaf
+P9: 
+P10: 
+
+
++++ WER8 +++:
+Fault bucket 120856653306, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Wacom_Tablet.exe
+P2: 6.3.25.5
+P3: 59e67e07
+P4: Wacom_Tablet.exe
+P5: 6.3.25.5
+P6: 59e67e07
+P7: c0000005
+P8: 00000000002cf130
+P9: 
+P10: 
+
+
++++ WER9 +++:
+Fault bucket , type 0
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Wacom_Tablet.exe
+P2: 6.3.25.5
+P3: 59e67e07
+P4: Wacom_Tablet.exe
+P5: 6.3.25.5
+P6: 59e67e07
+P7: c0000005
+P8: 00000000002cf130
 P9: 
 P10: 
 
