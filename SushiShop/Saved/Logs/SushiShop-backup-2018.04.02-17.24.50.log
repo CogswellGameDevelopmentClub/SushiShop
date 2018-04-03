@@ -1,0 +1,663 @@
+﻿Log file open, 04/02/18 17:19:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1957788758) SRandInit(-1957788758).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.176822
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.03-00.19.55:743][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.03-00.19.55:743][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.03-00.19.55:765][  0]LogInit: Computer: DESKTOP-2QNA1SC
+[2018.04.03-00.19.55:765][  0]LogInit: User: darkm
+[2018.04.03-00.19.55:765][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.03-00.19.55:765][  0]LogInit: High frequency timer resolution =1.945314 MHz
+[2018.04.03-00.19.55:765][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.03-00.19.55:765][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.03-00.19.55:765][  0]LogMemory: Process Physical Memory: 275.44 MB used, 275.44 MB peak
+[2018.04.03-00.19.55:765][  0]LogMemory: Process Virtual Memory: 273.83 MB used, 273.83 MB peak
+[2018.04.03-00.19.55:765][  0]LogMemory: Physical Memory: 7344.97 MB used,  8954.63 MB free, 16299.60 MB total
+[2018.04.03-00.19.55:765][  0]LogMemory: Virtual Memory: 686.77 MB used,  8954.63 MB free, 134217728.00 MB total
+[2018.04.03-00.19.55:907][  0]LogInit: Using OS detected language (en-US).
+[2018.04.03-00.19.55:907][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.03-00.19.55:909][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.03-00.19.56:356][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.03-00.19.56:621][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.03-00.19.56:655][  0]LogD3D11RHI:    0. 'Radeon 500 Series' (Feature Level 11_0)
+[2018.04.03-00.19.56:655][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.04.03-00.19.56:665][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.04.03-00.19.56:665][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.04.03-00.19.56:667][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.03-00.19.56:667][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.03-00.19.56:667][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.03-00.19.56:675][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.03-00.19.56:675][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2018.04.03-00.19.56:675][  0]LogWindows: EnumDisplayDevices:
+[2018.04.03-00.19.56:675][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.04.03-00.19.56:675][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.04.03-00.19.56:675][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.04.03-00.19.56:675][  0]LogWindows:    3. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:675][  0]LogWindows:    4. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    5. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    6. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    7. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    8. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    9. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    10. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    11. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    12. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    13. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:676][  0]LogWindows:    14. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:677][  0]LogWindows:    15. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:677][  0]LogWindows:    16. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:677][  0]LogWindows:    17. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:677][  0]LogWindows:    18. 'Radeon 500 Series' (P:0 D:0)
+[2018.04.03-00.19.56:677][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.03-00.19.56:677][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
+[2018.04.03-00.19.56:677][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.03-00.19.56:677][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.03-00.19.56:677][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2018.04.03-00.19.56:717][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.03-00.19.56:730][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.04.03-00.19.56:732][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/9072/).
+[2018.04.03-00.19.56:732][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/7858E260434CBEFE4B39E594800AD335/'.
+[2018.04.03-00.19.56:732][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.03-00.19.57:627][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.03-00.19.57:678][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.03-00.19.57:727][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.03-00.19.57:776][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.03-00.19.57:824][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.03-00.19.57:871][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.03-00.19.57:917][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.03-00.19.57:963][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.03-00.19.58:004][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.03-00.19.58:050][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.03-00.19.58:093][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.03-00.19.58:138][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.03-00.19.58:184][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.03-00.19.58:230][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.03-00.19.58:325][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.03-00.19.58:325][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.03-00.19.58:370][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.03-00.19.58:405][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.03-00.19.58:489][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.03-00.19.58:513][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.03-00.19.58:557][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.03-00.19.58:602][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.03-00.19.58:647][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.03-00.19.58:692][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.03-00.19.58:692][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.03-00.19.59:090][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: Loaded boot cache 0.09s 96MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.03-00.19.59:176][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.03-00.19.59:192][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.03-00.19.59:203][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.03-00.19.59:215][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.03-00.19.59:216][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.03-00.19.59:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.03-00.19.59:216][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.03-00.19.59:539][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.03-00.19.59:833][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.03-00.19.59:869][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.03-00.19.59:869][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.03-00.19.59:869][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.03-00.19.59:869][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.03-00.19.59:869][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.03-00.19.59:891][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.04.03-00.20.00:071][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.04.03-00.20.00:655][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.084733 seconds
+[2018.04.03-00.20.00:660][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.03-00.20.00:660][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.03-00.20.00:660][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.03-00.20.00:713][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.03-00.20.03:417][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.03-00.20.03:458][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.03-00.20.04:106][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.04.03-00.20.04:107][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:107][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:130][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.03-00.20.04:139][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.04.03-00.20.04:139][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:139][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:142][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.04.03-00.20.04:142][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:142][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:145][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.04.03-00.20.04:146][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:146][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:149][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.04.03-00.20.04:149][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:149][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:152][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.04.03-00.20.04:152][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:152][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:170][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.04.03-00.20.04:170][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:170][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:173][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.04.03-00.20.04:173][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:173][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:176][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.04.03-00.20.04:176][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.03-00.20.04:176][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.03-00.20.04:561][  0]SourceControl: Source control is disabled
+[2018.04.03-00.20.04:561][  0]SourceControl: Source control is disabled
+[2018.04.03-00.20.04:614][  0]SourceControl: Source control is disabled
+[2018.04.03-00.20.04:666][  0]SourceControl: Source control is disabled
+[2018.04.03-00.20.05:477][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.03-00.20.05:743][  0]LogOcInput: OculusInput pre-init called
+[2018.04.03-00.20.06:039][  0]LogEngine: Initializing Engine...
+[2018.04.03-00.20.06:041][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.03-00.20.06:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.03-00.20.06:277][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.03-00.20.06:415][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.03-00.20.06:425][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-00.20.06:487][  0]LogInit: FAudioDevice initialized.
+[2018.04.03-00.20.06:584][  0]LogDerivedDataCache: Saved boot cache 0.10s 96MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.03-00.20.06:599][  0]LogInit: Texture streaming: Enabled
+[2018.04.03-00.20.06:704][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.03-00.20.06:834][  0]LogInit: Transaction tracking system initialized
+[2018.04.03-00.20.07:153][  0]BlueprintLog: New page: Editor Load
+[2018.04.03-00.20.07:957][  0]LocalizationService: Localization service is disabled
+[2018.04.03-00.20.08:623][  0]LogConsoleResponse: Display: 
+[2018.04.03-00.20.08:925][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.03-00.20.08:925][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.03-00.20.08:925][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.03-00.20.09:495][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.04.03-00.20.10:008][  0]SourceControl: Source control is disabled
+[2018.04.03-00.20.10:009][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.03-00.20.10:009][  0]LightingResults: New page: Lighting Build
+[2018.04.03-00.20.10:047][  0]MapCheck: New page: Map Check
+[2018.04.03-00.20.10:047][  0]LightingResults: New page: Lighting Build
+[2018.04.03-00.20.10:246][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.03-00.20.10:255][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.03-00.20.10:264][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.03-00.20.10:312][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 47.82ms to complete.
+[2018.04.03-00.20.10:312][  0]LogFileHelpers: Loading map 'StartupMap' took 0.304
+[2018.04.03-00.20.10:433][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.03-00.20.10:434][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.03-00.20.10:650][  0]LogCollectionManager: Loaded 0 collections in 0.001501 seconds
+[2018.04.03-00.20.10:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.04.03-00.20.10:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
+[2018.04.03-00.20.10:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.04.03-00.20.10:751][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.03-00.20.10:761][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2364 classes and 521 folders.
+[2018.04.03-00.20.10:824][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.03-00.20.11:236][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.03-00.20.11:304][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.03-00.20.11:308][  0]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.03-00.20.11:316][  0]LogSlate: Took 0.005779 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.03-00.20.11:414][  0]LogRenderer: Reallocating scene render targets to support 860x448 Format 26 NumSamples 1 (Frame:1).
+[2018.04.03-00.20.11:821][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.03-00.20.11:821][  0]LogLoad: (Engine Initialization) Total time: 18.22 seconds
+[2018.04.03-00.20.11:821][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.03-00.20.11:822][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.03-00.20.11:866][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.03-00.20.11:933][  1]LogAssetRegistry: Asset discovery search completed in 11.8842 seconds
+[2018.04.03-00.20.11:935][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.03-00.20.11:935][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.04.03-00.20.15:944][229]LogSlate: Took 0.007554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-00.20.20:738][512]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-00.20.21:446][512]LogMaterial: Missing cached shader map for material Wood_InterlockingFloor, compiling. 
+[2018.04.03-00.20.21:538][512]LogMaterial: Missing cached shader map for material Tile_WoodAndTileOffsetPattern, compiling. 
+[2018.04.03-00.20.21:628][512]LogMaterial: Missing cached shader map for material Tuna_M, compiling. 
+[2018.04.03-00.20.21:687][512]LogMaterial: Missing cached shader map for material Salmon_M, compiling. 
+[2018.04.03-00.20.21:851][512]LogMaterial: Missing cached shader map for material Rice_M, compiling. 
+[2018.04.03-00.20.21:931][512]LogMaterial: Missing cached shader map for material emissive_light_m, compiling. 
+[2018.04.03-00.20.21:986][512]LogStaticMesh: Building static mesh bar_stool...
+[2018.04.03-00.20.22:007][512]LogStaticMesh: Built static mesh [0.02s] /Game/SushiShop/Assets/Environment/chairs2/bar_stool.bar_stool
+[2018.04.03-00.20.22:020][512]LogStaticMesh: Building static mesh boothVe3_HangingLight...
+[2018.04.03-00.20.22:030][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_HangingLight.boothVe3_HangingLight
+[2018.04.03-00.20.22:031][512]LogStaticMesh: Building static mesh boothVe3_HangingLight_1...
+[2018.04.03-00.20.22:040][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_HangingLight_1.boothVe3_HangingLight_1
+[2018.04.03-00.20.22:042][512]LogStaticMesh: Building static mesh boothVe3_HangingLight_2...
+[2018.04.03-00.20.22:052][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_HangingLight_2.boothVe3_HangingLight_2
+[2018.04.03-00.20.22:055][512]LogStaticMesh: Building static mesh boothVe3_HangingLight_3...
+[2018.04.03-00.20.22:064][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_HangingLight_3.boothVe3_HangingLight_3
+[2018.04.03-00.20.22:065][512]LogStaticMesh: Building static mesh boothVe3_HangingLight_4...
+[2018.04.03-00.20.22:074][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_HangingLight_4.boothVe3_HangingLight_4
+[2018.04.03-00.20.22:075][512]LogStaticMesh: Building static mesh boothVe3_PanelLight...
+[2018.04.03-00.20.22:086][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_PanelLight.boothVe3_PanelLight
+[2018.04.03-00.20.22:087][512]LogStaticMesh: Building static mesh boothVe3_PanelLight_1...
+[2018.04.03-00.20.22:098][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_PanelLight_1.boothVe3_PanelLight_1
+[2018.04.03-00.20.22:099][512]LogStaticMesh: Building static mesh boothVe3_PanelLight_2...
+[2018.04.03-00.20.22:111][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_PanelLight_2.boothVe3_PanelLight_2
+[2018.04.03-00.20.22:112][512]LogStaticMesh: Building static mesh boothVe3_PanelLight_3...
+[2018.04.03-00.20.22:123][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_PanelLight_3.boothVe3_PanelLight_3
+[2018.04.03-00.20.22:125][512]LogStaticMesh: Building static mesh boothVe3_PanelLight_4...
+[2018.04.03-00.20.22:136][512]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 208 triangles, Range [-0.0, 0.7], bar_stool
+[2018.04.03-00.20.22:136][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_PanelLight_4.boothVe3_PanelLight_4
+[2018.04.03-00.20.22:137][512]LogStaticMesh: Building static mesh boothVe3_polySurface4...
+[2018.04.03-00.20.22:138][512]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface4.boothVe3_polySurface4
+[2018.04.03-00.20.22:139][512]LogStaticMesh: Building static mesh boothVe3_polySurface5_1...
+[2018.04.03-00.20.22:153][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface5_1.boothVe3_polySurface5_1
+[2018.04.03-00.20.22:204][512]LogStaticMesh: Building static mesh boothVe3_polySurface5...
+[2018.04.03-00.20.22:219][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface5.boothVe3_polySurface5
+[2018.04.03-00.20.22:221][512]LogStaticMesh: Building static mesh boothVe3_polySurface5_2...
+[2018.04.03-00.20.22:236][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface5_2.boothVe3_polySurface5_2
+[2018.04.03-00.20.22:238][512]LogStaticMesh: Building static mesh boothVe3_polySurface5_3...
+[2018.04.03-00.20.22:252][512]LogMeshUtilities: Finished distance field build in 0.1s - 23x8x17 distance field, 72 triangles, Range [-0.1, 0.6], boothVe3_PanelLight_3
+[2018.04.03-00.20.22:252][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface5_3.boothVe3_polySurface5_3
+[2018.04.03-00.20.22:254][512]LogStaticMesh: Building static mesh boothVe3_polySurface5_4...
+[2018.04.03-00.20.22:268][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_polySurface5_4.boothVe3_polySurface5_4
+[2018.04.03-00.20.22:269][512]LogStaticMesh: Building static mesh boothVe3_Seats...
+[2018.04.03-00.20.22:280][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_Seats.boothVe3_Seats
+[2018.04.03-00.20.22:282][512]LogStaticMesh: Building static mesh boothVe3_Seats_1...
+[2018.04.03-00.20.22:294][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_Seats_1.boothVe3_Seats_1
+[2018.04.03-00.20.22:295][512]LogStaticMesh: Building static mesh boothVe3_Seats_2...
+[2018.04.03-00.20.22:307][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_Seats_2.boothVe3_Seats_2
+[2018.04.03-00.20.22:308][512]LogStaticMesh: Building static mesh boothVe3_Seats_3...
+[2018.04.03-00.20.22:319][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_Seats_3.boothVe3_Seats_3
+[2018.04.03-00.20.22:321][512]LogStaticMesh: Building static mesh boothVe3_Seats_4...
+[2018.04.03-00.20.22:332][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_Seats_4.boothVe3_Seats_4
+[2018.04.03-00.20.22:335][512]LogStaticMesh: Building static mesh boothVe3_table...
+[2018.04.03-00.20.22:342][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_table.boothVe3_table
+[2018.04.03-00.20.22:343][512]LogStaticMesh: Building static mesh boothVe3_table_4...
+[2018.04.03-00.20.22:351][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_table_4.boothVe3_table_4
+[2018.04.03-00.20.22:352][512]LogStaticMesh: Building static mesh boothVe3_table_1...
+[2018.04.03-00.20.22:360][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_table_1.boothVe3_table_1
+[2018.04.03-00.20.22:361][512]LogStaticMesh: Building static mesh boothVe3_table_2...
+[2018.04.03-00.20.22:369][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_table_2.boothVe3_table_2
+[2018.04.03-00.20.22:370][512]LogStaticMesh: Building static mesh boothVe3_table_3...
+[2018.04.03-00.20.22:377][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/boothVer3/boothVe3_table_3.boothVe3_table_3
+[2018.04.03-00.20.22:430][512]LogStaticMesh: Building static mesh Fish_Salmon_Slice...
+[2018.04.03-00.20.22:439][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Fish_Salmon_Slice.Fish_Salmon_Slice
+[2018.04.03-00.20.22:441][512]LogStaticMesh: Building static mesh chair...
+[2018.04.03-00.20.22:462][512]LogStaticMesh: Built static mesh [0.02s] /Game/SushiShop/Assets/Environment/chairs2/chair.chair
+[2018.04.03-00.20.22:601][512]LogStaticMesh: Building static mesh Knife_Yanagiba_KnifeYanagiba...
+[2018.04.03-00.20.22:612][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Knife_Yanagiba_KnifeYanagiba.Knife_Yanagiba_KnifeYanagiba
+[2018.04.03-00.20.22:615][512]LogStaticMesh: Building static mesh long_table...
+[2018.04.03-00.20.22:624][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/tables2/long_table.long_table
+[2018.04.03-00.20.22:625][512]LogStaticMesh: Building static mesh medium_table...
+[2018.04.03-00.20.22:634][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/tables2/medium_table.medium_table
+[2018.04.03-00.20.22:636][512]LogStaticMesh: Building static mesh overheadBar2...
+[2018.04.03-00.20.22:682][512]LogStaticMesh: Built static mesh [0.05s] /Game/SushiShop/Assets/Environment/bar/overheadBar2.overheadBar2
+[2018.04.03-00.20.22:686][512]LogStaticMesh: Building static mesh Fish_Tuna_Plate_plateLarge2...
+[2018.04.03-00.20.22:694][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Plates/Fish_Tuna_Plate_plateLarge2.Fish_Tuna_Plate_plateLarge2
+[2018.04.03-00.20.22:696][512]LogStaticMesh: Building static mesh Plate_Large_Stack_plateLargeStack...
+[2018.04.03-00.20.22:767][512]LogStaticMesh: Built static mesh [0.07s] /Game/SushiShop/Assets/Props/Plates/Plate_Large_Stack_plateLargeStack.Plate_Large_Stack_plateLargeStack
+[2018.04.03-00.20.22:786][512]LogStaticMesh: Building static mesh Rice_Container_RiceContainer...
+[2018.04.03-00.20.22:824][512]LogStaticMesh: Built static mesh [0.04s] /Game/SushiShop/Assets/Props/Rice_Container_RiceContainer.Rice_Container_RiceContainer
+[2018.04.03-00.20.22:828][512]LogStaticMesh: Building static mesh Rice_Paddle_RicePaddle...
+[2018.04.03-00.20.22:837][512]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Rice_Paddle_RicePaddle.Rice_Paddle_RicePaddle
+[2018.04.03-00.20.22:839][512]LogStaticMesh: Building static mesh Rice_Pile_RicePile...
+[2018.04.03-00.20.22:842][512]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Rice_Pile_RicePile.Rice_Pile_RicePile
+[2018.04.03-00.20.23:524][512]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.03-00.20.23:932][512]LogMeshUtilities: Finished distance field build in 1.6s - 31x30x40 distance field, 185 triangles, Range [-0.2, 0.7], boothVe3_polySurface5_2
+[2018.04.03-00.20.23:932][512]LogMeshUtilities: Discarded distance field for Rice_Pile_RicePile as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.23:932][512]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 128 triangles, Range [-0.3, 1.0], Rice_Pile_RicePile
+[2018.04.03-00.20.23:933][512]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.04.03-00.20.23:977][512]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 244 triangles, Range [-0.0, 0.4], Rice_Paddle_RicePaddle
+[2018.04.03-00.20.23:977][512]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1128 triangles, Range [-0.0, 0.6], Rice_Container_RiceContainer
+[2018.04.03-00.20.24:059][512]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1140 triangles, Range [-0.2, 0.3], Plate_Large_Stack_plateLargeStack
+[2018.04.03-00.20.24:059][512]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], Fish_Tuna_Plate_plateLarge2
+[2018.04.03-00.20.24:059][512]LogMaterial: Missing cached shader map for material Metal_BrushedSteel, compiling. 
+[2018.04.03-00.20.24:137][512]LogMaterial: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2018.04.03-00.20.24:232][512]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.03-00.20.24:251][512]LogMaterial: Warning: Material /Game/SushiShop/Materials/Plates/Plates_M.Plates_M needed to have new flag set bUsedWithStaticLighting !
+[2018.04.03-00.20.24:255][512]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.04.03-00.20.24:354][512]MapCheck: Warning: Plates_M Material /Game/SushiShop/Materials/Plates/Plates_M.Plates_M was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.04.03-00.20.24:469][512]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.03-00.20.24:470][512]LightingResults: New page: Lighting Build
+[2018.04.03-00.20.24:471][512]LoadErrors: New page: Loading map: Shop_Main_1.umap
+[2018.04.03-00.20.24:472][512]MapCheck: New page: Map Check
+[2018.04.03-00.20.24:472][512]LightingResults: New page: Lighting Build
+[2018.04.03-00.20.24:692][512]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.03-00.20.24:825][512]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.03-00.20.24:970][512]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 144.979ms to complete.
+[2018.04.03-00.20.24:971][512]LogFileHelpers: Loading map 'Shop_Main_1' took 0.503
+[2018.04.03-00.20.25:473][513]LogMeshUtilities: Finished distance field build in 1.4s - 48x35x20 distance field, 736 triangles, Range [-0.0, 0.7], overheadBar2
+[2018.04.03-00.20.25:509][513]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 72 triangles, Range [-0.0, 0.6], medium_table
+[2018.04.03-00.20.25:530][513]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 72 triangles, Range [-0.0, 0.5], long_table
+[2018.04.03-00.20.25:571][513]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 230 triangles, Range [0.0, 1.0], Knife_Yanagiba_KnifeYanagiba
+[2018.04.03-00.20.25:595][513]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 144 triangles, Range [-0.0, 0.8], chair
+[2018.04.03-00.20.25:641][513]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 224 triangles, Range [-0.0, 0.5], Fish_Salmon_Slice
+[2018.04.03-00.20.25:785][513]LogMeshUtilities: Finished distance field build in 0.1s - 13x18x12 distance field, 42 triangles, Range [-0.2, 1.0], boothVe3_table_3
+[2018.04.03-00.20.25:895][513]LogMeshUtilities: Finished distance field build in 0.1s - 13x18x12 distance field, 42 triangles, Range [-0.2, 1.0], boothVe3_table_2
+[2018.04.03-00.20.26:053][518]LogMeshUtilities: Finished distance field build in 0.1s - 13x18x12 distance field, 42 triangles, Range [-0.2, 1.0], boothVe3_table_1
+[2018.04.03-00.20.26:166][520]LogMeshUtilities: Finished distance field build in 0.1s - 13x18x12 distance field, 42 triangles, Range [-0.2, 1.0], boothVe3_table_4
+[2018.04.03-00.20.26:264][521]LogMeshUtilities: Finished distance field build in 0.1s - 13x18x12 distance field, 42 triangles, Range [-0.2, 1.0], boothVe3_table
+[2018.04.03-00.20.26:615][533]LogMeshUtilities: Finished distance field build in 0.3s - 29x18x17 distance field, 70 triangles, Range [-0.2, 0.7], boothVe3_Seats_4
+[2018.04.03-00.20.26:954][541]LogMeshUtilities: Finished distance field build in 0.3s - 29x18x17 distance field, 70 triangles, Range [-0.2, 0.7], boothVe3_Seats_3
+[2018.04.03-00.20.27:311][551]LogMeshUtilities: Finished distance field build in 0.4s - 29x18x17 distance field, 70 triangles, Range [-0.2, 0.7], boothVe3_Seats_2
+[2018.04.03-00.20.27:885][570]LogMeshUtilities: Finished distance field build in 0.6s - 29x18x17 distance field, 70 triangles, Range [-0.2, 0.7], boothVe3_Seats_1
+[2018.04.03-00.20.28:197][579]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.03-00.20.28:442][580]LogMeshUtilities: Finished distance field build in 0.5s - 29x18x17 distance field, 70 triangles, Range [-0.2, 0.7], boothVe3_Seats
+[2018.04.03-00.20.29:363][609]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.20.30:613][633]LogMeshUtilities: Finished distance field build in 2.2s - 31x30x40 distance field, 185 triangles, Range [-0.2, 0.7], boothVe3_polySurface5_4
+[2018.04.03-00.20.31:023][643]LogTemp: Repeating last play command: Simulate
+[2018.04.03-00.20.31:363][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.03-00.20.31:367][643]PIE: New page: SIE session: Shop_Main_1 (Apr 2, 2018, 10:20:31 AM)
+[2018.04.03-00.20.31:368][643]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.03-00.20.31:383][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015412s)
+[2018.04.03-00.20.31:384][643]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.03-00.20.31:384][643]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2018.04.03-00.20.31:384][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.016692s)
+[2018.04.03-00.20.31:406][643]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-00.20.31:426][643]LogInit: FAudioDevice initialized.
+[2018.04.03-00.20.31:487][643]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.03-00.20.31:487][643]LogLoad: Game class is 'GameModeBase'
+[2018.04.03-00.20.31:498][643]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 60) at 2018.04.02-17.20.31
+[2018.04.03-00.20.31:499][643]LogWorld: Bringing up level for play took: 0.009031
+[2018.04.03-00.20.31:500][643]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.03-00.20.31:591][643]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2018.04.03-00.20.31:604][643]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.936
+[2018.04.03-00.20.32:273][654]LogMeshUtilities: Finished distance field build in 1.7s - 31x30x40 distance field, 185 triangles, Range [-0.2, 0.7], boothVe3_polySurface5_3
+[2018.04.03-00.20.34:260][709]LogEditorViewport: Clicking on Actor (LMB): SplineAnimationActor_C (SplineAnimationActor2)
+[2018.04.03-00.20.34:904][727]LogMeshUtilities: Finished distance field build in 2.6s - 31x30x40 distance field, 185 triangles, Range [-0.2, 0.7], boothVe3_polySurface5
+[2018.04.03-00.20.37:016][772]LogMeshUtilities: Finished distance field build in 2.1s - 31x30x40 distance field, 185 triangles, Range [-0.2, 0.7], boothVe3_polySurface5_1
+[2018.04.03-00.20.38:432][805]LogMeshUtilities: Finished distance field build in 1.4s - 64x26x20 distance field, 2 triangles, Range [-0.0, 1.0], boothVe3_polySurface4
+[2018.04.03-00.20.38:573][808]LogMeshUtilities: Finished distance field build in 0.1s - 23x8x17 distance field, 72 triangles, Range [-0.1, 0.6], boothVe3_PanelLight_4
+[2018.04.03-00.20.38:699][811]LogMeshUtilities: Finished distance field build in 0.1s - 23x8x17 distance field, 72 triangles, Range [-0.1, 0.6], boothVe3_PanelLight_2
+[2018.04.03-00.20.38:811][814]LogMeshUtilities: Finished distance field build in 0.1s - 23x8x17 distance field, 72 triangles, Range [-0.1, 0.6], boothVe3_PanelLight_1
+[2018.04.03-00.20.38:922][817]LogMeshUtilities: Finished distance field build in 0.1s - 23x8x17 distance field, 72 triangles, Range [-0.1, 0.6], boothVe3_PanelLight
+[2018.04.03-00.20.38:964][817]LogMeshUtilities: Discarded distance field for boothVe3_HangingLight_4 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.38:964][817]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x8 distance field, 42 triangles, Range [-0.2, 0.3], boothVe3_HangingLight_4
+[2018.04.03-00.20.39:009][818]LogMeshUtilities: Discarded distance field for boothVe3_HangingLight_3 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.39:009][818]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x8 distance field, 42 triangles, Range [-0.2, 0.3], boothVe3_HangingLight_3
+[2018.04.03-00.20.39:053][819]LogMeshUtilities: Discarded distance field for boothVe3_HangingLight_2 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.39:053][819]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x8 distance field, 42 triangles, Range [-0.2, 0.3], boothVe3_HangingLight_2
+[2018.04.03-00.20.39:099][820]LogMeshUtilities: Discarded distance field for boothVe3_HangingLight_1 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.39:099][820]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x8 distance field, 42 triangles, Range [-0.2, 0.3], boothVe3_HangingLight_1
+[2018.04.03-00.20.39:143][821]LogMeshUtilities: Discarded distance field for boothVe3_HangingLight as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.03-00.20.39:143][821]LogMeshUtilities: Finished distance field build in 0.0s - 15x8x8 distance field, 42 triangles, Range [-0.2, 0.3], boothVe3_HangingLight
+[2018.04.03-00.20.49:626][ 43]Cmd: TRANSACTION UNDO
+[2018.04.03-00.20.49:626][ 43]LogEditorTransaction: Undo Move World Outliner Items
+[2018.04.03-00.20.49:758][ 43]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.03-00.20.52:434][ 69]EditorErrors: New page: Actor attachment
+[2018.04.03-00.20.55:747][111]LogTemp: Repeating last play command: Simulate
+[2018.04.03-00.20.55:802][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.03-00.20.55:802][111]PIE: New page: SIE session: Shop_Main_1 (Apr 2, 2018, 10:20:55 AM)
+[2018.04.03-00.20.55:802][111]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.03-00.20.55:820][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018020s)
+[2018.04.03-00.20.55:821][111]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.03-00.20.55:821][111]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2018.04.03-00.20.55:822][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.019505s)
+[2018.04.03-00.20.55:838][111]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-00.20.55:860][111]LogInit: FAudioDevice initialized.
+[2018.04.03-00.20.55:923][111]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.03-00.20.55:923][111]LogLoad: Game class is 'GameModeBase'
+[2018.04.03-00.20.55:932][111]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 60) at 2018.04.02-17.20.55
+[2018.04.03-00.20.55:932][111]LogWorld: Bringing up level for play took: 0.008408
+[2018.04.03-00.20.55:933][111]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.03-00.20.55:939][111]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.728
+[2018.04.03-00.21.03:876][319]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVe3_PanelLight)
+[2018.04.03-00.21.07:159][381]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.21.16:166][553]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVe3_Seats_1)
+[2018.04.03-00.21.23:697][708]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Water)
+[2018.04.03-00.21.23:929][710]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.21.24:987][739]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.21.25:771][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar_2-26_Water)
+[2018.04.03-00.21.25:954][769]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.21.51:943][386]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.21.56:626][505]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.22.39:194][873]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.03-00.22.42:042][988]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2018.04.03-00.22.42:817][988]LogSlate: Took 0.005786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.03-00.22.42:936][989]LogSlate: Took 0.005885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.03-00.22.51:535][334]LogSavePackage: Save=33.10ms
+[2018.04.03-00.22.51:535][334]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/SplineAnimationActor643EB52B4046A600438826942C9A9ABA.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/SplineAnimationActor.uasset'
+[2018.04.03-00.22.51:542][334]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/SplineAnimationActor.uasset
+[2018.04.03-00.23.26:284][ 26]LogSavePackage: Save=39.71ms
+[2018.04.03-00.23.26:284][ 26]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/SplineAnimationActorA75E486E4167E66A14CD119FE709640C.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/SplineAnimationActor.uasset'
+[2018.04.03-00.23.26:287][ 26]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/SplineAnimationActor.uasset
+[2018.04.03-00.23.27:802][ 75]LogTemp: Repeating last play command: Simulate
+[2018.04.03-00.23.27:844][ 75]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.03-00.23.27:850][ 75]LogPlayLevel: [PlayLevel] Compiling SplineAnimationActor before play...
+[2018.04.03-00.23.28:402][ 75]LogPlayLevel: PlayLevel: Blueprint regeneration took 558 ms (1 blueprints)
+[2018.04.03-00.23.28:402][ 75]PIE: New page: SIE session: Shop_Main_1 (Apr 2, 2018, 10:23:28 AM)
+[2018.04.03-00.23.28:402][ 75]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.03-00.23.28:411][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008079s)
+[2018.04.03-00.23.28:411][ 75]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.03-00.23.28:411][ 75]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2018.04.03-00.23.28:411][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.008884s)
+[2018.04.03-00.23.28:429][ 75]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.04.03-00.23.28:443][ 75]LogInit: FAudioDevice initialized.
+[2018.04.03-00.23.28:490][ 75]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.03-00.23.28:490][ 75]LogLoad: Game class is 'GameModeBase'
+[2018.04.03-00.23.28:495][ 75]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 60) at 2018.04.02-17.23.28
+[2018.04.03-00.23.28:496][ 75]LogWorld: Bringing up level for play took: 0.005425
+[2018.04.03-00.23.28:496][ 75]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.03-00.23.28:504][ 75]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.163
+[2018.04.03-00.23.36:854][536]LogEditorTransaction: Undo Edit Hidden in Game
+[2018.04.03-00.23.37:025][541]LogEditorTransaction: Undo Reset Scale
+[2018.04.03-00.23.37:397][556]LogEditorTransaction: Undo Scale Components
+[2018.04.03-00.23.37:657][571]LogEditorTransaction: Undo Scale Components
+[2018.04.03-00.23.37:974][590]LogEditorTransaction: Undo Clicking on Component (tree view)
+[2018.04.03-00.23.38:337][611]LogEditorTransaction: Undo Make New Scene Root
+[2018.04.03-00.23.38:724][632]LogEditorTransaction: Undo Clicking on Actors
+[2018.04.03-00.23.40:007][678]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:289 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.04.03-00.23.40:007][678]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.04.03-00.23.41:214][678]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.04.03-00.23.41:215][678]LogWindows: Error: === Critical error: ===
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 813] 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: Rendering thread exception:
+[2018.04.03-00.23.41:215][678]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Util.cpp] [Line: 182] 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: Unreal Engine is exiting due to D3D device being lost. (Error: 0x887A0006 - 'HUNG')
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x000000005BC74008 KERNELBASE.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022A376D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F59F330B UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F59847F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022C679FF UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022C6BBC0 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022C4B3FA UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022C4B35E UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022C583E8 UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022ABE4F7 UE4Editor-RHI.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000160B0B45 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000160B60A9 UE4Editor-SlateRHIRenderer.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F5854845 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F5854E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022F422C4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x0000000022F432F6 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F5BF092C UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x00000000F5BE2563 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x000000005ED81FE4 KERNEL32.DLL!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x000000005F08EFC1 ntdll.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: [Callstack] 0x000000005F08EFC1 ntdll.dll!UnknownFunction []
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:215][678]LogWindows: Error: 
+[2018.04.03-00.23.41:235][678]LogExit: Executing StaticShutdownAfterError
+[2018.04.03-00.23.41:238][678]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.04.03-00.23.41:238][678]Log file closed, 04/02/18 17:23:41
