@@ -1502,3 +1502,571 @@ LogInit: Object subsystem initialized
 [2018.04.05-23.17.33:633][437]LogSavePackage: Save=164.95ms
 [2018.04.05-23.17.33:633][437]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltData812740E34098982B45F088B58891CFE9.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
 [2018.04.05-23.17.33:635][437]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.06-00.32.27:354][254]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.32.27:358][254]LogPlayLevel: [PlayLevel] Compiling BP_Spawner before play...
+[2018.04.06-00.32.27:562][254]LogPlayLevel: PlayLevel: Blueprint regeneration took 207 ms (1 blueprints)
+[2018.04.06-00.32.27:562][254]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:32:27 AM)
+[2018.04.06-00.32.27:562][254]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.32.27:569][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006277s)
+[2018.04.06-00.32.27:569][254]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.32.27:569][254]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2018.04.06-00.32.27:570][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007367s)
+[2018.04.06-00.32.27:587][254]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.32.27:593][254]LogInit: FAudioDevice initialized.
+[2018.04.06-00.32.27:623][254]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.32.27:623][254]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.32.27:626][254]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.32.27
+[2018.04.06-00.32.27:627][254]LogWorld: Bringing up level for play took: 0.003104
+[2018.04.06-00.32.27:627][254]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.32.27:629][254]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.571
+[2018.04.06-00.34.51:324][892]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.34:128][410]LogSavePackage: Save=102.83ms
+[2018.04.06-00.35.34:128][410]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat6E826BB3431F452053AE1987AAE30FF1.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.04.06-00.35.34:132][410]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.04.06-00.35.36:686][676]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.35.36:708][676]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.35.36:724][676]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.04.06-00.35.37:294][676]LogPlayLevel: PlayLevel: Blueprint regeneration took 586 ms (1 blueprints)
+[2018.04.06-00.35.37:294][676]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:35:37 AM)
+[2018.04.06-00.35.37:294][676]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.35.37:300][676]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005551s)
+[2018.04.06-00.35.37:300][676]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.35.37:301][676]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2018.04.06-00.35.37:301][676]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006641s)
+[2018.04.06-00.35.37:317][676]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.35.37:322][676]LogInit: FAudioDevice initialized.
+[2018.04.06-00.35.37:350][676]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.35.37:350][676]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.35.37:353][676]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.35.37
+[2018.04.06-00.35.37:354][676]LogWorld: Bringing up level for play took: 0.002971
+[2018.04.06-00.35.37:354][676]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.35.37:356][676]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.298
+[2018.04.06-00.35.45:534][515]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.46:531][617]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.46:992][666]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.47:952][771]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.48:478][827]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.35.59:763][ 38]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.04.06-00.36.01:120][188]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.36.19:554][194]Cmd: TRANSACTION UNDO
+[2018.04.06-00.36.19:554][194]LogEditorTransaction: Undo Move Components
+[2018.04.06-00.36.31:725][468]LogEditorTransaction: Undo Set Location
+[2018.04.06-00.37.16:844][302]LogSavePackage: Save=102.04ms
+[2018.04.06-00.37.16:844][302]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat14611B254AA4C044CA7D14BE84F1A04B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset'
+[2018.04.06-00.37.16:847][302]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_Boat.uasset
+[2018.04.06-00.37.18:391][440]LogSavePackage: Save=134.98ms
+[2018.04.06-00.37.18:391][440]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_134DFDE034C21F044CB1A20842A04CF6F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap'
+[2018.04.06-00.37.18:393][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap
+[2018.04.06-00.37.18:612][440]LogSavePackage: Save=170.25ms
+[2018.04.06-00.37.18:612][440]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltData8A9F54104731766BA382098D693C4A77.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
+[2018.04.06-00.37.18:613][440]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.06-00.37.19:365][518]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.37.19:383][518]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.37.19:400][518]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.04.06-00.37.20:016][518]LogPlayLevel: PlayLevel: Blueprint regeneration took 633 ms (1 blueprints)
+[2018.04.06-00.37.20:016][518]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:37:20 AM)
+[2018.04.06-00.37.20:017][518]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.37.20:023][518]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005986s)
+[2018.04.06-00.37.20:023][518]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.37.20:023][518]LogPlayLevel: PIE: World Init took: (0.000485s)
+[2018.04.06-00.37.20:023][518]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006841s)
+[2018.04.06-00.37.20:040][518]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.37.20:045][518]LogInit: FAudioDevice initialized.
+[2018.04.06-00.37.20:076][518]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.37.20:076][518]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.37.20:079][518]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.37.20
+[2018.04.06-00.37.20:080][518]LogWorld: Bringing up level for play took: 0.003049
+[2018.04.06-00.37.20:080][518]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.37.20:083][518]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 1.025
+[2018.04.06-00.37.22:195][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.04.06-00.38.13:127][878]LogSlate: Took 0.010044 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.06-00.38.16:221][116]LogSavePackage: Save=41.44ms
+[2018.04.06-00.38.16:221][116]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidgetDE71A49B42D1BC46FE0A829F6750177A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset'
+[2018.04.06-00.38.16:224][116]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset
+[2018.04.06-00.38.20:837][497]LogSavePackage: Save=133.37ms
+[2018.04.06-00.38.20:837][497]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1D59653964F066B6B8AA87A95CA39C238.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap'
+[2018.04.06-00.38.20:840][497]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap
+[2018.04.06-00.38.21:048][497]LogSavePackage: Save=170.09ms
+[2018.04.06-00.38.21:048][497]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltData185E484E4E54E2CE7A3B0FAC6E03FEC4.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
+[2018.04.06-00.38.21:049][497]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.06-00.38.21:788][574]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.38.21:806][574]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.38.21:816][574]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenuWidget before play...
+[2018.04.06-00.38.21:828][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_889.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:829][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_891.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:832][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_893.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:833][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_896.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:835][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_898.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:836][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_900.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:837][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_902.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:839][574]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_904.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:842][574]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_928.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.38.21:925][574]LogPlayLevel: PlayLevel: Blueprint regeneration took 119 ms (1 blueprints)
+[2018.04.06-00.38.21:925][574]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:38:21 AM)
+[2018.04.06-00.38.21:925][574]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.38.21:931][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005500s)
+[2018.04.06-00.38.21:931][574]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.38.21:931][574]LogPlayLevel: PIE: World Init took: (0.000471s)
+[2018.04.06-00.38.21:931][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006324s)
+[2018.04.06-00.38.21:949][574]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.38.21:954][574]LogInit: FAudioDevice initialized.
+[2018.04.06-00.38.21:986][574]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.38.21:986][574]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.38.21:989][574]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.38.21
+[2018.04.06-00.38.21:990][574]LogWorld: Bringing up level for play took: 0.002962
+[2018.04.06-00.38.21:990][574]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.38.21:992][574]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.934
+[2018.04.06-00.38.29:252][343]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.38.29:272][343]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.38.29:273][343]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:38:29 AM)
+[2018.04.06-00.38.29:273][343]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.38.29:278][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005513s)
+[2018.04.06-00.38.29:279][343]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.38.29:279][343]LogPlayLevel: PIE: World Init took: (0.000461s)
+[2018.04.06-00.38.29:279][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006379s)
+[2018.04.06-00.38.29:297][343]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.38.29:302][343]LogInit: FAudioDevice initialized.
+[2018.04.06-00.38.29:330][343]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.38.29:330][343]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.38.29:333][343]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.38.29
+[2018.04.06-00.38.29:334][343]LogWorld: Bringing up level for play took: 0.002903
+[2018.04.06-00.38.29:334][343]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.38.29:336][343]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.278
+[2018.04.06-00.39.02:160][818]LogSavePackage: Save=40.74ms
+[2018.04.06-00.39.02:160][818]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidget435AC783473BB9CEE49021B62AA81834.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset'
+[2018.04.06-00.39.02:163][818]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset
+[2018.04.06-00.39.06:242][145]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.39.06:260][145]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.39.06:269][145]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenuWidget before play...
+[2018.04.06-00.39.06:279][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_906.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:281][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_908.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:285][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_910.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:288][145]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_931.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:290][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_915.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:291][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_917.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:292][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_919.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:294][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_921.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:296][145]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_923.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.06:391][145]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2018.04.06-00.39.06:391][145]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:39:06 AM)
+[2018.04.06-00.39.06:391][145]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.39.06:397][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005546s)
+[2018.04.06-00.39.06:397][145]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.39.06:398][145]LogPlayLevel: PIE: World Init took: (0.000479s)
+[2018.04.06-00.39.06:398][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006391s)
+[2018.04.06-00.39.06:415][145]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.39.06:419][145]LogInit: FAudioDevice initialized.
+[2018.04.06-00.39.06:451][145]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.39.06:451][145]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.39.06:455][145]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.39.06
+[2018.04.06-00.39.06:455][145]LogWorld: Bringing up level for play took: 0.002943
+[2018.04.06-00.39.06:455][145]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.39.06:458][145]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.601
+[2018.04.06-00.39.16:071][916]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.39.17:068][987]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.39.17:481][ 17]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (Menu)
+[2018.04.06-00.39.17:841][ 43]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (Menu)
+[2018.04.06-00.39.38:221][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_949.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:222][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_951.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:224][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_956.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:226][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_958.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:228][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_961.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:233][855]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_937.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:235][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_963.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:236][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_965.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.38:238][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_967.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:585][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_995.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:586][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_997.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:587][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_999.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:589][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1001.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:590][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1004.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:592][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1006.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:598][482]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_943.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:599][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1008.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.44:601][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1010.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:403][859]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.39.48:424][859]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.39.48:429][859]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenu before play...
+[2018.04.06-00.39.48:585][859]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_779.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:587][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_881.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:588][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_883.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:590][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_885.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:591][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_887.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:592][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_889.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:594][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_891.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:596][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_893.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:597][859]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_896.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.39.48:615][859]LogPlayLevel: PlayLevel: Blueprint regeneration took 190 ms (1 blueprints)
+[2018.04.06-00.39.48:615][859]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:39:48 AM)
+[2018.04.06-00.39.48:615][859]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.39.48:621][859]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005807s)
+[2018.04.06-00.39.48:621][859]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.39.48:622][859]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2018.04.06-00.39.48:622][859]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006839s)
+[2018.04.06-00.39.48:639][859]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.39.48:644][859]LogInit: FAudioDevice initialized.
+[2018.04.06-00.39.48:671][859]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.39.48:671][859]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.39.48:675][859]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.39.48
+[2018.04.06-00.39.48:676][859]LogWorld: Bringing up level for play took: 0.003000
+[2018.04.06-00.39.48:676][859]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.39.48:678][859]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.38
+[2018.04.06-00.39.51:535][159]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.39.52:371][242]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.39.58:446][844]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.39.58:467][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.39.58:467][844]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:39:58 AM)
+[2018.04.06-00.39.58:467][844]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.39.58:475][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007984s)
+[2018.04.06-00.39.58:476][844]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.39.58:476][844]LogPlayLevel: PIE: World Init took: (0.000451s)
+[2018.04.06-00.39.58:476][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.008850s)
+[2018.04.06-00.39.58:494][844]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.39.58:499][844]LogInit: FAudioDevice initialized.
+[2018.04.06-00.39.58:528][844]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.39.58:528][844]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.39.58:531][844]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.39.58
+[2018.04.06-00.39.58:532][844]LogWorld: Bringing up level for play took: 0.002891
+[2018.04.06-00.39.58:532][844]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.39.58:534][844]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.524
+[2018.04.06-00.40.12:732][285]LogSavePackage: Save=39.75ms
+[2018.04.06-00.40.12:732][285]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidget9A6E12FA45F26A2FF5B53AA47301C5B7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset'
+[2018.04.06-00.40.12:734][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset
+[2018.04.06-00.40.14:496][479]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.40.14:514][479]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.40.14:519][479]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenuWidget before play...
+[2018.04.06-00.40.14:531][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_912.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:534][479]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_782.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:535][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_917.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:536][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_919.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:538][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_921.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:539][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_923.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:541][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_925.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:543][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_927.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:544][479]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_930.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.14:649][479]LogPlayLevel: PlayLevel: Blueprint regeneration took 135 ms (1 blueprints)
+[2018.04.06-00.40.14:649][479]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:40:14 AM)
+[2018.04.06-00.40.14:650][479]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.40.14:655][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005466s)
+[2018.04.06-00.40.14:656][479]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.40.14:656][479]LogPlayLevel: PIE: World Init took: (0.000482s)
+[2018.04.06-00.40.14:656][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006301s)
+[2018.04.06-00.40.14:673][479]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.40.14:678][479]LogInit: FAudioDevice initialized.
+[2018.04.06-00.40.14:708][479]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.40.14:709][479]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.40.14:712][479]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.40.14
+[2018.04.06-00.40.14:712][479]LogWorld: Bringing up level for play took: 0.002941
+[2018.04.06-00.40.14:713][479]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.40.14:715][479]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.343
+[2018.04.06-00.40.30:985][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_957.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:986][402]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_789.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:988][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_959.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:989][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_961.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:991][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_963.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:992][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_968.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:994][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_970.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:995][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_973.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.30:997][402]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_975.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:616][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1003.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:618][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1005.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:619][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1007.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:621][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1009.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:622][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1011.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:624][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1013.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:625][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1016.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:627][831]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_795.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.34:629][831]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_1018.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.40:836][570]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.40.40:857][570]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.40.40:862][570]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenu before play...
+[2018.04.06-00.40.41:007][570]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_779.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:009][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_881.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:010][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_883.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:012][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_885.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:013][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_887.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:014][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_889.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:016][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_891.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:017][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_893.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:019][570]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_896.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.40.41:036][570]LogPlayLevel: PlayLevel: Blueprint regeneration took 179 ms (1 blueprints)
+[2018.04.06-00.40.41:037][570]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:40:41 AM)
+[2018.04.06-00.40.41:037][570]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.40.41:043][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006006s)
+[2018.04.06-00.40.41:043][570]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.40.41:043][570]LogPlayLevel: PIE: World Init took: (0.000453s)
+[2018.04.06-00.40.41:044][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006834s)
+[2018.04.06-00.40.41:061][570]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.40.41:066][570]LogInit: FAudioDevice initialized.
+[2018.04.06-00.40.41:095][570]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.40.41:095][570]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.40.41:099][570]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.40.41
+[2018.04.06-00.40.41:099][570]LogWorld: Bringing up level for play took: 0.002885
+[2018.04.06-00.40.41:099][570]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.40.41:102][570]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.044
+[2018.04.06-00.41.03:815][879]LogSavePackage: Save=133.13ms
+[2018.04.06-00.41.03:815][879]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_198474ED5423647E0E2A82393F942D129.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap'
+[2018.04.06-00.41.03:818][879]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap
+[2018.04.06-00.41.04:021][879]LogSavePackage: Save=165.69ms
+[2018.04.06-00.41.04:022][879]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltDataEF656FE346A9FB12719C0B9575525C55.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
+[2018.04.06-00.41.04:023][879]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.06-00.41.04:720][959]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.41.04:741][959]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.41.04:746][959]LogPlayLevel: [PlayLevel] Compiling BP_OrderMenuWidget before play...
+[2018.04.06-00.41.04:757][959]LogActorComponent: RegisterComponentWithWorld: (/Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_782.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:759][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_907.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:760][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_909.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:763][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_911.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:765][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_913.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:767][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_915.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:769][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_917.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:770][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_919.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:772][959]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_BP_OrderMenu_C_CHILDACTOR_922.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.06-00.41.04:859][959]LogPlayLevel: PlayLevel: Blueprint regeneration took 118 ms (1 blueprints)
+[2018.04.06-00.41.04:859][959]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:41:04 AM)
+[2018.04.06-00.41.04:859][959]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.41.04:865][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005976s)
+[2018.04.06-00.41.04:866][959]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.41.04:866][959]LogPlayLevel: PIE: World Init took: (0.000489s)
+[2018.04.06-00.41.04:866][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006838s)
+[2018.04.06-00.41.04:882][959]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.41.04:887][959]LogInit: FAudioDevice initialized.
+[2018.04.06-00.41.04:918][959]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.41.04:918][959]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.41.04:921][959]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.41.04
+[2018.04.06-00.41.04:922][959]LogWorld: Bringing up level for play took: 0.003273
+[2018.04.06-00.41.04:922][959]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.41.04:924][959]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.134
+[2018.04.06-00.41.11:536][708]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.41.11:557][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.41.11:557][708]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:41:11 AM)
+[2018.04.06-00.41.11:557][708]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.41.11:563][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006185s)
+[2018.04.06-00.41.11:564][708]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.41.11:564][708]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2018.04.06-00.41.11:564][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007060s)
+[2018.04.06-00.41.11:582][708]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.41.11:588][708]LogInit: FAudioDevice initialized.
+[2018.04.06-00.41.11:619][708]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.41.11:619][708]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.41.11:622][708]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.41.11
+[2018.04.06-00.41.11:623][708]LogWorld: Bringing up level for play took: 0.003091
+[2018.04.06-00.41.11:623][708]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.41.11:625][708]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.567
+[2018.04.06-00.41.15:632][153]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (boothVe3_PanelLight_8)
+[2018.04.06-00.41.15:982][187]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.41.21:739][795]MapCheck: New page: Map Check
+[2018.04.06-00.41.21:752][795]Cmd: MAP REBUILD ALLVISIBLE
+[2018.04.06-00.41.21:753][795]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.04.06-00.41.21:860][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.04.06-00.41.21:866][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.04.06-00.41.21:870][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
+[2018.04.06-00.41.21:875][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy glass_m_Inst, compiling. 
+[2018.04.06-00.41.21:881][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2018.04.06-00.41.21:887][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
+[2018.04.06-00.41.21:894][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wood_InterlockingFloor, compiling. 
+[2018.04.06-00.41.21:901][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Group1Mat, compiling. 
+[2018.04.06-00.41.21:907][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_WoodAndTileOffsetPattern_Inst, compiling. 
+[2018.04.06-00.41.21:913][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Light_Glow_1, compiling. 
+[2018.04.06-00.41.21:917][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericHMDMaterial, compiling. 
+[2018.04.06-00.41.21:922][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedCopper, compiling. 
+[2018.04.06-00.41.21:927][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Fillings_M_Inst, compiling. 
+[2018.04.06-00.41.21:931][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M_Inst, compiling. 
+[2018.04.06-00.41.21:936][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Ginger_M, compiling. 
+[2018.04.06-00.41.21:941][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Salmon_M_Inst, compiling. 
+[2018.04.06-00.41.21:945][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tuna_M_Inst, compiling. 
+[2018.04.06-00.41.21:949][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Wasabi_M, compiling. 
+[2018.04.06-00.41.21:954][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SushiBoat_M, compiling. 
+[2018.04.06-00.41.21:959][795]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.04.06-00.41.22:956][795]TextureStreamingBuild: Display: Compiling optional shaders took 1.099 seconds.
+[2018.04.06-00.41.22:967][795]LogLevel: Display: Export Material TexCoord Scales took 0.011 seconds.
+[2018.04.06-00.41.22:981][795]TextureStreamingBuild: Display: Build Texture Streaming took 0.014 seconds.
+[2018.04.06-00.41.22:996][795]LightingResults: New page: Lighting Build - Apr 5, 2018, 10:41:22 AM
+[2018.04.06-00.41.23:002][795]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.06-00.41.23:005][795]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.06-00.41.23:006][795]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.06-00.41.23:006][795]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.06-00.41.23:006][795]LogSwarmInterface: [TryOpenConnection] Local Process ID is 9912
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.06-00.41.27:570][795]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.06-00.41.27:728][795]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.04.06-00.41.27:728][795]MapCheck: New page: Shop_Main_1 - Apr 5, 2018, 10:41:27 AM
+[2018.04.06-00.41.27:729][795]MapCheck: Warning: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_777 Static mesh actor has NULL StaticMesh property 
+[2018.04.06-00.41.27:781][795]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 53.117ms to complete.
+[2018.04.06-00.41.27:803][795]LogEditorBuildUtils: Build time 0:06
+[2018.04.06-00.41.31:894][ 21]Job is a success!
+[2018.04.06-00.41.31:951][ 23]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.004s
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:      BrickData 125x5x5 = 0.1Mb
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:      Bricks at Level
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:          0: 4.0% covering 100.0% of volume
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:          1: 4.0% covering 1.6% of volume
+[2018.04.06-00.41.31:952][ 23]LogVolumetricLightmapImport:          2: 92.0% covering 0.6% of volume
+[2018.04.06-00.41.32:695][ 23]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.04.06-00.41.32:695][ 23]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.06-00.41.32:695][ 23]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.06-00.41.32:786][ 23]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (BGRA8, 1024X512)
+[2018.04.06-00.41.32:808][ 23]Lightmass on DESKTOP-TMTLRPJ: 4.64 sec total, 199 ms importing, 45 ms setup, 767 ms photons, 3.61 sec processing, 0 ms extra exporting [117/117 mappings]. Threads: 25.1 sec total, 14.0 sec processing.
+[2018.04.06-00.41.32:814][ 23]LogStaticLightingSystem: Illumination: 9.79 sec (693 ms encoding lightmaps, 88 ms encoding shadowmaps)
+[2018.04.06-00.41.32:815][ 23]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2018.04.06-00.41.32:815][ 23]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.04.06-00.41.33:576][ 23]DumpUnbuiltLightIteractions
+[2018.04.06-00.41.33:576][ 23]Lights with unbuilt interactions: 0
+[2018.04.06-00.41.33:576][ 23]
+[2018.04.06-00.41.33:577][ 23]Primitives with unbuilt interactions: 0
+[2018.04.06-00.41.33:585][ 24]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.06-00.41.33:585][ 24]MapCheck: New page: Shop_Main_1 - Apr 5, 2018, 10:41:33 AM
+[2018.04.06-00.41.33:586][ 24]MapCheck: Warning: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_777 Static mesh actor has NULL StaticMesh property 
+[2018.04.06-00.41.33:636][ 24]MapCheck: Map check complete: 0 Error(s), 1 Warning(s), took 51.008ms to complete.
+[2018.04.06-00.41.38:979][622]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.41.39:000][622]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.41.39:000][622]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:41:39 AM)
+[2018.04.06-00.41.39:000][622]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.41.39:006][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005999s)
+[2018.04.06-00.41.39:007][622]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.41.39:007][622]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.04.06-00.41.39:007][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006886s)
+[2018.04.06-00.41.39:025][622]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.41.39:030][622]LogInit: FAudioDevice initialized.
+[2018.04.06-00.41.39:059][622]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.41.39:059][622]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.41.39:063][622]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.41.39
+[2018.04.06-00.41.39:063][622]LogWorld: Bringing up level for play took: 0.003419
+[2018.04.06-00.41.39:063][622]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.41.39:066][622]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.007
+[2018.04.06-00.41.41:047][845]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.41.46:405][437]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.41.46:423][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.41.46:424][437]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:41:46 AM)
+[2018.04.06-00.41.46:424][437]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.41.46:429][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005605s)
+[2018.04.06-00.41.46:430][437]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.41.46:430][437]LogPlayLevel: PIE: World Init took: (0.000460s)
+[2018.04.06-00.41.46:430][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006430s)
+[2018.04.06-00.41.46:449][437]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.41.46:454][437]LogInit: FAudioDevice initialized.
+[2018.04.06-00.41.46:483][437]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.41.46:484][437]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.41.46:487][437]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.41.46
+[2018.04.06-00.41.46:487][437]LogWorld: Bringing up level for play took: 0.002892
+[2018.04.06-00.41.46:487][437]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.41.46:490][437]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.568
+[2018.04.06-00.41.49:973][802]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor3)
+[2018.04.06-00.41.53:297][111]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.42.39:953][309]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.42.39:975][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.42.39:976][309]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:42:39 AM)
+[2018.04.06-00.42.39:976][309]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.42.39:982][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006272s)
+[2018.04.06-00.42.39:983][309]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.42.39:983][309]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2018.04.06-00.42.39:983][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007366s)
+[2018.04.06-00.42.40:000][309]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.42.40:005][309]LogInit: FAudioDevice initialized.
+[2018.04.06-00.42.40:038][309]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.42.40:038][309]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.42.40:049][309]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.42.40
+[2018.04.06-00.42.40:050][309]LogWorld: Bringing up level for play took: 0.010312
+[2018.04.06-00.42.40:051][309]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.42.40:055][309]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.997
+[2018.04.06-00.44.10:576][553]LogSavePackage: Save=25.19ms
+[2018.04.06-00.44.10:576][553]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderItem417F8E574261E82E021C0381C2317B31.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderItem.uasset'
+[2018.04.06-00.44.10:579][553]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderItem.uasset
+[2018.04.06-00.44.11:768][694]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.44.11:795][694]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.44.11:799][694]LogPlayLevel: [PlayLevel] Compiling BP_OrderItem before play...
+[2018.04.06-00.44.11:890][694]LogPlayLevel: PlayLevel: Blueprint regeneration took 95 ms (1 blueprints)
+[2018.04.06-00.44.11:890][694]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:44:11 AM)
+[2018.04.06-00.44.11:890][694]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.44.11:896][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005543s)
+[2018.04.06-00.44.11:897][694]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.44.11:897][694]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2018.04.06-00.44.11:897][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006402s)
+[2018.04.06-00.44.11:914][694]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.44.11:919][694]LogInit: FAudioDevice initialized.
+[2018.04.06-00.44.11:947][694]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.44.11:947][694]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.44.11:951][694]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.44.11
+[2018.04.06-00.44.11:951][694]LogWorld: Bringing up level for play took: 0.002866
+[2018.04.06-00.44.11:951][694]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.44.11:953][694]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.895
+[2018.04.06-00.44.24:179][136]LogSavePackage: Save=24.85ms
+[2018.04.06-00.44.24:179][136]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderItem4A5D3DE44A1DD1EC56E9DCA0D1F95C18.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderItem.uasset'
+[2018.04.06-00.44.24:182][136]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderItem.uasset
+[2018.04.06-00.44.25:435][286]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.44.25:455][286]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.06-00.44.25:460][286]LogPlayLevel: [PlayLevel] Compiling BP_OrderItem before play...
+[2018.04.06-00.44.25:556][286]LogPlayLevel: PlayLevel: Blueprint regeneration took 100 ms (1 blueprints)
+[2018.04.06-00.44.25:556][286]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:44:25 AM)
+[2018.04.06-00.44.25:556][286]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.44.25:562][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005750s)
+[2018.04.06-00.44.25:562][286]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.44.25:562][286]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2018.04.06-00.44.25:563][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006625s)
+[2018.04.06-00.44.25:580][286]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.44.25:585][286]LogInit: FAudioDevice initialized.
+[2018.04.06-00.44.25:615][286]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.44.25:615][286]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.44.25:618][286]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.44.25
+[2018.04.06-00.44.25:618][286]LogWorld: Bringing up level for play took: 0.002880
+[2018.04.06-00.44.25:618][286]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.44.25:621][286]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.562
+[2018.04.06-00.44.38:329][778]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.44.39:374][900]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.44.39:394][900]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.44.39:394][900]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:44:39 AM)
+[2018.04.06-00.44.39:394][900]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.44.39:400][900]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005759s)
+[2018.04.06-00.44.39:401][900]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.44.39:401][900]LogPlayLevel: PIE: World Init took: (0.000567s)
+[2018.04.06-00.44.39:401][900]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006832s)
+[2018.04.06-00.44.39:419][900]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.44.39:424][900]LogInit: FAudioDevice initialized.
+[2018.04.06-00.44.39:455][900]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.44.39:455][900]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.44.39:459][900]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.44.39
+[2018.04.06-00.44.39:459][900]LogWorld: Bringing up level for play took: 0.002814
+[2018.04.06-00.44.39:459][900]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.44.39:462][900]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.404
+[2018.04.06-00.44.42:451][231]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.44.53:725][299]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.06-00.44.59:089][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (GlassDoor4)
+[2018.04.06-00.44.59:473][798]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.06-00.45.05:136][306]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.45.07:742][572]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (Menu)
+[2018.04.06-00.45.26:144][476]LogTemp: Repeating last play command: Simulate
+[2018.04.06-00.45.26:165][476]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.06-00.45.26:165][476]PIE: New page: SIE session: Shop_Main_1 (Apr 5, 2018, 10:45:26 AM)
+[2018.04.06-00.45.26:165][476]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.06-00.45.26:171][476]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005593s)
+[2018.04.06-00.45.26:171][476]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.06-00.45.26:171][476]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2018.04.06-00.45.26:172][476]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.006661s)
+[2018.04.06-00.45.26:190][476]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.06-00.45.26:195][476]LogInit: FAudioDevice initialized.
+[2018.04.06-00.45.26:226][476]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.06-00.45.26:227][476]LogLoad: Game class is 'GameModeBase'
+[2018.04.06-00.45.26:230][476]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.05-17.45.26
+[2018.04.06-00.45.26:230][476]LogWorld: Bringing up level for play took: 0.002877
+[2018.04.06-00.45.26:230][476]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.06-00.45.26:233][476]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.826
+[2018.04.06-00.45.29:157][795]LogEditorViewport: Clicking on Actor (LMB): BP_Boat_C (BP_Boat)
+[2018.04.06-00.45.32:882][159]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sail)
+[2018.04.06-00.45.33:549][228]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sail)
+[2018.04.06-00.45.34:020][276]LogEditorViewport: Clicking on Component (LMB): ChildActorComponent (Menu)
+[2018.04.06-00.56.45:557][ 90]LogSavePackage: Save=134.41ms
+[2018.04.06-00.56.45:557][ 90]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1E6F889DA48DEE7ED69FE6CAFA08A5642.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap'
+[2018.04.06-00.56.45:559][ 90]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap
+[2018.04.06-00.56.45:771][ 90]LogSavePackage: Save=165.18ms
+[2018.04.06-00.56.45:771][ 90]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltDataE6015611466702E36CC933AE317875B8.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
+[2018.04.06-00.56.45:774][ 90]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.06-00.57.28:596][297]LogSavePackage: Save=18.70ms
+[2018.04.06-00.57.28:597][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuDE45E72A488B2E473960F190159A5A94.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenu.uasset'
+[2018.04.06-00.57.28:599][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenu.uasset
+[2018.04.06-00.57.28:650][297]LogSavePackage: Save=39.13ms
+[2018.04.06-00.57.28:650][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidget43ED810244BB8E80068AE68CD25C854F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset'
+[2018.04.06-00.57.28:652][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/Scott_Remake/BP_OrderMenuWidget.uasset
