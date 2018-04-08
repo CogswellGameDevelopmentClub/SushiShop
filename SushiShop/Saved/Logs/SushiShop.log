@@ -5322,3 +5322,572 @@ LogInit: Object subsystem initialized
 [2018.04.08-11.04.59:514][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2018.04.08-11.04.59:647][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2018.04.08-11.04.59:774][315]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.08-11.06.18:059][ 81]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.06.18:083][ 81]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.08-11.06.18:084][ 81]LogPlayLevel: [PlayLevel] Compiling ContainerTrigger before play...
+[2018.04.08-11.06.18:310][ 81]LogPlayLevel: PlayLevel: Blueprint regeneration took 227 ms (1 blueprints)
+[2018.04.08-11.06.18:311][ 81]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.06.18:329][ 81]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:06:18 PM)
+[2018.04.08-11.06.18:329][ 81]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.06.18:338][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008561s)
+[2018.04.08-11.06.18:339][ 81]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.06.18:339][ 81]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2018.04.08-11.06.18:339][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.009824s)
+[2018.04.08-11.06.18:357][ 81]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.06.18:363][ 81]LogInit: FAudioDevice initialized.
+[2018.04.08-11.06.18:454][ 81]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.06.18:479][ 81]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.06.18:479][ 81]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.06.18:483][ 81]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.06.18
+[2018.04.08-11.06.18:483][ 81]LogWorld: Bringing up level for play took: 0.003539
+[2018.04.08-11.06.18:490][ 81]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.189
+[2018.04.08-11.06.18:501][ 81]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.06.18:501][ 81]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.07.52:008][285]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.07.52:025][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.07.52:026][285]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.07.52:046][285]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:07:52 PM)
+[2018.04.08-11.07.52:046][285]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.07.52:052][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006260s)
+[2018.04.08-11.07.52:053][285]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.07.52:053][285]LogPlayLevel: PIE: World Init took: (0.000812s)
+[2018.04.08-11.07.52:054][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007642s)
+[2018.04.08-11.07.52:071][285]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.07.52:076][285]LogInit: FAudioDevice initialized.
+[2018.04.08-11.07.52:168][285]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.07.52:194][285]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.07.52:194][285]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.07.52:197][285]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.07.52
+[2018.04.08-11.07.52:198][285]LogWorld: Bringing up level for play took: 0.003201
+[2018.04.08-11.07.52:203][285]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.477
+[2018.04.08-11.07.52:212][285]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.07.52:212][285]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.08.10:959][993]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.08.10:979][993]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.08.10:979][993]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.08.10:999][993]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:08:10 PM)
+[2018.04.08-11.08.10:999][993]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.08.11:008][993]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008880s)
+[2018.04.08-11.08.11:009][993]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.08.11:009][993]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.04.08-11.08.11:010][993]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.010152s)
+[2018.04.08-11.08.11:026][993]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.08.11:031][993]LogInit: FAudioDevice initialized.
+[2018.04.08-11.08.11:123][993]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.08.11:160][993]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.08.11:161][993]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.08.11:165][993]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.08.11
+[2018.04.08-11.08.11:165][993]LogWorld: Bringing up level for play took: 0.003438
+[2018.04.08-11.08.11:171][993]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.491
+[2018.04.08-11.08.11:181][993]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.08.11:182][993]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.08.58:503][771]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.08.58:523][771]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.08.58:523][771]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.08.58:541][771]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:08:58 PM)
+[2018.04.08-11.08.58:541][771]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.08.58:550][771]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008357s)
+[2018.04.08-11.08.58:550][771]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.08.58:550][771]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2018.04.08-11.08.58:551][771]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.009623s)
+[2018.04.08-11.08.58:567][771]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.08.58:572][771]LogInit: FAudioDevice initialized.
+[2018.04.08-11.08.58:664][771]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.08.58:690][771]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.08.58:690][771]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.08.58:694][771]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.08.58
+[2018.04.08-11.08.58:694][771]LogWorld: Bringing up level for play took: 0.003267
+[2018.04.08-11.08.58:700][771]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.02
+[2018.04.08-11.08.58:711][771]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.08.58:711][771]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.09.34:346][823]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.09.34:366][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.09.34:366][823]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.09.34:389][823]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:09:34 PM)
+[2018.04.08-11.09.34:389][823]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.09.34:397][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007341s)
+[2018.04.08-11.09.34:397][823]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.09.34:398][823]LogPlayLevel: PIE: World Init took: (0.000592s)
+[2018.04.08-11.09.34:398][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.008437s)
+[2018.04.08-11.09.34:417][823]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.09.34:423][823]LogInit: FAudioDevice initialized.
+[2018.04.08-11.09.34:515][823]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.09.34:542][823]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.09.34:542][823]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.09.34:546][823]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.09.34
+[2018.04.08-11.09.34:547][823]LogWorld: Bringing up level for play took: 0.003950
+[2018.04.08-11.09.34:554][823]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.126
+[2018.04.08-11.09.34:565][823]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.09.34:565][823]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.12.38:425][652]LogEditorViewport: Clicking on Actor (LMB): BPP_Item_C (Rice)
+[2018.04.08-11.12.46:027][544]LogEditorViewport: Clicking on Actor (LMB): Plate_Large_2_C (Plate_Large_2)
+[2018.04.08-11.12.47:218][673]Cmd: EDIT COPY
+[2018.04.08-11.12.47:328][686]Cmd: EDIT COPY
+[2018.04.08-11.12.51:004][119]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.08-11.13.01:919][413]Cmd: TRANSACTION UNDO
+[2018.04.08-11.13.01:920][413]LogEditorTransaction: Undo Move Actors
+[2018.04.08-11.13.06:843][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.08-11.13.25:913][273]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.13.25:933][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.25:933][273]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.13.25:955][273]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:13:25 PM)
+[2018.04.08-11.13.25:956][273]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.25:966][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009839s)
+[2018.04.08-11.13.25:967][273]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.25:967][273]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2018.04.08-11.13.25:967][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.011592s)
+[2018.04.08-11.13.25:990][273]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.25:997][273]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.26:093][273]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.13.26:119][273]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.26:119][273]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.26:124][273]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.26
+[2018.04.08-11.13.26:124][273]LogWorld: Bringing up level for play took: 0.004547
+[2018.04.08-11.13.26:130][273]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.549
+[2018.04.08-11.13.26:139][273]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.13.26:139][273]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.13.29:219][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.29:219][594]PIE: New page: SIE session: Shop_Main_1 (Apr 7, 2018, 9:13:29 PM)
+[2018.04.08-11.13.29:219][594]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.29:228][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008736s)
+[2018.04.08-11.13.29:229][594]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.29:229][594]LogPlayLevel: PIE: World Init took: (0.000725s)
+[2018.04.08-11.13.29:230][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.010219s)
+[2018.04.08-11.13.29:246][594]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.29:251][594]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.29:280][594]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.29:281][594]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.29:284][594]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.29
+[2018.04.08-11.13.29:284][594]LogWorld: Bringing up level for play took: 0.003385
+[2018.04.08-11.13.29:285][594]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.08-11.13.29:287][594]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.607
+[2018.04.08-11.13.32:999][999]LogEditorViewport: Clicking on Actor (LMB): Plate_Large_2_C (Plate_Large_4)
+[2018.04.08-11.13.34:367][157]LogEditorViewport: Clicking on Actor (LMB): BPP_Item_C (Salmon2)
+[2018.04.08-11.13.37:358][506]LogTemp: Repeating last play command: Simulate
+[2018.04.08-11.13.37:375][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.37:375][506]PIE: New page: SIE session: Shop_Main_1 (Apr 7, 2018, 9:13:37 PM)
+[2018.04.08-11.13.37:375][506]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.37:382][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006583s)
+[2018.04.08-11.13.37:382][506]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.37:383][506]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.04.08-11.13.37:383][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007869s)
+[2018.04.08-11.13.37:402][506]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.37:409][506]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.37:439][506]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.37:439][506]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.37:443][506]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.37
+[2018.04.08-11.13.37:443][506]LogWorld: Bringing up level for play took: 0.003467
+[2018.04.08-11.13.37:444][506]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.08-11.13.37:447][506]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.767
+[2018.04.08-11.13.39:386][728]LogEditorViewport: Clicking on Actor (LMB): BPP_Item_C (Salmon3)
+[2018.04.08-11.13.41:839][ 12]LogTemp: Repeating last play command: Simulate
+[2018.04.08-11.13.41:858][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.41:858][ 12]PIE: New page: SIE session: Shop_Main_1 (Apr 7, 2018, 9:13:41 PM)
+[2018.04.08-11.13.41:859][ 12]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.41:865][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005941s)
+[2018.04.08-11.13.41:865][ 12]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.41:865][ 12]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2018.04.08-11.13.41:866][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.007073s)
+[2018.04.08-11.13.41:884][ 12]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.41:889][ 12]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.41:919][ 12]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.41:919][ 12]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.41:924][ 12]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.41
+[2018.04.08-11.13.41:924][ 12]LogWorld: Bringing up level for play took: 0.004803
+[2018.04.08-11.13.41:925][ 12]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.08-11.13.41:927][ 12]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 -0.752
+[2018.04.08-11.13.47:050][608]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.47:050][608]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.13.47:071][608]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:13:47 PM)
+[2018.04.08-11.13.47:071][608]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.47:081][608]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009274s)
+[2018.04.08-11.13.47:081][608]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.47:082][608]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2018.04.08-11.13.47:082][608]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.010890s)
+[2018.04.08-11.13.47:103][608]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.47:111][608]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.47:204][608]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.13.47:230][608]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.47:230][608]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.47:234][608]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.47
+[2018.04.08-11.13.47:235][608]LogWorld: Bringing up level for play took: 0.003817
+[2018.04.08-11.13.47:240][608]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.56
+[2018.04.08-11.13.47:249][608]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.13.47:249][608]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.13.56:775][385]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.13.56:795][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.13.56:795][385]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.13.56:816][385]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:13:56 PM)
+[2018.04.08-11.13.56:816][385]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.13.56:826][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009227s)
+[2018.04.08-11.13.56:826][385]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.13.56:827][385]LogPlayLevel: PIE: World Init took: (0.000985s)
+[2018.04.08-11.13.56:827][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.010801s)
+[2018.04.08-11.13.56:848][385]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.13.56:854][385]LogInit: FAudioDevice initialized.
+[2018.04.08-11.13.56:947][385]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.13.56:973][385]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.13.56:973][385]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.13.56:977][385]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.13.56
+[2018.04.08-11.13.56:977][385]LogWorld: Bringing up level for play took: 0.003515
+[2018.04.08-11.13.56:984][385]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.304
+[2018.04.08-11.13.56:996][385]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.13.56:996][385]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.16.43:804][259]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.04.08-11.16.43:862][260]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SushiShop
+[2018.04.08-11.16.43:862][260]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.08-11.16.43:862][260]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.04.08-11.16.43:862][260]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.04.08-11.16.43:862][260]LogTemp: BranchPath = DESKTOP-TMTLRPJ/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-TMTLRPJ/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.04.08-11.16.43:862][260]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\GameDevClub\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.08-11.19.26:547][185]LogTemp: Repeating last play command: VR Preview
+[2018.04.08-11.19.26:566][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.08-11.19.26:566][185]LogHMD: Initializing OVRPlugin session
+[2018.04.08-11.19.26:585][185]PIE: New page: PIE session: Shop_Main_1 (Apr 7, 2018, 9:19:26 PM)
+[2018.04.08-11.19.26:585][185]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1
+[2018.04.08-11.19.26:594][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008705s)
+[2018.04.08-11.19.26:595][185]LogAIModule: Creating AISystem for world Shop_Main_1
+[2018.04.08-11.19.26:595][185]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.04.08-11.19.26:595][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Shop_Main_1.Shop_Main_1 to /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 (0.009935s)
+[2018.04.08-11.19.26:614][185]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.08-11.19.26:620][185]LogInit: FAudioDevice initialized.
+[2018.04.08-11.19.26:710][185]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.08-11.19.26:734][185]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.08-11.19.26:734][185]LogLoad: Game class is 'GameModeBase'
+[2018.04.08-11.19.26:738][185]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1.Shop_Main_1 up for play (max tick rate 0) at 2018.04.08-04.19.26
+[2018.04.08-11.19.26:738][185]LogWorld: Bringing up level for play took: 0.003680
+[2018.04.08-11.19.26:744][185]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Shop_Main_1 0.064
+[2018.04.08-11.19.26:753][185]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.08-11.19.26:753][185]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.08-11.20.43:785][ 45]LogSavePackage: Save=146.41ms
+[2018.04.08-11.20.43:785][ 45]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_Auto4E69AF33945ED17EAE16521926A9CA4FE.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Shop_Main_1_Auto4.umap'
+[2018.04.08-11.20.43:787][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Shop_Main_1_Auto4.umap
+[2018.04.08-11.20.43:790][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Shop_Main_1' took 0.173
+[2018.04.08-11.20.43:790][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.173
+[2018.04.08-11.20.43:792][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/Materials/Ginger_M/Ginger_M] ([1] browsable assets)...
+[2018.04.08-11.20.43:802][ 45]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SushiShop/Materials/Ginger_M/Ginger_M.Ginger_M]
+[2018.04.08-11.20.43:802][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Materials/Ginger_M/Ginger_M]
+[2018.04.08-11.20.43:828][ 45]LogSavePackage: Save=16.03ms
+[2018.04.08-11.20.43:828][ 45]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Ginger_M_Auto427A1E7514DF851A6F75CC1971365D820.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Ginger_M/Ginger_M_Auto4.uasset'
+[2018.04.08-11.20.43:829][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Ginger_M/Ginger_M_Auto4.uasset
+[2018.04.08-11.20.43:830][ 45]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/Materials/Glass_M/Glass_2_M] ([1] browsable assets)...
+[2018.04.08-11.20.43:838][ 45]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SushiShop/Materials/Glass_M/Glass_2_M.Glass_2_M]
+[2018.04.08-11.20.43:838][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/Materials/Glass_M/Glass_2_M]
+[2018.04.08-11.20.43:863][ 45]LogSavePackage: Save=15.20ms
+[2018.04.08-11.20.43:863][ 45]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_2_M_Auto4E001BC7C41926760106AC78D644B4219.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Glass_M/Glass_2_M_Auto4.uasset'
+[2018.04.08-11.20.43:864][ 45]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Materials/Glass_M/Glass_2_M_Auto4.uasset
+[2018.04.08-11.20.43:864][ 45]LogFileHelpers: Auto-saving content packages took 0.073
+[2018.04.08-11.20.47:128][175]LogSavePackage: Save=144.90ms
+[2018.04.08-11.20.47:128][175]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_191B1483D4574EC1B66F110814B5EB3B1.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap'
+[2018.04.08-11.20.47:132][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1.umap
+[2018.04.08-11.20.47:335][175]LogSavePackage: Save=158.34ms
+[2018.04.08-11.20.47:336][175]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltDataA03E80E648AFAD81EEE9B5905602B27E.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
+[2018.04.08-11.20.47:337][175]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
+[2018.04.08-11.20.49:663][291]LogSavePackage: Save=8.83ms
+[2018.04.08-11.20.49:663][291]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Ginger_M35840BF14D6AB54C180CB09087E6C54D.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Ginger_M/Ginger_M.uasset'
+[2018.04.08-11.20.49:668][291]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Ginger_M/Ginger_M.uasset
+[2018.04.08-11.20.49:687][291]LogSavePackage: Save=7.67ms
+[2018.04.08-11.20.49:687][291]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Glass_2_MEC14F848470CC1DBC2E9BE8B33147C3A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/Glass_2_M.uasset'
+[2018.04.08-11.20.49:689][291]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Glass_M/Glass_2_M.uasset
+[2018.04.08-11.20.50:991][292]Cmd: QUIT_EDITOR
+[2018.04.08-11.20.51:085][292]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.08-11.20.51:122][292]LogExit: Preparing to exit.
+[2018.04.08-11.20.52:105][292]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
+[2018.04.08-11.20.52:154][292]PIE: UWidget::RemoveFromParent() called on 'None.None:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.08-11.20.52:192][292]LogExit: Editor shut down
+[2018.04.08-11.20.52:212][292]LogExit: Transaction tracking system shut down
+[2018.04.08-11.20.52:615][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.04.08-11.20.52:616][292]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.04.08-11.20.52:770][292]LogExit: Object subsystem successfully closed.
+[2018.04.08-11.20.52:801][292]LogD3D11RHI: Shutdown
+[2018.04.08-11.20.52:801][292]LogD3D11RHI: CleanupD3DDevice
+[2018.04.08-11.20.52:807][292]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (560)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (558)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (556)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module MaterialEditor (550)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
+[2018.04.08-11.20.52:817][292]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
+[2018.04.08-11.20.52:817][292]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
+[2018.04.08-11.20.52:822][292]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' was aborted.
+[2018.04.08-11.20.52:822][292]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' was aborted.
+[2018.04.08-11.20.52:822][292]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' was aborted.
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2018.04.08-11.20.52:822][292]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2018.04.08-11.20.52:823][292]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2018.04.08-11.20.52:824][292]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2018.04.08-11.20.52:824][292]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2018.04.08-11.20.52:824][292]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2018.04.08-11.20.52:824][292]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2018.04.08-11.20.52:824][292]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2018.04.08-11.20.53:601][292]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2018.04.08-11.20.53:654][292]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2018.04.08-11.20.53:664][292]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2018.04.08-11.20.53:665][292]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2018.04.08-11.20.53:667][292]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2018.04.08-11.20.53:732][292]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2018.04.08-11.20.53:733][292]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2018.04.08-11.20.53:733][292]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2018.04.08-11.20.53:733][292]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2018.04.08-11.20.53:734][292]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2018.04.08-11.20.53:834][292]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2018.04.08-11.20.53:934][292]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2018.04.08-11.20.53:935][292]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2018.04.08-11.20.53:935][292]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2018.04.08-11.20.53:935][292]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2018.04.08-11.20.53:935][292]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2018.04.08-11.20.53:937][292]LogModuleManager: Shutting down and abandoning module Media (221)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2018.04.08-11.20.53:943][292]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2018.04.08-11.20.53:944][292]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2018.04.08-11.20.53:944][292]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module Core (172)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2018.04.08-11.20.53:946][292]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2018.04.08-11.20.53:951][292]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2018.04.08-11.20.54:008][292]LogDerivedDataCache: Shutdown
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2018.04.08-11.20.54:008][292]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.08-11.20.54:009][292]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.08-11.20.54:009][292]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.08-11.20.54:009][292]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC621D6A4-4C55-2454-65D6-A089BD91B078%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=2bae70db41f084004a2ce0bd3e06ec0c%7C8778d245138541aaa569355e220f0219%7C5f585d7b-ecc4-4dd4-88bd-af123f1b33ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.08-11.20.54:018][292]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.08-11.20.54:019][292]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.08-11.20.54:024][292]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.08-11.20.54:027][292]LogExit: Exiting.
+[2018.04.08-11.20.54:029][292]Log file closed, 04/08/18 04:20:54
