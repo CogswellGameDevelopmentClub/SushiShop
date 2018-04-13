@@ -1,6 +1,5 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿Log file open, 04/12/18 15:48:03
 =======
 ﻿Log file open, 04/12/18 15:29:04
@@ -11,9 +10,6 @@
 ﻿Log file open, 04/09/18 17:57:31
 >>>>>>> parent of e3f1f88... got spawning to work better
 >>>>>>> parent of 90b096d... reverted changes
-=======
-﻿Log file open, 04/12/18 13:06:21
->>>>>>> parent of 2f78d97... Revert "got spawning to work better"
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -26,7 +22,6 @@ LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 LogInit: Display: RandInit(2020726742) SRandInit(2020726743).
 =======
 LogInit: Display: RandInit(1643722083) SRandInit(1643722083).
@@ -37,14 +32,10 @@ LogInit: Display: RandInit(878079076) SRandInit(878079076).
 LogInit: Display: RandInit(-1236783692) SRandInit(-1236783692).
 >>>>>>> parent of e3f1f88... got spawning to work better
 >>>>>>> parent of 90b096d... reverted changes
-=======
-LogInit: Display: RandInit(878079076) SRandInit(878079076).
->>>>>>> parent of 2f78d97... Revert "got spawning to work better"
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 LogStats: Stats thread started at 0.151128
@@ -57,9 +48,6 @@ LogStats: Stats thread started at 0.460246
 LogStats: Stats thread started at 0.154471
 >>>>>>> parent of e3f1f88... got spawning to work better
 >>>>>>> parent of 90b096d... reverted changes
-=======
-LogStats: Stats thread started at 0.460246
->>>>>>> parent of 2f78d97... Revert "got spawning to work better"
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -241,7 +229,6 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 [2018.04.12-22.48.04:855][  0]LogInit: Selected Device Profile: [Windows]
@@ -2358,8 +2345,6 @@ Make sure 'Display_Order' has been compiled for  Get SushiName
 [2018.04.12-22.31.30:075][992]Log file closed, 04/12/18 15:31:30
 >>>>>>> parent of 0f62671... k
 =======
-=======
->>>>>>> parent of 2f78d97... Revert "got spawning to work better"
 [2018.04.12-20.06.23:076][  0]LogInit: Selected Device Profile: [Windows]
 [2018.04.12-20.06.23:076][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.04.12-20.06.23:094][  0]LogInit: Computer: DESKTOP-TMTLRPJ
@@ -3721,7 +3706,6 @@ Make sure 'Display_Order' has been compiled for  Get SushiName
 [2018.04.12-22.14.24:765][964]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.04.12-22.14.24:767][964]LogExit: Exiting.
 [2018.04.12-22.14.24:788][964]Log file closed, 04/12/18 15:14:24
-<<<<<<< HEAD
 =======
 [2018.04.10-00.57.33:016][  0]LogInit: Selected Device Profile: [Windows]
 [2018.04.10-00.57.33:016][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
@@ -8426,5 +8410,3 @@ Make sure 'Display_Order' has been compiled for  Get SushiName
 [2018.04.10-05.54.23:232][267]Log file closed, 04/09/18 22:54:23
 >>>>>>> parent of e3f1f88... got spawning to work better
 >>>>>>> parent of 90b096d... reverted changes
-=======
->>>>>>> parent of 2f78d97... Revert "got spawning to work better"
