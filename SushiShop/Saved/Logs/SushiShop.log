@@ -1,7 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ﻿Log file open, 04/12/18 15:48:03
 =======
 ﻿Log file open, 04/12/18 15:29:04
@@ -15,9 +14,6 @@
 =======
 ﻿Log file open, 04/12/18 13:06:21
 >>>>>>> parent of 2f78d97... Revert "got spawning to work better"
-=======
-﻿Log file open, 04/09/18 17:57:31
->>>>>>> parent of e3f1f88... got spawning to work better
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -28,7 +24,6 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -45,14 +40,10 @@ LogInit: Display: RandInit(-1236783692) SRandInit(-1236783692).
 =======
 LogInit: Display: RandInit(878079076) SRandInit(878079076).
 >>>>>>> parent of 2f78d97... Revert "got spawning to work better"
-=======
-LogInit: Display: RandInit(-1236783692) SRandInit(-1236783692).
->>>>>>> parent of e3f1f88... got spawning to work better
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -69,9 +60,6 @@ LogStats: Stats thread started at 0.154471
 =======
 LogStats: Stats thread started at 0.460246
 >>>>>>> parent of 2f78d97... Revert "got spawning to work better"
-=======
-LogStats: Stats thread started at 0.154471
->>>>>>> parent of e3f1f88... got spawning to work better
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -253,7 +241,6 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3738,8 +3725,6 @@ Make sure 'Display_Order' has been compiled for  Get SushiName
 [2018.04.12-22.14.24:788][964]Log file closed, 04/12/18 15:14:24
 <<<<<<< HEAD
 =======
-=======
->>>>>>> parent of e3f1f88... got spawning to work better
 [2018.04.10-00.57.33:016][  0]LogInit: Selected Device Profile: [Windows]
 [2018.04.10-00.57.33:016][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.04.10-00.57.33:031][  0]LogInit: Computer: DESKTOP-TMTLRPJ
@@ -8441,7 +8426,6 @@ Make sure 'Display_Order' has been compiled for  Get SushiName
 [2018.04.10-05.54.23:212][267]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.04.10-05.54.23:214][267]LogExit: Exiting.
 [2018.04.10-05.54.23:232][267]Log file closed, 04/09/18 22:54:23
-<<<<<<< HEAD
 >>>>>>> parent of e3f1f88... got spawning to work better
 >>>>>>> parent of 90b096d... reverted changes
 =======
@@ -10339,5 +10323,3 @@ Please see Output Log for details.
 [2018.04.11-02.39.39:848][355]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Shop_Main_1_BuiltData34AF559F41FD3683B9A5C2B25874192F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset'
 [2018.04.11-02.39.39:850][355]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Shop_Main_1_BuiltData.uasset
 >>>>>>> parent of 89303d4... got the fish to work
-=======
->>>>>>> parent of e3f1f88... got spawning to work better
