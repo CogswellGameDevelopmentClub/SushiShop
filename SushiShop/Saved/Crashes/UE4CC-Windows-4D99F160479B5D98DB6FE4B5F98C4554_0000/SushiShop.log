@@ -1,0 +1,1498 @@
+﻿Log file open, 04/16/18 10:39:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1536300735) SRandInit(1536300735).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.441161
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.16-17.39.53:820][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-17.39.53:820][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.16-17.39.53:839][  0]LogInit: Computer: DESKTOP-TMTLRPJ
+[2018.04.16-17.39.53:839][  0]LogInit: User: GameDevClub
+[2018.04.16-17.39.53:839][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.16-17.39.53:839][  0]LogInit: High frequency timer resolution =4.101563 MHz
+[2018.04.16-17.39.53:839][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.16-17.39.53:839][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.16-17.39.53:839][  0]LogMemory: Process Physical Memory: 279.95 MB used, 279.95 MB peak
+[2018.04.16-17.39.53:839][  0]LogMemory: Process Virtual Memory: 272.22 MB used, 272.22 MB peak
+[2018.04.16-17.39.53:839][  0]LogMemory: Physical Memory: 4391.19 MB used,  11955.94 MB free, 16347.13 MB total
+[2018.04.16-17.39.53:839][  0]LogMemory: Virtual Memory: 733.07 MB used,  11955.94 MB free, 134217728.00 MB total
+[2018.04.16-17.39.54:068][  0]LogInit: Using OS detected language (en-US).
+[2018.04.16-17.39.54:068][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.16-17.39.54:107][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.16-17.39.54:427][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.16-17.39.55:917][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.16-17.39.56:293][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.04.16-17.39.56:293][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.04.16-17.39.56:295][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.16-17.39.56:295][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.16-17.39.56:295][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.16-17.39.56:299][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.16-17.39.56:300][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.16-17.39.56:300][  0]LogWindows: EnumDisplayDevices:
+[2018.04.16-17.39.56:300][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.04.16-17.39.56:300][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.16-17.39.56:300][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.16-17.39.56:300][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.16-17.39.56:300][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.16-17.39.56:300][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.04.16-17.39.56:300][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.16-17.39.56:300][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.16-17.39.56:300][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.04.16-17.39.56:320][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.16-17.39.56:380][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.16-17.39.56:481][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/17684/).
+[2018.04.16-17.39.56:481][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/4E1AD2FE4C95AEFD9C28B49ED8C13107/'.
+[2018.04.16-17.39.56:482][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.16-17.39.57:776][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.16-17.39.57:812][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.16-17.39.57:849][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.16-17.39.57:885][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.16-17.39.57:924][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.16-17.39.57:961][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.16-17.39.57:998][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.16-17.39.58:034][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.16-17.39.58:065][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.16-17.39.58:102][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.16-17.39.58:138][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.16-17.39.58:174][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.16-17.39.58:210][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.16-17.39.58:245][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.16-17.39.58:317][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.16-17.39.58:317][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.16-17.39.58:356][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.16-17.39.58:383][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.16-17.39.58:458][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.16-17.39.58:477][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.16-17.39.58:512][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.16-17.39.58:548][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.16-17.39.58:583][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.16-17.39.58:622][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.16-17.39.58:622][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.16-17.39.58:999][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: Loaded boot cache 0.14s 83MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.16-17.39.59:137][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.16-17.39.59:155][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.16-17.39.59:166][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.16-17.39.59:176][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.16-17.39.59:181][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.16-17.39.59:192][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-17.39.59:193][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.16-17.39.59:754][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.16-17.40.00:125][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.16-17.40.00:155][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.16-17.40.00:156][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.16-17.40.00:156][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.16-17.40.00:156][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.16-17.40.00:156][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.16-17.40.00:209][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.04.16-17.40.00:518][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.04.16-17.40.01:243][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.050389 seconds
+[2018.04.16-17.40.01:248][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.16-17.40.01:248][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.04.16-17.40.01:248][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.16-17.40.01:289][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.16-17.40.05:009][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.16-17.40.05:044][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.16-17.40.05:591][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
+[2018.04.16-17.40.05:592][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:592][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:607][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.16-17.40.05:614][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
+[2018.04.16-17.40.05:615][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:615][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:616][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
+[2018.04.16-17.40.05:617][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:617][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:618][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
+[2018.04.16-17.40.05:619][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:619][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:620][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
+[2018.04.16-17.40.05:621][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:621][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:623][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
+[2018.04.16-17.40.05:623][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:623][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:635][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
+[2018.04.16-17.40.05:635][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:635][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:637][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.04.16-17.40.05:637][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:637][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:639][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
+[2018.04.16-17.40.05:639][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2018.04.16-17.40.05:639][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
+[2018.04.16-17.40.05:934][  0]SourceControl: Source control is disabled
+[2018.04.16-17.40.05:934][  0]SourceControl: Source control is disabled
+[2018.04.16-17.40.05:981][  0]SourceControl: Source control is disabled
+[2018.04.16-17.40.06:024][  0]SourceControl: Source control is disabled
+[2018.04.16-17.40.06:681][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.16-17.40.06:882][  0]LogOcInput: OculusInput pre-init called
+[2018.04.16-17.40.07:109][  0]LogEngine: Initializing Engine...
+[2018.04.16-17.40.07:110][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.04.16-17.40.07:260][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.16-17.40.07:261][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.16-17.40.07:364][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.16-17.40.07:374][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-17.40.07:382][  0]LogInit: FAudioDevice initialized.
+[2018.04.16-17.40.07:487][  0]LogDerivedDataCache: Saved boot cache 0.10s 83MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.16-17.40.07:494][  0]LogInit: Texture streaming: Enabled
+[2018.04.16-17.40.07:565][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.16-17.40.07:695][  0]LogInit: Transaction tracking system initialized
+[2018.04.16-17.40.07:937][  0]BlueprintLog: New page: Editor Load
+[2018.04.16-17.40.08:639][  0]LocalizationService: Localization service is disabled
+[2018.04.16-17.40.09:226][  0]LogConsoleResponse: Display: 
+[2018.04.16-17.40.09:448][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.16-17.40.09:448][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.16-17.40.09:449][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.16-17.40.09:936][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.04.16-17.40.10:393][  0]SourceControl: Source control is disabled
+[2018.04.16-17.40.10:394][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-17.40.10:395][  0]LightingResults: New page: Lighting Build
+[2018.04.16-17.40.10:428][  0]MapCheck: New page: Map Check
+[2018.04.16-17.40.10:428][  0]LightingResults: New page: Lighting Build
+[2018.04.16-17.40.10:565][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.16-17.40.10:580][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-17.40.10:589][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-17.40.10:622][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.851ms to complete.
+[2018.04.16-17.40.10:622][  0]LogFileHelpers: Loading map 'StartupMap' took 0.229
+[2018.04.16-17.40.10:874][  0]LogCollectionManager: Loaded 0 collections in 0.001450 seconds
+[2018.04.16-17.40.10:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.04.16-17.40.10:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
+[2018.04.16-17.40.10:957][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.04.16-17.40.10:957][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.16-17.40.10:964][  0]LogContentBrowser: Native class hierarchy populated in 0.0062 seconds. Added 2364 classes and 521 folders.
+[2018.04.16-17.40.11:020][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.16-17.40.11:266][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.04.16-17.40.11:374][  0]LogSlate: Took 0.004289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-17.40.11:381][  0]LogSlate: Took 0.002755 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.16-17.40.11:385][  0]LogSlate: Took 0.003185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.16-17.40.11:460][  0]LogRenderer: Reallocating scene render targets to support 1004x504 Format 26 NumSamples 1 (Frame:1).
+[2018.04.16-17.40.11:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.16-17.40.11:622][  0]LogLoad: (Engine Initialization) Total time: 20.84 seconds
+[2018.04.16-17.40.11:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.16-17.40.11:622][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.16-17.40.11:651][  0]LogOcInput: OculusInput is initialized
+[2018.04.16-17.40.11:673][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.16-17.40.11:720][  0]LogSlate: Took 0.003295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-17.40.11:730][  1]LogAssetRegistry: Asset discovery search completed in 11.2335 seconds
+[2018.04.16-17.40.11:732][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.16-17.40.11:732][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2018.04.16-17.40.12:751][109]LogSlate: Took 0.000097 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-17.40.12:990][109]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.04.16-17.40.14:053][109]LogStaticMesh: Building static mesh SushiBoat_SushiBoatSail...
+[2018.04.16-17.40.14:067][109]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Boat/SushiBoat_SushiBoatSail.SushiBoat_SushiBoatSail
+[2018.04.16-17.40.14:084][109]LogStaticMesh: Building static mesh SushiBoat_SushiBoat...
+[2018.04.16-17.40.14:132][109]LogStaticMesh: Built static mesh [0.05s] /Game/SushiShop/Assets/Props/Boat/SushiBoat_SushiBoat.SushiBoat_SushiBoat
+[2018.04.16-17.40.14:193][109]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 44 triangles, Range [0.0, 1.0], SushiBoat_SushiBoatSail
+[2018.04.16-17.40.14:193][109]LogMeshUtilities: Finished distance field build in 0.0s - 11x8x8 distance field, 3378 triangles, Range [-0.0, 0.9], SushiBoat_SushiBoat
+[2018.04.16-17.40.14:388][109]LogSlate: Took 0.002812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.16-17.40.14:483][110]LogSlate: Took 0.002820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.16-19.28.12:288][ 83]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.16-19.28.21:312][157]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/VirtualRealityBP/Maps/StartupMap' took 0.018
+[2018.04.16-19.28.21:314][157]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SushiShop/BluePrints/New/Boat/BP_Boat] ([1] browsable assets)...
+[2018.04.16-19.28.21:333][157]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SushiShop/BluePrints/New/Boat/BP_Boat.BP_Boat]
+[2018.04.16-19.28.21:333][157]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/BluePrints/New/Boat/BP_Boat]
+[2018.04.16-19.28.21:442][157]LogSavePackage: Save=99.98ms
+[2018.04.16-19.28.21:442][157]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat_Auto13D1F0B4D4B77734026243FBB60DFE24B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/New/Boat/BP_Boat_Auto1.uasset'
+[2018.04.16-19.28.21:444][157]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/New/Boat/BP_Boat_Auto1.uasset
+[2018.04.16-19.28.21:444][157]LogFileHelpers: Auto-saving content packages took 0.131
+[2018.04.16-19.37.58:360][282]LogTexture: Display: Building textures: ShadowMapTexture2D_11 (BGRA8, 1024X512)
+[2018.04.16-19.37.58:360][282]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.04.16-19.37.58:360][282]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.04.16-19.37.58:360][282]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.04.16-19.37.58:360][282]LogMaterial: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2018.04.16-19.37.59:469][282]LogTexture: Display: Building textures: Ground_DirtBrownTan_2k_n (BC5, 2048X2048)
+[2018.04.16-19.37.59:469][282]LogTexture: Display: Building textures: Ground_DirtBrownTan_2k_g (AutoDXT, 2048X2048)
+[2018.04.16-19.37.59:469][282]LogTexture: Display: Building textures: Ground_DirtBrownTan_2k_alb (AutoDXT, 2048X2048)
+[2018.04.16-19.37.59:472][282]LogMaterial: Missing cached shader map for material Plates_M, compiling. 
+[2018.04.16-19.37.59:560][282]LogStaticMesh: Building static mesh Plate_Small...
+[2018.04.16-19.37.59:565][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Plates/SmallPlate/Plate_Small.Plate_Small
+[2018.04.16-19.37.59:642][282]LogStaticMesh: Building static mesh Bar-4-14_DoorHandle0...
+[2018.04.16-19.37.59:651][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_DoorHandle0.Bar-4-14_DoorHandle0
+[2018.04.16-19.37.59:652][282]LogStaticMesh: Building static mesh Bar-4-14_DoorHandle1...
+[2018.04.16-19.37.59:661][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_DoorHandle1.Bar-4-14_DoorHandle1
+[2018.04.16-19.37.59:664][282]LogMaterial: Missing cached shader map for material Tuna_M, compiling. 
+[2018.04.16-19.37.59:797][282]LogMaterial: Missing cached shader map for material Salmon_M, compiling. 
+[2018.04.16-19.38.00:137][282]LogStaticMesh: Building static mesh Ginger_Scoop...
+[2018.04.16-19.38.00:139][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/Ginger/Ginger_Scoop.Ginger_Scoop
+[2018.04.16-19.38.00:223][282]LogMaterial: Missing cached shader map for material Cobain, compiling. 
+[2018.04.16-19.38.00:328][282]LogMaterial: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.04.16-19.38.00:541][282]LogStaticMesh: Building static mesh Wasabi_Scoop...
+[2018.04.16-19.38.00:543][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/Wasabi/Wasabi_Scoop.Wasabi_Scoop
+[2018.04.16-19.38.01:429][282]LogMeshUtilities: Finished distance field build in 1.7s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.4], Plate_Small
+[2018.04.16-19.38.01:430][282]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.16-19.38.01:463][282]LogMaterial: Missing cached shader map for material Ground_DirtBrownTan, compiling. 
+[2018.04.16-19.38.01:546][282]LogMaterial: Missing cached shader map for material Rice_M, compiling. 
+[2018.04.16-19.38.01:896][282]LogStaticMesh: Building static mesh Bar-4-14_DoorHandle2...
+[2018.04.16-19.38.01:903][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_DoorHandle2.Bar-4-14_DoorHandle2
+[2018.04.16-19.38.01:915][282]LogStaticMesh: Building static mesh Bar-4-14_DoorHandle3...
+[2018.04.16-19.38.01:924][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_DoorHandle3.Bar-4-14_DoorHandle3
+[2018.04.16-19.38.01:925][282]LogStaticMesh: Building static mesh Bar-4-14_DoorHandle5...
+[2018.04.16-19.38.01:934][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_DoorHandle5.Bar-4-14_DoorHandle5
+[2018.04.16-19.38.02:254][282]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 312 triangles, Range [-0.1, 0.4], Bar-4-14_DoorHandle2
+[2018.04.16-19.38.02:254][282]LogStaticMesh: Building static mesh Bar-4-14_GlassDoor0...
+[2018.04.16-19.38.02:256][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassDoor0.Bar-4-14_GlassDoor0
+[2018.04.16-19.38.02:267][282]LogStaticMesh: Building static mesh Bar-4-14_GlassDoor1...
+[2018.04.16-19.38.02:268][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassDoor1.Bar-4-14_GlassDoor1
+[2018.04.16-19.38.02:269][282]LogStaticMesh: Building static mesh Bar-4-14_GlassDoor2...
+[2018.04.16-19.38.02:270][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassDoor2.Bar-4-14_GlassDoor2
+[2018.04.16-19.38.02:271][282]LogStaticMesh: Building static mesh Bar-4-14_GlassDoor3...
+[2018.04.16-19.38.02:272][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassDoor3.Bar-4-14_GlassDoor3
+[2018.04.16-19.38.02:272][282]LogStaticMesh: Building static mesh Bar-4-14_GlassDoor5...
+[2018.04.16-19.38.02:273][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassDoor5.Bar-4-14_GlassDoor5
+[2018.04.16-19.38.02:274][282]LogStaticMesh: Building static mesh Bar-4-14_GlassOuter...
+[2018.04.16-19.38.02:278][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_GlassOuter.Bar-4-14_GlassOuter
+[2018.04.16-19.38.02:367][282]LogMeshUtilities: Finished distance field build in 0.0s - 8x13x8 distance field, 32 triangles, Range [-0.0, 0.4], Bar-4-14_GlassDoor0
+[2018.04.16-19.38.02:367][282]LogStaticMesh: Building static mesh Bar-4-14_Refrigerator...
+[2018.04.16-19.38.02:394][282]LogStaticMesh: Built static mesh [0.03s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_Refrigerator.Bar-4-14_Refrigerator
+[2018.04.16-19.38.02:455][282]LogStaticMesh: Building static mesh SalmonFillet1...
+[2018.04.16-19.38.02:461][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Food/SalmonFillet/SalmonFillet1.SalmonFillet1
+[2018.04.16-19.38.02:462][282]LogStaticMesh: Building static mesh SalmonFillet2...
+[2018.04.16-19.38.02:467][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Food/SalmonFillet/SalmonFillet2.SalmonFillet2
+[2018.04.16-19.38.02:468][282]LogStaticMesh: Building static mesh SalmonFillet3...
+[2018.04.16-19.38.02:474][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Food/SalmonFillet/SalmonFillet3.SalmonFillet3
+[2018.04.16-19.38.02:475][282]LogStaticMesh: Building static mesh SalmonPlate...
+[2018.04.16-19.38.02:480][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/SalmonFillet/SalmonPlate.SalmonPlate
+[2018.04.16-19.38.02:480][282]LogStaticMesh: Building static mesh Bar-4-14_Bar...
+[2018.04.16-19.38.02:540][282]LogStaticMesh: Built static mesh [0.06s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_Bar.Bar-4-14_Bar
+[2018.04.16-19.38.02:545][282]LogStaticMesh: Building static mesh TunaFillet1...
+[2018.04.16-19.38.02:550][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/TunaFillet/TunaFillet1.TunaFillet1
+[2018.04.16-19.38.02:551][282]LogStaticMesh: Building static mesh TunaFillet2...
+[2018.04.16-19.38.02:556][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Food/TunaFillet/TunaFillet2.TunaFillet2
+[2018.04.16-19.38.02:557][282]LogStaticMesh: Building static mesh TunaFillet3...
+[2018.04.16-19.38.02:562][282]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Props/Food/TunaFillet/TunaFillet3.TunaFillet3
+[2018.04.16-19.38.02:563][282]LogStaticMesh: Building static mesh TunaPlate...
+[2018.04.16-19.38.02:567][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/TunaFillet/TunaPlate.TunaPlate
+[2018.04.16-19.38.02:568][282]LogStaticMesh: Building static mesh UnagiFillet1...
+[2018.04.16-19.38.02:572][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/UnagiFillet/UnagiFillet1.UnagiFillet1
+[2018.04.16-19.38.02:573][282]LogStaticMesh: Building static mesh UnagiFillet2...
+[2018.04.16-19.38.02:577][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/UnagiFillet/UnagiFillet2.UnagiFillet2
+[2018.04.16-19.38.02:578][282]LogStaticMesh: Building static mesh UnagiFillet3...
+[2018.04.16-19.38.02:582][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/UnagiFillet/UnagiFillet3.UnagiFillet3
+[2018.04.16-19.38.02:583][282]LogStaticMesh: Building static mesh UnagiFillet4...
+[2018.04.16-19.38.02:587][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/UnagiFillet/UnagiFillet4.UnagiFillet4
+[2018.04.16-19.38.02:588][282]LogStaticMesh: Building static mesh UnagiPlate...
+[2018.04.16-19.38.02:592][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Props/Food/UnagiFillet/UnagiPlate.UnagiPlate
+[2018.04.16-19.38.02:636][282]LogStaticMesh: Building static mesh Bar-4-14_Water...
+[2018.04.16-19.38.02:636][282]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Bar/Bar-4-14/Bar-4-14_Water.Bar-4-14_Water
+[2018.04.16-19.38.02:860][282]LogMeshUtilities: Finished distance field build in 0.2s - 39x33x9 distance field, 1370 triangles, Range [-0.0, 0.6], Bar-4-14_Refrigerator
+[2018.04.16-19.38.02:957][282]LogAIModule: Creating AISystem for world Main
+[2018.04.16-19.38.07:978][282]LogSavePackage: Save=142.18ms
+[2018.04.16-19.38.07:978][282]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatFBC22C9C4D5CD43C8C640B824BE2A08B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.38.07:986][282]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.38.07:987][282]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.16-19.38.07:988][282]LightingResults: New page: Lighting Build
+[2018.04.16-19.38.07:988][282]LoadErrors: New page: Loading map: Main.umap
+[2018.04.16-19.38.07:990][282]MapCheck: New page: Map Check
+[2018.04.16-19.38.07:990][282]LightingResults: New page: Lighting Build
+[2018.04.16-19.38.08:111][282]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.16-19.38.08:193][282]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.16-19.38.08:276][282]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 82.638ms to complete.
+[2018.04.16-19.38.08:279][282]LogFileHelpers: Loading map 'Main' took 0.293
+[2018.04.16-19.38.08:639][300]LogMeshUtilities: Finished distance field build in 0.3s - 48x38x8 distance field, 34 triangles, Range [-0.1, 1.0], Bar-4-14_Water
+[2018.04.16-19.38.08:740][306]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], UnagiPlate
+[2018.04.16-19.38.08:819][312]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 356 triangles, Range [-0.0, 0.6], UnagiFillet4
+[2018.04.16-19.38.08:916][320]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 356 triangles, Range [-0.0, 0.4], UnagiFillet3
+[2018.04.16-19.38.09:002][327]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 356 triangles, Range [-0.0, 0.5], UnagiFillet2
+[2018.04.16-19.38.09:086][334]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 356 triangles, Range [-0.0, 0.4], UnagiFillet1
+[2018.04.16-19.38.09:171][341]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], TunaPlate
+[2018.04.16-19.38.09:257][347]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 360 triangles, Range [-0.1, 0.6], TunaFillet3
+[2018.04.16-19.38.09:348][353]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 360 triangles, Range [-0.1, 0.6], TunaFillet2
+[2018.04.16-19.38.09:436][359]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 360 triangles, Range [-0.1, 0.4], TunaFillet1
+[2018.04.16-19.38.11:050][464]LogMeshUtilities: Finished distance field build in 1.5s - 64x49x24 distance field, 1364 triangles, Range [-0.1, 0.6], Bar-4-14_Bar
+[2018.04.16-19.38.11:138][470]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.3], SalmonPlate
+[2018.04.16-19.38.11:222][475]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 432 triangles, Range [-0.1, 0.5], SalmonFillet3
+[2018.04.16-19.38.11:316][481]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 432 triangles, Range [-0.1, 0.4], SalmonFillet2
+[2018.04.16-19.38.11:405][488]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 432 triangles, Range [-0.1, 0.4], SalmonFillet1
+[2018.04.16-19.38.11:629][502]LogMeshUtilities: Finished distance field build in 0.2s - 38x32x8 distance field, 12 triangles, Range [-0.0, 1.0], Bar-4-14_GlassOuter
+[2018.04.16-19.38.11:714][507]LogMeshUtilities: Finished distance field build in 0.0s - 8x13x8 distance field, 32 triangles, Range [-0.0, 0.4], Bar-4-14_GlassDoor5
+[2018.04.16-19.38.11:805][514]LogMeshUtilities: Finished distance field build in 0.0s - 14x8x8 distance field, 32 triangles, Range [-0.0, 0.4], Bar-4-14_GlassDoor3
+[2018.04.16-19.38.11:898][521]LogMeshUtilities: Finished distance field build in 0.0s - 14x8x8 distance field, 32 triangles, Range [-0.0, 0.4], Bar-4-14_GlassDoor2
+[2018.04.16-19.38.11:987][527]LogMeshUtilities: Finished distance field build in 0.0s - 8x14x8 distance field, 32 triangles, Range [-0.0, 0.4], Bar-4-14_GlassDoor1
+[2018.04.16-19.38.12:078][532]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 312 triangles, Range [-0.1, 0.4], Bar-4-14_DoorHandle5
+[2018.04.16-19.38.12:164][538]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 312 triangles, Range [-0.1, 0.4], Bar-4-14_DoorHandle3
+[2018.04.16-19.38.12:250][544]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 120 triangles, Range [-0.3, 0.8], Wasabi_Scoop
+[2018.04.16-19.38.12:333][550]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 120 triangles, Range [-0.3, 0.8], Ginger_Scoop
+[2018.04.16-19.38.12:426][557]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 312 triangles, Range [-0.1, 0.4], Bar-4-14_DoorHandle1
+[2018.04.16-19.38.12:516][563]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 312 triangles, Range [-0.1, 0.4], Bar-4-14_DoorHandle0
+[2018.04.16-19.44.54:452][624]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.16-19.44.54:469][624]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.04.16-19.44.54:776][624]LogPlayLevel: PlayLevel: Blueprint regeneration took 323 ms (1 blueprints)
+[2018.04.16-19.44.54:776][624]LogHMD: Initializing OVRPlugin session
+[2018.04.16-19.44.54:802][624]PIE: New page: PIE session: Main (Apr 16, 2018, 5:44:54 AM)
+[2018.04.16-19.44.54:802][624]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-19.44.54:808][624]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006347s)
+[2018.04.16-19.44.54:809][624]LogAIModule: Creating AISystem for world Main
+[2018.04.16-19.44.54:809][624]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.04.16-19.44.54:809][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.007430s)
+[2018.04.16-19.44.54:831][624]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-19.44.54:837][624]LogInit: FAudioDevice initialized.
+[2018.04.16-19.44.54:948][624]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-19.44.54:986][624]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-19.44.54:986][624]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-19.44.54:991][624]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-12.44.54
+[2018.04.16-19.44.54:992][624]LogWorld: Bringing up level for play took: 0.005804
+[2018.04.16-19.44.55:028][624]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.04.16-19.44.55:041][624]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.284
+[2018.04.16-19.44.55:092][624]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.04.16-19.44.55:092][624]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-19.45.03:593][250]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.03:593][250]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.06:070][472]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.06:070][472]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.08:894][726]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.08:894][726]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.11:304][943]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.11:304][943]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.12:237][ 27]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.12:237][ 27]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.12:659][ 65]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.12:660][ 65]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.12:881][ 85]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.12:882][ 85]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.13:049][100]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.13:049][100]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.45.14:115][196]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.45.14:116][196]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.46.14:074][587]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.46.14:074][587]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.46.37:919][733]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.46.37:920][733]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.46.47:508][596]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.46.47:508][596]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.46.49:209][749]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.46.49:209][749]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.42:056][504]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.42:056][504]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.55:036][671]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.55:036][671]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.56:801][830]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.56:802][830]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.57:802][920]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.57:803][920]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.58:370][971]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.58:371][971]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.58:879][ 17]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.58:880][ 17]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.59:356][ 60]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.59:356][ 60]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.59:613][ 83]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.59:613][ 83]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.47.59:867][106]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.47.59:868][106]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.00:123][129]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.00:123][129]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.00:367][151]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.00:367][151]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.00:845][194]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.00:846][194]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.01:268][232]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.01:268][232]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.01:613][263]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.01:613][263]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.02:023][300]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.02:023][300]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.02:490][342]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.02:490][342]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.03:035][391]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.03:035][391]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.03:490][432]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.03:491][432]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.03:923][471]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.03:923][471]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.04:313][506]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.04:313][506]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.04:713][542]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.04:713][542]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.07:923][831]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.07:923][831]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.08:135][850]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.08:135][850]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.09:258][951]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.09:258][951]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.09:467][970]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.09:468][970]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.09:679][989]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.09:679][989]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.09:846][  4]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.09:846][  4]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:023][ 20]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:023][ 20]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:214][ 37]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:214][ 37]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:390][ 53]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:391][ 53]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:568][ 69]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:568][ 69]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:745][ 85]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:745][ 85]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.10:956][104]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.10:956][104]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.11:156][122]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.11:156][122]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.11:378][142]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.11:378][142]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.11:600][162]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.11:600][162]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.11:822][182]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.11:823][182]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.12:022][200]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.12:022][200]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.12:467][240]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.12:467][240]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.12:689][260]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.12:689][260]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.12:911][279]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.12:912][279]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.13:111][295]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.13:111][295]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.13:322][314]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.13:322][314]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.13:532][331]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.13:533][331]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.15:345][491]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.15:345][491]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.15:522][507]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.15:523][507]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.15:678][521]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.15:678][521]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.15:855][536]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.15:856][536]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.15:990][546]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.15:991][546]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:156][560]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:156][560]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:287][569]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:288][569]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:487][583]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:488][583]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:631][592]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:632][592]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:787][602]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:788][602]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.16:932][611]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.16:932][611]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.17:065][619]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.17:065][619]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.17:186][625]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.17:186][625]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.17:409][635]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.17:410][635]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.17:586][643]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.17:587][643]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.17:986][661]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.17:987][661]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.18:186][670]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.18:186][670]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.18:364][678]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.18:364][678]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.18:520][685]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.18:520][685]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.18:764][696]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.18:765][696]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.18:964][705]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.18:964][705]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.19:453][727]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.19:454][727]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.48.19:675][737]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.48.19:675][737]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.49.22:163][139]LogSavePackage: Save=103.03ms
+[2018.04.16-19.49.22:163][139]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatDCB7379945E72C673B483EB5AA822CBC.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.49.22:165][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.49.22:394][139]LogSavePackage: Save=150.52ms
+[2018.04.16-19.49.22:394][139]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainFE672ACE437E0CBF391957B907A999E5.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.16-19.49.22:397][139]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.16-19.49.22:437][139]LogFileHelpers: Saving map 'Main' took 0.270
+[2018.04.16-19.49.46:131][956]LogEditorTransaction: Undo Delete current selection
+[2018.04.16-19.51.40:875][442]BlueprintLog: New page: Compile BP_Boat
+[2018.04.16-19.51.41:867][498]LogSavePackage: Save=101.21ms
+[2018.04.16-19.51.41:867][498]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat4FEA3E0644637913283EFFA9596F84C9.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.51.41:870][498]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.51.47:297][134]LogSavePackage: Save=95.90ms
+[2018.04.16-19.51.47:297][134]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatEB5811174830666ECCF4E196FE8CB411.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.51.47:299][134]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.51.49:391][384]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.51.49:426][384]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.51.49:426][384]LogHMD: Initializing OVRPlugin session
+[2018.04.16-19.51.49:444][384]PIE: New page: PIE session: Main (Apr 16, 2018, 5:51:49 AM)
+[2018.04.16-19.51.49:444][384]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-19.51.49:452][384]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008427s)
+[2018.04.16-19.51.49:453][384]LogAIModule: Creating AISystem for world Main
+[2018.04.16-19.51.49:453][384]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2018.04.16-19.51.49:453][384]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009179s)
+[2018.04.16-19.51.49:473][384]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-19.51.49:478][384]LogInit: FAudioDevice initialized.
+[2018.04.16-19.51.49:570][384]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-19.51.49:598][384]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-19.51.49:598][384]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-19.51.49:602][384]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-12.51.49
+[2018.04.16-19.51.49:602][384]LogWorld: Bringing up level for play took: 0.004161
+[2018.04.16-19.51.49:609][384]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.284
+[2018.04.16-19.51.49:620][384]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-19.51.49:620][384]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-19.52.50:013][573]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.50:013][573]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.56:378][146]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.56:379][146]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.56:624][168]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.56:624][168]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.56:823][186]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.56:823][186]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:023][204]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:023][204]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:224][222]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:224][222]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:413][239]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:413][239]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:601][256]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:601][256]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:779][272]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:779][272]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.57:957][288]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.57:957][288]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.58:135][304]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.58:136][304]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.58:302][319]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.58:302][319]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.58:491][336]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.58:491][336]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.58:678][353]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.58:678][353]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.58:845][368]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.58:845][368]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.59:023][384]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.59:023][384]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.59:201][400]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.59:201][400]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.59:357][414]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.59:357][414]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.52.59:523][429]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.52.59:524][429]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.23:285][922]LogSavePackage: Save=105.72ms
+[2018.04.16-19.54.23:285][922]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatAADD90A5406C5E36212CDA87E035644A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.54.23:287][922]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.54.23:613][961]BlueprintLog: New page: Compile BP_Boat
+[2018.04.16-19.54.27:020][325]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.54.27:055][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.54.27:055][325]LogHMD: Initializing OVRPlugin session
+[2018.04.16-19.54.27:072][325]PIE: New page: PIE session: Main (Apr 16, 2018, 5:54:27 AM)
+[2018.04.16-19.54.27:072][325]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-19.54.27:081][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008915s)
+[2018.04.16-19.54.27:082][325]LogAIModule: Creating AISystem for world Main
+[2018.04.16-19.54.27:082][325]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.04.16-19.54.27:082][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009843s)
+[2018.04.16-19.54.27:105][325]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-19.54.27:110][325]LogInit: FAudioDevice initialized.
+[2018.04.16-19.54.27:198][325]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-19.54.27:225][325]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-19.54.27:225][325]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-19.54.27:230][325]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-12.54.27
+[2018.04.16-19.54.27:230][325]LogWorld: Bringing up level for play took: 0.004394
+[2018.04.16-19.54.27:238][325]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.087
+[2018.04.16-19.54.27:247][325]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-19.54.27:247][325]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-19.54.33:718][914]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.33:719][914]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.34:419][977]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.34:419][977]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.34:818][ 13]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.34:818][ 13]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.35:163][ 44]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.35:163][ 44]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.35:429][ 68]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.35:430][ 68]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.35:652][ 88]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.35:652][ 88]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.35:897][110]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.35:897][110]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.36:175][135]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.36:175][135]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.36:453][160]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.36:453][160]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.37:034][212]LogBlueprintUserMessages: [BP_Boat_C_0] cast failed
+[2018.04.16-19.54.37:034][212]LogBlueprintUserMessages: [BP_Boat_C_0] cast failed
+[2018.04.16-19.54.37:841][285]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.37:841][285]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.38:241][321]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.38:242][321]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.38:597][353]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.38:597][353]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.39:708][453]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.39:708][453]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.40:164][494]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.40:164][494]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.40:564][530]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.40:565][530]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.40:842][555]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.40:842][555]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.41:132][581]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.41:132][581]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.41:441][609]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.41:441][609]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.42:730][725]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.42:731][725]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.43:175][765]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.43:175][765]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.43:553][799]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.43:553][799]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.43:974][837]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.43:974][837]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.44:963][926]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.44:963][926]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.45:219][949]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.45:219][949]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.45:396][965]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.45:397][965]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.46:462][ 61]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.46:463][ 61]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.46:630][ 76]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.46:631][ 76]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.46:786][ 90]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.46:786][ 90]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.46:985][108]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.46:985][108]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.47:032][112]LogBlueprintUserMessages: [BP_Boat_C_1] cast failed
+[2018.04.16-19.54.47:032][112]LogBlueprintUserMessages: [BP_Boat_C_1] cast failed
+[2018.04.16-19.54.47:152][123]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.47:152][123]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.47:341][140]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.47:341][140]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.47:518][156]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.47:518][156]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.47:718][174]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.47:718][174]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.47:896][190]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.47:896][190]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.48:074][206]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.48:074][206]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.48:228][220]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.48:228][220]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.48:396][235]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.48:396][235]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.48:574][251]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.48:574][251]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.48:718][264]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-19.54.48:718][264]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-19.54.57:034][ 12]LogBlueprintUserMessages: [BP_Boat_C_2] cast failed
+[2018.04.16-19.54.57:035][ 12]LogBlueprintUserMessages: [BP_Boat_C_2] cast failed
+[2018.04.16-19.55.07:035][910]LogBlueprintUserMessages: [BP_Boat_C_3] cast failed
+[2018.04.16-19.55.07:035][910]LogBlueprintUserMessages: [BP_Boat_C_3] cast failed
+[2018.04.16-19.55.09:298][114]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.09:520][134]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.09:598][141]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.12:276][382]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.12:511][403]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.13:211][466]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.13:266][471]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.13:566][498]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.13:834][522]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.14:122][548]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.14:300][564]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.14:567][588]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.14:934][621]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.15:122][638]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.15:222][647]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.15:512][673]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.15:766][696]LogBlueprintUserMessages: [BP_Boat_582] cast failed
+[2018.04.16-19.55.17:024][809]LogBlueprintUserMessages: [BP_Boat_C_4] cast failed
+[2018.04.16-19.55.17:024][809]LogBlueprintUserMessages: [BP_Boat_C_4] cast failed
+[2018.04.16-19.55.38:870][957]LogMetaData: Removing '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.BP_Physcis_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/Physics.PackageMetaData'
+[2018.04.16-19.55.38:870][957]LogMetaData: Removing '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.SKEL_BP_Physcis_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/Physics.PackageMetaData'
+[2018.04.16-19.55.38:927][957]LogSavePackage: Save=28.56ms
+[2018.04.16-19.55.38:927][957]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Physcis8992288D498073996113788CAA700E20.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.uasset'
+[2018.04.16-19.55.38:929][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.uasset
+[2018.04.16-19.55.38:944][957]LogSavePackage: Save=3.06ms
+[2018.04.16-19.55.38:944][957]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Physics966B58CB4D642BB020944BB3BD63A460.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/Physics.uasset'
+[2018.04.16-19.55.38:946][957]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/Physics.uasset
+[2018.04.16-19.55.42:728][395]BlueprintLog: New page: Compile BP_Boat
+[2018.04.16-19.56.11:622][757]BlueprintLog: New page: Compile BP_Boat
+[2018.04.16-19.56.12:423][796]LogSavePackage: Save=103.63ms
+[2018.04.16-19.56.12:423][796]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat6757747E46695C86EB24BA88D6180682.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.56.12:425][796]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.56.16:036][221]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-19.56.16:073][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-19.56.16:073][221]LogHMD: Initializing OVRPlugin session
+[2018.04.16-19.56.16:091][221]PIE: New page: PIE session: Main (Apr 16, 2018, 5:56:16 AM)
+[2018.04.16-19.56.16:091][221]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-19.56.16:099][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008626s)
+[2018.04.16-19.56.16:100][221]LogAIModule: Creating AISystem for world Main
+[2018.04.16-19.56.16:100][221]LogPlayLevel: PIE: World Init took: (0.000703s)
+[2018.04.16-19.56.16:100][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009667s)
+[2018.04.16-19.56.16:123][221]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-19.56.16:128][221]LogInit: FAudioDevice initialized.
+[2018.04.16-19.56.16:226][221]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-19.56.16:253][221]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-19.56.16:253][221]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-19.56.16:257][221]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-12.56.16
+[2018.04.16-19.56.16:258][221]LogWorld: Bringing up level for play took: 0.004118
+[2018.04.16-19.56.16:265][221]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.94
+[2018.04.16-19.56.16:274][221]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-19.56.16:274][221]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-19.57.50:063][534]LogEditorTransaction: Undo Delete current selection
+[2018.04.16-19.57.50:257][550]LogEditorTransaction: Undo Move Node
+[2018.04.16-19.57.50:671][590]LogEditorTransaction: Undo Delete current selection
+[2018.04.16-19.57.51:007][624]LogEditorTransaction: Undo Add Node
+[2018.04.16-19.58.30:322][ 60]LogMetaData: Removing '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physics.BP_Physics_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.PackageMetaData'
+[2018.04.16-19.58.30:322][ 60]LogMetaData: Removing '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physics.SKEL_BP_Physics_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Physcis.PackageMetaData'
+[2018.04.16-19.58.30:372][ 60]LogSavePackage: Save=28.90ms
+[2018.04.16-19.58.30:372][ 60]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_PhysicsAE4972EC444A2B65DE5B6D947780AAB2.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physics.uasset'
+[2018.04.16-19.58.30:374][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physics.uasset
+[2018.04.16-19.58.30:514][ 60]LogSavePackage: Save=3.21ms
+[2018.04.16-19.58.30:514][ 60]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Physics8A62585B405C6A1F6054F7909371BE12.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/Physics.uasset'
+[2018.04.16-19.58.30:516][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/Physics.uasset
+[2018.04.16-19.58.30:635][ 60]LogSavePackage: Save=103.28ms
+[2018.04.16-19.58.30:635][ 60]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat26C23B284F1AFB0D471ED6906C1D6F86.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.58.30:637][ 60]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-19.58.46:703][952]LogEditorTransaction: Undo Delete current selection
+[2018.04.16-19.59.00:677][595]BlueprintLog: New page: Compile BP_Boat
+[2018.04.16-19.59.01:446][631]LogSavePackage: Save=103.74ms
+[2018.04.16-19.59.01:446][631]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat963508F24EC3C86492515C8A7FD2A226.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-19.59.01:448][631]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-20.01.38:702][384]LogSavePackage: Save=18.21ms
+[2018.04.16-20.01.38:702][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_Rice8CBA00554769184E6FC90AB859624FD3.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Rice.uasset'
+[2018.04.16-20.01.38:704][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Rice.uasset
+[2018.04.16-20.01.38:740][384]LogSavePackage: Save=17.99ms
+[2018.04.16-20.01.38:740][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_Salmon5BA098B545E3C7B0FCFCF2BA78A534B7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Salmon.uasset'
+[2018.04.16-20.01.38:743][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Salmon.uasset
+[2018.04.16-20.01.38:780][384]LogSavePackage: Save=17.71ms
+[2018.04.16-20.01.38:780][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_TunaE316484D4ABDB696CB65E6B86B57ED2F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Tuna.uasset'
+[2018.04.16-20.01.38:782][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Tuna.uasset
+[2018.04.16-20.01.38:818][384]LogSavePackage: Save=17.38ms
+[2018.04.16-20.01.38:818][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_UnagiD98C2EFE403C78DC12F0C4995294844F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Unagi.uasset'
+[2018.04.16-20.01.38:820][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Unagi.uasset
+[2018.04.16-20.01.38:930][384]LogSavePackage: Save=97.80ms
+[2018.04.16-20.01.38:930][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat9AC9B68340006E4B943AA4AF6ED4E0C7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-20.01.38:933][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-20.01.39:163][384]LogSavePackage: Save=150.75ms
+[2018.04.16-20.01.39:163][384]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainC9E92C6F4586F7385ED508AC9CEED469.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.16-20.01.39:165][384]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.16-20.01.39:207][384]LogFileHelpers: Saving map 'Main' took 0.272
+[2018.04.16-20.01.40:950][566]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.04.16-20.03.13:043][177]LogSavePackage: Save=150.00ms
+[2018.04.16-20.03.13:043][177]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main89C7BB2B49FA8C27582BB5A75B6B2FB5.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.16-20.03.13:046][177]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.16-20.03.13:325][177]LogSavePackage: Save=221.54ms
+[2018.04.16-20.03.13:325][177]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltData235A7AD04F44B623FAF953BD6B4617D5.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.04.16-20.03.13:326][177]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.04.16-20.03.14:110][270]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.03.14:140][270]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.16-20.03.14:158][270]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.04.16-20.03.14:474][270]LogPlayLevel: PlayLevel: Blueprint regeneration took 333 ms (1 blueprints)
+[2018.04.16-20.03.14:474][270]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.03.14:492][270]PIE: New page: PIE session: Main (Apr 16, 2018, 6:03:14 AM)
+[2018.04.16-20.03.14:492][270]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.03.14:498][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005758s)
+[2018.04.16-20.03.14:498][270]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.03.14:498][270]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2018.04.16-20.03.14:498][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.006561s)
+[2018.04.16-20.03.14:520][270]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.03.14:525][270]LogInit: FAudioDevice initialized.
+[2018.04.16-20.03.14:624][270]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.03.14:659][270]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.03.14:659][270]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.03.14:664][270]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.03.14
+[2018.04.16-20.03.14:664][270]LogWorld: Bringing up level for play took: 0.004250
+[2018.04.16-20.03.14:676][270]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 1.351
+[2018.04.16-20.03.14:701][270]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.03.14:701][270]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.03.24:312][143]LogBlueprintUserMessages: [BP_Boat_C_0] BP_Boat_C_0
+[2018.04.16-20.03.24:312][143]LogBlueprintUserMessages: [BP_Boat_C_0] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.03.34:313][ 43]LogBlueprintUserMessages: [BP_Boat_C_1] BP_Boat_C_1
+[2018.04.16-20.03.34:313][ 43]LogBlueprintUserMessages: [BP_Boat_C_1] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.03.44:313][943]LogBlueprintUserMessages: [BP_Boat_C_2] BP_Boat_C_2
+[2018.04.16-20.03.44:313][943]LogBlueprintUserMessages: [BP_Boat_C_2] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.03.54:314][843]LogBlueprintUserMessages: [BP_Boat_C_3] BP_Boat_C_3
+[2018.04.16-20.03.54:314][843]LogBlueprintUserMessages: [BP_Boat_C_3] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.04.14:179][902]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.04.14:222][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-20.04.14:222][902]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.04.14:241][902]PIE: New page: PIE session: Main (Apr 16, 2018, 6:04:14 AM)
+[2018.04.16-20.04.14:242][902]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.04.14:249][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007198s)
+[2018.04.16-20.04.14:249][902]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.04.14:250][902]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2018.04.16-20.04.14:250][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.008352s)
+[2018.04.16-20.04.14:278][902]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.04.14:284][902]LogInit: FAudioDevice initialized.
+[2018.04.16-20.04.14:373][902]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.04.14:400][902]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.04.14:400][902]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.04.14:404][902]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.04.14
+[2018.04.16-20.04.14:404][902]LogWorld: Bringing up level for play took: 0.004230
+[2018.04.16-20.04.14:414][902]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 1.089
+[2018.04.16-20.04.14:423][902]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.04.14:423][902]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.04.24:193][777]LogBlueprintUserMessages: [BP_Boat_C_0] BP_Boat_C_0
+[2018.04.16-20.04.24:193][777]LogBlueprintUserMessages: [BP_Boat_C_0] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.04.34:193][677]LogBlueprintUserMessages: [BP_Boat_C_1] BP_Boat_C_1
+[2018.04.16-20.04.34:193][677]LogBlueprintUserMessages: [BP_Boat_C_1] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.04.44:182][576]LogBlueprintUserMessages: [BP_Boat_C_2] BP_Boat_C_2
+[2018.04.16-20.04.44:183][576]LogBlueprintUserMessages: [BP_Boat_C_2] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.04.54:183][476]LogBlueprintUserMessages: [BP_Boat_C_3] BP_Boat_C_3
+[2018.04.16-20.04.54:184][476]LogBlueprintUserMessages: [BP_Boat_C_3] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.04.54:516][506]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.57:159][744]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.57:294][756]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.04.58:116][830]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.59:249][932]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.59:283][935]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.59:782][980]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.04.59:815][983]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.00:327][ 29]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.00:372][ 33]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.00:883][ 79]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.00:927][ 83]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.01:383][124]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.05.01:405][126]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.01:450][130]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.01:949][175]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.01:994][179]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.02:538][228]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.02:572][231]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.03:094][278]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.03:139][282]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.03:650][328]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.03:695][332]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.04:186][376]LogBlueprintUserMessages: [BP_Boat_C_4] BP_Boat_C_4
+[2018.04.16-20.05.04:186][376]LogBlueprintUserMessages: [BP_Boat_C_4] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_4
+[2018.04.16-20.05.04:227][380]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.04:272][384]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.04:783][430]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.04:816][433]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.04:827][434]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.05:383][484]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.05:961][536]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.05.12:038][ 82]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.12:038][ 82]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.12:937][163]LogBlueprintUserMessages: [BP_Boat_C_0] BP_MotionController_C_1
+[2018.04.16-20.05.13:626][225]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.13:627][225]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.14:185][275]LogBlueprintUserMessages: [BP_Boat_C_5] BP_Boat_C_5
+[2018.04.16-20.05.14:185][275]LogBlueprintUserMessages: [BP_Boat_C_5] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_5
+[2018.04.16-20.05.14:249][281]LogBlueprintUserMessages: [BP_Boat_C_0] BP_MotionController_C_1
+[2018.04.16-20.05.14:882][338]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.14:883][338]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.15:382][383]LogBlueprintUserMessages: [BP_Boat_C_0] BP_MotionController_C_1
+[2018.04.16-20.05.15:949][434]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.15:949][434]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.17:083][536]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.17:083][536]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.18:204][637]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.18:205][637]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.19:227][729]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.19:227][729]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.20:205][817]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.20:205][817]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.21:216][908]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.21:216][908]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.21:582][941]LogBlueprintUserMessages: [BP_Boat_C_1] BP_MotionController_C_1
+[2018.04.16-20.05.22:071][985]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.22:072][985]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.22:439][ 18]LogBlueprintUserMessages: [BP_Boat_C_1] BP_MotionController_C_1
+[2018.04.16-20.05.22:905][ 60]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.22:905][ 60]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.23:227][ 89]LogBlueprintUserMessages: [BP_Boat_C_1] BP_MotionController_C_1
+[2018.04.16-20.05.23:705][132]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.23:706][132]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.24:049][163]LogBlueprintUserMessages: [BP_Boat_C_1] BP_MotionController_C_1
+[2018.04.16-20.05.24:186][175]LogBlueprintUserMessages: [BP_Boat_C_6] BP_Boat_C_6
+[2018.04.16-20.05.24:186][175]LogBlueprintUserMessages: [BP_Boat_C_6] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_6
+[2018.04.16-20.05.24:473][201]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.24:473][201]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.25:227][269]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.25:227][269]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.25:572][300]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.26:005][339]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.26:005][339]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.26:784][409]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.26:784][409]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.27:127][440]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.27:582][481]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.27:583][481]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.27:872][507]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.28:349][550]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.28:350][550]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.28:639][576]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.29:095][617]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.29:095][617]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.29:395][644]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.29:816][682]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.29:816][682]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.30:138][711]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.30:605][753]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.30:605][753]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.30:928][782]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.31:328][818]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.31:328][818]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.31:638][846]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.32:150][892]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.32:150][892]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.32:495][923]LogBlueprintUserMessages: [BP_Boat_C_2] BP_MotionController_C_1
+[2018.04.16-20.05.32:906][960]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.32:907][960]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.33:750][ 36]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.33:750][ 36]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.34:188][ 75]LogBlueprintUserMessages: [BP_Boat_C_7] BP_Boat_C_7
+[2018.04.16-20.05.34:188][ 75]LogBlueprintUserMessages: [BP_Boat_C_7] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_7
+[2018.04.16-20.05.34:495][103]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.34:496][103]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.35:251][171]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.35:252][171]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.35:983][237]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.35:983][237]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.36:305][266]LogBlueprintUserMessages: [BP_Boat_C_3] BP_MotionController_C_1
+[2018.04.16-20.05.36:673][299]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.36:673][299]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.37:039][332]LogBlueprintUserMessages: [BP_Boat_C_3] BP_MotionController_C_1
+[2018.04.16-20.05.37:417][366]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.37:417][366]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.37:727][394]LogBlueprintUserMessages: [BP_Boat_C_3] BP_MotionController_C_1
+[2018.04.16-20.05.38:061][424]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.38:061][424]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.38:728][484]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.38:728][484]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.39:352][540]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.39:352][540]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.39:983][597]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.39:983][597]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.40:584][651]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.40:584][651]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.41:640][746]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.41:641][746]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.42:751][846]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.42:752][846]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.43:473][911]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.43:473][911]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.44:188][975]LogBlueprintUserMessages: [BP_Boat_C_8] BP_Boat_C_8
+[2018.04.16-20.05.44:188][975]LogBlueprintUserMessages: [BP_Boat_C_8] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_8
+[2018.04.16-20.05.44:395][994]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.44:395][994]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.47:751][296]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.47:752][296]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.50:461][540]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.50:461][540]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.53:106][778]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.53:107][778]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.53:951][854]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.53:951][854]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.54:188][875]LogBlueprintUserMessages: [BP_Boat_C_9] BP_Boat_C_9
+[2018.04.16-20.05.54:188][875]LogBlueprintUserMessages: [BP_Boat_C_9] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_9
+[2018.04.16-20.05.54:774][928]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.54:775][928]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.05.55:541][997]LogBlueprintUserMessages: [MotionControllerPawn_1262] Classes End
+[2018.04.16-20.05.55:541][997]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.06.10:818][659]LogSlate: Took 0.004114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.16-20.07.21:113][  5]BlueprintLog: New page: Compile MotionControllerPawn
+[2018.04.16-20.07.21:966][ 42]LogSavePackage: Save=202.88ms
+[2018.04.16-20.07.21:966][ 42]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MotionControllerPawn815010D04FD55DA553D3B0A64A14CBFA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.16-20.07.21:968][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.16-20.07.35:042][594]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.07.35:078][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-20.07.35:078][594]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.07.35:096][594]PIE: New page: PIE session: Main (Apr 16, 2018, 6:07:35 AM)
+[2018.04.16-20.07.35:096][594]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.07.35:103][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007030s)
+[2018.04.16-20.07.35:104][594]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.07.35:104][594]LogPlayLevel: PIE: World Init took: (0.000752s)
+[2018.04.16-20.07.35:104][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.008233s)
+[2018.04.16-20.07.35:134][594]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.07.35:139][594]LogInit: FAudioDevice initialized.
+[2018.04.16-20.07.35:234][594]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.07.35:262][594]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.07.35:262][594]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.07.35:266][594]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.07.35
+[2018.04.16-20.07.35:267][594]LogWorld: Bringing up level for play took: 0.004299
+[2018.04.16-20.07.35:278][594]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.047
+[2018.04.16-20.07.35:288][594]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.07.35:288][594]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.07.45:051][471]LogBlueprintUserMessages: [BP_Boat_C_0] BP_Boat_C_0
+[2018.04.16-20.07.45:051][471]LogBlueprintUserMessages: [BP_Boat_C_0] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.07.55:050][371]LogBlueprintUserMessages: [BP_Boat_C_1] BP_Boat_C_1
+[2018.04.16-20.07.55:050][371]LogBlueprintUserMessages: [BP_Boat_C_1] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.08.05:051][271]LogBlueprintUserMessages: [BP_Boat_C_2] BP_Boat_C_2
+[2018.04.16-20.08.05:051][271]LogBlueprintUserMessages: [BP_Boat_C_2] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.08.15:053][171]LogBlueprintUserMessages: [BP_Boat_C_3] BP_Boat_C_3
+[2018.04.16-20.08.15:053][171]LogBlueprintUserMessages: [BP_Boat_C_3] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.08.16:328][286]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.16:473][299]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.17:773][416]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.17:862][424]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.18:296][463]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.18:340][467]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.18:407][473]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.19:495][571]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.19:506][572]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.19:773][596]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.21:361][739]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.21:373][740]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.21:851][783]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.22:884][876]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.22:973][884]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.22:985][885]LogBlueprintUserMessages: [BP_Boat_582] BP_Plate_Small_103
+[2018.04.16-20.08.23:329][916]LogBlueprintUserMessages: [BP_Boat_582] BP_MotionController_C_1
+[2018.04.16-20.08.25:054][ 71]LogBlueprintUserMessages: [BP_Boat_C_4] BP_Boat_C_4
+[2018.04.16-20.08.25:054][ 71]LogBlueprintUserMessages: [BP_Boat_C_4] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_4
+[2018.04.16-20.09.42:886][194]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.09.42:918][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-20.09.42:918][194]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.09.42:937][194]PIE: New page: PIE session: Main (Apr 16, 2018, 6:09:42 AM)
+[2018.04.16-20.09.42:937][194]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.09.42:947][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009293s)
+[2018.04.16-20.09.42:947][194]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.09.42:948][194]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2018.04.16-20.09.42:948][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.010660s)
+[2018.04.16-20.09.42:976][194]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.09.42:981][194]LogInit: FAudioDevice initialized.
+[2018.04.16-20.09.43:078][194]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.09.43:106][194]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.09.43:106][194]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.09.43:110][194]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.09.43
+[2018.04.16-20.09.43:111][194]LogWorld: Bringing up level for play took: 0.004727
+[2018.04.16-20.09.43:122][194]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.202
+[2018.04.16-20.09.43:133][194]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.09.43:133][194]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.09.52:892][ 71]LogBlueprintUserMessages: [BP_Boat_C_0] BP_Boat_C_0
+[2018.04.16-20.09.52:892][ 71]LogBlueprintUserMessages: [BP_Boat_C_0] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.10.02:894][970]LogBlueprintUserMessages: [BP_Boat_C_1] BP_Boat_C_1
+[2018.04.16-20.10.02:894][970]LogBlueprintUserMessages: [BP_Boat_C_1] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.10.06:937][334]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.10.12:895][870]LogBlueprintUserMessages: [BP_Boat_C_2] BP_Boat_C_2
+[2018.04.16-20.10.12:895][870]LogBlueprintUserMessages: [BP_Boat_C_2] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.10.22:894][770]LogBlueprintUserMessages: [BP_Boat_C_3] BP_Boat_C_3
+[2018.04.16-20.10.22:895][770]LogBlueprintUserMessages: [BP_Boat_C_3] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.10.32:895][670]LogBlueprintUserMessages: [BP_Boat_C_4] BP_Boat_C_4
+[2018.04.16-20.10.32:895][670]LogBlueprintUserMessages: [BP_Boat_C_4] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_4
+[2018.04.16-20.10.34:937][854]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.10.42:896][570]LogBlueprintUserMessages: [BP_Boat_C_5] BP_Boat_C_5
+[2018.04.16-20.10.42:896][570]LogBlueprintUserMessages: [BP_Boat_C_5] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_5
+[2018.04.16-20.10.52:897][470]LogBlueprintUserMessages: [BP_Boat_C_6] BP_Boat_C_6
+[2018.04.16-20.10.52:897][470]LogBlueprintUserMessages: [BP_Boat_C_6] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_6
+[2018.04.16-20.10.56:028][752]LogBlueprintUserMessages: [BP_Boat_C_2] BP_Plate_Small_103
+[2018.04.16-20.11.01:595][251]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.11.02:897][368]LogBlueprintUserMessages: [BP_Boat_C_7] BP_Boat_C_7
+[2018.04.16-20.11.02:897][368]LogBlueprintUserMessages: [BP_Boat_C_7] Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_7
+[2018.04.16-20.12.20:996][817]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.12.21:026][817]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.16-20.12.21:046][817]LogPlayLevel: [PlayLevel] Compiling BP_Boat before play...
+[2018.04.16-20.12.21:485][817]LogPlayLevel: PlayLevel: Blueprint regeneration took 458 ms (1 blueprints)
+[2018.04.16-20.12.21:485][817]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.12.21:503][817]PIE: New page: PIE session: Main (Apr 16, 2018, 6:12:21 AM)
+[2018.04.16-20.12.21:504][817]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.12.21:513][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009423s)
+[2018.04.16-20.12.21:514][817]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.12.21:514][817]LogPlayLevel: PIE: World Init took: (0.000733s)
+[2018.04.16-20.12.21:514][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.010627s)
+[2018.04.16-20.12.21:540][817]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.12.21:546][817]LogInit: FAudioDevice initialized.
+[2018.04.16-20.12.21:633][817]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.12.21:660][817]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.12.21:660][817]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.12.21:665][817]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.12.21
+[2018.04.16-20.12.21:666][817]LogWorld: Bringing up level for play took: 0.004832
+[2018.04.16-20.12.21:666][817]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.16-20.12.21:676][817]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.351
+[2018.04.16-20.12.21:703][817]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.12.21:703][817]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.12.31:314][682]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_Boat_C_0
+[2018.04.16-20.12.31:314][682]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.12.40:057][469]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.12.41:315][582]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_Boat_C_1
+[2018.04.16-20.12.41:315][582]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.12.45:101][923]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.12.51:315][482]LogBlueprintUserMessages: [BP_Boat_C_2] On boat: BP_Boat_C_2
+[2018.04.16-20.12.51:315][482]LogBlueprintUserMessages: [BP_Boat_C_2] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.13.01:316][382]LogBlueprintUserMessages: [BP_Boat_C_3] On boat: BP_Boat_C_3
+[2018.04.16-20.13.01:317][382]LogBlueprintUserMessages: [BP_Boat_C_3] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.13.11:316][280]LogBlueprintUserMessages: [BP_Boat_C_4] On boat: BP_Boat_C_4
+[2018.04.16-20.13.11:316][280]LogBlueprintUserMessages: [BP_Boat_C_4] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_4
+[2018.04.16-20.13.21:317][179]LogBlueprintUserMessages: [BP_Boat_C_5] On boat: BP_Boat_C_5
+[2018.04.16-20.13.21:317][179]LogBlueprintUserMessages: [BP_Boat_C_5] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_5
+[2018.04.16-20.13.31:060][ 56]LogBlueprintUserMessages: [BP_Boat_C_2] On boat: RicePaddle
+[2018.04.16-20.13.31:318][ 79]LogBlueprintUserMessages: [BP_Boat_C_6] On boat: BP_Boat_C_6
+[2018.04.16-20.13.31:318][ 79]LogBlueprintUserMessages: [BP_Boat_C_6] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_6
+[2018.04.16-20.13.38:172][696]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.13.41:319][979]LogBlueprintUserMessages: [BP_Boat_C_7] On boat: BP_Boat_C_7
+[2018.04.16-20.13.41:319][979]LogBlueprintUserMessages: [BP_Boat_C_7] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_7
+[2018.04.16-20.13.42:638][ 98]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.13.51:319][879]LogBlueprintUserMessages: [BP_Boat_C_8] On boat: BP_Boat_C_8
+[2018.04.16-20.13.51:319][879]LogBlueprintUserMessages: [BP_Boat_C_8] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_8
+[2018.04.16-20.13.51:718][915]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.13.55:206][229]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.13.57:917][473]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.14.01:319][779]LogBlueprintUserMessages: [BP_Boat_C_9] On boat: BP_Boat_C_9
+[2018.04.16-20.14.01:319][779]LogBlueprintUserMessages: [BP_Boat_C_9] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_9
+[2018.04.16-20.14.18:415][657]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0002 seconds. Added 7 classes and 3 folders.
+[2018.04.16-20.14.18:454][657]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.16-20.14.18:617][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2018.04.16-20.14.18:893][657]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.04.16-20.15.31:232][ 71]BlueprintLog: New page: Compile BP_Physics
+[2018.04.16-20.15.32:525][112]LogSavePackage: Save=28.09ms
+[2018.04.16-20.15.32:525][112]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_PhysicsB92A81F64899B5DA5FCE15AE2003A30E.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physics.uasset'
+[2018.04.16-20.15.32:528][112]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/ItemHandling/BP_Physics.uasset
+[2018.04.16-20.15.33:816][260]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.16-20.15.34:724][361]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.16-20.15.42:133][128]LogSavePackage: Save=18.04ms
+[2018.04.16-20.15.42:133][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_Rice4996044C4311CC64A218388DC3935291.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Rice.uasset'
+[2018.04.16-20.15.42:135][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Rice.uasset
+[2018.04.16-20.15.42:171][128]LogSavePackage: Save=17.79ms
+[2018.04.16-20.15.42:171][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_Salmon6D22091C4A3C93D6785BF4B05CFED63E.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Salmon.uasset'
+[2018.04.16-20.15.42:174][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Salmon.uasset
+[2018.04.16-20.15.42:210][128]LogSavePackage: Save=17.34ms
+[2018.04.16-20.15.42:210][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_TunaA3132FA344B7AD8F7A42B4A2E851CAFA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Tuna.uasset'
+[2018.04.16-20.15.42:213][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Tuna.uasset
+[2018.04.16-20.15.42:248][128]LogSavePackage: Save=17.16ms
+[2018.04.16-20.15.42:248][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PC_UnagiAE1B83224608022F69F935AFCC90B833.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Unagi.uasset'
+[2018.04.16-20.15.42:251][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/Food/Blueprints/PC_Unagi.uasset
+[2018.04.16-20.15.42:381][128]LogSavePackage: Save=108.26ms
+[2018.04.16-20.15.42:381][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Boat393BD442411AD02A6AC0AC982806ADEF.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.16-20.15.42:382][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.16-20.15.42:615][128]LogSavePackage: Save=151.27ms
+[2018.04.16-20.15.42:615][128]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainA3F25AAB43A89A9696DCA792ADA68A14.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.16-20.15.42:617][128]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.16-20.15.42:657][128]LogFileHelpers: Saving map 'Main' took 0.273
+[2018.04.16-20.15.45:336][446]LogTemp: Repeating last play command: VR Preview
+[2018.04.16-20.15.45:377][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.16-20.15.45:377][446]LogHMD: Initializing OVRPlugin session
+[2018.04.16-20.15.45:397][446]PIE: New page: PIE session: Main (Apr 16, 2018, 6:15:45 AM)
+[2018.04.16-20.15.45:397][446]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.16-20.15.45:406][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008094s)
+[2018.04.16-20.15.45:406][446]LogAIModule: Creating AISystem for world Main
+[2018.04.16-20.15.45:406][446]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.04.16-20.15.45:407][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009361s)
+[2018.04.16-20.15.45:427][446]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.16-20.15.45:433][446]LogInit: FAudioDevice initialized.
+[2018.04.16-20.15.45:525][446]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.04.16-20.15.45:553][446]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.16-20.15.45:553][446]LogLoad: Game class is 'GameModeBase'
+[2018.04.16-20.15.45:557][446]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.16-13.15.45
+[2018.04.16-20.15.45:558][446]LogWorld: Bringing up level for play took: 0.004364
+[2018.04.16-20.15.45:565][446]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.241
+[2018.04.16-20.15.45:575][446]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.04.16-20.15.45:575][446]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.04.16-20.15.53:758][167]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.15.55:349][310]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_Boat_C_0
+[2018.04.16-20.15.55:349][310]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_0
+[2018.04.16-20.15.57:070][465]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.15.58:769][618]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.03:503][ 44]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.05:350][210]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_Boat_C_1
+[2018.04.16-20.16.05:350][210]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_1
+[2018.04.16-20.16.12:171][824]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.15:339][109]LogBlueprintUserMessages: [BP_Boat_C_2] On boat: BP_Boat_C_2
+[2018.04.16-20.16.15:339][109]LogBlueprintUserMessages: [BP_Boat_C_2] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_2
+[2018.04.16-20.16.15:749][146]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.16:760][237]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.25:339][  9]LogBlueprintUserMessages: [BP_Boat_C_3] On boat: BP_Boat_C_3
+[2018.04.16-20.16.25:339][  9]LogBlueprintUserMessages: [BP_Boat_C_3] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_3
+[2018.04.16-20.16.27:349][190]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.27:438][198]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.30:848][505]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.30:849][505]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.31:294][545]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.31:928][602]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.31:928][602]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.32:829][683]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.33:172][714]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.33:751][766]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.33:950][784]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.34:449][829]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.34:837][864]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.35:340][909]LogBlueprintUserMessages: [BP_Boat_C_4] On boat: BP_Boat_C_4
+[2018.04.16-20.16.35:341][909]LogBlueprintUserMessages: [BP_Boat_C_4] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_4
+[2018.04.16-20.16.35:682][940]LogBlueprintUserMessages: [BP_Boat_582] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.36:594][ 22]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.37:504][104]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.37:505][104]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.38:360][181]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.39:159][253]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.39:882][318]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.40:694][391]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.41:037][422]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.41:449][459]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.42:205][527]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.42:526][556]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.43:005][599]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.43:315][627]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.44:327][718]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.44:549][738]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.44:894][769]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.44:927][772]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.45:341][809]LogBlueprintUserMessages: [BP_Boat_C_5] On boat: BP_Boat_C_5
+[2018.04.16-20.16.45:342][809]LogBlueprintUserMessages: [BP_Boat_C_5] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_5
+[2018.04.16-20.16.45:438][818]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.45:472][821]LogBlueprintUserMessages: [BP_Boat_C_0] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.46:238][890]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.46:282][894]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.46:772][938]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.47:316][987]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.47:784][ 29]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.49:460][180]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.50:273][253]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.50:840][304]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.51:407][354]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.51:840][393]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.52:507][453]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.52:707][471]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.53:152][511]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.53:385][532]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.53:628][554]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.53:863][575]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.54:092][595]LogBlueprintUserMessages: [BP_Boat_C_1] On boat: BP_MotionController_C_1
+[2018.04.16-20.16.55:342][707]LogBlueprintUserMessages: [BP_Boat_C_6] On boat: BP_Boat_C_6
+[2018.04.16-20.16.55:342][707]LogBlueprintUserMessages: [BP_Boat_C_6] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_6
+[2018.04.16-20.16.56:072][773]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.56:873][845]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.57:661][916]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.58:361][979]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.59:061][ 42]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.16.59:739][103]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.00:405][163]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.01:017][218]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.01:694][279]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.02:339][337]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.02:983][395]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.03:672][457]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.04:383][521]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.05:173][592]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.05:342][607]LogBlueprintUserMessages: [BP_Boat_C_7] On boat: BP_Boat_C_7
+[2018.04.16-20.17.05:342][607]LogBlueprintUserMessages: [BP_Boat_C_7] On boat: Menu_GEN_VARIABLE_BP_OrderMenu_C_CAT_7
+[2018.04.16-20.17.05:905][658]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.06:606][721]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.07:295][783]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.07:916][839]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.09:261][960]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.17.09:928][ 20]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.04.16-20.24.39:268][484]LogUObjectArray: Warning: Invalid object index -572662307
+[2018.04.16-20.24.39:366][484]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.097 s
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: === Handled ensure: ===
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: 
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1029]
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: Stack: 
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x0000000076B02786 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x00000000768A123A UE4Editor-Core.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x00000000768BB906 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x000000004BAE33F6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x0000000049FC03AB UE4Editor-BlueprintGraph.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x0000000048EE3EBA UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x0000000048D774AC UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.04.16-20.24.39:366][484]LogOutputDevice: Error: [Callstack] 0x0000000048D7ABF9 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x0000000048EA8225 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CD37397 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CD3CE61 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CF79913 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CD93484 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CD6B68C UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000004CD5D6B7 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x00000000762EE39E UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x00000000762E1A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x00000000762F03EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x00000000762DD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000008B51B85D USER32.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x000000008B51B1EF USER32.dll!UnknownFunction []
+[2018.04.16-20.24.39:367][484]LogOutputDevice: Error: [Callstack] 0x00000000762F1516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x0000000021A550C8 UE4Editor.exe!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x0000000021A65430 UE4Editor.exe!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x0000000021A654AA UE4Editor.exe!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x0000000021A72379 UE4Editor.exe!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x0000000021A73D57 UE4Editor.exe!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x000000008BBA1FE4 KERNEL32.DLL!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: [Callstack] 0x000000008D2AF061 ntdll.dll!UnknownFunction []
+[2018.04.16-20.24.39:368][484]LogOutputDevice: Error: 
+[2018.04.16-20.24.39:369][484]LogStats:                SubmitErrorReport -  0.000 s
