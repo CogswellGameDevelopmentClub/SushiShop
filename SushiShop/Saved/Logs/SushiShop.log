@@ -1,20 +1,18 @@
-﻿Log file open, 04/19/18 21:24:20
+﻿Log file open, 04/21/18 02:59:55
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(810207221) SRandInit(810207221).
+LogInit: Display: RandInit(1542094488) SRandInit(1542094488).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.160879
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.230310
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -166,6 +164,7 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.19.0
 LogInit: Build: ++UE4+Release-4.18-CL-3832480
 LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
 LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
@@ -191,589 +190,382 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
-LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: D:/Epic Games/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.20-04.24.21:454][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.20-04.24.21:454][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.20-04.24.21:465][  0]LogInit: Computer: DESKTOP-TMTLRPJ
-[2018.04.20-04.24.21:466][  0]LogInit: User: GameDevClub
-[2018.04.20-04.24.21:466][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.20-04.24.21:466][  0]LogInit: High frequency timer resolution =4.101563 MHz
-[2018.04.20-04.24.21:466][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.04.20-04.24.21:466][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.20-04.24.21:466][  0]LogMemory: Process Physical Memory: 281.48 MB used, 281.48 MB peak
-[2018.04.20-04.24.21:466][  0]LogMemory: Process Virtual Memory: 284.23 MB used, 284.23 MB peak
-[2018.04.20-04.24.21:466][  0]LogMemory: Physical Memory: 6173.25 MB used,  10173.88 MB free, 16347.13 MB total
-[2018.04.20-04.24.21:466][  0]LogMemory: Virtual Memory: 748.73 MB used,  10173.88 MB free, 134217728.00 MB total
-[2018.04.20-04.24.21:572][  0]LogInit: Using OS detected language (en-US).
-[2018.04.20-04.24.21:572][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.20-04.24.21:574][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.20-04.24.21:894][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.20-04.24.23:386][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.20-04.24.23:414][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.04.20-04.24.23:414][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.04.20-04.24.23:415][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.20-04.24.23:415][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.20-04.24.23:415][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.20-04.24.23:419][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.20-04.24.23:419][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.20-04.24.23:419][  0]LogWindows: EnumDisplayDevices:
-[2018.04.20-04.24.23:420][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.04.20-04.24.23:420][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.04.20-04.24.23:420][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.04.20-04.24.23:420][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.04.20-04.24.23:420][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.20-04.24.23:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.04.20-04.24.23:420][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.20-04.24.23:420][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.20-04.24.23:420][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.04.20-04.24.23:438][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.20-04.24.23:492][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.20-04.24.23:589][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/8228/).
-[2018.04.20-04.24.23:589][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/B4DA061E43A4E84F0DDAFC99886CD621/'.
-[2018.04.20-04.24.23:589][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.20-04.24.24:244][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.20-04.24.24:280][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.20-04.24.24:318][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.20-04.24.24:355][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.20-04.24.24:395][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.20-04.24.24:432][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.20-04.24.24:469][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.20-04.24.24:505][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.20-04.24.24:536][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.20-04.24.24:572][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.20-04.24.24:607][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.20-04.24.24:642][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.20-04.24.24:677][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.20-04.24.24:712][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.20-04.24.24:782][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.20-04.24.24:782][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.20-04.24.24:820][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.20-04.24.24:847][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.20-04.24.24:919][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.20-04.24.24:938][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.20-04.24.24:973][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.20-04.24.25:008][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.20-04.24.25:044][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.20-04.24.25:081][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.20-04.24.25:081][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.20-04.24.25:406][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: Loaded boot cache 0.15s 96MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.20-04.24.25:556][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.20-04.24.25:568][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.20-04.24.25:579][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.20-04.24.25:587][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.20-04.24.25:587][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.20-04.24.25:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.20-04.24.25:588][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.20-04.24.25:934][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.20-04.24.26:194][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.20-04.24.26:222][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.20-04.24.26:222][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.20-04.24.26:222][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.20-04.24.26:222][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.20-04.24.26:222][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.20-04.24.26:248][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
-[2018.04.20-04.24.26:365][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
-[2018.04.20-04.24.26:705][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.046476 seconds
-[2018.04.20-04.24.26:709][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.20-04.24.26:709][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.04.20-04.24.26:709][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.20-04.24.26:744][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.20-04.24.30:018][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.20-04.24.30:067][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.20-04.24.30:572][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2018.04.20-04.24.30:572][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\BaseColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:573][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:588][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.20-04.24.30:595][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2018.04.20-04.24.30:595][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\LightingModel.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:595][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:597][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2018.04.20-04.24.30:597][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\MaterialAO.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:597][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:599][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2018.04.20-04.24.30:599][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Metallic.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:599][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:601][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2018.04.20-04.24.30:601][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Opacity.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:601][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:603][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2018.04.20-04.24.30:603][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Roughness.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:603][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:615][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2018.04.20-04.24.30:615][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\Specular.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:615][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:617][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2018.04.20-04.24.30:617][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\SubsurfaceColor.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:617][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:619][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2018.04.20-04.24.30:619][  0]LogMaterial: Warning: C:\Program Files\Epic Games\UE_4.18\Engine\Content\BufferVisualization\WorldNormal.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
-[2018.04.20-04.24.30:619][  0]LogMaterial: 	(Node SceneTexture) GBuffer scene textures not available with forward shading.
-[2018.04.20-04.24.30:892][  0]SourceControl: Source control is disabled
-[2018.04.20-04.24.30:892][  0]SourceControl: Source control is disabled
-[2018.04.20-04.24.30:931][  0]SourceControl: Source control is disabled
-[2018.04.20-04.24.30:970][  0]SourceControl: Source control is disabled
-[2018.04.20-04.24.31:569][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.20-04.24.31:758][  0]LogOcInput: OculusInput pre-init called
-[2018.04.20-04.24.31:968][  0]LogEngine: Initializing Engine...
-[2018.04.20-04.24.31:969][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.04.20-04.24.32:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.20-04.24.32:116][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.20-04.24.32:205][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.20-04.24.32:211][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.20-04.24.32:219][  0]LogInit: FAudioDevice initialized.
-[2018.04.20-04.24.32:259][  0]LogDerivedDataCache: Saved boot cache 0.04s 84MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.20-04.24.32:267][  0]LogInit: Texture streaming: Enabled
-[2018.04.20-04.24.32:335][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.20-04.24.32:335][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={5DD809A2-45B3-E476-743A-558BC5381929}
-[2018.04.20-04.24.32:423][  0]LogInit: Transaction tracking system initialized
-[2018.04.20-04.24.32:641][  0]BlueprintLog: New page: Editor Load
-[2018.04.20-04.24.33:251][  0]LocalizationService: Localization service is disabled
-[2018.04.20-04.24.33:807][  0]LogConsoleResponse: Display: 
-[2018.04.20-04.24.34:018][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.20-04.24.34:018][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.20-04.24.34:018][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.20-04.24.34:263][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
-[2018.04.20-04.24.34:878][  0]SourceControl: Source control is disabled
-[2018.04.20-04.24.34:965][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.20-04.24.34:965][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.20-04.24.36:941][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.20-04.24.36:947][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.20-04.24.36:948][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.20-04.24.36:949][  0]LightingResults: New page: Lighting Build
-[2018.04.20-04.24.36:978][  0]MapCheck: New page: Map Check
-[2018.04.20-04.24.36:978][  0]LightingResults: New page: Lighting Build
-[2018.04.20-04.24.37:105][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.04.20-04.24.37:111][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.20-04.24.37:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.20-04.24.37:159][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 38.827ms to complete.
-[2018.04.20-04.24.37:159][  0]LogFileHelpers: Loading map 'StartupMap' took 0.211
-[2018.04.20-04.24.37:281][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2300_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3514_0///####STATCAT_Advanced####
-[2018.04.20-04.24.37:281][  0]LogCollectionManager: Loaded 0 collections in 0.001191 seconds
-[2018.04.20-04.24.37:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
-[2018.04.20-04.24.37:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
-[2018.04.20-04.24.37:351][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
-[2018.04.20-04.24.37:351][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.20-04.24.37:357][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2364 classes and 521 folders.
-[2018.04.20-04.24.37:402][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0001 seconds. Added 0 classes and 0 folders.
-[2018.04.20-04.24.37:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
-[2018.04.20-04.24.37:686][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.20-04.24.37:691][  0]LogSlate: Took 0.003367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.20-04.24.37:769][  0]LogRenderer: Reallocating scene render targets to support 916x504 Format 26 NumSamples 1 (Frame:1).
-[2018.04.20-04.24.37:869][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.04.20-04.24.37:869][  0]LogLoad: (Engine Initialization) Total time: 18.55 seconds
-[2018.04.20-04.24.37:869][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.20-04.24.37:869][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.20-04.24.37:883][  0]LogOcInput: OculusInput is initialized
-[2018.04.20-04.24.37:900][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.20-04.24.37:935][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.20-04.24.37:942][  1]LogAssetRegistry: Asset discovery search completed in 11.5989 seconds
-[2018.04.20-04.24.37:943][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.20-04.24.37:943][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
-[2018.04.20-04.24.38:911][113]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.20-04.24.54:660][862]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.20-04.24.54:695][862]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.04.20-04.24.54:697][862]LogMaterial: Missing cached shader map for material Cobain, compiling. 
-[2018.04.20-04.24.54:970][862]LogMaterial: Missing cached shader map for material Cobain, compiling. 
-[2018.04.20-04.24.55:009][862]LogMaterial: Missing cached shader map for material Cobain, compiling. 
-[2018.04.20-04.24.55:072][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.04.20-04.24.55:076][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
-[2018.04.20-04.24.55:080][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
-[2018.04.20-04.24.55:101][862]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
-[2018.04.20-04.24.55:207][862]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.04.20-04.24.55:291][862]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.04.20-04.24.55:380][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
-[2018.04.20-04.24.55:385][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
-[2018.04.20-04.24.55:390][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
-[2018.04.20-04.24.55:396][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
-[2018.04.20-04.24.55:400][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
-[2018.04.20-04.24.55:434][862]LogMaterial: Missing cached shader map for material Knife+Board_M, compiling. 
-[2018.04.20-04.24.55:560][862]LogMaterial: Missing cached shader map for material Knife+Board_M, compiling. 
-[2018.04.20-04.24.55:580][862]LogMaterial: Missing cached shader map for material Knife+Board_M, compiling. 
-[2018.04.20-04.24.55:628][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
-[2018.04.20-04.24.55:633][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
-[2018.04.20-04.24.55:638][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
-[2018.04.20-04.24.55:666][862]LogMaterial: Missing cached shader map for material Sake_M, compiling. 
-[2018.04.20-04.24.55:791][862]LogMaterial: Missing cached shader map for material Sake_M, compiling. 
-[2018.04.20-04.24.55:812][862]LogMaterial: Missing cached shader map for material Sake_M, compiling. 
-[2018.04.20-04.24.55:859][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
-[2018.04.20-04.24.55:864][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling. 
-[2018.04.20-04.24.55:869][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
-[2018.04.20-04.24.55:886][862]LogSlate: Took 0.006369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.MBP_Button3_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'StaticMesh' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.MBP_Button3_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'Scene' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.MBP_Button3_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'TextRender' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.MBP_Button3_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'Box' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.MBP_Button1_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'StaticMesh' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.MBP_Button1_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'Scene' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.MBP_Button1_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'TextRender' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:553][681]LogBlueprint: Warning: ValidateTemplates '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.MBP_Button1_C:InheritableComponentHandler': overridden template is invalid and will be removed - component 'Box' from '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.MBP_Button_Parent_C'
-[2018.04.20-04.25.05:903][681]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.20-04.25.08:206][681]LogAIModule: Creating AISystem for world Main
-[2018.04.20-04.25.08:210][681]LogMaterial: Warning: Material /Game/SushiShop/Materials/Knife+Board_M/Knife+Board_M.Knife+Board_M needed to have new flag set bUsedWithStaticLighting !
-[2018.04.20-04.25.08:216][681]LogMaterial: Missing cached shader map for material Knife+Board_M, compiling. 
-[2018.04.20-04.25.08:260][681]MapCheck: Warning: Knife+Board_M Material /Game/SushiShop/Materials/Knife+Board_M/Knife+Board_M.Knife+Board_M was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.04.20-04.25.08:262][681]LogMaterial: Warning: Material /Game/SushiShop/Materials/Sake_M/Sake_M.Sake_M needed to have new flag set bUsedWithStaticLighting !
-[2018.04.20-04.25.08:264][681]LogMaterial: Missing cached shader map for material Sake_M, compiling. 
-[2018.04.20-04.25.08:295][681]MapCheck: Warning: Sake_M Material /Game/SushiShop/Materials/Sake_M/Sake_M.Sake_M was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
-[2018.04.20-04.25.08:333][681]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.20-04.25.08:333][681]LightingResults: New page: Lighting Build
-[2018.04.20-04.25.08:333][681]LoadErrors: New page: Loading map: Main.umap
-[2018.04.20-04.25.08:334][681]MapCheck: New page: Map Check
-[2018.04.20-04.25.08:334][681]LightingResults: New page: Lighting Build
-[2018.04.20-04.25.08:438][681]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.20-04.25.08:521][681]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.20-04.25.08:606][681]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.509ms to complete.
-[2018.04.20-04.25.08:606][681]LogFileHelpers: Loading map 'Main' took 0.274
-[2018.04.20-06.48.05:850][293]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
-[2018.04.20-06.48.07:847][461]LogRenderer: Reallocating scene render targets to support 916x516 Format 26 NumSamples 1 (Frame:1).
-[2018.04.20-06.48.13:427][126]LogSlate: Took 0.003493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.20-06.48.39:275][206]LogTemp: Repeating last play command: Simulate
-[2018.04.20-06.48.39:507][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.20-06.48.39:507][206]PIE: New page: SIE session: Main (Apr 19, 2018, 4:48:39 PM)
-[2018.04.20-06.48.39:507][206]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.20-06.48.39:521][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013004s)
-[2018.04.20-06.48.39:521][206]LogAIModule: Creating AISystem for world Main
-[2018.04.20-06.48.39:521][206]LogPlayLevel: PIE: World Init took: (0.000558s)
-[2018.04.20-06.48.39:521][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.013834s)
-[2018.04.20-06.48.39:541][206]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.20-06.48.40:049][206]LogInit: FAudioDevice initialized.
-[2018.04.20-06.48.40:093][206]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.20-06.48.40:093][206]LogLoad: Game class is 'GameModeBase'
-[2018.04.20-06.48.40:100][206]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.19-23.48.40
-[2018.04.20-06.48.40:101][206]LogWorld: Bringing up level for play took: 0.007072
-[2018.04.20-06.48.40:101][206]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.20-06.48.40:147][206]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.04.20-06.48.40:156][206]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 1.167
-[2018.04.20-06.49.10:387][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.20-06.49.10:387][703]LogHMD: Initializing OVRPlugin session
-[2018.04.20-06.49.10:419][703]PIE: New page: PIE session: Main (Apr 19, 2018, 4:49:10 PM)
-[2018.04.20-06.49.10:419][703]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.20-06.49.10:428][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009574s)
-[2018.04.20-06.49.10:429][703]LogAIModule: Creating AISystem for world Main
-[2018.04.20-06.49.10:429][703]LogPlayLevel: PIE: World Init took: (0.000563s)
-[2018.04.20-06.49.10:429][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.010495s)
-[2018.04.20-06.49.10:450][703]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.20-06.49.10:457][703]LogInit: FAudioDevice initialized.
-[2018.04.20-06.49.10:559][703]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.20-06.49.10:586][703]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.20-06.49.10:586][703]LogLoad: Game class is 'GameModeBase'
-[2018.04.20-06.49.10:591][703]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.19-23.49.10
-[2018.04.20-06.49.10:591][703]LogWorld: Bringing up level for play took: 0.005221
-[2018.04.20-06.49.10:605][703]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.384
-[2018.04.20-06.49.10:618][703]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
-[2018.04.20-06.49.10:618][703]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.20-07.10.01:670][  6]LogSavePackage: Save=179.83ms
-[2018.04.20-07.10.01:670][  6]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main6C5EF1634A139F8176C213BA4929CA97.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
-[2018.04.20-07.10.01:672][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
-[2018.04.20-07.10.02:018][  6]LogSavePackage: Save=284.15ms
-[2018.04.20-07.10.02:018][  6]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltDataBEE0DC934E3EBE2E783475B386EAC5EA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
-[2018.04.20-07.10.02:023][  6]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
-[2018.04.20-07.10.04:553][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.20-07.10.05:831][430]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.20-07.10.06:006][431]Cmd: QUIT_EDITOR
-[2018.04.20-07.10.06:327][431]LogExit: Preparing to exit.
-[2018.04.20-07.10.07:219][431]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
-[2018.04.20-07.10.07:220][431]PIE: UWidget::RemoveFromParent() called on '/Game/SushiShop/Levels/Main.Main:None' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
-[2018.04.20-07.10.07:253][431]LogExit: Editor shut down
-[2018.04.20-07.10.07:260][431]LogExit: Transaction tracking system shut down
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.04.20-07.10.07:488][431]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.04.20-07.10.07:567][431]LogExit: Object subsystem successfully closed.
-[2018.04.20-07.10.07:579][431]LogD3D11RHI: Shutdown
-[2018.04.20-07.10.07:579][431]LogD3D11RHI: CleanupD3DDevice
-[2018.04.20-07.10.07:582][431]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.04.20-07.10.07:606][431]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2018.04.20-07.10.07:606][431]LogModuleManager: Shutting down and abandoning module BlueprintGraph (552)
-[2018.04.20-07.10.07:606][431]LogModuleManager: Shutting down and abandoning module MaterialEditor (550)
-[2018.04.20-07.10.07:606][431]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.04.20-07.10.07:606][431]LogModuleManager: Shutting down and abandoning module AddContentDialog (546)
-[2018.04.20-07.10.07:606][431]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.04.20-07.10.07:607][431]LogModuleManager: Shutting down and abandoning module WidgetCarousel (545)
-[2018.04.20-07.10.07:607][431]LogModuleManager: Shutting down and abandoning module EditorWidgets (542)
-[2018.04.20-07.10.07:607][431]LogModuleManager: Shutting down and abandoning module CollectionManager (540)
-[2018.04.20-07.10.07:607][431]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' was aborted.
-[2018.04.20-07.10.07:607][431]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' was aborted.
-[2018.04.20-07.10.07:608][431]LogDirectoryWatcher: A directory notification for 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' was aborted.
-[2018.04.20-07.10.07:608][431]LogModuleManager: Shutting down and abandoning module SceneOutliner (538)
-[2018.04.20-07.10.07:608][431]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.04.20-07.10.07:608][431]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.04.20-07.10.07:608][431]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.04.20-07.10.07:609][431]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.04.20-07.10.07:611][431]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.04.20-07.10.07:612][431]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.04.20-07.10.07:613][431]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.04.20-07.10.07:614][431]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.04.20-07.10.07:615][431]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.04.20-07.10.07:616][431]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.04.20-07.10.07:616][431]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.04.20-07.10.07:616][431]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.04.20-07.10.07:616][431]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.04.20-07.10.07:940][431]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.04.20-07.10.07:940][431]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.04.20-07.10.07:940][431]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.04.20-07.10.07:940][431]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.04.20-07.10.07:942][431]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.04.20-07.10.07:943][431]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.04.20-07.10.07:943][431]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.04.20-07.10.07:943][431]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.04.20-07.10.07:943][431]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.04.20-07.10.07:944][431]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.04.20-07.10.07:945][431]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.04.20-07.10.07:945][431]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.04.20-07.10.07:946][431]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.04.20-07.10.07:946][431]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.04.20-07.10.07:999][431]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.04.20-07.10.07:999][431]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.04.20-07.10.08:000][431]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.04.20-07.10.08:002][431]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.04.20-07.10.08:002][431]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.04.20-07.10.08:002][431]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.04.20-07.10.08:002][431]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.04.20-07.10.08:003][431]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.04.20-07.10.08:003][431]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.04.20-07.10.08:003][431]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.04.20-07.10.08:008][431]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.04.20-07.10.08:008][431]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.04.20-07.10.08:008][431]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.04.20-07.10.08:008][431]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.04.20-07.10.08:009][431]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.04.20-07.10.08:187][431]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.04.20-07.10.08:188][431]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.04.20-07.10.08:190][431]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.04.20-07.10.08:191][431]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.04.20-07.10.08:191][431]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.04.20-07.10.08:192][431]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.04.20-07.10.08:192][431]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.04.20-07.10.08:192][431]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.04.20-07.10.08:192][431]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.04.20-07.10.08:192][431]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.04.20-07.10.08:193][431]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.04.20-07.10.08:194][431]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.04.20-07.10.08:194][431]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.04.20-07.10.08:195][431]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.04.20-07.10.08:195][431]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.04.20-07.10.08:195][431]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.04.20-07.10.08:195][431]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.04.20-07.10.08:195][431]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.04.20-07.10.08:196][431]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.04.20-07.10.08:196][431]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.04.20-07.10.08:196][431]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.04.20-07.10.08:196][431]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.04.20-07.10.08:197][431]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.04.20-07.10.08:297][431]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.04.20-07.10.08:398][431]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.04.20-07.10.08:399][431]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.04.20-07.10.08:399][431]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.04.20-07.10.08:399][431]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.04.20-07.10.08:400][431]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.04.20-07.10.08:402][431]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.04.20-07.10.08:408][431]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.04.20-07.10.08:408][431]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.04.20-07.10.08:408][431]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.04.20-07.10.08:409][431]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.04.20-07.10.08:409][431]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.04.20-07.10.08:409][431]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.04.20-07.10.08:410][431]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.04.20-07.10.08:410][431]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.04.20-07.10.08:411][431]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.04.20-07.10.08:411][431]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.04.20-07.10.08:411][431]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.04.20-07.10.08:412][431]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.04.20-07.10.08:413][431]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.04.20-07.10.08:413][431]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.04.20-07.10.08:415][431]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.04.20-07.10.08:415][431]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.04.20-07.10.08:416][431]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.04.20-07.10.08:417][431]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.04.20-07.10.08:417][431]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.04.20-07.10.08:417][431]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.04.20-07.10.08:418][431]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.04.20-07.10.08:419][431]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.04.20-07.10.08:485][431]LogDerivedDataCache: Shutdown
-[2018.04.20-07.10.08:485][431]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.04.20-07.10.08:485][431]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.04.20-07.10.08:485][431]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.04.20-07.10.08:486][431]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.04.20-07.10.08:487][431]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.04.20-07.10.08:488][431]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.04.20-07.10.08:488][431]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.04.20-07.10.08:488][431]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.04.20-07.10.08:488][431]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE7151280-4555-CE01-C504-F58D35E80685%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=2bae70db41f084004a2ce0bd3e06ec0c%7Cb3a122d34d8d4250b2d7520357a10a81%7C5f585d7b-ecc4-4dd4-88bd-af123f1b33ca&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.04.20-07.10.08:509][431]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.04.20-07.10.08:510][431]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.04.20-07.10.08:510][431]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.04.20-07.10.08:510][431]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.04.20-07.10.08:511][431]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.04.20-07.10.08:511][431]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.04.20-07.10.08:511][431]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.04.20-07.10.08:511][431]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.04.20-07.10.08:512][431]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.04.20-07.10.08:513][431]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.04.20-07.10.08:514][431]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.04.20-07.10.08:514][431]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.04.20-07.10.08:516][431]LogExit: Exiting.
-[2018.04.20-07.10.08:540][431]Log file closed, 04/20/18 00:10:08
+[2018.04.21-09.59.57:056][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-09.59.57:056][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.21-09.59.57:068][  0]LogInit: Computer: CAPTAINARCHER
+[2018.04.21-09.59.57:068][  0]LogInit: User: ENDER
+[2018.04.21-09.59.57:068][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.21-09.59.57:068][  0]LogInit: High frequency timer resolution =3.417970 MHz
+[2018.04.21-09.59.57:069][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.04.21-09.59.57:069][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.21-09.59.57:069][  0]LogMemory: Process Physical Memory: 280.11 MB used, 280.11 MB peak
+[2018.04.21-09.59.57:069][  0]LogMemory: Process Virtual Memory: 287.13 MB used, 287.13 MB peak
+[2018.04.21-09.59.57:069][  0]LogMemory: Physical Memory: 6717.16 MB used,  9562.33 MB free, 16279.50 MB total
+[2018.04.21-09.59.57:069][  0]LogMemory: Virtual Memory: 744.95 MB used,  9562.33 MB free, 134217728.00 MB total
+[2018.04.21-09.59.57:177][  0]LogInit: Using OS detected language (en-US).
+[2018.04.21-09.59.57:177][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.21-09.59.57:181][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.21-09.59.57:563][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.21-09.59.57:948][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.21-09.59.57:969][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2018.04.21-09.59.57:969][  0]LogD3D11RHI:       8168/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.04.21-09.59.57:970][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.21-09.59.57:971][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.21-09.59.57:971][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.21-09.59.57:976][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.21-09.59.57:976][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.21-09.59.57:976][  0]LogWindows: EnumDisplayDevices:
+[2018.04.21-09.59.57:976][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2018.04.21-09.59.57:977][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2018.04.21-09.59.57:977][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    6. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    7. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:977][  0]LogWindows:    8. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    9. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    10. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    11. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    12. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    13. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    14. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows:    15. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.04.21-09.59.57:978][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.21-09.59.57:978][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2018.04.21-09.59.57:978][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.21-09.59.57:978][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.21-09.59.57:978][  0]LogRHI: Texture pool is 5717 MB (70% of 8168 MB)
+[2018.04.21-09.59.58:020][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.21-09.59.58:033][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.04.21-09.59.58:034][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/4268/).
+[2018.04.21-09.59.58:034][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ENDER/AppData/Local/Temp/UnrealShaderWorkingDir/4E5B970E49A7E65B8A189DAAF8C5F653/'.
+[2018.04.21-09.59.58:034][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.21-09.59.58:887][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.21-09.59.58:932][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.21-09.59.58:977][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.21-09.59.59:022][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.21-09.59.59:068][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.21-09.59.59:114][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.21-09.59.59:159][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.21-09.59.59:204][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.21-09.59.59:242][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.21-09.59.59:286][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.21-09.59.59:330][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.21-09.59.59:376][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.21-09.59.59:423][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.21-09.59.59:468][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.21-09.59.59:558][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.21-09.59.59:558][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.21-09.59.59:603][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.21-09.59.59:637][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.21-09.59.59:715][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.21-09.59.59:737][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.21-09.59.59:782][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.21-09.59.59:827][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.21-09.59.59:871][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.21-09.59.59:916][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.21-09.59.59:916][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.21-10.00.00:288][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: Loaded boot cache 0.08s 97MB C:/Users/ENDER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ENDER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.21-10.00.00:372][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.21-10.00.00:388][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.21-10.00.00:399][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ENDER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.21-10.00.00:409][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.21-10.00.00:410][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.21-10.00.00:411][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-10.00.00:411][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.21-10.00.00:770][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.21-10.00.01:058][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.21-10.00.01:093][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.21-10.00.01:093][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.21-10.00.01:093][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.21-10.00.01:093][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.21-10.00.01:093][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.21-10.00.01:153][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.04.21-10.00.01:302][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2018.04.21-10.00.01:773][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.050413 seconds
+[2018.04.21-10.00.01:778][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.21-10.00.01:778][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.21-10.00.01:778][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.21-10.00.01:813][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.21-10.00.04:359][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.21-10.00.04:401][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.21-10.00.05:047][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.21-10.00.05:440][  0]SourceControl: Source control is disabled
+[2018.04.21-10.00.05:440][  0]SourceControl: Source control is disabled
+[2018.04.21-10.00.05:492][  0]SourceControl: Source control is disabled
+[2018.04.21-10.00.05:543][  0]SourceControl: Source control is disabled
+[2018.04.21-10.00.06:347][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.21-10.00.06:610][  0]LogOcInput: OculusInput pre-init called
+[2018.04.21-10.00.06:877][  0]LogEngine: Initializing Engine...
+[2018.04.21-10.00.06:879][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.21-10.00.07:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.21-10.00.07:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.21-10.00.07:191][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.21-10.00.07:198][  0]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.21-10.00.07:217][  0]LogInit: FAudioDevice initialized.
+[2018.04.21-10.00.07:299][  0]LogDerivedDataCache: Saved boot cache 0.08s 80MB C:/Users/ENDER/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.21-10.00.07:314][  0]LogInit: Texture streaming: Enabled
+[2018.04.21-10.00.07:383][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.21-10.00.07:493][  0]LogInit: Transaction tracking system initialized
+[2018.04.21-10.00.07:759][  0]BlueprintLog: New page: Editor Load
+[2018.04.21-10.00.08:491][  0]LocalizationService: Localization service is disabled
+[2018.04.21-10.00.09:127][  0]LogConsoleResponse: Display: 
+[2018.04.21-10.00.09:285][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.21-10.00.09:285][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.21-10.00.09:285][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.21-10.00.09:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.04.21-10.00.10:382][  0]SourceControl: Source control is disabled
+[2018.04.21-10.00.10:382][  0]Cmd: MAP LOAD FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.21-10.00.10:383][  0]LightingResults: New page: Lighting Build
+[2018.04.21-10.00.10:419][  0]MapCheck: New page: Map Check
+[2018.04.21-10.00.10:419][  0]LightingResults: New page: Lighting Build
+[2018.04.21-10.00.10:520][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.21-10.00.10:526][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.21-10.00.10:539][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.21-10.00.10:599][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.237ms to complete.
+[2018.04.21-10.00.10:599][  0]LogFileHelpers: Loading map 'StartupMap' took 0.216
+[2018.04.21-10.00.10:858][  0]LogCollectionManager: Loaded 0 collections in 0.000924 seconds
+[2018.04.21-10.00.10:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.04.21-10.00.10:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/Developers/ENDER/Collections/' took 0.01s
+[2018.04.21-10.00.10:959][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.04.21-10.00.10:959][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.21-10.00.10:967][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2364 classes and 521 folders.
+[2018.04.21-10.00.11:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.21-10.00.11:071][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.21-10.00.11:129][  0]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-10.00.11:133][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.21-10.00.11:135][  0]LogSlate: Took 0.000183 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.21-10.00.11:230][  0]LogRenderer: Reallocating scene render targets to support 1228x708 Format 26 NumSamples 1 (Frame:1).
+[2018.04.21-10.00.11:416][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.21-10.00.11:416][  0]LogLoad: (Engine Initialization) Total time: 17.50 seconds
+[2018.04.21-10.00.11:416][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.21-10.00.11:417][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.21-10.00.11:417][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.21-10.00.11:426][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.21-10.00.11:445][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.21-10.00.11:501][  1]LogAssetRegistry: Asset discovery search completed in 10.2199 seconds
+[2018.04.21-10.00.11:503][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.21-10.00.11:503][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
+[2018.04.21-10.00.16:764][614]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-10.00.17:682][614]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.21-10.00.19:965][614]LogAIModule: Creating AISystem for world Main
+[2018.04.21-10.00.19:970][614]LogMaterial: Warning: Material /Game/SushiShop/Materials/Knife+Board_M/Knife+Board_M.Knife+Board_M needed to have new flag set bUsedWithStaticLighting !
+[2018.04.21-10.00.19:977][614]LogMaterial: Missing cached shader map for material Knife+Board_M, compiling. 
+[2018.04.21-10.00.20:036][614]MapCheck: Warning: Knife+Board_M Material /Game/SushiShop/Materials/Knife+Board_M/Knife+Board_M.Knife+Board_M was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.04.21-10.00.20:038][614]LogMaterial: Warning: Material /Game/SushiShop/Materials/Sake_M/Sake_M.Sake_M needed to have new flag set bUsedWithStaticLighting !
+[2018.04.21-10.00.20:046][614]LogMaterial: Missing cached shader map for material Sake_M, compiling. 
+[2018.04.21-10.00.20:080][614]MapCheck: Warning: Sake_M Material /Game/SushiShop/Materials/Sake_M/Sake_M.Sake_M was missing the usage flag bUsedWithStaticLighting. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.04.21-10.00.20:119][614]Cmd: MAP LOAD FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.21-10.00.20:119][614]LightingResults: New page: Lighting Build
+[2018.04.21-10.00.20:120][614]LoadErrors: New page: Loading map: Main.umap
+[2018.04.21-10.00.20:120][614]MapCheck: New page: Map Check
+[2018.04.21-10.00.20:120][614]LightingResults: New page: Lighting Build
+[2018.04.21-10.00.20:217][614]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.21-10.00.20:301][614]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.21-10.00.20:425][614]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 124.182ms to complete.
+[2018.04.21-10.00.20:425][614]LogFileHelpers: Loading map 'Main' took 0.307
+[2018.04.21-10.01.04:722][606]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.04.21-10.01.05:520][606]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.21-10.01.08:698][937]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.21-10.01.09:275][990]LogRenderer: Reallocating scene render targets to support 1280x708 Format 26 NumSamples 1 (Frame:1).
+[2018.04.21-10.01.28:078][988]LogTemp: Repeating last play command: Simulate
+[2018.04.21-10.01.28:164][988]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-10.01.28:172][988]LogPlayLevel: [PlayLevel] Compiling WristMenu before play...
+[2018.04.21-10.01.28:480][988]LogPlayLevel: PlayLevel: Blueprint regeneration took 316 ms (1 blueprints)
+[2018.04.21-10.01.28:481][988]PIE: New page: SIE session: Main (Apr 20, 2018, 8:01:28 PM)
+[2018.04.21-10.01.28:481][988]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.21-10.01.28:489][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007948s)
+[2018.04.21-10.01.28:490][988]LogAIModule: Creating AISystem for world Main
+[2018.04.21-10.01.28:490][988]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2018.04.21-10.01.28:490][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009107s)
+[2018.04.21-10.01.28:512][988]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.21-10.01.28:527][988]LogInit: FAudioDevice initialized.
+[2018.04.21-10.01.28:569][988]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.21-10.01.28:569][988]LogLoad: Game class is 'GameModeBase'
+[2018.04.21-10.01.28:577][988]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.21-03.01.28
+[2018.04.21-10.01.28:584][988]LogWorld: Bringing up level for play took: 0.013564
+[2018.04.21-10.01.28:584][988]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-10.01.28:619][988]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.04.21-10.01.28:628][988]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.947
+[2018.04.21-10.01.39:987][835]LogClass: Warning: In asset 'None', there is an enum property of type 'EWidgetTimingPolicy' with an invalid value of ''
+[2018.04.21-10.01.39:987][835]LogClass: Warning: In asset 'None', there is an enum property of type 'EWidgetTimingPolicy' with an invalid value of ''
+[2018.04.21-10.01.39:987][835]LogClass: Warning: In asset 'None', there is an enum property of type 'EWidgetTimingPolicy' with an invalid value of ''
+[2018.04.21-10.01.43:042][164]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-10.04.55:179][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/BluePrints/MainMenu/WristMenu" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset" SILENT=true
+[2018.04.21-10.04.55:220][350]LogSavePackage: Save=23.64ms
+[2018.04.21-10.04.55:220][350]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/WristMenu4A8395BC4051BD8DE0FB2C948DF24D3F.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset'
+[2018.04.21-10.04.55:223][350]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset
+[2018.04.21-10.04.55:645][393]BlueprintLog: New page: Compile WristMenu
+[2018.04.21-10.05.05:779][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/BluePrints/MainMenu/WristMenu" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset" SILENT=true
+[2018.04.21-10.05.05:811][347]LogSavePackage: Save=23.32ms
+[2018.04.21-10.05.05:811][347]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/WristMenuB34DC80E422EB81CF6AF4D9049318721.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset'
+[2018.04.21-10.05.05:813][347]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset
+[2018.04.21-10.05.06:253][394]BlueprintLog: New page: Compile WristMenu
+[2018.04.21-10.05.29:655][943]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1941.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.05.29:657][943]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1943.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.06:473][298]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1951.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.06:476][298]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1953.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.08:053][475]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1960.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.08:056][475]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1962.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.16:598][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1986.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.16:601][487]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1988.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.20:057][896]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_2012.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.20:060][896]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_2014.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.21:794][ 93]LogSavePackage: Save=18.91ms
+[2018.04.21-10.06.21:794][ 93]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button2DC4837AB439EF5B3B9922AA10477A42E.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button2.uasset'
+[2018.04.21-10.06.21:796][ 93]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button2.uasset
+[2018.04.21-10.06.22:139][134]BlueprintLog: New page: Compile MBP_Button2
+[2018.04.21-10.06.22:653][134]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_2.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.06.22:655][134]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1927.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.07.21:674][  1]BlueprintLog: New page: Compile MBP_Button2
+[2018.04.21-10.07.22:179][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_7.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.07.22:182][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button2_C_CHILDACTOR_1927.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.07.22:570][ 36]LogSavePackage: Save=22.93ms
+[2018.04.21-10.07.22:570][ 36]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button260271EBA49946E11AC94B58764B90837.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button2.uasset'
+[2018.04.21-10.07.22:572][ 36]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button2.uasset
+[2018.04.21-10.07.24:443][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/BluePrints/MainMenu/WristMenu" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset" SILENT=true
+[2018.04.21-10.07.24:476][253]LogSavePackage: Save=24.08ms
+[2018.04.21-10.07.24:476][253]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/WristMenu29BF168E460EB495F84012B1ED405FF2.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset'
+[2018.04.21-10.07.24:480][253]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/WristMenu.uasset
+[2018.04.21-10.07.24:853][298]BlueprintLog: New page: Compile WristMenu
+[2018.04.21-10.12.49:368][620]LogSavePackage: Save=10.52ms
+[2018.04.21-10.12.49:368][620]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/VR_GameModeFE440F4E49BBC6A238CB93BCD5321C87.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset'
+[2018.04.21-10.12.49:370][620]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset
+[2018.04.21-10.12.49:385][620]LogSavePackage: Save=10.68ms
+[2018.04.21-10.12.49:385][620]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/VR_Pawn4605E20042802E84F7E6748B140156CE.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_Pawn.uasset'
+[2018.04.21-10.12.49:387][620]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_Pawn.uasset
+[2018.04.21-10.13.23:325][642]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-10.14.07:345][566]LogSavePackage: Save=9.78ms
+[2018.04.21-10.14.07:345][566]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/VR_GameModeC19575E24E2E671E492AFEAB2DE5BC6B.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset'
+[2018.04.21-10.14.07:348][566]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset
+[2018.04.21-10.15.23:865][628]LogSlate: Took 0.000244 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.21-10.18.03:430][567]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-10.18.12:419][525]LogSavePackage: Save=10.32ms
+[2018.04.21-10.18.12:419][525]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/VR_PawnF31DE0C742B0768361EDCD816616860D.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_Pawn.uasset'
+[2018.04.21-10.18.12:421][525]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_Pawn.uasset
+[2018.04.21-10.21.28:498][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_1986.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.21.28:501][828]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_1988.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.21.41:319][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_1995.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.21.41:322][351]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_2002.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.23.14:794][397]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.035
+[2018.04.21-10.23.14:795][397]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/BluePrints/MainMenu/MBP_Button1] ([1] browsable assets)...
+[2018.04.21-10.23.14:795][397]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/BluePrints/MainMenu/MBP_Button1]
+[2018.04.21-10.23.14:837][397]LogSavePackage: Save=23.58ms
+[2018.04.21-10.23.14:837][397]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button1_Auto17D6893624F6C542E4C699F8A0B4E6DD4.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/MBP_Button1_Auto1.uasset'
+[2018.04.21-10.23.14:838][397]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/MBP_Button1_Auto1.uasset
+[2018.04.21-10.23.14:838][397]LogFileHelpers: Auto-saving content packages took 0.043
+[2018.04.21-10.24.09:645][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_2004.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.24.09:648][369]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_2006.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.24.50:146][201]BlueprintLog: New page: Compile MBP_Button1
+[2018.04.21-10.24.50:662][201]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_2.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.24.50:665][201]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_1983.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.24.51:083][240]LogSavePackage: Save=25.83ms
+[2018.04.21-10.24.51:084][240]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button12E698A954193B578285AF8837D0D54E2.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button1.uasset'
+[2018.04.21-10.24.51:087][240]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button1.uasset
+[2018.04.21-10.25.22:641][995]LogSavePackage: Save=25.17ms
+[2018.04.21-10.25.22:641][995]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button11ECDEB394C72E13938CC94AE1719B7B3.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button1.uasset'
+[2018.04.21-10.25.22:643][995]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/MBP_Button1.uasset
+[2018.04.21-10.25.23:033][ 40]BlueprintLog: New page: Compile MBP_Button1
+[2018.04.21-10.25.23:548][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_1:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_5.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.25.23:550][ 40]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_MBP_Button1_C_CHILDACTOR_1983.Scene) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.04.21-10.25.28:963][676]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-10.26.03:998][493]LogTabManager: Warning: Cannot spawn tab because no spawner is registered for 'CompilerResults'
+[2018.04.21-10.26.29:880][588]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.04.21-10.26.43:737][240]LogSavePackage: Save=9.59ms
+[2018.04.21-10.26.43:737][240]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/VR_GameMode7359FFB246D65672F9A46A93223F4196.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset'
+[2018.04.21-10.26.43:739][240]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/LevelHandling/VR_GameMode.uasset
+[2018.04.21-10.26.51:305][136]LogTemp: Repeating last play command: Simulate
+[2018.04.21-10.26.51:341][136]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.21-10.26.51:342][136]LogPlayLevel: [PlayLevel] Compiling VR_Pawn before play...
+[2018.04.21-10.26.51:374][136]LogPlayLevel: PlayLevel: Blueprint regeneration took 33 ms (1 blueprints)
+[2018.04.21-10.26.51:375][136]PIE: New page: SIE session: Main (Apr 20, 2018, 8:26:51 PM)
+[2018.04.21-10.26.51:375][136]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.21-10.26.51:383][136]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007929s)
+[2018.04.21-10.26.51:383][136]LogAIModule: Creating AISystem for world Main
+[2018.04.21-10.26.51:383][136]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2018.04.21-10.26.51:384][136]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.009002s)
+[2018.04.21-10.26.51:417][136]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.21-10.26.51:435][136]LogInit: FAudioDevice initialized.
+[2018.04.21-10.26.51:469][136]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.21-10.26.51:469][136]LogLoad: Game class is 'GameModeBase'
+[2018.04.21-10.26.51:476][136]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.21-03.26.51
+[2018.04.21-10.26.51:477][136]LogWorld: Bringing up level for play took: 0.006962
+[2018.04.21-10.26.51:477][136]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-10.26.51:485][136]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.195
+[2018.04.21-10.30.11:241][765]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Dude)
+[2018.04.21-10.30.21:489][812]LogEditorViewport: Clicking Background
+[2018.04.21-10.33.33:646][695]LogSavePackage: Save=217.16ms
+[2018.04.21-10.33.33:646][695]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Main_Auto2295D850A4F125CC3E8AAF59ABC59CC52.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto2.umap'
+[2018.04.21-10.33.33:648][695]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto2.umap
+[2018.04.21-10.33.33:655][695]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.280
+[2018.04.21-10.33.33:655][695]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.280
+[2018.04.21-10.57.31:099][146]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/ENDER/OneDrive/curtaintest.fbx)
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: Geometry, ItemCount : 2
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: Material, ItemCount : 1
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: Model, ItemCount : 5
+[2018.04.21-10.57.31:112][146]LogFbx: ItemName: NodeAttribute, ItemCount : 3
+[2018.04.21-10.57.31:117][146]LogFbx: Loading FBX Scene from C:/Users/ENDER/OneDrive/curtaintest.fbx
+[2018.04.21-10.57.31:124][146]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.21-10.57.34:299][146]LogFbx: Loading FBX Scene from C:/Users/ENDER/OneDrive/curtaintest.fbx
+[2018.04.21-10.57.34:308][146]LogFbx: FBX Scene Loaded Succesfully
+[2018.04.21-10.57.34:309][146]LogFbx: Warning: Triangulating static mesh pPlane1
+[2018.04.21-10.57.34:334][146]LogStaticMesh: Building static mesh curtaintest_pPlane1...
+[2018.04.21-10.57.34:345][146]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Environment/Curtains/curtaintest_pPlane1.curtaintest_pPlane1
+[2018.04.21-10.57.34:360][146]LogFbx: Warning: Triangulating static mesh pPlane2
+[2018.04.21-10.57.34:360][146]LogStaticMesh: Building static mesh curtaintest_pPlane2...
+[2018.04.21-10.57.34:361][146]LogStaticMesh: Built static mesh [0.00s] /Game/SushiShop/Assets/Environment/Curtains/curtaintest_pPlane2.curtaintest_pPlane2
+[2018.04.21-10.57.34:367][146]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.04.21-10.57.34:476][146]LogMeshUtilities: Discarded distance field for curtaintest_pPlane1 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.21-10.57.34:476][146]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 1152 triangles, Range [-0.4, 1.0], curtaintest_pPlane1
+[2018.04.21-10.57.34:476][146]LogStaticMesh: Warning: Main thread blocked for 0.105s for async distance field build of curtaintest_pPlane1 to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.04.21-10.57.34:483][146]LogMeshUtilities: Discarded distance field for curtaintest_pPlane2 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.04.21-10.57.34:483][146]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 2 triangles, Range [-0.3, 1.0], curtaintest_pPlane2
+[2018.04.21-10.57.36:860][420]LogActorFactory: Actor Factory created curtaintest_pPlane1
+[2018.04.21-10.57.38:725][638]LogActorFactory: Actor Factory created curtaintest_pPlane1
+[2018.04.21-10.57.38:912][653]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.21-10.57.47:029][619]LogTemp: Repeating last play command: Simulate
+[2018.04.21-10.57.47:061][619]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.21-10.57.47:061][619]PIE: New page: SIE session: Main (Apr 20, 2018, 8:57:47 PM)
+[2018.04.21-10.57.47:061][619]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.04.21-10.57.47:070][619]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008890s)
+[2018.04.21-10.57.47:071][619]LogAIModule: Creating AISystem for world Main
+[2018.04.21-10.57.47:071][619]LogPlayLevel: PIE: World Init took: (0.001046s)
+[2018.04.21-10.57.47:071][619]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.010394s)
+[2018.04.21-10.57.47:107][619]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.21-10.57.47:122][619]LogInit: FAudioDevice initialized.
+[2018.04.21-10.57.47:151][619]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.04.21-10.57.47:151][619]LogLoad: Game class is 'GameModeBase'
+[2018.04.21-10.57.47:159][619]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.21-03.57.47
+[2018.04.21-10.57.47:159][619]LogWorld: Bringing up level for play took: 0.007440
+[2018.04.21-10.57.47:160][619]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.21-10.57.47:169][619]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.512
+[2018.04.21-10.57.51:223][937]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.21-10.57.55:618][141]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.21-10.57.55:638][141]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.21-10.58.32:674][890]LogSavePackage: Save=214.10ms
+[2018.04.21-10.58.32:674][890]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Main_Auto3BD43D610440F05CD1EDBCDA2CF319D06.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto3.umap'
+[2018.04.21-10.58.32:676][890]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto3.umap
+[2018.04.21-10.58.32:684][890]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.263
+[2018.04.21-10.58.32:684][890]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.263
+[2018.04.21-11.03.22:411][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Levels/Main" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.21-11.03.22:662][760]LogSavePackage: Save=214.26ms
+[2018.04.21-11.03.22:662][760]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Main0F084D864961D6B985784ABF065BC7FD.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.21-11.03.22:667][760]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.21-11.03.22:722][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Levels/Main_BuiltData" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset" SILENT=true
+[2018.04.21-11.03.22:894][760]LogSavePackage: Save=146.74ms
+[2018.04.21-11.03.22:894][760]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltData909D489545D45934718B3FAC194A16E9.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.04.21-11.03.22:896][760]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
