@@ -1,0 +1,1056 @@
+﻿Log file open, 04/27/18 22:22:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1485734799) SRandInit(-1485734799).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.158016
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceSource.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceLiveLink.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/BlueprintStats/Binaries/Win64/UE4Editor-BlueprintStats.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusAudio/Binaries/Win64/UE4Editor-OculusAudio.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/SoundVisualizations/Binaries/Win64/UE4Editor-SoundVisualizations.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BlueprintStats
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusAudio
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.04.28-05.22.55:841][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-05.22.55:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.28-05.22.55:852][  0]LogInit: Computer: DESKTOP-TMTLRPJ
+[2018.04.28-05.22.55:852][  0]LogInit: User: GameDevClub
+[2018.04.28-05.22.55:852][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.28-05.22.55:852][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2018.04.28-05.22.55:852][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.28-05.22.55:852][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.28-05.22.55:852][  0]LogMemory: Process Physical Memory: 282.75 MB used, 282.75 MB peak
+[2018.04.28-05.22.55:852][  0]LogMemory: Process Virtual Memory: 289.55 MB used, 289.55 MB peak
+[2018.04.28-05.22.55:852][  0]LogMemory: Physical Memory: 8379.65 MB used,  7967.48 MB free, 16347.13 MB total
+[2018.04.28-05.22.55:852][  0]LogMemory: Virtual Memory: 754.88 MB used,  7967.48 MB free, 134217728.00 MB total
+[2018.04.28-05.22.55:998][  0]LogInit: Using OS detected language (en-US).
+[2018.04.28-05.22.55:998][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.28-05.22.56:001][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.28-05.22.56:361][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.28-05.22.56:574][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.28-05.22.56:607][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.04.28-05.22.56:607][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.04.28-05.22.56:609][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.28-05.22.56:609][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.28-05.22.56:609][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.28-05.22.56:614][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.28-05.22.56:614][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.28-05.22.56:614][  0]LogWindows: EnumDisplayDevices:
+[2018.04.28-05.22.56:614][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.04.28-05.22.56:614][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.28-05.22.56:614][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.28-05.22.56:615][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.28-05.22.56:615][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.28-05.22.56:615][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.04.28-05.22.56:615][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.28-05.22.56:615][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.28-05.22.56:615][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.04.28-05.22.56:637][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.28-05.22.56:701][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.28-05.22.56:798][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/2980/).
+[2018.04.28-05.22.56:798][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/9CB10D714635A1CBFA994E954886C674/'.
+[2018.04.28-05.22.56:798][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.28-05.22.57:573][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.28-05.22.57:620][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.28-05.22.57:666][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.28-05.22.57:716][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.28-05.22.57:768][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.28-05.22.57:818][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.28-05.22.57:867][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.28-05.22.57:919][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.28-05.22.57:962][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.28-05.22.58:012][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.28-05.22.58:063][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.28-05.22.58:109][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.28-05.22.58:160][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.28-05.22.58:205][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.28-05.22.58:300][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.28-05.22.58:300][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.28-05.22.58:344][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.28-05.22.58:381][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.28-05.22.58:462][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.28-05.22.58:487][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.28-05.22.58:529][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.28-05.22.58:575][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.28-05.22.58:621][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.28-05.22.58:665][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.28-05.22.58:665][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.28-05.22.59:084][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: Loaded boot cache 0.07s 81MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.28-05.22.59:149][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.28-05.22.59:162][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.28-05.22.59:173][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.28-05.22.59:182][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.28-05.22.59:182][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.28-05.22.59:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-05.22.59:183][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-05.22.59:493][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-05.22.59:788][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.28-05.22.59:827][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.28-05.22.59:827][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.28-05.22.59:827][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.28-05.22.59:827][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.28-05.22.59:827][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.28-05.22.59:859][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.04.28-05.22.59:993][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.04.28-05.23.00:432][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060682 seconds
+[2018.04.28-05.23.00:438][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.28-05.23.00:438][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.28-05.23.00:438][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.28-05.23.00:483][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.28-05.23.02:866][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.04.28-05.23.02:896][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.28-05.23.02:933][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.28-05.23.03:669][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.28-05.23.04:130][  0]SourceControl: Source control is disabled
+[2018.04.28-05.23.04:130][  0]SourceControl: Source control is disabled
+[2018.04.28-05.23.04:184][  0]SourceControl: Source control is disabled
+[2018.04.28-05.23.04:233][  0]SourceControl: Source control is disabled
+[2018.04.28-05.23.05:031][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.28-05.23.05:274][  0]LogOcInput: OculusInput pre-init called
+[2018.04.28-05.23.05:778][  0]LogEngine: Initializing Engine...
+[2018.04.28-05.23.05:779][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.04.28-05.23.05:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-05.23.05:977][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-05.23.06:115][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.28-05.23.06:123][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.28-05.23.06:132][  0]LogInit: FAudioDevice initialized.
+[2018.04.28-05.23.06:178][  0]LogDerivedDataCache: Saved boot cache 0.05s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.28-05.23.06:190][  0]LogInit: Texture streaming: Enabled
+[2018.04.28-05.23.06:284][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.28-05.23.06:284][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={79950356-4952-5DAF-6A11-4A8B2AB4CD2A}
+[2018.04.28-05.23.06:398][  0]LogInit: Transaction tracking system initialized
+[2018.04.28-05.23.06:678][  0]BlueprintLog: New page: Editor Load
+[2018.04.28-05.23.07:460][  0]LocalizationService: Localization service is disabled
+[2018.04.28-05.23.08:119][  0]LogConsoleResponse: Display: 
+[2018.04.28-05.23.08:292][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.28-05.23.08:292][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.28-05.23.08:292][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.28-05.23.08:987][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.04.28-05.23.09:417][  0]SourceControl: Source control is disabled
+[2018.04.28-05.23.09:417][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-05.23.09:417][  0]LightingResults: New page: Lighting Build
+[2018.04.28-05.23.09:455][  0]MapCheck: New page: Map Check
+[2018.04.28-05.23.09:455][  0]LightingResults: New page: Lighting Build
+[2018.04.28-05.23.09:542][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.28-05.23.09:548][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-05.23.09:558][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-05.23.09:601][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 43.252ms to complete.
+[2018.04.28-05.23.09:601][  0]LogFileHelpers: Loading map 'StartupMap' took 0.184
+[2018.04.28-05.23.09:782][  0]LogCollectionManager: Loaded 0 collections in 0.001538 seconds
+[2018.04.28-05.23.09:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.04.28-05.23.09:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
+[2018.04.28-05.23.09:863][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.04.28-05.23.09:863][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.28-05.23.09:869][  0]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 2388 classes and 535 folders.
+[2018.04.28-05.23.09:929][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.28-05.23.09:963][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.28-05.23.10:010][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.28-05.23.10:015][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.28-05.23.10:017][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.28-05.23.10:082][  0]LogRenderer: Reallocating scene render targets to support 896x488 Format 26 NumSamples 1 (Frame:1).
+[2018.04.28-05.23.10:290][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.04.28-05.23.10:290][  0]LogLoad: (Engine Initialization) Total time: 16.71 seconds
+[2018.04.28-05.23.10:290][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.28-05.23.10:290][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.28-05.23.10:310][  0]LogOcInput: OculusInput is initialized
+[2018.04.28-05.23.10:327][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.28-05.23.10:368][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.04.28-05.23.10:384][  1]LogAssetRegistry: Asset discovery search completed in 10.4116 seconds
+[2018.04.28-05.23.10:385][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.28-05.23.10:385][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2018.04.28-05.23.11:351][ 90]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-05.23.14:368][393]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-05.23.25:843][484]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-05.23.26:094][484]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.04.28-05.23.27:474][484]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.04.28-05.23.27:477][484]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.23.27:653][484]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.23.27:694][484]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.23.27:762][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2018.04.28-05.23.27:766][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_10, compiling. 
+[2018.04.28-05.23.27:770][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2018.04.28-05.23.27:775][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2018.04.28-05.23.27:779][484]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_9, compiling. 
+[2018.04.28-05.23.27:798][484]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.28-05.23.27:904][484]LogRenderer: Reallocating scene render targets to support 1124x744 Format 26 NumSamples 1 (Frame:1).
+[2018.04.28-05.23.27:904][484]LogStaticMesh: Allocated 351x64x64 distance field atlas = 2.7Mb, with 58 objects containing 2.0Mb backing data
+[2018.04.28-05.23.29:657][630]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.23.32:784][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.24.33:207][173]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.36:239][523]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.40:119][977]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.42:185][213]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.44:998][537]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.46:557][714]LogMaterialEditor: Saving and Compiling material Leather_M
+[2018.04.28-05.24.47:106][714]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.47:239][714]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.47:377][714]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.24.47:504][714]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.04.28-05.24.50:449][714]TextureStreamingBuild: Display: Compiling optional shaders took 2.952 seconds.
+[2018.04.28-05.24.56:299][714]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.28-05.24.56:357][714]LogSavePackage: Save=16.76ms
+[2018.04.28-05.24.56:357][714]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Leather_MA70D6E0146A0F6C616DC378685FD3094.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset'
+[2018.04.28-05.24.56:359][714]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.24.56:363][714]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.25.08:373][154]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.25.12:722][665]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.25.22:681][857]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.25.27:122][375]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.25.42:012][160]LogMaterialEditor: Saving and Compiling material Leather_M
+[2018.04.28-05.25.42:391][160]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.25.42:487][160]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.25.42:619][160]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.25.42:734][160]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.04.28-05.25.45:635][160]TextureStreamingBuild: Display: Compiling optional shaders took 2.908 seconds.
+[2018.04.28-05.25.51:518][160]LogSavePackage: Save=15.27ms
+[2018.04.28-05.25.51:518][160]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Leather_M53D0D4BB4C1825B9F97F80A3F44DE9ED.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset'
+[2018.04.28-05.25.51:521][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset
+[2018.04.28-05.26.04:346][646]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.04.28-05.26.04:346][646]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.04.28-05.26.04:346][646]LoadErrors: Error: /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01 : Can't find file for asset. /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2
+[2018.04.28-05.26.04:346][646]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.04.28-05.26.04:346][646]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.04.28-05.26.04:540][646]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.04.28-05.26.04:540][646]LoadErrors: Failed to load /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2.lambert2 Referenced by LoungeVR_CeilingLightNew_01
+[2018.04.28-05.26.04:540][646]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.04.28-05.26.04:540][646]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.04.28-05.26.04:540][646]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.04.28-05.26.04:837][646]LogAIModule: Creating AISystem for world Main
+[2018.04.28-05.26.04:964][646]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-05.26.04:964][646]LightingResults: New page: Lighting Build
+[2018.04.28-05.26.04:965][646]LoadErrors: New page: Loading map: Main.umap
+[2018.04.28-05.26.04:966][646]MapCheck: New page: Map Check
+[2018.04.28-05.26.04:966][646]LightingResults: New page: Lighting Build
+[2018.04.28-05.26.05:089][646]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-05.26.05:157][646]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-05.26.05:237][646]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.657ms to complete.
+[2018.04.28-05.26.05:237][646]LogFileHelpers: Loading map 'Main' took 0.274
+[2018.04.28-05.26.05:271][647]LogStaticMesh: Allocated 494x168x64 distance field atlas = 10.1Mb, with 143 objects containing 3.4Mb backing data
+[2018.04.28-05.26.20:445][429]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.26.25:277][988]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.26.27:029][198]LogMaterialEditor: Saving and Compiling material Leather_M
+[2018.04.28-05.26.27:403][198]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.27:501][198]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.27:638][198]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.27:763][198]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.04.28-05.26.30:640][198]TextureStreamingBuild: Display: Compiling optional shaders took 2.884 seconds.
+[2018.04.28-05.26.36:579][198]LogSavePackage: Save=16.42ms
+[2018.04.28-05.26.36:579][198]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Leather_MFA67DB774788303225A66AA9B3FDF0D5.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset'
+[2018.04.28-05.26.36:581][198]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset
+[2018.04.28-05.26.50:042][812]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: Base pass shader: 157 instructions
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: Base pass shader with Surface Lightmap: 178 instructions
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 235 instructions
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: Vertex shader: 38 instructions
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: Texture samplers: 7/16
+[2018.04.28-05.26.54:469][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.28-05.26.57:746][727]LogMaterialEditor: Saving and Compiling material Leather_M
+[2018.04.28-05.26.58:120][727]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.58:214][727]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.58:348][727]LogMaterial: Missing cached shader map for material Leather_M, compiling. 
+[2018.04.28-05.26.58:472][727]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.04.28-05.27.01:341][727]TextureStreamingBuild: Display: Compiling optional shaders took 2.876 seconds.
+[2018.04.28-05.27.07:183][727]LogSavePackage: Save=15.73ms
+[2018.04.28-05.27.07:183][727]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Leather_MFC67F9F04A3002F0EF29E98735557BDD.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset'
+[2018.04.28-05.27.07:186][727]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset
+[2018.04.28-05.27.46:435][570]LogMaterialEditor: Saving and Compiling material Leather_M
+[2018.04.28-05.27.46:468][570]LogSavePackage: Save=8.05ms
+[2018.04.28-05.27.46:468][570]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Leather_M06278CAB4C6DE22FB5B791AB68CC8F8B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset'
+[2018.04.28-05.27.46:469][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Leather_M/Leather_M.uasset
+[2018.04.28-05.33.39:746][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:Scene' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:StaticMesh' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:Button 2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.SKEL_WristMenu_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu_C:Scene' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu_C:StaticMesh' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu_C:Button 2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:747][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/WristMenu.WristMenu_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/WristMenu.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent:Button Action.K2Node_FunctionEntry_165' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ButtonStaticStart' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:FingerCap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:DisablePress' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ButtonStartLocation' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:PressDistance' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:ButtonText' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:SnapBackTimeline' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:Scene' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:StaticMesh' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:Box' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:TextRender' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.SKEL_MBP_Button_Parent_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:ButtonStaticStart' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:FingerCap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:DisablePress' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:ButtonStartLocation' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:PressDistance' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:ButtonText' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:SnapBackTimeline' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:Scene' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:StaticMesh' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:Box' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:TextRender' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:ExecuteUbergraph_MBP_Button_Parent' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:BndEvt__Box_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:760][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.MBP_Button_Parent_C:BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button_Parent.PackageMetaData'
+[2018.04.28-05.33.39:764][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.MBP_Button2_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:764][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:764][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:764][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C:Widget' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.SKEL_MBP_Button2_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.MBP_Button2_C:Widget' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.MBP_Button2_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:765][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button2.MBP_Button2_C:ExecuteUbergraph_MBP_Button2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button2.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.Credits_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.Credits:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.Credits:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.Credits:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.SKEL_Credits_C:PreConstruct' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.SKEL_Credits_C:Construct' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.SKEL_Credits_C:Tick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.SKEL_Credits_C:Image_122' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.SKEL_Credits_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:770][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/Credits.Credits_C:Image_122' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/Credits.PackageMetaData'
+[2018.04.28-05.33.39:780][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay:Increment Score.K2Node_FunctionEntry_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay:Decrement Score.K2Node_FunctionEntry_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay:Score Condition.K2Node_FunctionEntry_3' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay:Get_Score_Text_0.K2Node_FunctionResult_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay:Get_Score_Text_0.K2Node_FunctionEntry_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:PreConstruct' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:Construct' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:Tick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:CurrentScore' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:FinalScore' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:ScoreValue' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:WinTextBox' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:Score' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C:Image_122' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.SKEL_ScoreDisplay_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:CurrentScore' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:FinalScore' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:ScoreValue' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:WinTextBox' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:Score' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:781][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/ScoreDisplay.ScoreDisplay_C:Image_122' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/ScoreDisplay.PackageMetaData'
+[2018.04.28-05.33.39:793][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1:EventGraph.K2Node_CallParentFunction_3' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.SKEL_MBP_Button1_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.SKEL_MBP_Button1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.SKEL_MBP_Button1_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.SKEL_MBP_Button1_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.SKEL_MBP_Button1_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:794][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button1.MBP_Button1_C:ExecuteUbergraph_MBP_Button1' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button1.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.MBP_Button3_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.SKEL_MBP_Button3_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.SKEL_MBP_Button3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.SKEL_MBP_Button3_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.SKEL_MBP_Button3_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.SKEL_MBP_Button3_C' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.MBP_Button3_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:798][297]LogMetaData: Removing '/Game/SushiShop/BluePrints/WristMenu/MBP_Button3.MBP_Button3_C:ExecuteUbergraph_MBP_Button3' ref from Metadata '/Game/SushiShop/BluePrints/MainMenu/MBP_Button3.PackageMetaData'
+[2018.04.28-05.33.39:859][297]LogSavePackage: Save=17.27ms
+[2018.04.28-05.33.39:859][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/WristMenu1623F2A74623D668D2DCFBB646801474.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/WristMenu.uasset'
+[2018.04.28-05.33.39:863][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/WristMenu.uasset
+[2018.04.28-05.33.39:956][297]LogSavePackage: Save=89.66ms
+[2018.04.28-05.33.39:956][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button_Parent9F0E487047C0C69DDD1C0FBC45C13BAD.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.uasset'
+[2018.04.28-05.33.39:959][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button_Parent.uasset
+[2018.04.28-05.33.39:983][297]LogSavePackage: Save=18.82ms
+[2018.04.28-05.33.39:983][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button2087397A5405F922E0F11418FA39F396B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button2.uasset'
+[2018.04.28-05.33.39:985][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button2.uasset
+[2018.04.28-05.33.40:007][297]LogSavePackage: Save=17.87ms
+[2018.04.28-05.33.40:007][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/CreditsE19BB0AE42104704B2C2919866321237.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Credits.uasset'
+[2018.04.28-05.33.40:009][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Credits.uasset
+[2018.04.28-05.33.40:042][297]LogSavePackage: Save=11.32ms
+[2018.04.28-05.33.40:042][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/WristDisplay_pPipe1C0D053E247AB0A90AD58E3B988BFC164.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pPipe1.uasset'
+[2018.04.28-05.33.40:044][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pPipe1.uasset
+[2018.04.28-05.33.40:084][297]LogSavePackage: Save=36.04ms
+[2018.04.28-05.33.40:084][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/ScoreDisplayBA8FD32B45D54BA0BEE3DA83251E1230.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/ScoreDisplay.uasset'
+[2018.04.28-05.33.40:086][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/ScoreDisplay.uasset
+[2018.04.28-05.33.40:110][297]LogSavePackage: Save=19.31ms
+[2018.04.28-05.33.40:110][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button130FC555F48DBB185690A70B3AA0F0B9D.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button1.uasset'
+[2018.04.28-05.33.40:113][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button1.uasset
+[2018.04.28-05.33.40:138][297]LogSavePackage: Save=17.48ms
+[2018.04.28-05.33.40:138][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MBP_Button3FD276B854D859502660C499B3F500564.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button3.uasset'
+[2018.04.28-05.33.40:140][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/MBP_Button3.uasset
+[2018.04.28-05.33.40:167][297]LogSavePackage: Save=10.44ms
+[2018.04.28-05.33.40:167][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/WristDisplay_pCube15B8A6A874140A0DCA57B3188D1A97AD7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube1.uasset'
+[2018.04.28-05.33.40:170][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube1.uasset
+[2018.04.28-05.33.40:192][297]LogSavePackage: Save=10.76ms
+[2018.04.28-05.33.40:192][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/WristDisplay_pCube2A3ED2A1449ED397CB7E8268A1958BA9F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube2.uasset'
+[2018.04.28-05.33.40:194][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube2.uasset
+[2018.04.28-05.33.40:216][297]LogSavePackage: Save=11.22ms
+[2018.04.28-05.33.40:216][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/WristDisplay_pCube3B827BAF946FF10CD2ACA768E8E775D33.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube3.uasset'
+[2018.04.28-05.33.40:218][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/WristMenu/Models/WristDisplay_pCube3.uasset
+[2018.04.28-05.33.41:220][297]LogSavePackage: Save=297.51ms
+[2018.04.28-05.33.41:220][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_MotionControllerFA6B7AC942365737130E24A26EFC08BE.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.04.28-05.33.41:223][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.04.28-05.33.41:505][297]LogSavePackage: Save=266.10ms
+[2018.04.28-05.33.41:505][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MotionControllerPawn3C17EA3142AD27CD82F2F2A3C03CE02D.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
+[2018.04.28-05.33.41:508][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.28-05.33.41:553][297]LogSavePackage: Save=32.17ms
+[2018.04.28-05.33.41:553][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_SpawnerB6F91DC146C9BE30FB7AB4B77C0A5B7F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/BP_Spawner.uasset'
+[2018.04.28-05.33.41:556][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/BP_Spawner.uasset
+[2018.04.28-05.33.41:760][297]LogSavePackage: Save=168.14ms
+[2018.04.28-05.33.41:760][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_BoatCB0D2AD942C2AFCADA00C9B1D68CA2DA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset'
+[2018.04.28-05.33.41:763][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_Boat.uasset
+[2018.04.28-05.33.41:812][297]LogSavePackage: Save=37.04ms
+[2018.04.28-05.33.41:812][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderItem5507CE584553714E729FAB9699EF3602.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderItem.uasset'
+[2018.04.28-05.33.41:815][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderItem.uasset
+[2018.04.28-05.33.41:875][297]LogSavePackage: Save=46.79ms
+[2018.04.28-05.33.41:875][297]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidget9A0B074145E231E34320CF8169261EDE.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderMenuWidget.uasset'
+[2018.04.28-05.33.41:877][297]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderMenuWidget.uasset
+[2018.04.28-05.34.13:723][ 24]LogSavePackage: Save=7.40ms
+[2018.04.28-05.34.13:723][ 24]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/VR_Main_MenuAF1F604642ADCDB62125349EC3E74DDA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/VR_Main_Menu.uasset'
+[2018.04.28-05.34.13:726][ 24]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/VR_Main_Menu.uasset
+[2018.04.28-05.35.16:378][787]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.28-05.36.47:053][751]LogSavePackage: Save=9.86ms
+[2018.04.28-05.36.47:053][751]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/3D_VR_Menu1463A93A47B0FDE4A56B07A427C44205.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/3D_VR_Menu.uasset'
+[2018.04.28-05.36.47:055][751]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/3D_VR_Menu.uasset
+[2018.04.28-05.36.47:495][804]BlueprintLog: New page: Compile 3D_VR_Menu
+[2018.04.28-05.37.16:434][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_101' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:437][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_103' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:438][212]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_105' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:445][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_107' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:447][213]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_109' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:454][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_111' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:455][214]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_113' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:462][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_115' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:463][215]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_117' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:470][216]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_119' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:472][216]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_121' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:478][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_123' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:480][217]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_125' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:487][218]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_127' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:488][218]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_129' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:495][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_131' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:496][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_133' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:497][219]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_135' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:503][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_137' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:505][220]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_139' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:512][221]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_141' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:514][221]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_143' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:520][222]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_145' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:522][222]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_147' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:529][223]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_149' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:530][223]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_151' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:537][224]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_153' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:539][224]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_155' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:545][225]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_157' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:547][225]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_159' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:554][226]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_161' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:555][226]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_163' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:562][227]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_165' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:563][227]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_167' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:570][228]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_169' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:572][228]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_171' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:579][229]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_173' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:588][230]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_175' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:679][241]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_177' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:680][241]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_179' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:687][242]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_181' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:688][242]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_183' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:695][243]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_185' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:697][243]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_187' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:704][244]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_189' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:712][245]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_191' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:714][245]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_193' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:721][246]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_195' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:770][252]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_197' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:772][252]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_199' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:779][253]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_201' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:780][253]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_203' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:787][254]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_205' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:788][254]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_207' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:795][255]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_209' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:797][255]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_211' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:804][256]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_213' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:805][256]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_215' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:812][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_217' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:814][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_219' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:816][257]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_221' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:820][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_223' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:821][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_225' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:822][258]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_227' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:829][259]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_229' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:830][259]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_231' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:837][260]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_233' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:838][260]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_235' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:845][261]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_237' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:847][261]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_239' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:854][262]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_241' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:855][262]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_243' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:862][263]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_245' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:863][263]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_247' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:870][264]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_249' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:872][264]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_251' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:879][265]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_253' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:880][265]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_255' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:887][266]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_257' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:888][266]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_259' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:895][267]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_261' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:897][267]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_263' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:904][268]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_265' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:912][269]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_267' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:914][269]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_269' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:920][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_271' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:922][270]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_273' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:928][271]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_275' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:930][271]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_277' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:937][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_279' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:939][272]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_281' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:945][273]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_283' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:947][273]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_285' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:954][274]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_287' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:956][274]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_289' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:962][275]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_291' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:964][275]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_293' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:971][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_295' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:972][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_297' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:973][276]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_299' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:979][277]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_301' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:980][277]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_303' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:987][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_305' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:988][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_307' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:989][278]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_309' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:995][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_311' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.16:997][279]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_313' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:004][280]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_315' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:005][280]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_317' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:012][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_319' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:014][281]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_321' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:020][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_323' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:021][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_325' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:022][282]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_327' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:029][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_329' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:030][283]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_331' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:037][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_333' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:038][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_335' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:039][284]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_337' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:045][285]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_339' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:047][285]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_341' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:054][286]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_343' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:055][286]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_345' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:062][287]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_347' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:064][287]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_349' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:070][288]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_351' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:072][288]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_353' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:079][289]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_355' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:080][289]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_357' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:087][290]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_359' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:088][290]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_361' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:095][291]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_363' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:096][291]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_365' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:097][291]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_367' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:104][292]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_369' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:105][292]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_371' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:106][292]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_373' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:112][293]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_375' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:113][293]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_377' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:115][293]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_379' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:120][294]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_381' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:121][294]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_383' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:122][294]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_385' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:128][295]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_387' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:130][295]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_389' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:137][296]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_391' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:139][296]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_393' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:146][297]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_395' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:147][297]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_397' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:154][298]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_399' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:155][298]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_401' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:162][299]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_403' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:164][299]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_405' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:171][300]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_407' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:172][300]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_409' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:179][301]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_411' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:180][301]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_413' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:187][302]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_415' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:188][302]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_417' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:195][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_419' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:196][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_421' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:197][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_423' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:198][303]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_425' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:204][304]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_427' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:205][304]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_429' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:212][305]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_431' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:214][305]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_433' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:220][306]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_435' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:222][306]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_437' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:223][306]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_439' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:229][307]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_441' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:237][308]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_443' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:239][308]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_445' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:246][309]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_447' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:254][310]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_449' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:255][310]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_451' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:262][311]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_453' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:263][311]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_455' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:270][312]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_457' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:271][312]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_459' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:273][312]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_461' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:279][313]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_463' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:280][313]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_465' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:287][314]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_467' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:295][315]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_469' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:297][315]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_471' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:304][316]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_473' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:305][316]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_475' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:312][317]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_477' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:313][317]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_479' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:316][317]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_481' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:321][318]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_483' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:329][319]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_485' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:330][319]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_487' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:338][320]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_489' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:420][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_491' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:422][330]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_493' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:429][331]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_495' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:430][331]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_497' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.37.17:438][332]PIE: UWidget::RemoveFromParent() called on '/Engine/Transient.ScoreDisplay_C_499' which has no UMG parent (if it was added directly to a native Slate widget via TakeWidget() then it must be removed explicitly rather than via RemoveFromParent())
+[2018.04.28-05.38.54:921][983]LogSlate: Took 0.012460 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.04.28-05.39.54:142][ 75]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.016
+[2018.04.28-05.39.54:144][ 75]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu] ([1] browsable assets)...
+[2018.04.28-05.39.54:144][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu]
+[2018.04.28-05.39.54:167][ 75]LogSavePackage: Save=10.47ms
+[2018.04.28-05.39.54:167][ 75]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/VR_Main_Menu_Auto102B703FA40F769F53F0BE8970BD70E24.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu_Auto1.uasset'
+[2018.04.28-05.39.54:168][ 75]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu_Auto1.uasset
+[2018.04.28-05.39.54:168][ 75]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.04.28-06.18.26:384][583]LogSavePackage: Save=438.65ms
+[2018.04.28-06.18.26:385][583]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main437B7A8D4DDEEAB2B5F5D881C7CA0830.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.04.28-06.18.26:387][583]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.04.28-06.18.26:858][583]LogSavePackage: Save=322.64ms
+[2018.04.28-06.18.26:858][583]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltData8B05BBD84E338BDE7063F79EA100C1F2.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.04.28-06.18.26:860][583]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.04.28-06.19.46:165][ 91]LogMaterial: Missing cached shader map for material CubeMaterial, compiling. 
+[2018.04.28-06.19.46:199][ 91]LogAIModule: Creating AISystem for world Menu
+[2018.04.28-06.19.47:965][ 91]LogSavePackage: Save=14.71ms
+[2018.04.28-06.19.47:965][ 91]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/VR_Main_Menu116016C24259D7A308A2739B5F5EB9D3.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/VR_Main_Menu.uasset'
+[2018.04.28-06.19.47:968][ 91]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/MainMenu/VR_Main_Menu.uasset
+[2018.04.28-06.19.47:970][ 91]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-06.19.47:971][ 91]LightingResults: New page: Lighting Build
+[2018.04.28-06.19.47:974][ 91]LoadErrors: New page: Loading map: Menu.umap
+[2018.04.28-06.19.47:984][ 91]MapCheck: New page: Map Check
+[2018.04.28-06.19.47:985][ 91]LightingResults: New page: Lighting Build
+[2018.04.28-06.19.48:132][ 91]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-06.19.48:220][ 91]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-06.19.50:698][ 91]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 2,478.148ms to complete.
+[2018.04.28-06.19.50:704][ 91]LogFileHelpers: Loading map 'Menu' took 2.735
+[2018.04.28-06.19.54:570][547]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.28-06.19.57:637][915]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2018.04.28-06.19.58:375][  3]Cmd: DELETE
+[2018.04.28-06.19.58:375][  3]Cmd: ACTOR DELETE
+[2018.04.28-06.19.58:389][  3]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.04.28-06.19.58:404][  3]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2018.04.28-06.20.00:328][229]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.28-06.20.29:876][477]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2018.04.28-06.20.39:971][673]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.04.28-06.20.40:185][698]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.28-06.20.49:079][763]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.28-06.20.55:031][475]LogEditorActor: Deleted Actor: SkyLight
+[2018.04.28-06.20.55:046][475]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2018.04.28-06.20.57:929][820]LogEditorActor: Deleted Actor: AtmosphericFog
+[2018.04.28-06.20.57:945][820]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2018.04.28-06.23.15:276][174]LogActorFactory: Actor Factory created Cube
+[2018.04.28-06.23.15:602][213]LogActorFactory: Actor Factory created Cube
+[2018.04.28-06.23.17:786][471]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.04.28-06.24.26:551][146]LogSavePackage: Save=11.01ms
+[2018.04.28-06.24.26:551][146]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_Menu_M58DB8742481D3A257A9632820A702513.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Menu_M/Main_Menu_M.uasset'
+[2018.04.28-06.24.26:554][146]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Menu_M/Main_Menu_M.uasset
+[2018.04.28-06.24.28:352][345]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.24.28:449][345]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.24.28:466][345]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.24.29:646][472]MaterialEditorStats: Base pass shader: 145 instructions
+[2018.04.28-06.24.29:646][472]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 218 instructions
+[2018.04.28-06.24.29:646][472]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.24.29:646][472]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.28-06.25.24:892][ 34]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.24:900][ 34]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.25:344][ 84]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2018.04.28-06.25.25:344][ 84]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.25:344][ 84]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.26:547][228]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.26:552][228]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.26:773][253]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2018.04.28-06.25.26:773][253]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.26:773][253]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.32:442][933]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.32:447][933]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.32:661][957]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2018.04.28-06.25.32:661][957]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.32:661][957]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.45:887][525]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.46:103][548]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2018.04.28-06.25.46:103][548]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.46:103][548]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.51:355][178]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.51:573][204]MaterialEditorStats: Base pass shader without light map: 69 instructions
+[2018.04.28-06.25.51:573][204]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.51:573][204]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.54:521][557]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.54:748][584]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.25.54:748][584]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.54:748][584]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.25.58:266][  6]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.25.58:484][ 32]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.25.58:484][ 32]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.25.58:484][ 32]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.26.01:759][425]LogMaterialEditor: Saving and Compiling material Main_Menu_M
+[2018.04.28-06.26.02:687][425]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.26.02:715][425]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.26.02:732][425]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.26.02:766][425]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Main_Menu_M, compiling. 
+[2018.04.28-06.26.02:912][425]TextureStreamingBuild: Display: Compiling optional shaders took 0.149 seconds.
+[2018.04.28-06.26.03:836][425]LogSavePackage: Save=9.46ms
+[2018.04.28-06.26.03:836][425]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_Menu_ME9B617A34E2885251466ACBD4DCD485D.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Menu_M/Main_Menu_M.uasset'
+[2018.04.28-06.26.03:838][425]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Menu_M/Main_Menu_M.uasset
+[2018.04.28-06.26.03:843][425]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.26.03:843][425]MaterialEditorStats: Vertex shader: 132 instructions
+[2018.04.28-06.26.03:843][425]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.27.19:160][419]LogEditorTransaction: Undo Remove Widget
+[2018.04.28-06.27.19:169][419]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.27.19:599][469]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.27.19:599][469]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.27.19:599][469]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.27.20:132][533]LogEditorTransaction: Undo Add Widget
+[2018.04.28-06.27.20:136][533]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.27.20:347][558]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.27.20:347][558]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.27.20:347][558]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.27.36:024][427]LogEditorTransaction: Undo Remove Widget
+[2018.04.28-06.27.36:028][427]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.27.36:247][452]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.27.36:248][452]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.27.36:248][452]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.30.00:995][773]LogSavePackage: Save=10.15ms
+[2018.04.28-06.30.00:995][773]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Menu_Auto25113DCCC492E5A3F96DA2DA6A03625FC.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Menu_Auto2.umap'
+[2018.04.28-06.30.00:995][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Menu_Auto2.umap
+[2018.04.28-06.30.00:997][773]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Menu' took 0.040
+[2018.04.28-06.30.00:997][773]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.040
+[2018.04.28-06.30.00:998][773]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu] ([1] browsable assets)...
+[2018.04.28-06.30.00:998][773]OBJ SavePackage: Finished generating thumbnails for package [/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu]
+[2018.04.28-06.30.01:018][773]LogSavePackage: Save=11.32ms
+[2018.04.28-06.30.01:018][773]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/VR_Main_Menu_Auto207CDAAD14E6003C95174FDA0340FB4A9.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu_Auto2.uasset'
+[2018.04.28-06.30.01:018][773]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/BluePrints/MainMenu/VR_Main_Menu_Auto2.uasset
+[2018.04.28-06.30.01:018][773]LogFileHelpers: Auto-saving content packages took 0.021
+[2018.04.28-06.33.43:883][404]LogEditorTransaction: Undo Move Widgets
+[2018.04.28-06.33.43:895][404]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-06.33.44:335][452]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-06.33.44:335][452]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-06.33.44:335][452]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-06.33.44:376][457]LogEditorTransaction: Undo Add Widget
+[2018.04.28-06.33.45:691][457]LogWindows: Error: === Critical error: ===
+[2018.04.28-06.33.45:691][457]LogWindows: Error: 
+[2018.04.28-06.33.45:691][457]LogWindows: Error: Fatal error!
+[2018.04.28-06.33.45:691][457]LogWindows: Error: 
+[2018.04.28-06.33.45:691][457]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000038
+[2018.04.28-06.33.45:691][457]LogWindows: Error: 
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F6DC7420 UE4Editor-UMG.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9BC48FD UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9C14AC4 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9BB3586 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9B612E5 UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9C5AB7E UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9B6AA7D UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9C4265A UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000E9C1016B UE4Editor-UMGEditor.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F10C0B8C UE4Editor-Kismet.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F10C588C UE4Editor-Kismet.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000ED96D4D7 UE4Editor-Engine.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC96B5FF UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F122E721 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC5BEA46 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC5E6112 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC5CDCE9 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC5CE61B UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC6328FB UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000EC675A0E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F10C0FC1 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000F10C5D26 UE4Editor-Kismet.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA919636 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA9583A0 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000ECE2BE9E UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000ECE17803 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA9063A1 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA8D700E UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA8D8C16 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA95988C UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000FA94BEE8 UE4Editor-Slate.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000000D70E28A UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000000D701A48 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000000D7103EC UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000000D6FD5A9 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000002EB7B85D USER32.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000002EB7B1EF USER32.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000000D711516 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000909E50C8 UE4Editor.exe!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000909F5430 UE4Editor.exe!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x00000000909F54AA UE4Editor.exe!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x0000000090A02379 UE4Editor.exe!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x0000000090A03D57 UE4Editor.exe!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000002F141FE4 KERNEL32.DLL!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000002F6CF061 ntdll.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: [Callstack] 0x000000002F6CF061 ntdll.dll!UnknownFunction []
+[2018.04.28-06.33.45:691][457]LogWindows: Error: 
+[2018.04.28-06.33.45:707][457]LogExit: Executing StaticShutdownAfterError
+[2018.04.28-06.33.45:757][457]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.04.28-06.33.45:757][457]Log file closed, 04/27/18 23:33:45

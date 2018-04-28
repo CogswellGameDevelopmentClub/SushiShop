@@ -1,4 +1,4 @@
-﻿Log file open, 04/26/18 04:34:16
+﻿Log file open, 04/28/18 00:46:11
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1609521148) SRandInit(-1609521148).
+LogInit: Display: RandInit(-585139573) SRandInit(-585139573).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.167653
+LogStats: Stats thread started at 0.151229
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3709383).
@@ -205,1082 +205,217 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.26-11.34.17:884][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.26-11.34.17:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.26-11.34.17:894][  0]LogInit: Computer: DESKTOP-TMTLRPJ
-[2018.04.26-11.34.17:894][  0]LogInit: User: GameDevClub
-[2018.04.26-11.34.17:894][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.26-11.34.17:894][  0]LogInit: High frequency timer resolution =4.101564 MHz
-[2018.04.26-11.34.17:895][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.04.26-11.34.17:895][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.26-11.34.17:895][  0]LogMemory: Process Physical Memory: 282.37 MB used, 282.37 MB peak
-[2018.04.26-11.34.17:895][  0]LogMemory: Process Virtual Memory: 289.46 MB used, 289.46 MB peak
-[2018.04.26-11.34.17:895][  0]LogMemory: Physical Memory: 7302.59 MB used,  9044.54 MB free, 16347.13 MB total
-[2018.04.26-11.34.17:895][  0]LogMemory: Virtual Memory: 754.88 MB used,  9044.54 MB free, 134217728.00 MB total
-[2018.04.26-11.34.18:061][  0]LogInit: Using OS detected language (en-US).
-[2018.04.26-11.34.18:061][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.26-11.34.18:064][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.26-11.34.18:424][  0]LogInit: Setting process to per monitor DPI aware
-[2018.04.26-11.34.18:644][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.26-11.34.18:672][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
-[2018.04.26-11.34.18:672][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2018.04.26-11.34.18:674][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.26-11.34.18:674][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.26-11.34.18:674][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.26-11.34.18:680][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.26-11.34.18:680][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.26-11.34.18:680][  0]LogWindows: EnumDisplayDevices:
-[2018.04.26-11.34.18:680][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
-[2018.04.26-11.34.18:681][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.04.26-11.34.18:681][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
-[2018.04.26-11.34.18:681][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
-[2018.04.26-11.34.18:681][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.26-11.34.18:681][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
-[2018.04.26-11.34.18:681][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.26-11.34.18:681][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.26-11.34.18:681][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
-[2018.04.26-11.34.18:701][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.26-11.34.18:760][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.26-11.34.18:857][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/13184/).
-[2018.04.26-11.34.18:858][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/5024E48B48F98F2B013C0A974AB33196/'.
-[2018.04.26-11.34.18:858][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.26-11.34.19:633][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.26-11.34.19:681][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.26-11.34.19:730][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.26-11.34.19:776][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.26-11.34.19:826][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.26-11.34.19:871][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.26-11.34.19:919][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.26-11.34.19:966][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.26-11.34.20:004][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.26-11.34.20:049][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.26-11.34.20:094][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.26-11.34.20:142][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.26-11.34.20:185][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.26-11.34.20:231][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.26-11.34.20:323][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.26-11.34.20:323][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.26-11.34.20:366][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.26-11.34.20:401][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.26-11.34.20:484][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.26-11.34.20:511][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.26-11.34.20:555][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.26-11.34.20:600][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.26-11.34.20:645][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.26-11.34.20:697][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.26-11.34.20:697][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.26-11.34.21:186][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: Loaded boot cache 0.06s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.26-11.34.21:245][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.26-11.34.21:258][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.26-11.34.21:269][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.26-11.34.21:279][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.26-11.34.21:279][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.26-11.34.21:280][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.26-11.34.21:280][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.26-11.34.21:604][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.26-11.34.21:920][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.26-11.34.21:958][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.26-11.34.21:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.26-11.34.21:958][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.26-11.34.21:958][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.26-11.34.21:958][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.26-11.34.21:989][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
-[2018.04.26-11.34.22:133][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
-[2018.04.26-11.34.22:558][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.060338 seconds
-[2018.04.26-11.34.22:562][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.04.26-11.34.22:562][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.04.26-11.34.22:562][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.26-11.34.22:616][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.26-11.34.24:930][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.04.26-11.34.24:963][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.26-11.34.25:003][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.26-11.34.25:729][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.26-11.34.26:095][  0]SourceControl: Source control is disabled
-[2018.04.26-11.34.26:095][  0]SourceControl: Source control is disabled
-[2018.04.26-11.34.26:143][  0]SourceControl: Source control is disabled
-[2018.04.26-11.34.26:191][  0]SourceControl: Source control is disabled
-[2018.04.26-11.34.26:939][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.26-11.34.27:171][  0]LogOcInput: OculusInput pre-init called
-[2018.04.26-11.34.27:695][  0]LogEngine: Initializing Engine...
-[2018.04.26-11.34.27:697][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
-[2018.04.26-11.34.27:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.26-11.34.27:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.26-11.34.27:972][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.26-11.34.27:981][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.34.27:989][  0]LogInit: FAudioDevice initialized.
-[2018.04.26-11.34.28:031][  0]LogDerivedDataCache: Saved boot cache 0.04s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.04.26-11.34.28:042][  0]LogInit: Texture streaming: Enabled
-[2018.04.26-11.34.28:125][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.26-11.34.28:232][  0]LogInit: Transaction tracking system initialized
-[2018.04.26-11.34.28:505][  0]BlueprintLog: New page: Editor Load
-[2018.04.26-11.34.29:316][  0]LocalizationService: Localization service is disabled
-[2018.04.26-11.34.29:923][  0]LogConsoleResponse: Display: 
-[2018.04.26-11.34.30:065][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.26-11.34.30:065][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.26-11.34.30:065][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.26-11.34.30:191][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
-[2018.04.26-11.34.31:030][  0]SourceControl: Source control is disabled
-[2018.04.26-11.34.31:030][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.26-11.34.31:031][  0]LightingResults: New page: Lighting Build
-[2018.04.26-11.34.31:064][  0]MapCheck: New page: Map Check
-[2018.04.26-11.34.31:064][  0]LightingResults: New page: Lighting Build
-[2018.04.26-11.34.31:144][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.04.26-11.34.31:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.26-11.34.31:155][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.26-11.34.31:193][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 37.371ms to complete.
-[2018.04.26-11.34.31:193][  0]LogFileHelpers: Loading map 'StartupMap' took 0.163
-[2018.04.26-11.34.31:365][  0]LogCollectionManager: Loaded 0 collections in 0.001439 seconds
-[2018.04.26-11.34.31:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
-[2018.04.26-11.34.31:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
-[2018.04.26-11.34.31:441][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
-[2018.04.26-11.34.31:441][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.26-11.34.31:447][  0]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 2388 classes and 535 folders.
-[2018.04.26-11.34.31:502][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.26-11.34.31:531][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.04.26-11.34.32:381][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.04.26-11.34.32:461][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.SushiShop
-[2018.04.26-11.34.32:461][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.04.26-11.34.32:461][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
-[2018.04.26-11.34.32:461][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
-[2018.04.26-11.34.32:461][  0]LogTemp: BranchPath = DESKTOP-TMTLRPJ/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = DESKTOP-TMTLRPJ/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
-[2018.04.26-11.34.32:461][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\GameDevClub\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.04.26-11.34.32:461][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Plugins/. Error: The system cannot find the file specified. (0x00000002)
-[2018.04.26-11.34.32:464][  0]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.26-11.34.32:468][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.26-11.34.32:469][  0]LogSlate: Took 0.000235 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.26-11.34.32:538][  0]LogRenderer: Reallocating scene render targets to support 976x480 Format 26 NumSamples 1 (Frame:1).
-[2018.04.26-11.34.32:691][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.04.26-11.34.32:691][  0]LogLoad: (Engine Initialization) Total time: 17.32 seconds
-[2018.04.26-11.34.32:691][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.26-11.34.32:691][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.26-11.34.32:712][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.04.26-11.34.32:720][  0]LogOcInput: OculusInput is initialized
-[2018.04.26-11.34.32:741][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.26-11.34.32:794][  0]LogSlate: Took 0.000226 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.26-11.34.32:810][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2018.04.26-11.34.32:828][  1]LogAssetRegistry: Asset discovery search completed in 10.7157 seconds
-[2018.04.26-11.34.32:830][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.26-11.34.32:831][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000099 seconds (updated 0 objects)
-[2018.04.26-11.34.34:078][103]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.26-11.34.34:322][103]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
-[2018.04.26-11.34.36:514][103]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.26-11.34.36:517][103]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.26-11.34.36:731][104]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.26-11.34.50:005][361]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.26-11.34.50:558][361]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.34.50:653][361]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.26-11.34.50:653][361]LightingResults: New page: Lighting Build
-[2018.04.26-11.34.50:654][361]LoadErrors: New page: Loading map: Main.umap
-[2018.04.26-11.34.50:654][361]MapCheck: New page: Map Check
-[2018.04.26-11.34.50:654][361]LightingResults: New page: Lighting Build
-[2018.04.26-11.34.50:677][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.34.50:677][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.34.50:682][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.34.50:682][361]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.34.50:777][361]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.26-11.34.50:848][361]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.26-11.34.50:918][361]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.334ms to complete.
-[2018.04.26-11.34.50:918][361]LogFileHelpers: Loading map 'Main' took 0.265
-[2018.04.26-11.34.52:513][495]LogEditorViewport: Clicking on Actor (LMB): Sake_Bottle_2_C (Sake_Bottle_16)
-[2018.04.26-11.35.01:362][215]LogDestructible: Warning: MainMesh Tris: 708
-[2018.04.26-11.35.01:382][215]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
-[2018.04.26-11.35.01:382][215]LogApexDestructibleAssetImport: Warning: Bones digested - 2  Depth of hierarchy - 2
-[2018.04.26-11.35.01:397][215]LogSkeletalMesh: Section 0: 410 vertices, 1 active bones
-[2018.04.26-11.35.01:400][215]LogSkeletalMesh: Section 0: Material=0, 708 triangles
-[2018.04.26-11.35.01:503][215]LogRenderer: Reallocating scene render targets to support 988x744 Format 26 NumSamples 1 (Frame:1).
-[2018.04.26-11.37.16:218][192]LogDestructible: Warning: MainMesh Tris: 708
-[2018.04.26-11.37.17:482][192]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
-[2018.04.26-11.37.17:483][192]LogApexDestructibleAssetImport: Warning: Bones digested - 52  Depth of hierarchy - 2
-[2018.04.26-11.37.17:885][192]LogSkeletalMesh: Section 0: 3915 vertices, 49 active bones
-[2018.04.26-11.37.17:885][192]LogSkeletalMesh: Section 1: 5323 vertices, 50 active bones
-[2018.04.26-11.37.17:903][192]LogSkeletalMesh: Section 0: Material=0, 4461 triangles
-[2018.04.26-11.37.17:903][192]LogSkeletalMesh: Section 1: Material=1, 4462 triangles
-[2018.04.26-11.37.17:911][192]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.37.17:911][192]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.37.17:911][192]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.37.17:911][192]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.38.34:683][435]LogSavePackage: Save=67.39ms
-[2018.04.26-11.38.34:683][435]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DMF68373E0461C4F87B6FD9988656DE035.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.38.34:686][435]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.39.06:270][431]LogRenderer: Reallocating scene render targets to support 1124x744 Format 26 NumSamples 1 (Frame:1).
-[2018.04.26-11.39.06:270][431]LogStaticMesh: Allocated 494x168x64 distance field atlas = 10.1Mb, with 142 objects containing 3.4Mb backing data
-[2018.04.26-11.40.06:548][869]LogSavePackage: Save=451.34ms
-[2018.04.26-11.40.06:549][869]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainA6D6726D4FC68CE70B7C4C9859E3831A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
-[2018.04.26-11.40.06:551][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
-[2018.04.26-11.40.07:025][869]LogSavePackage: Save=399.33ms
-[2018.04.26-11.40.07:025][869]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltDataF7B359C941CD8E30DCB2048195785874.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
-[2018.04.26-11.40.07:027][869]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:Name' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:ReceiveTick' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:ReceiveBeginPlay' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.BP_Item1_C' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:Cube' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:477][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.SKEL_BP_Item1_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:478][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.BP_Item1_C:Name' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:478][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.BP_Item1_C:Cube' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:478][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.BP_Item1_C:UserConstructionScript' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:478][242]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/BP_Item1.BP_Item1_C:ExecuteUbergraph_BP_Item1' ref from Metadata '/Game/SushiShop/BluePrints/New/ItemHandling/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.22:532][242]LogSavePackage: Save=26.55ms
-[2018.04.26-11.40.22:532][242]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_Item1893E774E4C34529A730AED8D1C555F21.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/BP_Item1.uasset'
-[2018.04.26-11.40.22:534][242]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/BP_Item1.uasset
-[2018.04.26-11.40.31:491][903]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/Destructible.Destructible_C' ref from Metadata '/Game/SushiShop/Assets/Props/bottles/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.31:491][903]LogMetaData: Removing '/Game/SushiShop/Assets/Props/bottles/Destructible.SKEL_Destructible_C' ref from Metadata '/Game/SushiShop/Assets/Props/bottles/BP_Item1.PackageMetaData'
-[2018.04.26-11.40.31:556][903]LogSavePackage: Save=29.01ms
-[2018.04.26-11.40.31:556][903]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/DestructibleA71227EC4DA55951CFA6D2AE9DF3894A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Destructible.uasset'
-[2018.04.26-11.40.31:558][903]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Destructible.uasset
-[2018.04.26-11.41.09:712][ 38]BlueprintLog: New page: Compile Destructible
-[2018.04.26-11.41.09:718][ 38]LogBlueprint: Error: [Compiler Destructible] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
-[2018.04.26-11.41.09:718][ 38]LogBlueprint: Error: [Compiler Destructible] This blueprint (self) is not a PrimitiveComponent, therefore ' Target ' must have a connection.
-[2018.04.26-11.41.09:828][ 38]LogBlueprint: Warning: [Compiler Destructible] [0414.45] Compile of Destructible failed. 2 Fatal Issue(s) 0 Warning(s) [in 116 ms] (/Game/SushiShop/Assets/Props/bottles/Destructible.Destructible)
-[2018.04.26-11.41.26:195][475]BlueprintLog: New page: Compile Destructible
-[2018.04.26-11.41.27:188][543]LogSavePackage: Save=18.97ms
-[2018.04.26-11.41.27:188][543]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Destructible795DC1984B4305555752EBA23D7C5EF8.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Destructible.uasset'
-[2018.04.26-11.41.27:191][543]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Destructible.uasset
-[2018.04.26-11.41.50:886][500]LogEditorViewport: Clicking on Actor (LMB): Sake_Bottle_2_C (Sake_Bottle_14)
-[2018.04.26-11.41.57:042][986]LogMaterial: Warning: Material /Game/GTFreeMaterials/Materials/Metal_DiamondPlateSciFi.Metal_DiamondPlateSciFi needed to have new flag set bUsedWithSkeletalMesh !
-[2018.04.26-11.41.57:044][986]LogMaterial: Missing cached shader map for material Metal_DiamondPlateSciFi, compiling. 
-[2018.04.26-11.42.40:077][ 44]BlueprintLog: New page: Compile Sake_Bottle_2
-[2018.04.26-11.42.44:979][ 99]LogSavePackage: Save=22.04ms
-[2018.04.26-11.42.44:979][ 99]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Sake_Bottle_28D47A44E42D3976F6CF3F1AFF499EB34.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset'
-[2018.04.26-11.42.44:981][ 99]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset
-[2018.04.26-11.42.47:113][276]LogTemp: Repeating last play command: VR Preview
-[2018.04.26-11.42.47:201][276]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.42.47:201][276]LogHMD: Initializing OVRPlugin session
-[2018.04.26-11.42.47:223][276]PIE: New page: PIE session: Main (Apr 25, 2018, 9:42:47 PM)
-[2018.04.26-11.42.47:224][276]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.42.47:246][276]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022031s)
-[2018.04.26-11.42.47:246][276]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.42.47:246][276]LogPlayLevel: PIE: World Init took: (0.000819s)
-[2018.04.26-11.42.47:247][276]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.023327s)
-[2018.04.26-11.42.47:274][276]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.42.47:280][276]LogInit: FAudioDevice initialized.
-[2018.04.26-11.42.47:378][276]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-11.42.47:417][276]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.42.47:417][276]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.42.47:430][276]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.42.47:438][276]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.42.47:449][276]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.42.47:456][276]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.42.47:459][276]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.42.47
-[2018.04.26-11.42.47:460][276]LogWorld: Bringing up level for play took: 0.042124
-[2018.04.26-11.42.47:494][276]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2018.04.26-11.42.47:508][276]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.487
-[2018.04.26-11.42.47:515][276]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-11.42.47:515][276]LogHMD: Allocating Oculus 1124 x 744 depth rendertarget swapchain
-[2018.04.26-11.42.47:553][276]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
-[2018.04.26-11.42.47:553][276]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-11.43.47:325][419]LogTemp: Repeating last play command: VR Preview
-[2018.04.26-11.43.47:364][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.43.47:364][419]LogHMD: Initializing OVRPlugin session
-[2018.04.26-11.43.47:389][419]PIE: New page: PIE session: Main (Apr 25, 2018, 9:43:47 PM)
-[2018.04.26-11.43.47:389][419]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.43.47:413][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024194s)
-[2018.04.26-11.43.47:414][419]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.43.47:414][419]LogPlayLevel: PIE: World Init took: (0.000796s)
-[2018.04.26-11.43.47:414][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.025510s)
-[2018.04.26-11.43.47:441][419]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.43.47:446][419]LogInit: FAudioDevice initialized.
-[2018.04.26-11.43.47:537][419]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-11.43.47:564][419]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.43.47:564][419]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.43.47:576][419]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.43.47:583][419]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.43.47:594][419]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.43.47:602][419]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.43.47:609][419]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.43.47
-[2018.04.26-11.43.47:610][419]LogWorld: Bringing up level for play took: 0.045646
-[2018.04.26-11.43.47:623][419]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.602
-[2018.04.26-11.43.47:629][419]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-11.43.47:629][419]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-11.44.00:115][490]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.44.16:188][480]LogTemp: Repeating last play command: VR Preview
-[2018.04.26-11.44.16:227][480]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.44.16:227][480]LogHMD: Initializing OVRPlugin session
-[2018.04.26-11.44.16:248][480]PIE: New page: PIE session: Main (Apr 25, 2018, 9:44:16 PM)
-[2018.04.26-11.44.16:248][480]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.44.16:269][480]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021227s)
-[2018.04.26-11.44.16:270][480]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.44.16:270][480]LogPlayLevel: PIE: World Init took: (0.000736s)
-[2018.04.26-11.44.16:270][480]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.022360s)
-[2018.04.26-11.44.16:298][480]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.44.16:304][480]LogInit: FAudioDevice initialized.
-[2018.04.26-11.44.16:397][480]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-11.44.16:425][480]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.44.16:425][480]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.44.16:437][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.44.16:445][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.44.16:457][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.44.16:465][480]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.44.16:468][480]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.44.16
-[2018.04.26-11.44.16:469][480]LogWorld: Bringing up level for play took: 0.043242
-[2018.04.26-11.44.16:483][480]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.538
-[2018.04.26-11.44.16:489][480]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-11.44.16:489][480]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-11.44.30:572][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water sushi bar)
-[2018.04.26-11.44.30:931][722]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.44.31:282][746]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.26-11.44.46:467][978]LogSavePackage: Save=478.03ms
-[2018.04.26-11.44.46:467][978]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainB198E40444C20082A8995392C143B5B4.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
-[2018.04.26-11.44.46:470][978]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
-[2018.04.26-11.44.46:825][978]LogSavePackage: Save=298.16ms
-[2018.04.26-11.44.46:825][978]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltDataF7E9B90A47AC1E1C571AC6A0AE8CB5BA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
-[2018.04.26-11.44.46:827][978]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
-[2018.04.26-11.44.47:554][ 40]LogTemp: Repeating last play command: VR Preview
-[2018.04.26-11.44.47:595][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.44.47:595][ 40]LogHMD: Initializing OVRPlugin session
-[2018.04.26-11.44.47:615][ 40]PIE: New page: PIE session: Main (Apr 25, 2018, 9:44:47 PM)
-[2018.04.26-11.44.47:616][ 40]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.44.47:637][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021868s)
-[2018.04.26-11.44.47:638][ 40]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.44.47:639][ 40]LogPlayLevel: PIE: World Init took: (0.001142s)
-[2018.04.26-11.44.47:639][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.023515s)
-[2018.04.26-11.44.47:667][ 40]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.44.47:672][ 40]LogInit: FAudioDevice initialized.
-[2018.04.26-11.44.47:768][ 40]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-11.44.47:796][ 40]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.44.47:796][ 40]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.44.47:808][ 40]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.44.47:817][ 40]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.44.47:828][ 40]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.44.47:837][ 40]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.44.47:839][ 40]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.44.47
-[2018.04.26-11.44.47:840][ 40]LogWorld: Bringing up level for play took: 0.043421
-[2018.04.26-11.44.47:853][ 40]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.833
-[2018.04.26-11.44.47:861][ 40]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-11.44.47:861][ 40]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-11.45.55:147][977]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
-[2018.04.26-11.46.24:825][154]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.46.32:022][719]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.46.32:022][719]PIE: New page: SIE session: Main (Apr 25, 2018, 9:46:32 PM)
-[2018.04.26-11.46.32:022][719]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.46.32:036][719]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014035s)
-[2018.04.26-11.46.32:036][719]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.46.32:037][719]LogPlayLevel: PIE: World Init took: (0.000701s)
-[2018.04.26-11.46.32:037][719]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015093s)
-[2018.04.26-11.46.32:058][719]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.46.32:064][719]LogInit: FAudioDevice initialized.
-[2018.04.26-11.46.32:097][719]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.46.32:098][719]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.46.32:108][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.46.32:116][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.46.32:126][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.46.32:134][719]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.46.32:137][719]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.46.32
-[2018.04.26-11.46.32:138][719]LogWorld: Bringing up level for play took: 0.039963
-[2018.04.26-11.46.32:138][719]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.46.32:143][719]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 1.122
-[2018.04.26-11.46.42:463][400]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.46.42:495][400]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.46.42:495][400]PIE: New page: SIE session: Main (Apr 25, 2018, 9:46:42 PM)
-[2018.04.26-11.46.42:495][400]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.46.42:509][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014592s)
-[2018.04.26-11.46.42:510][400]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.46.42:510][400]LogPlayLevel: PIE: World Init took: (0.000521s)
-[2018.04.26-11.46.42:510][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015393s)
-[2018.04.26-11.46.42:530][400]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.46.42:535][400]LogInit: FAudioDevice initialized.
-[2018.04.26-11.46.42:565][400]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.46.42:565][400]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.46.42:577][400]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.46.42:585][400]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.46.42:595][400]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.46.42:602][400]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.46.42:605][400]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.46.42
-[2018.04.26-11.46.42:606][400]LogWorld: Bringing up level for play took: 0.040379
-[2018.04.26-11.46.42:606][400]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.46.42:610][400]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.411
-[2018.04.26-11.46.50:468][937]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.46.50:502][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.46.50:502][937]PIE: New page: SIE session: Main (Apr 25, 2018, 9:46:50 PM)
-[2018.04.26-11.46.50:502][937]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.46.50:521][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018671s)
-[2018.04.26-11.46.50:521][937]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.46.50:521][937]LogPlayLevel: PIE: World Init took: (0.000541s)
-[2018.04.26-11.46.50:522][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.019490s)
-[2018.04.26-11.46.50:544][937]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.46.50:550][937]LogInit: FAudioDevice initialized.
-[2018.04.26-11.46.50:579][937]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.46.50:579][937]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.46.50:590][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.46.50:598][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.46.50:609][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.46.50:617][937]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.46.50:619][937]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.46.50
-[2018.04.26-11.46.50:620][937]LogWorld: Bringing up level for play took: 0.040132
-[2018.04.26-11.46.50:620][937]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.46.50:624][937]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.396
-[2018.04.26-11.46.55:688][420]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.48.01:425][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
-[2018.04.26-11.48.09:319][690]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.48.09:352][690]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.48.09:353][690]PIE: New page: SIE session: Main (Apr 25, 2018, 9:48:09 PM)
-[2018.04.26-11.48.09:353][690]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.48.09:370][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017430s)
-[2018.04.26-11.48.09:370][690]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.48.09:371][690]LogPlayLevel: PIE: World Init took: (0.000525s)
-[2018.04.26-11.48.09:371][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.018240s)
-[2018.04.26-11.48.09:392][690]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.48.09:398][690]LogInit: FAudioDevice initialized.
-[2018.04.26-11.48.09:431][690]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.48.09:431][690]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.48.09:442][690]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.48.09:450][690]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.48.09:460][690]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.48.09:468][690]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.48.09:470][690]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.48.09
-[2018.04.26-11.48.09:471][690]LogWorld: Bringing up level for play took: 0.040042
-[2018.04.26-11.48.09:471][690]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.48.09:476][690]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.455
-[2018.04.26-11.48.11:995][918]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.48.22:737][889]LogSavePackage: Save=57.14ms
-[2018.04.26-11.48.22:737][889]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM1CC0CD8849397EF94552C68E011316BB.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.48.22:739][889]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.48.24:281][ 37]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.48.24:313][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.48.24:313][ 37]PIE: New page: SIE session: Main (Apr 25, 2018, 9:48:24 PM)
-[2018.04.26-11.48.24:313][ 37]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.48.24:328][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014244s)
-[2018.04.26-11.48.24:328][ 37]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.48.24:328][ 37]LogPlayLevel: PIE: World Init took: (0.000653s)
-[2018.04.26-11.48.24:328][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015213s)
-[2018.04.26-11.48.24:349][ 37]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.48.24:354][ 37]LogInit: FAudioDevice initialized.
-[2018.04.26-11.48.24:386][ 37]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.48.24:386][ 37]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.48.24:397][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.48.24:405][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.48.24:416][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.48.24:423][ 37]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.48.24:426][ 37]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.48.24
-[2018.04.26-11.48.24:427][ 37]LogWorld: Bringing up level for play took: 0.040381
-[2018.04.26-11.48.24:427][ 37]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.48.24:431][ 37]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.589
-[2018.04.26-11.48.29:530][531]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.48.31:852][779]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.48.31:885][779]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.48.31:885][779]PIE: New page: SIE session: Main (Apr 25, 2018, 9:48:31 PM)
-[2018.04.26-11.48.31:885][779]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.48.31:898][779]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013477s)
-[2018.04.26-11.48.31:899][779]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.48.31:899][779]LogPlayLevel: PIE: World Init took: (0.000538s)
-[2018.04.26-11.48.31:899][779]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014288s)
-[2018.04.26-11.48.31:920][779]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.48.31:924][779]LogInit: FAudioDevice initialized.
-[2018.04.26-11.48.31:956][779]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.48.31:957][779]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.48.31:967][779]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.48.31:975][779]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.48.31:986][779]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.48.31:993][779]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.48.31:996][779]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.48.31
-[2018.04.26-11.48.31:997][779]LogWorld: Bringing up level for play took: 0.039926
-[2018.04.26-11.48.31:997][779]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.48.32:001][779]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.981
-[2018.04.26-11.48.37:782][424]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.48.37:814][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.48.37:815][424]PIE: New page: SIE session: Main (Apr 25, 2018, 9:48:37 PM)
-[2018.04.26-11.48.37:815][424]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.48.37:828][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013769s)
-[2018.04.26-11.48.37:829][424]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.48.37:829][424]LogPlayLevel: PIE: World Init took: (0.000522s)
-[2018.04.26-11.48.37:829][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014559s)
-[2018.04.26-11.48.37:850][424]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.48.37:854][424]LogInit: FAudioDevice initialized.
-[2018.04.26-11.48.37:882][424]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.48.37:882][424]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.48.37:893][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.48.37:901][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.48.37:912][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.48.37:920][424]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.48.37:922][424]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.48.37
-[2018.04.26-11.48.37:923][424]LogWorld: Bringing up level for play took: 0.040259
-[2018.04.26-11.48.37:923][424]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.48.37:927][424]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.907
-[2018.04.26-11.48.39:548][582]LogSavePackage: Save=56.88ms
-[2018.04.26-11.48.39:548][582]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM0F5C020447E51F0E06BF3AA21DEA588E.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.48.39:550][582]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.48.40:683][707]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.48.40:715][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.48.40:715][707]PIE: New page: SIE session: Main (Apr 25, 2018, 9:48:40 PM)
-[2018.04.26-11.48.40:716][707]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.48.40:730][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014286s)
-[2018.04.26-11.48.40:730][707]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.48.40:730][707]LogPlayLevel: PIE: World Init took: (0.000530s)
-[2018.04.26-11.48.40:731][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015129s)
-[2018.04.26-11.48.40:751][707]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.48.40:756][707]LogInit: FAudioDevice initialized.
-[2018.04.26-11.48.40:784][707]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.48.40:784][707]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.48.40:795][707]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.48.40:803][707]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.48.40:814][707]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.48.40:822][707]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.48.40:824][707]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.48.40
-[2018.04.26-11.48.40:825][707]LogWorld: Bringing up level for play took: 0.040664
-[2018.04.26-11.48.40:825][707]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.48.40:830][707]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.191
-[2018.04.26-11.49.13:098][487]LogSavePackage: Save=57.35ms
-[2018.04.26-11.49.13:098][487]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DMB49684774A44FB04316976B6BEE49476.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.49.13:100][487]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.49.14:051][595]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.49.14:084][595]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.49.14:084][595]PIE: New page: SIE session: Main (Apr 25, 2018, 9:49:14 PM)
-[2018.04.26-11.49.14:084][595]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.49.14:099][595]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014938s)
-[2018.04.26-11.49.14:099][595]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.49.14:100][595]LogPlayLevel: PIE: World Init took: (0.000572s)
-[2018.04.26-11.49.14:100][595]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015803s)
-[2018.04.26-11.49.14:120][595]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.49.14:125][595]LogInit: FAudioDevice initialized.
-[2018.04.26-11.49.14:155][595]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.49.14:155][595]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.49.14:166][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.49.14:174][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.49.14:185][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.49.14:193][595]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.49.14:196][595]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.49.14
-[2018.04.26-11.49.14:197][595]LogWorld: Bringing up level for play took: 0.041414
-[2018.04.26-11.49.14:197][595]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.49.14:202][595]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.819
-[2018.04.26-11.49.25:693][912]LogSavePackage: Save=56.62ms
-[2018.04.26-11.49.25:693][912]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DMF8B1EBF44A01C8F2281B0C9C694B66B6.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.49.25:695][912]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.49.27:569][128]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.49.27:602][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.49.27:602][128]PIE: New page: SIE session: Main (Apr 25, 2018, 9:49:27 PM)
-[2018.04.26-11.49.27:602][128]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.49.27:616][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014333s)
-[2018.04.26-11.49.27:617][128]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.49.27:617][128]LogPlayLevel: PIE: World Init took: (0.000568s)
-[2018.04.26-11.49.27:617][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015190s)
-[2018.04.26-11.49.27:638][128]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.49.27:642][128]LogInit: FAudioDevice initialized.
-[2018.04.26-11.49.27:672][128]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.49.27:672][128]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.49.27:684][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.49.27:691][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.49.27:702][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.49.27:710][128]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.49.27:712][128]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.49.27
-[2018.04.26-11.49.27:713][128]LogWorld: Bringing up level for play took: 0.040458
-[2018.04.26-11.49.27:713][128]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.49.27:718][128]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.698
-[2018.04.26-11.49.44:588][ 40]LogSavePackage: Save=57.79ms
-[2018.04.26-11.49.44:588][ 40]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM23ACF1A444C06E12F5A95BA04409CD57.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.49.44:590][ 40]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.49.45:335][123]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.49.45:368][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.49.45:368][123]PIE: New page: SIE session: Main (Apr 25, 2018, 9:49:45 PM)
-[2018.04.26-11.49.45:368][123]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.49.45:383][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014339s)
-[2018.04.26-11.49.45:383][123]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.49.45:383][123]LogPlayLevel: PIE: World Init took: (0.000522s)
-[2018.04.26-11.49.45:383][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015140s)
-[2018.04.26-11.49.45:404][123]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.49.45:409][123]LogInit: FAudioDevice initialized.
-[2018.04.26-11.49.45:441][123]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.49.45:441][123]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.49.45:452][123]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.49.45:460][123]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.49.45:470][123]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.49.45:478][123]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.49.45:481][123]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.49.45
-[2018.04.26-11.49.45:481][123]LogWorld: Bringing up level for play took: 0.040120
-[2018.04.26-11.49.45:482][123]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.49.45:486][123]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.465
-[2018.04.26-11.49.53:193][998]LogSavePackage: Save=56.36ms
-[2018.04.26-11.49.53:193][998]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM93BF4E26453FD23D7495B4ABBADA04E2.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.49.53:196][998]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.49.54:208][114]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.49.54:242][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.49.54:242][114]PIE: New page: SIE session: Main (Apr 25, 2018, 9:49:54 PM)
-[2018.04.26-11.49.54:242][114]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.49.54:257][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014309s)
-[2018.04.26-11.49.54:257][114]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.49.54:257][114]LogPlayLevel: PIE: World Init took: (0.000729s)
-[2018.04.26-11.49.54:258][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015422s)
-[2018.04.26-11.49.54:278][114]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.49.54:283][114]LogInit: FAudioDevice initialized.
-[2018.04.26-11.49.54:315][114]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.49.54:315][114]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.49.54:326][114]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.49.54:334][114]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.49.54:345][114]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.49.54:353][114]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.49.54:355][114]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.49.54
-[2018.04.26-11.49.54:356][114]LogWorld: Bringing up level for play took: 0.040922
-[2018.04.26-11.49.54:356][114]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.49.54:361][114]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.66
-[2018.04.26-11.50.00:283][753]LogSavePackage: Save=58.54ms
-[2018.04.26-11.50.00:283][753]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM89B075604C126F91F4151C89AA3FC171.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.50.00:286][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.50.01:356][875]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.01:388][875]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.01:388][875]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:01 PM)
-[2018.04.26-11.50.01:388][875]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.01:402][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013918s)
-[2018.04.26-11.50.01:403][875]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.01:403][875]LogPlayLevel: PIE: World Init took: (0.000519s)
-[2018.04.26-11.50.01:403][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014711s)
-[2018.04.26-11.50.01:424][875]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.01:430][875]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.01:464][875]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.01:464][875]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.01:475][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.01:482][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.01:493][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.01:501][875]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.01:503][875]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.01
-[2018.04.26-11.50.01:504][875]LogWorld: Bringing up level for play took: 0.039549
-[2018.04.26-11.50.01:504][875]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.01:508][875]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.488
-[2018.04.26-11.50.03:681][ 91]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.50.08:179][589]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.08:211][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.08:211][589]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:08 PM)
-[2018.04.26-11.50.08:212][589]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.08:225][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013637s)
-[2018.04.26-11.50.08:226][589]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.08:226][589]LogPlayLevel: PIE: World Init took: (0.000570s)
-[2018.04.26-11.50.08:226][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014551s)
-[2018.04.26-11.50.08:246][589]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.08:251][589]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.08:284][589]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.08:284][589]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.08:295][589]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.08:303][589]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.08:313][589]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.08:321][589]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.08:324][589]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.08
-[2018.04.26-11.50.08:324][589]LogWorld: Bringing up level for play took: 0.040181
-[2018.04.26-11.50.08:325][589]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.08:329][589]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.692
-[2018.04.26-11.50.31:501][647]LogSavePackage: Save=57.38ms
-[2018.04.26-11.50.31:501][647]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM9D8DD0BE47613CA2A2DD7CAD1EAE0EFD.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.50.31:503][647]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.50.32:662][767]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.50.33:293][825]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.33:326][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.33:326][825]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:33 PM)
-[2018.04.26-11.50.33:326][825]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.33:340][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013563s)
-[2018.04.26-11.50.33:340][825]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.33:340][825]LogPlayLevel: PIE: World Init took: (0.000542s)
-[2018.04.26-11.50.33:341][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014369s)
-[2018.04.26-11.50.33:361][825]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.33:366][825]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.33:394][825]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.33:395][825]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.33:405][825]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.33:413][825]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.33:424][825]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.33:432][825]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.33:434][825]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.33
-[2018.04.26-11.50.33:435][825]LogWorld: Bringing up level for play took: 0.039570
-[2018.04.26-11.50.33:435][825]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.33:440][825]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.419
-[2018.04.26-11.50.38:415][144]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.50.42:596][553]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.42:628][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.42:628][553]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:42 PM)
-[2018.04.26-11.50.42:628][553]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.42:643][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014319s)
-[2018.04.26-11.50.42:643][553]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.42:643][553]LogPlayLevel: PIE: World Init took: (0.000516s)
-[2018.04.26-11.50.42:643][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015107s)
-[2018.04.26-11.50.42:667][553]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.42:672][553]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.42:706][553]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.42:706][553]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.42:717][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.42:725][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.42:736][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.42:743][553]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.42:746][553]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.42
-[2018.04.26-11.50.42:747][553]LogWorld: Bringing up level for play took: 0.040438
-[2018.04.26-11.50.42:747][553]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.42:751][553]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.269
-[2018.04.26-11.50.44:823][722]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.50.46:823][913]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.46:856][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.46:856][913]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:46 PM)
-[2018.04.26-11.50.46:856][913]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.46:871][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014330s)
-[2018.04.26-11.50.46:871][913]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.46:871][913]LogPlayLevel: PIE: World Init took: (0.000518s)
-[2018.04.26-11.50.46:871][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015121s)
-[2018.04.26-11.50.46:892][913]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.46:897][913]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.46:930][913]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.46:930][913]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.46:941][913]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.46:949][913]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.46:960][913]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.46:967][913]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.46:970][913]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.46
-[2018.04.26-11.50.46:971][913]LogWorld: Bringing up level for play took: 0.040260
-[2018.04.26-11.50.46:971][913]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.46:975][913]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.045
-[2018.04.26-11.50.50:963][171]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.50.55:667][615]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.50.55:701][615]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.50.55:701][615]PIE: New page: SIE session: Main (Apr 25, 2018, 9:50:55 PM)
-[2018.04.26-11.50.55:701][615]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.50.55:715][615]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013919s)
-[2018.04.26-11.50.55:715][615]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.50.55:715][615]LogPlayLevel: PIE: World Init took: (0.000599s)
-[2018.04.26-11.50.55:716][615]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.014880s)
-[2018.04.26-11.50.55:737][615]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.50.55:741][615]LogInit: FAudioDevice initialized.
-[2018.04.26-11.50.55:773][615]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.50.55:773][615]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.50.55:784][615]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.50.55:792][615]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.50.55:802][615]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.50.55:810][615]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.50.55:812][615]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.50.55
-[2018.04.26-11.50.55:813][615]LogWorld: Bringing up level for play took: 0.038892
-[2018.04.26-11.50.55:813][615]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.50.55:817][615]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.797
-[2018.04.26-11.52.27:632][929]LogSavePackage: Save=61.54ms
-[2018.04.26-11.52.27:632][929]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DMEB27C6894B8C1F6C373E28A01F448C8F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.52.27:634][929]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.52.28:657][ 24]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.52.28:692][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.52.28:693][ 24]PIE: New page: SIE session: Main (Apr 25, 2018, 9:52:28 PM)
-[2018.04.26-11.52.28:693][ 24]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.52.28:709][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016148s)
-[2018.04.26-11.52.28:710][ 24]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.52.28:710][ 24]LogPlayLevel: PIE: World Init took: (0.000679s)
-[2018.04.26-11.52.28:710][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.017190s)
-[2018.04.26-11.52.28:733][ 24]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.52.28:739][ 24]LogInit: FAudioDevice initialized.
-[2018.04.26-11.52.28:770][ 24]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.52.28:771][ 24]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.52.28:782][ 24]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.52.28:791][ 24]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.52.28:802][ 24]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.52.28:810][ 24]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.52.28:813][ 24]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.52.28
-[2018.04.26-11.52.28:814][ 24]LogWorld: Bringing up level for play took: 0.042133
-[2018.04.26-11.52.28:814][ 24]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.52.28:819][ 24]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.202
-[2018.04.26-11.52.29:488][ 52]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.52.38:781][647]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.52.43:641][ 86]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.52.43:676][ 86]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.52.43:677][ 86]PIE: New page: SIE session: Main (Apr 25, 2018, 9:52:43 PM)
-[2018.04.26-11.52.43:677][ 86]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.52.43:691][ 86]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014278s)
-[2018.04.26-11.52.43:691][ 86]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.52.43:692][ 86]LogPlayLevel: PIE: World Init took: (0.000541s)
-[2018.04.26-11.52.43:692][ 86]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015104s)
-[2018.04.26-11.52.43:715][ 86]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.52.43:721][ 86]LogInit: FAudioDevice initialized.
-[2018.04.26-11.52.43:754][ 86]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.52.43:754][ 86]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.52.43:765][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.52.43:773][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.52.43:784][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.52.43:791][ 86]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.52.43:794][ 86]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.52.43
-[2018.04.26-11.52.43:795][ 86]LogWorld: Bringing up level for play took: 0.040508
-[2018.04.26-11.52.43:795][ 86]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.52.43:800][ 86]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.779
-[2018.04.26-11.52.49:662][459]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.52.50:999][573]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.52.51:033][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.52.51:033][573]PIE: New page: SIE session: Main (Apr 25, 2018, 9:52:51 PM)
-[2018.04.26-11.52.51:033][573]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.52.51:051][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017821s)
-[2018.04.26-11.52.51:052][573]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.52.51:052][573]LogPlayLevel: PIE: World Init took: (0.000563s)
-[2018.04.26-11.52.51:052][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.018744s)
-[2018.04.26-11.52.51:074][573]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.52.51:079][573]LogInit: FAudioDevice initialized.
-[2018.04.26-11.52.51:112][573]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.52.51:112][573]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.52.51:125][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.52.51:133][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.52.51:145][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.52.51:152][573]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.52.51:156][573]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.52.51
-[2018.04.26-11.52.51:157][573]LogWorld: Bringing up level for play took: 0.043662
-[2018.04.26-11.52.51:157][573]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.52.51:162][573]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.141
-[2018.04.26-11.52.56:064][932]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.52.57:017][ 15]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.52.57:052][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.52.57:052][ 15]PIE: New page: SIE session: Main (Apr 25, 2018, 9:52:57 PM)
-[2018.04.26-11.52.57:052][ 15]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.52.57:069][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016368s)
-[2018.04.26-11.52.57:069][ 15]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.52.57:070][ 15]LogPlayLevel: PIE: World Init took: (0.000651s)
-[2018.04.26-11.52.57:070][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.017304s)
-[2018.04.26-11.52.57:094][ 15]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.52.57:100][ 15]LogInit: FAudioDevice initialized.
-[2018.04.26-11.52.57:132][ 15]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.52.57:132][ 15]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.52.57:144][ 15]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.52.57:151][ 15]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.52.57:163][ 15]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.52.57:171][ 15]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.52.57:175][ 15]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.52.57
-[2018.04.26-11.52.57:176][ 15]LogWorld: Bringing up level for play took: 0.042768
-[2018.04.26-11.52.57:176][ 15]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.52.57:181][ 15]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.161
-[2018.04.26-11.53.11:730][ 65]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.53.11:766][ 65]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.53.11:766][ 65]PIE: New page: SIE session: Main (Apr 25, 2018, 9:53:11 PM)
-[2018.04.26-11.53.11:766][ 65]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.53.11:782][ 65]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016091s)
-[2018.04.26-11.53.11:782][ 65]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.53.11:783][ 65]LogPlayLevel: PIE: World Init took: (0.000641s)
-[2018.04.26-11.53.11:783][ 65]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.017172s)
-[2018.04.26-11.53.11:806][ 65]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.53.11:810][ 65]LogInit: FAudioDevice initialized.
-[2018.04.26-11.53.11:839][ 65]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.53.11:839][ 65]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.53.11:850][ 65]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.53.11:858][ 65]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.53.11:870][ 65]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.53.11:878][ 65]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.53.11:881][ 65]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.53.11
-[2018.04.26-11.53.11:882][ 65]LogWorld: Bringing up level for play took: 0.042796
-[2018.04.26-11.53.11:882][ 65]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.53.11:887][ 65]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.866
-[2018.04.26-11.53.12:364][ 84]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.53.17:264][362]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.53.21:136][706]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.53.21:170][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.53.21:170][706]PIE: New page: SIE session: Main (Apr 25, 2018, 9:53:21 PM)
-[2018.04.26-11.53.21:170][706]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.53.21:188][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017398s)
-[2018.04.26-11.53.21:189][706]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.53.21:189][706]LogPlayLevel: PIE: World Init took: (0.000558s)
-[2018.04.26-11.53.21:189][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.018362s)
-[2018.04.26-11.53.21:213][706]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.53.21:219][706]LogInit: FAudioDevice initialized.
-[2018.04.26-11.53.21:251][706]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.53.21:251][706]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.53.21:263][706]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.53.21:271][706]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.53.21:282][706]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.53.21:290][706]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.53.21:293][706]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.53.21
-[2018.04.26-11.53.21:294][706]LogWorld: Bringing up level for play took: 0.042434
-[2018.04.26-11.53.21:294][706]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.53.21:299][706]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.278
-[2018.04.26-11.54.28:984][800]LogSavePackage: Save=455.02ms
-[2018.04.26-11.54.28:984][800]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main7DC687514838E8551FE8F4B7D44D7B63.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
-[2018.04.26-11.54.28:986][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
-[2018.04.26-11.54.29:334][800]LogSavePackage: Save=280.61ms
-[2018.04.26-11.54.29:334][800]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltData05129D4F4DAE4733BDEA4ABEAEAB2193.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
-[2018.04.26-11.54.29:336][800]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
-[2018.04.26-11.54.31:245][975]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.54.31:745][ 16]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.54.31:780][ 16]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.54.31:781][ 16]PIE: New page: SIE session: Main (Apr 25, 2018, 9:54:31 PM)
-[2018.04.26-11.54.31:781][ 16]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.54.31:798][ 16]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016773s)
-[2018.04.26-11.54.31:798][ 16]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.54.31:798][ 16]LogPlayLevel: PIE: World Init took: (0.000530s)
-[2018.04.26-11.54.31:799][ 16]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.017577s)
-[2018.04.26-11.54.31:820][ 16]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.54.31:825][ 16]LogInit: FAudioDevice initialized.
-[2018.04.26-11.54.31:856][ 16]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.54.31:856][ 16]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.54.31:867][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.54.31:876][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.54.31:887][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.54.31:894][ 16]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.54.31:898][ 16]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.54.31
-[2018.04.26-11.54.31:898][ 16]LogWorld: Bringing up level for play took: 0.041488
-[2018.04.26-11.54.31:899][ 16]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.54.31:903][ 16]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.882
-[2018.04.26-11.54.34:244][212]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-11.54.50:618][548]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.26-11.55.15:515][470]BlueprintLog: New page: Compile Sake_Bottle_2
-[2018.04.26-11.55.19:803][515]LogSavePackage: Save=19.86ms
-[2018.04.26-11.55.19:803][515]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Sake_Bottle_2124D2B464C1E63E431D54C922EEEB8B7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset'
-[2018.04.26-11.55.19:805][515]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset
-[2018.04.26-11.55.24:895][922]LogTemp: Repeating last play command: Simulate
-[2018.04.26-11.55.24:932][922]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.55.24:932][922]PIE: New page: SIE session: Main (Apr 25, 2018, 9:55:24 PM)
-[2018.04.26-11.55.24:932][922]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.55.24:947][922]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014647s)
-[2018.04.26-11.55.24:948][922]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.55.24:948][922]LogPlayLevel: PIE: World Init took: (0.000514s)
-[2018.04.26-11.55.24:948][922]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015444s)
-[2018.04.26-11.55.24:970][922]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.55.24:975][922]LogInit: FAudioDevice initialized.
-[2018.04.26-11.55.25:005][922]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.55.25:006][922]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.55.25:017][922]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.55.25:025][922]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.55.25:036][922]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.55.25:044][922]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.55.25:047][922]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.55.25
-[2018.04.26-11.55.25:048][922]LogWorld: Bringing up level for play took: 0.041764
-[2018.04.26-11.55.25:048][922]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-11.55.25:052][922]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.032
-[2018.04.26-11.55.31:383][530]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-11.55.31:383][530]LogHMD: Initializing OVRPlugin session
-[2018.04.26-11.55.31:402][530]PIE: New page: PIE session: Main (Apr 25, 2018, 9:55:31 PM)
-[2018.04.26-11.55.31:402][530]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-11.55.31:420][530]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018112s)
-[2018.04.26-11.55.31:420][530]LogAIModule: Creating AISystem for world Main
-[2018.04.26-11.55.31:421][530]LogPlayLevel: PIE: World Init took: (0.000662s)
-[2018.04.26-11.55.31:421][530]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.019076s)
-[2018.04.26-11.55.31:445][530]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-11.55.31:449][530]LogInit: FAudioDevice initialized.
-[2018.04.26-11.55.31:545][530]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-11.55.31:573][530]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-11.55.31:573][530]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-11.55.31:586][530]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.55.31:594][530]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.55.31:606][530]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.55.31:614][530]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.55.31:617][530]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-04.55.31
-[2018.04.26-11.55.31:618][530]LogWorld: Bringing up level for play took: 0.044333
-[2018.04.26-11.55.31:631][530]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.61
-[2018.04.26-11.55.31:639][530]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-11.55.31:639][530]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-11.57.50:778][301]LogDestructible: Warning: MainMesh Tris: 708
-[2018.04.26-11.57.51:989][301]LogApexDestructibleAssetImport: Warning: Using default materials for material slot
-[2018.04.26-11.57.51:990][301]LogApexDestructibleAssetImport: Warning: Bones digested - 52  Depth of hierarchy - 2
-[2018.04.26-11.57.52:302][301]LogSkeletalMesh: Section 0: 3755 vertices, 46 active bones
-[2018.04.26-11.57.52:302][301]LogSkeletalMesh: Section 1: 4724 vertices, 50 active bones
-[2018.04.26-11.57.52:315][301]LogSkeletalMesh: Section 0: Material=0, 4284 triangles
-[2018.04.26-11.57.52:315][301]LogSkeletalMesh: Section 1: Material=1, 3831 triangles
-[2018.04.26-11.57.52:321][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-11.57.52:321][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-11.57.52:322][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-11.57.52:322][301]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-11.59.09:662][241]LogSavePackage: Save=20.20ms
-[2018.04.26-11.59.09:662][241]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Metal_DiamondPlateSciFiDDF31E56440E4AC2D5D410963DAF421A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/GTFreeMaterials/Materials/Metal_DiamondPlateSciFi.uasset'
-[2018.04.26-11.59.09:664][241]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/GTFreeMaterials/Materials/Metal_DiamondPlateSciFi.uasset
-[2018.04.26-11.59.09:751][241]LogSavePackage: Save=66.16ms
-[2018.04.26-11.59.09:751][241]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/SAKE_2_DM91B5E5C648D5731E2BE989BED09D165B.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset'
-[2018.04.26-11.59.09:754][241]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/SAKE_2_DM.uasset
-[2018.04.26-11.59.10:341][241]LogSavePackage: Save=486.84ms
-[2018.04.26-11.59.10:341][241]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main777EDC8D4DB46CDCEBFDD3AE996F66F5.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
-[2018.04.26-11.59.10:343][241]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
-[2018.04.26-11.59.10:399][241]LogFileHelpers: Saving map 'Main' took 0.644
-[2018.04.26-12.00.54:064][363]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-12.00.55:872][552]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-12.00.55:872][552]PIE: New page: SIE session: Main (Apr 25, 2018, 10:00:55 PM)
-[2018.04.26-12.00.55:873][552]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-12.00.55:889][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016638s)
-[2018.04.26-12.00.55:890][552]LogAIModule: Creating AISystem for world Main
-[2018.04.26-12.00.55:890][552]LogPlayLevel: PIE: World Init took: (0.000601s)
-[2018.04.26-12.00.55:890][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.017509s)
-[2018.04.26-12.00.55:916][552]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-12.00.55:923][552]LogInit: FAudioDevice initialized.
-[2018.04.26-12.00.55:956][552]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-12.00.55:956][552]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-12.00.55:970][552]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-12.00.55:980][552]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-12.00.55:992][552]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-12.00.56:000][552]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-12.00.56:003][552]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-05.00.56
-[2018.04.26-12.00.56:004][552]LogWorld: Bringing up level for play took: 0.046897
-[2018.04.26-12.00.56:004][552]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-12.00.56:008][552]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.988
-[2018.04.26-12.01.02:777][963]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-12.01.05:433][230]LogTemp: Repeating last play command: Simulate
-[2018.04.26-12.01.05:470][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-12.01.05:470][230]PIE: New page: SIE session: Main (Apr 25, 2018, 10:01:05 PM)
-[2018.04.26-12.01.05:470][230]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-12.01.05:488][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018324s)
-[2018.04.26-12.01.05:489][230]LogAIModule: Creating AISystem for world Main
-[2018.04.26-12.01.05:489][230]LogPlayLevel: PIE: World Init took: (0.000778s)
-[2018.04.26-12.01.05:489][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.019530s)
-[2018.04.26-12.01.05:513][230]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-12.01.05:519][230]LogInit: FAudioDevice initialized.
-[2018.04.26-12.01.05:551][230]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-12.01.05:551][230]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-12.01.05:564][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-12.01.05:571][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-12.01.05:583][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-12.01.05:591][230]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-12.01.05:593][230]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-05.01.05
-[2018.04.26-12.01.05:594][230]LogWorld: Bringing up level for play took: 0.042427
-[2018.04.26-12.01.05:594][230]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.26-12.01.05:602][230]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.581
-[2018.04.26-12.01.18:421][ 94]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-12.01.52:189][360]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
-[2018.04.26-12.01.52:191][360]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. 
-[2018.04.26-12.01.52:293][360]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.04.26-12.01.52:371][360]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2018.04.26-12.01.52:447][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_26, compiling. 
-[2018.04.26-12.01.52:452][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_27, compiling. 
-[2018.04.26-12.01.52:459][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_28, compiling. 
-[2018.04.26-12.01.52:465][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_6, compiling. 
-[2018.04.26-12.01.52:470][360]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
-[2018.04.26-12.02.10:590][381]MaterialEditorStats: Base pass shader: 180 instructions
-[2018.04.26-12.02.10:590][381]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 253 instructions
-[2018.04.26-12.02.10:590][381]MaterialEditorStats: Vertex shader: 92 instructions
-[2018.04.26-12.02.10:590][381]MaterialEditorStats: Texture samplers: 5/16
-[2018.04.26-12.02.10:590][381]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.04.26-12.02.10:683][389]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Refrigerator)
-[2018.04.26-12.02.16:857][908]LogEditorViewport: Clicking on Actor (LMB): Sake_Bottle_2_C (Sake_Bottle_10)
-[2018.04.26-12.02.24:955][655]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-12.03.50:038][ 64]LogEditorViewport: Clicking on Actor (LMB): DestructibleActor (SAKE_2_DM)
-[2018.04.26-12.03.50:560][114]Cmd: DELETE
-[2018.04.26-12.03.50:560][114]Cmd: ACTOR DELETE
-[2018.04.26-12.03.50:567][114]LogEditorActor: Deleted Actor: DestructibleActor
-[2018.04.26-12.03.50:588][114]LogEditorActor: Deleted 1 Actors (0.028 secs)
-[2018.04.26-12.03.57:261][830]LogEditorViewport: Clicking on Actor (LMB): Sake_Bottle_2_C (Sake_Bottle_16)
-[2018.04.26-12.04.07:283][774]BlueprintLog: New page: Compile Sake_Bottle_2
-[2018.04.26-12.04.11:757][838]LogSavePackage: Save=21.55ms
-[2018.04.26-12.04.11:757][838]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Sake_Bottle_2C609476B4EE004645C7857BC5746D56F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset'
-[2018.04.26-12.04.11:760][838]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Props/bottles/Sake_Bottle_2.uasset
-[2018.04.26-12.04.16:283][323]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.26-12.04.16:284][323]LogHMD: Initializing OVRPlugin session
-[2018.04.26-12.04.16:305][323]PIE: New page: PIE session: Main (Apr 25, 2018, 10:04:16 PM)
-[2018.04.26-12.04.16:305][323]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
-[2018.04.26-12.04.16:323][323]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017708s)
-[2018.04.26-12.04.16:324][323]LogAIModule: Creating AISystem for world Main
-[2018.04.26-12.04.16:324][323]LogPlayLevel: PIE: World Init took: (0.000697s)
-[2018.04.26-12.04.16:324][323]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.018795s)
-[2018.04.26-12.04.16:352][323]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.26-12.04.16:359][323]LogInit: FAudioDevice initialized.
-[2018.04.26-12.04.16:445][323]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2018.04.26-12.04.16:471][323]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2018.04.26-12.04.16:471][323]LogLoad: Game class is 'GameModeBase'
-[2018.04.26-12.04.16:483][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right2_20.SkeletalMeshComponent0'
-[2018.04.26-12.04.16:492][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left_23.SkeletalMeshComponent0'
-[2018.04.26-12.04.16:503][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Right3.SkeletalMeshComponent0'
-[2018.04.26-12.04.16:511][323]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Game/SushiShop/Levels/UEDPIE_0_Main.Main:PersistentLevel.Curtain_Large_CurtainLarge_Left2.SkeletalMeshComponent0'
-[2018.04.26-12.04.16:513][323]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.04.26-05.04.16
-[2018.04.26-12.04.16:514][323]LogWorld: Bringing up level for play took: 0.041876
-[2018.04.26-12.04.16:524][323]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.496
-[2018.04.26-12.04.16:531][323]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
-[2018.04.26-12.04.16:531][323]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
-[2018.04.26-12.04.24:280][155]LogEditorViewport: Clicking on Actor (context menu): Sake_Bottle_2_C (Sake_Bottle_14)
-[2018.04.26-12.04.31:600][907]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Refrigerator)
-[2018.04.26-12.04.31:827][924]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Refrigerator)
-[2018.04.26-12.04.40:016][848]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor2)
-[2018.04.26-12.04.40:689][915]LogEditorViewport: Clicking on Actor (context menu): Sake_Large_C (Sake_Large25)
-[2018.04.26-12.04.42:615][133]LogEditorViewport: Clicking on Actor (LMB): Sake_Large_C (Sake_Large21)
-[2018.04.26-12.04.43:404][212]LogEditorViewport: Clicking on Actor (context menu): Sake_Large_C (Sake_Large23)
-[2018.04.26-12.04.56:070][561]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.26-12.04.56:894][651]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.26-12.04.57:913][764]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2018.04.26-12.05.43:477][148]BlueprintLog: New page: Compile MotionControllerPawn
-[2018.04.26-12.05.44:479][184]LogSavePackage: Save=266.35ms
-[2018.04.26-12.05.44:479][184]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MotionControllerPawn075A7C7A412FC480F33174A6BC59CBC0.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset'
-[2018.04.26-12.05.44:480][184]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/MotionControllerPawn.uasset
+[2018.04.28-07.46.12:340][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-07.46.12:340][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.28-07.46.12:349][  0]LogInit: Computer: DESKTOP-TMTLRPJ
+[2018.04.28-07.46.12:349][  0]LogInit: User: GameDevClub
+[2018.04.28-07.46.12:349][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.28-07.46.12:349][  0]LogInit: High frequency timer resolution =4.101559 MHz
+[2018.04.28-07.46.12:349][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.04.28-07.46.12:349][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.28-07.46.12:349][  0]LogMemory: Process Physical Memory: 282.70 MB used, 282.70 MB peak
+[2018.04.28-07.46.12:349][  0]LogMemory: Process Virtual Memory: 289.45 MB used, 289.45 MB peak
+[2018.04.28-07.46.12:349][  0]LogMemory: Physical Memory: 9668.98 MB used,  6678.15 MB free, 16347.13 MB total
+[2018.04.28-07.46.12:349][  0]LogMemory: Virtual Memory: 754.88 MB used,  6678.15 MB free, 134217728.00 MB total
+[2018.04.28-07.46.12:461][  0]LogInit: Using OS detected language (en-US).
+[2018.04.28-07.46.12:461][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.28-07.46.12:462][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.28-07.46.12:763][  0]LogInit: Setting process to per monitor DPI aware
+[2018.04.28-07.46.12:952][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.28-07.46.12:983][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.04.28-07.46.12:983][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.04.28-07.46.12:984][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.28-07.46.12:984][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.28-07.46.12:984][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.28-07.46.12:989][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.28-07.46.12:989][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.28-07.46.12:989][  0]LogWindows: EnumDisplayDevices:
+[2018.04.28-07.46.12:989][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.04.28-07.46.12:990][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.28-07.46.12:990][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.04.28-07.46.12:990][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.04.28-07.46.12:990][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.28-07.46.12:990][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.04.28-07.46.12:990][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.28-07.46.12:990][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.28-07.46.12:990][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.04.28-07.46.13:010][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.28-07.46.13:063][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.28-07.46.13:167][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/1580/).
+[2018.04.28-07.46.13:167][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/7D92B6E74F9A386D86CAD1A2B661D71F/'.
+[2018.04.28-07.46.13:167][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.28-07.46.13:845][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.28-07.46.13:885][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.28-07.46.13:934][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.28-07.46.13:974][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.28-07.46.14:012][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.28-07.46.14:057][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.28-07.46.14:097][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.28-07.46.14:135][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.28-07.46.14:171][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.28-07.46.14:213][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.28-07.46.14:255][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.28-07.46.14:294][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.28-07.46.14:333][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.28-07.46.14:372][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.28-07.46.14:462][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.28-07.46.14:462][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.28-07.46.14:502][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.28-07.46.14:533][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.28-07.46.14:607][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.28-07.46.14:627][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.28-07.46.14:665][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.28-07.46.14:705][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.28-07.46.14:743][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.28-07.46.14:780][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.28-07.46.14:780][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.28-07.46.15:126][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.28-07.46.15:174][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.28-07.46.15:175][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.04.28-07.46.15:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.28-07.46.15:175][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.28-07.46.15:175][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.28-07.46.15:175][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.28-07.46.15:186][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.28-07.46.15:197][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.28-07.46.15:204][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.28-07.46.15:204][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.28-07.46.15:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-07.46.15:205][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.28-07.46.15:456][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.28-07.46.15:696][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.28-07.46.15:727][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.28-07.46.15:727][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.28-07.46.15:727][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.28-07.46.15:727][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.28-07.46.15:727][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.28-07.46.15:757][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.04.28-07.46.15:882][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2018.04.28-07.46.16:260][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.053587 seconds
+[2018.04.28-07.46.16:264][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.04.28-07.46.16:264][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.04.28-07.46.16:264][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.28-07.46.16:307][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.28-07.46.18:290][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.04.28-07.46.18:314][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.28-07.46.18:349][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.28-07.46.18:945][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.28-07.46.19:251][  0]SourceControl: Source control is disabled
+[2018.04.28-07.46.19:251][  0]SourceControl: Source control is disabled
+[2018.04.28-07.46.19:291][  0]SourceControl: Source control is disabled
+[2018.04.28-07.46.19:330][  0]SourceControl: Source control is disabled
+[2018.04.28-07.46.19:973][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.28-07.46.20:172][  0]LogOcInput: OculusInput pre-init called
+[2018.04.28-07.46.20:595][  0]LogEngine: Initializing Engine...
+[2018.04.28-07.46.20:596][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.04.28-07.46.20:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.28-07.46.20:739][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.28-07.46.20:833][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.28-07.46.20:839][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.28-07.46.20:848][  0]LogInit: FAudioDevice initialized.
+[2018.04.28-07.46.20:887][  0]LogDerivedDataCache: Saved boot cache 0.04s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.04.28-07.46.20:897][  0]LogInit: Texture streaming: Enabled
+[2018.04.28-07.46.20:968][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.28-07.46.20:968][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B3558987-4B21-7473-2412-6FB436C178AC}
+[2018.04.28-07.46.21:062][  0]LogInit: Transaction tracking system initialized
+[2018.04.28-07.46.21:290][  0]BlueprintLog: New page: Editor Load
+[2018.04.28-07.46.21:941][  0]LocalizationService: Localization service is disabled
+[2018.04.28-07.46.22:488][  0]LogConsoleResponse: Display: 
+[2018.04.28-07.46.22:618][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.28-07.46.22:618][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.28-07.46.22:618][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.28-07.46.23:155][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.04.28-07.46.23:504][  0]SourceControl: Source control is disabled
+[2018.04.28-07.46.23:504][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.28-07.46.23:504][  0]LightingResults: New page: Lighting Build
+[2018.04.28-07.46.23:535][  0]MapCheck: New page: Map Check
+[2018.04.28-07.46.23:535][  0]LightingResults: New page: Lighting Build
+[2018.04.28-07.46.23:610][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.04.28-07.46.23:616][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.28-07.46.23:622][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.28-07.46.23:656][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 33.776ms to complete.
+[2018.04.28-07.46.23:656][  0]LogFileHelpers: Loading map 'StartupMap' took 0.152
+[2018.04.28-07.46.23:808][  0]LogCollectionManager: Loaded 0 collections in 0.001273 seconds
+[2018.04.28-07.46.23:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.04.28-07.46.23:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
+[2018.04.28-07.46.23:882][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.04.28-07.46.23:882][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.28-07.46.23:888][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 2388 classes and 535 folders.
+[2018.04.28-07.46.23:939][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.04.28-07.46.23:968][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.04.28-07.46.24:009][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.28-07.46.24:013][  0]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.28-07.46.24:014][  0]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.28-07.46.24:069][  0]LogRenderer: Reallocating scene render targets to support 896x488 Format 26 NumSamples 1 (Frame:1).
+[2018.04.28-07.46.24:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.04.28-07.46.24:207][  0]LogLoad: (Engine Initialization) Total time: 13.81 seconds
+[2018.04.28-07.46.24:207][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.28-07.46.24:207][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.28-07.46.24:226][  0]LogOcInput: OculusInput is initialized
+[2018.04.28-07.46.24:245][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.28-07.46.24:280][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-07.46.24:286][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.04.28-07.46.24:302][  1]LogAssetRegistry: Asset discovery search completed in 8.4409 seconds
+[2018.04.28-07.46.24:304][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.04.28-07.46.24:304][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.04.28-07.46.25:258][ 98]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-07.46.26:916][270]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.28-07.46.26:950][270]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.04.28-07.46.26:951][270]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-07.46.27:147][270]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-07.46.27:152][270]LogMaterial: Missing cached shader map for material Main_Menu_M, compiling. 
+[2018.04.28-07.46.27:531][270]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2018.04.28-07.46.28:224][270]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.28-07.46.28:252][271]MaterialEditorStats: Base pass shader without light map: 70 instructions
+[2018.04.28-07.46.28:252][271]MaterialEditorStats: Vertex shader: 90 instructions
+[2018.04.28-07.46.28:252][271]MaterialEditorStats: Texture samplers: 0/16
+[2018.04.28-07.46.32:475][769]LogConsoleManager: Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2018.04.28-07.46.35:567][911]LogStaticMesh: Allocated 351x64x64 distance field atlas = 2.7Mb, with 52 objects containing 2.0Mb backing data
+[2018.04.28-07.46.35:570][911]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.04.28-07.46.35:850][911]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.04.28-07.46.35:850][911]LogWindows: Error: === Critical error: ===
+[2018.04.28-07.46.35:850][911]LogWindows: Error: 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\RenderCore\Private\RenderingThread.cpp] [Line: 813] 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: Rendering thread exception:
+[2018.04.28-07.46.35:850][911]LogWindows: Error: Assertion failed: Size > 0 [File:D:\Build\++UE4+Release-4.18+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11VertexBuffer.cpp] [Line: 12] 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: 
+[2018.04.28-07.46.35:850][911]LogWindows: Error: [Callstack] 0x000000002BB64008 KERNELBASE.dll!UnknownFunction []
+[2018.04.28-07.46.35:850][911]LogWindows: Error: [Callstack] 0x00000000166176D4 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x000000000164330B UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000015D47F9 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000E8CE489A UE4Editor-D3D11RHI.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000167B6BCE UE4Editor-RHI.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000167B6AC2 UE4Editor-RHI.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB04A780 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB037D4C UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB0C440E UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000168832B3 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB0B2BA2 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB0DCB73 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB0DD819 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB0D9587 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB60E9A4 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000EB5EDA76 UE4Editor-Renderer.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000014A4845 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000014A4E2A UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000168A22C4 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x00000000168A32F6 UE4Editor-RenderCore.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x000000000184092C UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x0000000001832563 UE4Editor-Core.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x000000002F141FE4 KERNEL32.DLL!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x000000002F6CF061 ntdll.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: [Callstack] 0x000000002F6CF061 ntdll.dll!UnknownFunction []
+[2018.04.28-07.46.35:851][911]LogWindows: Error: 
+[2018.04.28-07.46.35:851][911]LogWindows: Error: 
+[2018.04.28-07.46.35:851][911]LogWindows: Error: 
+[2018.04.28-07.46.35:851][911]LogWindows: Error: 
+[2018.04.28-07.46.35:867][911]LogExit: Executing StaticShutdownAfterError
+[2018.04.28-07.46.35:869][911]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.04.28-07.46.35:869][911]Log file closed, 04/28/18 00:46:35
