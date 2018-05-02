@@ -1,0 +1,609 @@
+﻿Log file open, 05/01/18 20:09:57
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-1375027124) SRandInit(-1375027124).
+LogInit: Read version file with build ID '3709383'
+LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
+LogInit: Registered custom module enumerator with build ID '3709383'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.154443
+LogD3D11RHI: Aftermath initialized
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceSource.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceLiveLink.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/BlueprintStats/Binaries/Win64/UE4Editor-BlueprintStats.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusAudio/Binaries/Win64/UE4Editor-OculusAudio.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/SoundVisualizations/Binaries/Win64/UE4Editor-SoundVisualizations.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3709383).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3709383).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BlueprintStats
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusAudio
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.18-CL-3832480
+LogInit: Engine Version: 4.18.3-3832480+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-3709383+++UE4+Release-4.18
+LogInit: Net CL: 3709383
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.02-03.09.58:596][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.02-03.09.58:596][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.02-03.09.58:605][  0]LogInit: Computer: DESKTOP-TMTLRPJ
+[2018.05.02-03.09.58:605][  0]LogInit: User: GameDevClub
+[2018.05.02-03.09.58:605][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.02-03.09.58:605][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2018.05.02-03.09.58:605][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.05.02-03.09.58:605][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-03.09.58:605][  0]LogMemory: Process Physical Memory: 280.79 MB used, 280.79 MB peak
+[2018.05.02-03.09.58:605][  0]LogMemory: Process Virtual Memory: 272.36 MB used, 272.36 MB peak
+[2018.05.02-03.09.58:605][  0]LogMemory: Physical Memory: 6059.49 MB used,  10287.64 MB free, 16347.13 MB total
+[2018.05.02-03.09.58:605][  0]LogMemory: Virtual Memory: 737.88 MB used,  10287.64 MB free, 134217728.00 MB total
+[2018.05.02-03.09.58:720][  0]LogInit: Using OS detected language (en-US).
+[2018.05.02-03.09.58:720][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.02-03.09.58:722][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.02-03.09.59:004][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.02-03.09.59:209][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.02-03.09.59:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.05.02-03.09.59:235][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.05.02-03.09.59:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.02-03.09.59:237][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.02-03.09.59:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.02-03.09.59:241][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.02-03.09.59:241][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.02-03.09.59:241][  0]LogWindows: EnumDisplayDevices:
+[2018.05.02-03.09.59:241][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.05.02-03.09.59:241][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.05.02-03.09.59:241][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.05.02-03.09.59:241][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.05.02-03.09.59:241][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.02-03.09.59:241][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.05.02-03.09.59:241][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.02-03.09.59:241][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.02-03.09.59:242][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.05.02-03.09.59:260][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.02-03.09.59:307][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.02-03.09.59:402][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/13548/).
+[2018.05.02-03.09.59:402][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/6BA6A5B942E2F28D1B1AD5BAF05B7EDD/'.
+[2018.05.02-03.09.59:402][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.02-03.10.00:064][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.02-03.10.00:104][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.02-03.10.00:145][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.02-03.10.00:188][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.02-03.10.00:232][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.02-03.10.00:276][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.02-03.10.00:316][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.02-03.10.00:357][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.02-03.10.00:390][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.02-03.10.00:430][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.02-03.10.00:468][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.02-03.10.00:507][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.02-03.10.00:548][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.02-03.10.00:586][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.02-03.10.00:664][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.02-03.10.00:664][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.02-03.10.00:703][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.02-03.10.00:733][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.02-03.10.00:807][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.02-03.10.00:830][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.02-03.10.00:868][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.02-03.10.00:907][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.02-03.10.00:946][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.02-03.10.00:985][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.02-03.10.00:985][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.02-03.10.01:339][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.02-03.10.01:388][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.02-03.10.01:400][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.02-03.10.01:411][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.02-03.10.01:418][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.02-03.10.01:418][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.02-03.10.01:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-03.10.01:419][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-03.10.01:676][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.02-03.10.01:919][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.02-03.10.01:951][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.02-03.10.01:951][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.02-03.10.01:951][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.02-03.10.01:951][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.02-03.10.01:951][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.02-03.10.01:978][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.05.02-03.10.02:103][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2018.05.02-03.10.02:450][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.045582 seconds
+[2018.05.02-03.10.02:454][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.02-03.10.02:454][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.02-03.10.02:454][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.02-03.10.02:495][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.02-03.10.04:468][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.05.02-03.10.04:492][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.02-03.10.04:526][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.02-03.10.05:140][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.02-03.10.05:451][  0]SourceControl: Source control is disabled
+[2018.05.02-03.10.05:451][  0]SourceControl: Source control is disabled
+[2018.05.02-03.10.05:491][  0]SourceControl: Source control is disabled
+[2018.05.02-03.10.05:531][  0]SourceControl: Source control is disabled
+[2018.05.02-03.10.06:189][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.02-03.10.06:393][  0]LogOcInput: OculusInput pre-init called
+[2018.05.02-03.10.06:829][  0]LogEngine: Initializing Engine...
+[2018.05.02-03.10.06:831][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.05.02-03.10.06:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.02-03.10.06:983][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.02-03.10.07:081][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.02-03.10.07:088][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-03.10.07:096][  0]LogInit: FAudioDevice initialized.
+[2018.05.02-03.10.07:135][  0]LogDerivedDataCache: Saved boot cache 0.04s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.02-03.10.07:142][  0]LogInit: Texture streaming: Enabled
+[2018.05.02-03.10.07:215][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.02-03.10.07:215][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={21187C58-42D4-A661-08E1-C2AED6141AE2}
+[2018.05.02-03.10.07:309][  0]LogInit: Transaction tracking system initialized
+[2018.05.02-03.10.07:541][  0]BlueprintLog: New page: Editor Load
+[2018.05.02-03.10.08:198][  0]LocalizationService: Localization service is disabled
+[2018.05.02-03.10.08:748][  0]LogConsoleResponse: Display: 
+[2018.05.02-03.10.08:879][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.02-03.10.08:879][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.02-03.10.08:879][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.02-03.10.09:771][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.05.02-03.10.09:771][  0]SourceControl: Source control is disabled
+[2018.05.02-03.10.09:864][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-03.10.09:865][  0]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.02-03.12.45:718][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-03.12.45:719][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-03.12.45:723][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-03.12.45:724][  0]LightingResults: New page: Lighting Build
+[2018.05.02-03.12.45:762][  0]MapCheck: New page: Map Check
+[2018.05.02-03.12.45:762][  0]LightingResults: New page: Lighting Build
+[2018.05.02-03.12.45:845][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.02-03.12.45:850][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-03.12.45:859][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-03.12.45:895][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.977ms to complete.
+[2018.05.02-03.12.45:895][  0]LogFileHelpers: Loading map 'StartupMap' took 0.172
+[2018.05.02-03.12.46:012][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_18d8_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_31b4_0///####STATCAT_Advanced####
+[2018.05.02-03.12.46:012][  0]LogCollectionManager: Loaded 0 collections in 0.001385 seconds
+[2018.05.02-03.12.46:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.05.02-03.12.46:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
+[2018.05.02-03.12.46:084][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.05.02-03.12.46:084][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.02-03.12.46:090][  0]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 2388 classes and 535 folders.
+[2018.05.02-03.12.46:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.05.02-03.12.46:167][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.05.02-03.12.46:208][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.02-03.12.46:209][  0]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.02-03.12.46:274][  0]LogRenderer: Reallocating scene render targets to support 872x508 Format 26 NumSamples 1 (Frame:1).
+[2018.05.02-03.12.46:379][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.02-03.12.46:380][  0]LogLoad: (Engine Initialization) Total time: 169.75 seconds
+[2018.05.02-03.12.46:380][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.02-03.12.46:380][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.02-03.12.46:394][  0]LogOcInput: OculusInput is initialized
+[2018.05.02-03.12.46:412][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.02-03.12.46:447][  0]LogSlate: Took 0.000089 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-03.12.46:464][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.05.02-03.12.46:475][  1]LogAssetRegistry: Asset discovery search completed in 164.3937 seconds
+[2018.05.02-03.12.46:477][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.02-03.12.46:477][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2018.05.02-03.12.47:418][109]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-03.32.22:194][ 73]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-03.32.22:761][ 73]LogAIModule: Creating AISystem for world Menu
+[2018.05.02-03.32.22:780][ 73]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-03.32.22:780][ 73]LightingResults: New page: Lighting Build
+[2018.05.02-03.32.22:781][ 73]LoadErrors: New page: Loading map: Menu.umap
+[2018.05.02-03.32.22:782][ 73]MapCheck: New page: Map Check
+[2018.05.02-03.32.22:782][ 73]LightingResults: New page: Lighting Build
+[2018.05.02-03.32.22:829][ 73]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-03.32.22:884][ 73]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-03.32.22:933][ 73]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 48.371ms to complete.
+[2018.05.02-03.32.22:933][ 73]LogFileHelpers: Loading map 'Menu' took 0.153
+[2018.05.02-03.32.31:987][158]LogTemp: Repeating last play command: VR Preview
+[2018.05.02-03.32.32:050][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-03.32.32:050][158]LogHMD: Initializing OVRPlugin session
+[2018.05.02-03.32.32:081][158]PIE: New page: PIE session: Menu (May 1, 2018, 1:32:32 PM)
+[2018.05.02-03.32.32:081][158]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Menu
+[2018.05.02-03.32.32:082][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2018.05.02-03.32.32:083][158]LogAIModule: Creating AISystem for world Menu
+[2018.05.02-03.32.32:083][158]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2018.05.02-03.32.32:083][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Menu.Menu to /Game/SushiShop/Levels/UEDPIE_0_Menu.Menu (0.002212s)
+[2018.05.02-03.32.32:097][158]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-03.32.32:103][158]LogInit: FAudioDevice initialized.
+[2018.05.02-03.32.32:207][158]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.02-03.32.32:243][158]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-03.32.32:243][158]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-03.32.32:245][158]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.05.01-20.32.32
+[2018.05.02-03.32.32:245][158]LogWorld: Bringing up level for play took: 0.001136
+[2018.05.02-03.32.32:278][158]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.05.02-03.32.32:283][158]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Menu 0.717
+[2018.05.02-03.32.32:289][158]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.02-03.32.32:289][158]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.02-03.32.55:873][586]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.05.02-03.32.56:358][586]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.02-03.32.56:414][586]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.02-03.32.57:582][718]LogSlate: Took 0.000228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.02-03.33.16:974][ 19]BlueprintLog: New page: Compile BP_MotionController
+[2018.05.02-03.33.18:028][ 64]LogSavePackage: Save=275.36ms
+[2018.05.02-03.33.18:028][ 64]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_MotionController642F1C1D4B273E5A676B48A2D61C75D9.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.05.02-03.33.18:031][ 64]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.05.02-03.33.18:875][165]LogTemp: Repeating last play command: VR Preview
+[2018.05.02-03.33.18:912][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-03.33.18:912][165]LogHMD: Initializing OVRPlugin session
+[2018.05.02-03.33.18:933][165]PIE: New page: PIE session: Menu (May 1, 2018, 1:33:18 PM)
+[2018.05.02-03.33.18:933][165]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Menu
+[2018.05.02-03.33.18:935][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001589s)
+[2018.05.02-03.33.18:936][165]LogAIModule: Creating AISystem for world Menu
+[2018.05.02-03.33.18:936][165]LogPlayLevel: PIE: World Init took: (0.001006s)
+[2018.05.02-03.33.18:936][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Menu.Menu to /Game/SushiShop/Levels/UEDPIE_0_Menu.Menu (0.002898s)
+[2018.05.02-03.33.18:959][165]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-03.33.18:967][165]LogInit: FAudioDevice initialized.
+[2018.05.02-03.33.19:057][165]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.02-03.33.19:082][165]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-03.33.19:082][165]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-03.33.19:084][165]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.05.01-20.33.19
+[2018.05.02-03.33.19:084][165]LogWorld: Bringing up level for play took: 0.001021
+[2018.05.02-03.33.19:089][165]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Menu -0.477
+[2018.05.02-03.33.19:090][165]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.02-03.33.19:090][165]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.02-03.33.28:793][ 38]LogNet: Browse: /Game/SushiShop/Levels/Main
+[2018.05.02-03.33.28:793][ 38]LogLoadingSplash: Loading begins
+[2018.05.02-03.33.28:804][ 38]LogHMD: FSplash::OnShow
+[2018.05.02-03.33.28:804][ 38]LogLoad: LoadMap: /Game/SushiShop/Levels/Main
+[2018.05.02-03.33.29:152][ 38]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.33.29:153][ 38]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-03.33.29:153][ 38]LoadErrors: Error: /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01 : Can't find file for asset. /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2
+[2018.05.02-03.33.29:153][ 38]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.33.29:153][ 38]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-03.33.29:310][ 38]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.33.29:311][ 38]LoadErrors: Failed to load /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2.lambert2 Referenced by LoungeVR_CeilingLightNew_01
+[2018.05.02-03.33.29:311][ 38]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.05.02-03.33.29:311][ 38]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.33.29:311][ 38]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.05.02-03.33.29:467][ 38]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.05.02-03.33.30:647][ 38]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 1024X512)
+[2018.05.02-03.33.30:647][ 38]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 1024X512)
+[2018.05.02-03.33.30:647][ 38]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2018.05.02-03.33.31:424][ 38]LogAIModule: Creating AISystem for world Main
+[2018.05.02-03.33.31:424][ 38]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-03.33.31:424][ 38]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-03.33.31:469][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:469][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:470][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:470][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:488][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:488][ 38]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-03.33.31:491][ 38]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.05.01-20.33.31
+[2018.05.02-03.33.31:491][ 38]LogWorld: Bringing up level for play took: 0.066619
+[2018.05.02-03.33.31:492][ 38]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.05.02-03.33.31:494][ 38]LogLoadingSplash: Loading ends
+[2018.05.02-03.33.31:494][ 38]LogHMD: FSplash::OnHide
+[2018.05.02-03.33.31:503][ 38]LogLoad: Took 2.699284 seconds to LoadMap(/Game/SushiShop/Levels/Main)
+[2018.05.02-03.33.50:960][771]LogRenderer: Reallocating scene render targets to support 2720x2400 Format 26 NumSamples 1 (Frame:1735).
+[2018.05.02-03.33.54:159][147]BlueprintLog: New page: Compile BP_MotionController
+[2018.05.02-03.33.55:380][217]LogSavePackage: Save=256.11ms
+[2018.05.02-03.33.55:380][217]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/BP_MotionControllerBB01AE9746D68D419F7585ACDEF6A0CA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset'
+[2018.05.02-03.33.55:382][217]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Blueprints/BP_MotionController.uasset
+[2018.05.02-03.37.26:852][516]LogEditorTransaction: Undo Delete current selection
+[2018.05.02-03.38.06:764][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Audio/PH_AVV" FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset" SILENT=true
+[2018.05.02-03.38.06:782][296]LogSavePackage: Save=10.40ms
+[2018.05.02-03.38.06:782][296]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PH_AVV64F2D149402408124FCB3DBA141FEA64.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset'
+[2018.05.02-03.38.06:784][296]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset
+[2018.05.02-03.38.07:140][338]BlueprintLog: New page: Compile PH_AVV
+[2018.05.02-03.39.51:582][753]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Audio/PH_AVV" FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset" SILENT=true
+[2018.05.02-03.39.51:597][753]LogSavePackage: Save=11.17ms
+[2018.05.02-03.39.51:597][753]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PH_AVV09FF98D6445C76182E0017A51A1D8566.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset'
+[2018.05.02-03.39.51:598][753]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset
+[2018.05.02-03.39.56:442][326]LogSavePackage: Save=19.39ms
+[2018.05.02-03.39.56:442][326]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Menu428D1F284A63841CAB37B1ADA433F4B4.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu.umap'
+[2018.05.02-03.39.56:444][326]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu.umap
+[2018.05.02-03.39.56:508][326]LogSavePackage: Save=6.55ms
+[2018.05.02-03.39.56:508][326]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Menu_BuiltDataAC9C6A7C44BD74444DE4A8A6C896584F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu_BuiltData.uasset'
+[2018.05.02-03.39.56:508][326]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Menu_BuiltData.uasset
+[2018.05.02-03.40.04:474][226]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.40.04:474][226]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-03.40.04:474][226]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-03.40.04:474][226]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-03.40.04:593][226]LogAIModule: Creating AISystem for world Main
+[2018.05.02-03.40.04:629][226]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-03.40.04:629][226]LightingResults: New page: Lighting Build
+[2018.05.02-03.40.04:630][226]LoadErrors: New page: Loading map: Main.umap
+[2018.05.02-03.40.04:631][226]MapCheck: New page: Map Check
+[2018.05.02-03.40.04:631][226]LightingResults: New page: Lighting Build
+[2018.05.02-03.40.04:752][226]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-03.40.04:817][226]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-03.40.04:890][226]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 72.327ms to complete.
+[2018.05.02-03.40.04:890][226]LogFileHelpers: Loading map 'Main' took 0.261
+[2018.05.02-03.40.12:413][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Assets/Audio/PH_AVV" FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset" SILENT=true
+[2018.05.02-03.40.12:427][113]LogSavePackage: Save=10.65ms
+[2018.05.02-03.40.12:427][113]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/PH_AVVB3ABBE0643227BB1F4555CB9E81E6CDF.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset'
+[2018.05.02-03.40.12:428][113]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Audio/PH_AVV.uasset
+[2018.05.02-03.40.12:841][162]BlueprintLog: New page: Compile PH_AVV
+[2018.05.02-03.40.14:997][392]MapCheck: New page: Map Check
+[2018.05.02-03.40.15:011][392]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.02-03.40.15:011][392]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.02-03.40.15:237][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.02-03.40.15:243][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bar_M, compiling. 
+[2018.05.02-03.40.15:247][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
+[2018.05.02-03.40.15:251][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_2_2, compiling. 
+[2018.05.02-03.40.15:256][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.05.02-03.40.15:261][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Light_M, compiling. 
+[2018.05.02-03.40.15:265][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Cobain_Inst, compiling. 
+[2018.05.02-03.40.15:269][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2018.05.02-03.40.15:274][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.05.02-03.40.15:280][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicAsset01, compiling. 
+[2018.05.02-03.40.15:286][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericHMDMaterial, compiling. 
+[2018.05.02-03.40.15:293][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
+[2018.05.02-03.40.15:300][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M_Inst, compiling. 
+[2018.05.02-03.40.15:306][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tuna_M_Inst, compiling. 
+[2018.05.02-03.40.15:311][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Unagi_M_Inst, compiling. 
+[2018.05.02-03.40.15:316][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Salmon_M_Inst, compiling. 
+[2018.05.02-03.40.15:320][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.05.02-03.40.15:324][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Knife+Board_M, compiling. 
+[2018.05.02-03.40.15:328][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marble_Mat, compiling. 
+[2018.05.02-03.40.15:332][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.05.02-03.40.15:337][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Concrete_M, compiling. 
+[2018.05.02-03.40.15:341][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedCopper, compiling. 
+[2018.05.02-03.40.15:345][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_WoodAndTileOffsetPattern_Inst, compiling. 
+[2018.05.02-03.40.15:350][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Orange, compiling. 
+[2018.05.02-03.40.15:354][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sake_M, compiling. 
+[2018.05.02-03.40.15:359][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.05.02-03.40.15:365][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_DiamondPlateSciFi, compiling. 
+[2018.05.02-03.40.15:370][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Curtain_M1, compiling. 
+[2018.05.02-03.40.15:374][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emissive_light_m, compiling. 
+[2018.05.02-03.40.15:380][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_E, compiling. 
+[2018.05.02-03.40.15:385][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.05.02-03.40.16:775][392]TextureStreamingBuild: Display: Compiling optional shaders took 1.542 seconds.
+[2018.05.02-03.40.16:794][392]LogLevel: Display: Export Material TexCoord Scales took 0.018 seconds.
+[2018.05.02-03.40.16:832][392]TextureStreamingBuild: Display: Build Texture Streaming took 0.038 seconds.
+[2018.05.02-03.40.16:848][392]LightingResults: New page: Lighting Build - May 1, 2018, 1:40:16 PM
+[2018.05.02-03.40.16:872][392]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.02-03.40.16:903][392]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.02-03.40.16:910][392]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.02-03.40.17:416][392]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.02-03.40.17:416][392]LogSwarmInterface: [TryOpenConnection] Local Process ID is 13548
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.02-03.40.19:455][392]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.02-03.40.19:631][392]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.02-03.40.19:631][392]MapCheck: New page: Main - May 1, 2018, 1:40:19 PM
+[2018.05.02-03.40.19:634][392]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.05.02-03.40.19:702][392]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 70.755ms to complete.
+[2018.05.02-03.40.19:724][392]LogEditorBuildUtils: Build time 0:04
+[2018.05.02-03.41.41:003][439]Job is a success!
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.006s
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:          1: 4.3% covering 3.1% of volume
+[2018.05.02-03.41.41:058][441]LogVolumetricLightmapImport:          2: 93.6% covering 1.1% of volume
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.05.02-03.41.42:351][441]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2018.05.02-03.41.42:352][441]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.05.02-03.41.42:352][441]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.05.02-03.41.42:507][441]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X1024)
+[2018.05.02-03.41.42:523][441]Lightmass on DESKTOP-TMTLRPJ: 1:22 min total, 170 ms importing, 43 ms setup, 5.13 sec photons, 1:17 min processing, 0 ms extra exporting [228/228 mappings]. Threads: 8:59 min total, 7:16 min processing.
+[2018.05.02-03.41.42:549][441]LogStaticLightingSystem: Illumination: 1:25 min (1.17 sec encoding lightmaps, 152 ms encoding shadowmaps)
+[2018.05.02-03.41.42:549][441]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.05.02-03.41.42:549][441]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.05.02-03.41.43:472][441]DumpUnbuiltLightIteractions
+[2018.05.02-03.41.43:472][441]Lights with unbuilt interactions: 0
+[2018.05.02-03.41.43:472][441]
+[2018.05.02-03.41.43:472][441]Primitives with unbuilt interactions: 0
+[2018.05.02-03.41.43:479][442]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.02-03.41.43:479][442]MapCheck: New page: Main - May 1, 2018, 1:41:43 PM
+[2018.05.02-03.41.43:556][442]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.557ms to complete.
+[2018.05.02-03.42.18:723][649]LogTemp: Repeating last play command: VR Preview
+[2018.05.02-03.42.18:755][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-03.42.18:755][649]LogHMD: Initializing OVRPlugin session
+[2018.05.02-03.42.18:775][649]PIE: New page: PIE session: Main (May 1, 2018, 1:42:18 PM)
+[2018.05.02-03.42.18:775][649]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.05.02-03.42.18:790][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015479s)
+[2018.05.02-03.42.18:791][649]LogAIModule: Creating AISystem for world Main
+[2018.05.02-03.42.18:791][649]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2018.05.02-03.42.18:791][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.016605s)
+[2018.05.02-03.42.18:811][649]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-03.42.18:816][649]LogInit: FAudioDevice initialized.
+[2018.05.02-03.42.18:908][649]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.02-03.42.18:934][649]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-03.42.18:934][649]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-03.42.18:975][649]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.05.01-20.42.18
+[2018.05.02-03.42.18:976][649]LogWorld: Bringing up level for play took: 0.041166
+[2018.05.02-03.42.18:982][649]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.584
+[2018.05.02-03.42.18:988][649]LogRenderer: Releasing previous depth to switch default clear from depth: 0.000000 stencil: 0 to depth: 0.000000 stencil: 0
+[2018.05.02-03.42.18:988][649]LogHMD: Allocating Oculus 2720 x 2400 depth rendertarget swapchain
+[2018.05.02-03.42.18:994][649]LogWindows: Windows GetLastError: The operation completed successfully. (0)
