@@ -1,4 +1,4 @@
-﻿Log file open, 05/02/18 05:48:55
+﻿Log file open, 05/02/18 14:47:44
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: SushiShop
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1531040291) SRandInit(-1531040291).
+LogInit: Display: RandInit(-1154986186) SRandInit(-1154986186).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 1.040526
+LogStats: Stats thread started at 0.154778
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3709383).
@@ -205,477 +205,933 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.02-12.48.57:573][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.02-12.48.57:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.02-12.48.57:609][  0]LogInit: Computer: DESKTOP-2QNA1SC
-[2018.05.02-12.48.57:609][  0]LogInit: User: darkm
-[2018.05.02-12.48.57:609][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.02-12.48.57:609][  0]LogInit: High frequency timer resolution =1.945317 MHz
-[2018.05.02-12.48.57:609][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.05.02-12.48.57:609][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.02-12.48.57:609][  0]LogMemory: Process Physical Memory: 277.41 MB used, 277.41 MB peak
-[2018.05.02-12.48.57:609][  0]LogMemory: Process Virtual Memory: 270.21 MB used, 270.21 MB peak
-[2018.05.02-12.48.57:609][  0]LogMemory: Physical Memory: 4444.14 MB used,  11855.46 MB free, 16299.60 MB total
-[2018.05.02-12.48.57:609][  0]LogMemory: Virtual Memory: 4780.50 MB used,  11855.46 MB free, 134217728.00 MB total
-[2018.05.02-12.48.58:025][  0]LogInit: Using OS detected language (en-US).
-[2018.05.02-12.48.58:025][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.02-12.48.58:101][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.02-12.48.58:637][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.02-12.49.01:671][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.02-12.49.01:693][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
-[2018.05.02-12.49.01:693][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.05.02-12.49.02:343][  0]LogD3D11RHI:    1. 'Radeon(TM) 540 Graphics' (Feature Level 11_0)
-[2018.05.02-12.49.02:343][  0]LogD3D11RHI:       1997/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
-[2018.05.02-12.49.02:347][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.02-12.49.02:347][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.02-12.49.02:347][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2018.05.02-12.49.02:354][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.02-12.49.02:355][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
-[2018.05.02-12.49.02:355][  0]LogWindows: EnumDisplayDevices:
-[2018.05.02-12.49.02:355][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
-[2018.05.02-12.49.02:355][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.05.02-12.49.02:355][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
-[2018.05.02-12.49.02:356][  0]LogWindows:    3. 'Radeon(TM) 540 Graphics' (P:0 D:0)
-[2018.05.02-12.49.02:356][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.02-12.49.02:356][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) 540 Graphics
-[2018.05.02-12.49.02:356][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.02-12.49.02:356][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.02-12.49.02:356][  0]LogRHI: Texture pool is 1398 MB (70% of 1997 MB)
-[2018.05.02-12.49.02:446][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.02-12.49.02:481][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2018.05.02-12.49.02:489][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/1568/).
-[2018.05.02-12.49.02:489][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/8B86A4DD42B0CB8BB7F6D4B051D9E654/'.
-[2018.05.02-12.49.02:490][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.02-12.49.05:057][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.02-12.49.05:137][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.02-12.49.05:220][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.02-12.49.05:312][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.02-12.49.05:410][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.02-12.49.05:491][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.02-12.49.05:576][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.02-12.49.05:659][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.02-12.49.05:728][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.02-12.49.05:802][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.02-12.49.05:872][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.02-12.49.05:942][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.02-12.49.06:013][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.02-12.49.06:080][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.02-12.49.06:216][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.02-12.49.06:216][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.02-12.49.06:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.02-12.49.06:345][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.02-12.49.06:479][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.02-12.49.06:519][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.02-12.49.06:586][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.02-12.49.06:657][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.02-12.49.06:737][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.02-12.49.06:815][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.02-12.49.06:815][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.02-12.49.07:627][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: Loaded boot cache 0.51s 80MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.02-12.49.08:140][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.02-12.49.08:177][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.02-12.49.08:190][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.02-12.49.08:209][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.02-12.49.08:219][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.02-12.49.08:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.02-12.49.08:242][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.02-12.49.09:451][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.02-12.49.10:236][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.02-12.49.10:296][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.02-12.49.10:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.02-12.49.10:297][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.02-12.49.10:297][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.02-12.49.10:297][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.02-12.49.10:408][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
-[2018.05.02-12.49.11:016][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
-[2018.05.02-12.49.12:532][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.090676 seconds
-[2018.05.02-12.49.12:540][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.02-12.49.12:540][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
-[2018.05.02-12.49.12:540][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.02-12.49.12:621][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.02-12.49.20:097][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2018.05.02-12.49.20:158][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.02-12.49.20:220][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.02-12.49.21:650][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.02-12.49.22:328][  0]SourceControl: Source control is disabled
-[2018.05.02-12.49.22:328][  0]SourceControl: Source control is disabled
-[2018.05.02-12.49.22:425][  0]SourceControl: Source control is disabled
-[2018.05.02-12.49.22:516][  0]SourceControl: Source control is disabled
-[2018.05.02-12.49.23:936][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.02-12.49.24:358][  0]LogOcInput: OculusInput pre-init called
-[2018.05.02-12.49.25:270][  0]LogEngine: Initializing Engine...
-[2018.05.02-12.49.25:276][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.02-12.49.25:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.02-12.49.25:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.02-12.49.25:843][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.02-12.49.25:877][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio(SST))' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.02-12.49.26:656][  0]LogInit: FAudioDevice initialized.
-[2018.05.02-12.49.26:746][  0]LogDerivedDataCache: Saved boot cache 0.09s 80MB C:/Users/darkm/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.02-12.49.26:771][  0]LogInit: Texture streaming: Enabled
-[2018.05.02-12.49.26:925][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.02-12.49.26:925][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={C8A65B86-402D-D65F-8190-04ABFC5EF10A}
-[2018.05.02-12.49.27:240][  0]LogInit: Transaction tracking system initialized
-[2018.05.02-12.49.27:763][  0]BlueprintLog: New page: Editor Load
-[2018.05.02-12.49.29:308][  0]LocalizationService: Localization service is disabled
-[2018.05.02-12.49.30:537][  0]LogConsoleResponse: Display: 
-[2018.05.02-12.49.31:016][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.02-12.49.31:016][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.02-12.49.31:017][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.02-12.49.31:561][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.04s
-[2018.05.02-12.49.33:080][  0]SourceControl: Source control is disabled
-[2018.05.02-12.49.33:082][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.02-12.49.33:084][  0]LightingResults: New page: Lighting Build
-[2018.05.02-12.49.33:169][  0]MapCheck: New page: Map Check
-[2018.05.02-12.49.33:169][  0]LightingResults: New page: Lighting Build
-[2018.05.02-12.49.33:424][  0]LogAIModule: Creating AISystem for world StartupMap
-[2018.05.02-12.49.33:454][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.02-12.49.33:470][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.02-12.49.33:549][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.45ms to complete.
-[2018.05.02-12.49.33:549][  0]LogFileHelpers: Loading map 'StartupMap' took 0.468
-[2018.05.02-12.49.33:923][  0]LogCollectionManager: Loaded 0 collections in 0.005755 seconds
-[2018.05.02-12.49.34:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
-[2018.05.02-12.49.34:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' took 0.01s
-[2018.05.02-12.49.34:071][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
-[2018.05.02-12.49.34:071][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.02-12.49.34:085][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 2388 classes and 535 folders.
-[2018.05.02-12.49.34:183][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.02-12.49.34:746][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.02-12.49.34:831][  0]LogSlate: Took 0.008493 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.02-12.49.34:846][  0]LogSlate: Took 0.007968 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.02-12.49.34:856][  0]LogSlate: Took 0.006325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.02-12.49.34:995][  0]LogRenderer: Reallocating scene render targets to support 720x460 Format 26 NumSamples 1 (Frame:1).
-[2018.05.02-12.49.35:457][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.05.02-12.49.35:457][  0]LogLoad: (Engine Initialization) Total time: 44.59 seconds
-[2018.05.02-12.49.35:457][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.02-12.49.35:457][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.02-12.49.35:517][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.02-12.49.35:586][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
-[2018.05.02-12.49.35:627][  2]LogAssetRegistry: Asset discovery search completed in 24.6340 seconds
-[2018.05.02-12.49.35:630][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.02-12.49.35:630][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000046 seconds (updated 0 objects)
-[2018.05.02-12.49.37:330][ 49]LogSlate: Took 0.004559 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.02-12.49.37:805][ 49]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.05.02-12.49.38:771][ 49]LogSlate: Took 0.006303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.02-12.49.43:415][308]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.02-12.49.54:166][926]LogSlate: Took 0.000144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.02-12.50.01:475][324]LogSlate: Took 0.007450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.02-12.56.38:183][990]BlueprintLog: New page: Compile BP_OrderMenuWidget
-[2018.05.02-12.56.39:550][ 53]LogSavePackage: Save=65.86ms
-[2018.05.02-12.56.39:550][ 53]LogSavePackage: Moving '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/BP_OrderMenuWidget1632B71A42E52283F4FC91BD1026E6E9.tmp' to '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderMenuWidget.uasset'
-[2018.05.02-12.56.39:553][ 53]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/BluePrints/New/Boat/BP_OrderMenuWidget.uasset
-[2018.05.02-12.56.42:981][226]Cmd: QUIT_EDITOR
-[2018.05.02-12.56.43:004][226]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.02-12.56.43:019][226]LogExit: Preparing to exit.
-[2018.05.02-12.56.43:496][226]LogDirectoryWatcher: A directory notification for 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
-[2018.05.02-12.56.43:538][226]LogExit: Editor shut down
-[2018.05.02-12.56.43:543][226]LogExit: Transaction tracking system shut down
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.02-12.56.43:730][226]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.02-12.56.43:833][226]LogExit: Object subsystem successfully closed.
-[2018.05.02-12.56.43:857][226]LogD3D11RHI: Shutdown
-[2018.05.02-12.56.43:857][226]LogD3D11RHI: CleanupD3DDevice
-[2018.05.02-12.56.43:860][226]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.02-12.56.43:890][226]LogModuleManager: Shutting down and abandoning module SequencerWidgets (570)
-[2018.05.02-12.56.43:890][226]LogModuleManager: Shutting down and abandoning module BlueprintGraph (568)
-[2018.05.02-12.56.43:890][226]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (566)
-[2018.05.02-12.56.43:890][226]LogModuleManager: Shutting down and abandoning module AddContentDialog (564)
-[2018.05.02-12.56.43:891][226]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.02-12.56.43:892][226]LogModuleManager: Shutting down and abandoning module WidgetCarousel (563)
-[2018.05.02-12.56.43:892][226]LogModuleManager: Shutting down and abandoning module EditorWidgets (560)
-[2018.05.02-12.56.43:892][226]LogModuleManager: Shutting down and abandoning module CollectionManager (558)
-[2018.05.02-12.56.43:892][226]LogDirectoryWatcher: A directory notification for 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' was aborted.
-[2018.05.02-12.56.43:892][226]LogDirectoryWatcher: A directory notification for 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Content/Developers/darkm/Collections/' was aborted.
-[2018.05.02-12.56.43:892][226]LogDirectoryWatcher: A directory notification for 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' was aborted.
-[2018.05.02-12.56.43:892][226]LogModuleManager: Shutting down and abandoning module SceneOutliner (556)
-[2018.05.02-12.56.43:892][226]LogModuleManager: Shutting down and abandoning module StatsViewer (554)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module FoliageEdit (552)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module LandscapeEditor (550)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module MeshPaintMode (548)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (546)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module ActorPickerMode (544)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module GeometryMode (542)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module TextureAlignMode (540)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module BspMode (538)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (536)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module HardwareSurvey (534)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (532)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module AutomationWorker (530)
-[2018.05.02-12.56.43:893][226]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (528)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (526)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module PlacementMode (525)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (522)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (520)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
-[2018.05.02-12.56.43:894][226]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module AudioCapture (502)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module SequenceRecorder (501)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module SmartSnapping (498)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module SessionServices (496)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module ViewportSnapping (494)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module ViewportInteraction (492)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module ClothPainter (490)
-[2018.05.02-12.56.43:895][226]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (489)
-[2018.05.02-12.56.43:896][226]LogModuleManager: Shutting down and abandoning module LogVisualizer (486)
-[2018.05.02-12.56.43:896][226]LogModuleManager: Shutting down and abandoning module IntroTutorials (484)
-[2018.05.02-12.56.43:896][226]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (483)
-[2018.05.02-12.56.43:897][226]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (480)
-[2018.05.02-12.56.43:897][226]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (478)
-[2018.05.02-12.56.43:897][226]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (476)
-[2018.05.02-12.56.43:897][226]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (475)
-[2018.05.02-12.56.44:204][226]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (472)
-[2018.05.02-12.56.44:204][226]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (470)
-[2018.05.02-12.56.44:205][226]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (468)
-[2018.05.02-12.56.44:205][226]LogModuleManager: Shutting down and abandoning module InputBindingEditor (466)
-[2018.05.02-12.56.44:205][226]LogModuleManager: Shutting down and abandoning module MergeActors (464)
-[2018.05.02-12.56.44:211][226]LogModuleManager: Shutting down and abandoning module SizeMap (462)
-[2018.05.02-12.56.44:211][226]LogModuleManager: Shutting down and abandoning module TreeMap (460)
-[2018.05.02-12.56.44:212][226]LogModuleManager: Shutting down and abandoning module ReferenceViewer (458)
-[2018.05.02-12.56.44:212][226]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (456)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module LocalizationService (455)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module HardwareTargeting (452)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (450)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module UndoHistory (448)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module XmlParser (446)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module Blutility (444)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (442)
-[2018.05.02-12.56.44:213][226]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (441)
-[2018.05.02-12.56.44:214][226]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (438)
-[2018.05.02-12.56.44:214][226]LogModuleManager: Shutting down and abandoning module SettingsEditor (436)
-[2018.05.02-12.56.44:215][226]LogModuleManager: Shutting down and abandoning module ProjectLauncher (434)
-[2018.05.02-12.56.44:215][226]LogModuleManager: Shutting down and abandoning module SessionFrontend (432)
-[2018.05.02-12.56.44:215][226]LogModuleManager: Shutting down and abandoning module ProfilerClient (430)
-[2018.05.02-12.56.44:216][226]LogModuleManager: Shutting down and abandoning module DeviceManager (428)
-[2018.05.02-12.56.44:216][226]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (427)
-[2018.05.02-12.56.44:269][226]LogModuleManager: Shutting down and abandoning module AutomationController (424)
-[2018.05.02-12.56.44:270][226]LogModuleManager: Shutting down and abandoning module AutomationWindow (422)
-[2018.05.02-12.56.44:272][226]LogModuleManager: Shutting down and abandoning module Layers (420)
-[2018.05.02-12.56.44:275][226]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (418)
-[2018.05.02-12.56.44:275][226]LogModuleManager: Shutting down and abandoning module DetailCustomizations (416)
-[2018.05.02-12.56.44:275][226]LogModuleManager: Shutting down and abandoning module PackagesDialog (414)
-[2018.05.02-12.56.44:276][226]LogModuleManager: Shutting down and abandoning module Persona (412)
-[2018.05.02-12.56.44:278][226]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (411)
-[2018.05.02-12.56.44:278][226]LogModuleManager: Shutting down and abandoning module AnimGraph (409)
-[2018.05.02-12.56.44:278][226]LogModuleManager: Shutting down and abandoning module Kismet (406)
-[2018.05.02-12.56.44:297][226]LogModuleManager: Shutting down and abandoning module ClassViewer (404)
-[2018.05.02-12.56.44:299][226]LogModuleManager: Shutting down and abandoning module Toolbox (402)
-[2018.05.02-12.56.44:299][226]LogModuleManager: Shutting down and abandoning module ModuleUI (400)
-[2018.05.02-12.56.44:299][226]LogModuleManager: Shutting down and abandoning module MovieSceneTools (398)
-[2018.05.02-12.56.44:300][226]LogModuleManager: Shutting down and abandoning module OutputLog (396)
-[2018.05.02-12.56.44:300][226]LogModuleManager: Shutting down and abandoning module GammaUI (394)
-[2018.05.02-12.56.44:301][226]LogModuleManager: Shutting down and abandoning module Documentation (392)
-[2018.05.02-12.56.44:301][226]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (390)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module MovieScene (388)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (386)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module LauncherPlatform (384)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module AnalyticsET (382)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module PortalServices (380)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module PortalRpc (378)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module MessagingRpc (376)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module AIModule (374)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module GameplayDebugger (373)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module AITestSuite (371)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module DesktopPlatform (368)
-[2018.05.02-12.56.44:302][226]LogModuleManager: Shutting down and abandoning module ProfilerService (366)
-[2018.05.02-12.56.44:540][226]LogModuleManager: Shutting down and abandoning module TaskGraph (364)
-[2018.05.02-12.56.44:541][226]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (362)
-[2018.05.02-12.56.44:541][226]LogModuleManager: Shutting down and abandoning module SubstanceSource (360)
-[2018.05.02-12.56.44:541][226]LogModuleManager: Shutting down and abandoning module SubstanceEditor (358)
-[2018.05.02-12.56.44:541][226]LogModuleManager: Shutting down and abandoning module SteamVRController (356)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module SoundVisualizations (354)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (352)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (350)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module OculusInput (348)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (346)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (344)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module CableComponent (342)
-[2018.05.02-12.56.44:542][226]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (340)
-[2018.05.02-12.56.44:543][226]LogModuleManager: Shutting down and abandoning module AndroidPermission (338)
-[2018.05.02-12.56.44:543][226]LogModuleManager: Shutting down and abandoning module ActorSequence (334)
-[2018.05.02-12.56.44:543][226]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (332)
-[2018.05.02-12.56.44:550][226]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (330)
-[2018.05.02-12.56.44:551][226]LogModuleManager: Shutting down and abandoning module MediaCompositing (328)
-[2018.05.02-12.56.44:551][226]LogModuleManager: Shutting down and abandoning module HTML5Networking (326)
-[2018.05.02-12.56.44:551][226]LogModuleManager: Shutting down and abandoning module BlueprintStats (324)
-[2018.05.02-12.56.44:551][226]LogModuleManager: Shutting down and abandoning module AlembicImporter (322)
-[2018.05.02-12.56.44:551][226]LogModuleManager: Shutting down and abandoning module AlembicLibrary (321)
-[2018.05.02-12.56.44:552][226]LogModuleManager: Shutting down and abandoning module GeometryCache (320)
-[2018.05.02-12.56.44:552][226]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (319)
-[2018.05.02-12.56.44:552][226]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (314)
-[2018.05.02-12.56.44:552][226]LogModuleManager: Shutting down and abandoning module PluginBrowser (312)
-[2018.05.02-12.56.44:552][226]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (310)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (308)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (306)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module UObjectPlugin (304)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (302)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (300)
-[2018.05.02-12.56.44:553][226]LogModuleManager: Shutting down and abandoning module GitSourceControl (298)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module SourceControl (297)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (294)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (292)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (290)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module Paper2DEditor (288)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module MeshPaint (287)
-[2018.05.02-12.56.44:554][226]LogModuleManager: Shutting down and abandoning module LevelEditor (285)
-[2018.05.02-12.56.44:556][226]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (284)
-[2018.05.02-12.56.44:556][226]LogModuleManager: Shutting down and abandoning module MainFrame (282)
-[2018.05.02-12.56.44:556][226]LogModuleManager: Shutting down and abandoning module HotReload (281)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (276)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (274)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module PhysXVehicles (272)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module OculusEditor (270)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (268)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (266)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (264)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module ApexDestructionEditor (262)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module ApexDestruction (260)
-[2018.05.02-12.56.44:557][226]LogModuleManager: Shutting down and abandoning module UdpMessaging (258)
-[2018.05.02-12.56.44:658][226]LogModuleManager: Shutting down and abandoning module TcpMessaging (256)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module SubstanceCore (254)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (252)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (250)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module FacialAnimation (248)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (246)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module GraphEditor (245)
-[2018.05.02-12.56.44:759][226]LogModuleManager: Shutting down and abandoning module ContentBrowser (243)
-[2018.05.02-12.56.44:762][226]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (240)
-[2018.05.02-12.56.44:762][226]LogModuleManager: Shutting down and abandoning module Paper2D (238)
-[2018.05.02-12.56.44:762][226]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
-[2018.05.02-12.56.44:762][226]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
-[2018.05.02-12.56.44:766][226]LogModuleManager: Shutting down and abandoning module ImgMedia (232)
-[2018.05.02-12.56.44:766][226]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
-[2018.05.02-12.56.44:766][226]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
-[2018.05.02-12.56.44:766][226]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
-[2018.05.02-12.56.44:766][226]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
-[2018.05.02-12.56.44:767][226]LogModuleManager: Shutting down and abandoning module Media (223)
-[2018.05.02-12.56.44:773][226]LogModuleManager: Shutting down and abandoning module Overlay (220)
-[2018.05.02-12.56.44:773][226]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
-[2018.05.02-12.56.44:773][226]LogModuleManager: Shutting down and abandoning module VREditor (216)
-[2018.05.02-12.56.44:774][226]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
-[2018.05.02-12.56.44:774][226]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
-[2018.05.02-12.56.44:774][226]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module UMG (202)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module Sequencer (200)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module MessageLog (197)
-[2018.05.02-12.56.44:775][226]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
-[2018.05.02-12.56.44:777][226]LogModuleManager: Shutting down and abandoning module Slate (190)
-[2018.05.02-12.56.44:777][226]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
-[2018.05.02-12.56.44:781][226]LogModuleManager: Shutting down and abandoning module MRMesh (186)
-[2018.05.02-12.56.44:781][226]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module Networking (178)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module Core (174)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module LevelSequence (170)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (168)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module KismetCompiler (166)
-[2018.05.02-12.56.44:782][226]LogModuleManager: Shutting down and abandoning module MeshUtilities (164)
-[2018.05.02-12.56.44:783][226]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (163)
-[2018.05.02-12.56.44:783][226]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (162)
-[2018.05.02-12.56.44:783][226]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (161)
-[2018.05.02-12.56.44:784][226]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (159)
-[2018.05.02-12.56.44:784][226]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (157)
-[2018.05.02-12.56.44:784][226]LogModuleManager: Shutting down and abandoning module MaterialBaking (153)
-[2018.05.02-12.56.44:784][226]LogModuleManager: Shutting down and abandoning module DerivedDataCache (150)
-[2018.05.02-12.56.44:802][226]LogDerivedDataCache: Shutdown
-[2018.05.02-12.56.44:802][226]LogModuleManager: Shutting down and abandoning module TargetPlatform (148)
-[2018.05.02-12.56.44:802][226]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (147)
-[2018.05.02-12.56.44:802][226]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (145)
-[2018.05.02-12.56.44:803][226]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (143)
-[2018.05.02-12.56.44:803][226]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (141)
-[2018.05.02-12.56.44:803][226]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (139)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (137)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (135)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (133)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (131)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (129)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module ImageWrapper (128)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (125)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (123)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (121)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (119)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module Messaging (107)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
-[2018.05.02-12.56.44:804][226]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (99)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (97)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (95)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (93)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module InputCore (66)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module Settings (64)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module SteamVR (60)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
-[2018.05.02-12.56.44:805][226]LogModuleManager: Shutting down and abandoning module OculusAudio (56)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.02-12.56.44:806][226]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.02-12.56.44:807][226]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.02-12.56.44:807][226]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.02-12.56.44:807][226]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BF154BCEC-4C99-8657-9F1B-93B1EB139A9E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=b914ff53478b5f622d6555bf0841b6f9%7C86b6ae209afd4afba3857a84ef1c03f5%7C42b6a3b4-a436-4b48-864c-cd0cc8a0dc50&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.02-12.56.44:819][226]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.02-12.56.44:821][226]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.02-12.56.44:821][226]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.02-12.56.44:821][226]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.02-12.56.44:821][226]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.02-12.56.44:822][226]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.02-12.56.44:822][226]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.02-12.56.44:822][226]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.02-12.56.44:824][226]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.02-12.56.44:825][226]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.02-12.56.44:825][226]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.02-12.56.44:825][226]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.02-12.56.44:830][226]LogExit: Exiting.
-[2018.05.02-12.56.44:871][226]Log file closed, 05/02/18 05:56:44
+[2018.05.02-21.47.46:118][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.02-21.47.46:118][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.02-21.47.46:127][  0]LogInit: Computer: DESKTOP-TMTLRPJ
+[2018.05.02-21.47.46:127][  0]LogInit: User: GameDevClub
+[2018.05.02-21.47.46:127][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.02-21.47.46:127][  0]LogInit: High frequency timer resolution =4.101564 MHz
+[2018.05.02-21.47.46:127][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.05.02-21.47.46:127][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.02-21.47.46:127][  0]LogMemory: Process Physical Memory: 280.79 MB used, 280.79 MB peak
+[2018.05.02-21.47.46:127][  0]LogMemory: Process Virtual Memory: 272.29 MB used, 272.29 MB peak
+[2018.05.02-21.47.46:127][  0]LogMemory: Physical Memory: 5274.93 MB used,  11072.20 MB free, 16347.13 MB total
+[2018.05.02-21.47.46:127][  0]LogMemory: Virtual Memory: 737.88 MB used,  11072.20 MB free, 134217728.00 MB total
+[2018.05.02-21.47.46:234][  0]LogInit: Using OS detected language (en-US).
+[2018.05.02-21.47.46:234][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.02-21.47.46:236][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.02-21.47.46:518][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.02-21.47.46:709][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.02-21.47.46:740][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080 Ti' (Feature Level 11_0)
+[2018.05.02-21.47.46:740][  0]LogD3D11RHI:       11127/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2018.05.02-21.47.46:741][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.02-21.47.46:741][  0]LogD3D11RHI:       0/0/8173 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.02-21.47.46:741][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.02-21.47.46:746][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.02-21.47.46:746][  0]LogD3D11RHI:     GPU DeviceId: 0x1b06 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.02-21.47.46:746][  0]LogWindows: EnumDisplayDevices:
+[2018.05.02-21.47.46:746][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080 Ti' (P:1 D:1)
+[2018.05.02-21.47.46:746][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.05.02-21.47.46:746][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:1)
+[2018.05.02-21.47.46:746][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080 Ti' (P:0 D:0)
+[2018.05.02-21.47.46:746][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.02-21.47.46:746][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080 Ti
+[2018.05.02-21.47.46:746][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.02-21.47.46:746][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.02-21.47.46:746][  0]LogRHI: Texture pool is 7788 MB (70% of 11127 MB)
+[2018.05.02-21.47.46:765][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.02-21.47.46:813][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.05.02-21.47.46:909][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Intermediate/Shaders/WorkingDirectory/10716/).
+[2018.05.02-21.47.46:909][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GameDevClub/AppData/Local/Temp/UnrealShaderWorkingDir/7CF758AE4EB32F7140CD0FA84C8300E2/'.
+[2018.05.02-21.47.46:909][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.02-21.47.47:576][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.02-21.47.47:617][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.02-21.47.47:659][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.02-21.47.47:699][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.02-21.47.47:739][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.02-21.47.47:778][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.02-21.47.47:818][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.02-21.47.47:859][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.02-21.47.47:894][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.02-21.47.47:932][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.02-21.47.47:972][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.02-21.47.48:012][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.02-21.47.48:052][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.02-21.47.48:092][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.02-21.47.48:172][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.02-21.47.48:173][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.02-21.47.48:213][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.02-21.47.48:243][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.02-21.47.48:318][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.02-21.47.48:339][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.02-21.47.48:378][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.02-21.47.48:416][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.02-21.47.48:453][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.02-21.47.48:492][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.02-21.47.48:492][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.02-21.47.48:834][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.02-21.47.48:882][  0]LogDerivedDataCache: Loaded boot cache 0.05s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.02-21.47.48:882][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.02-21.47.48:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.02-21.47.48:883][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.02-21.47.48:883][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.02-21.47.48:883][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.02-21.47.48:893][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.02-21.47.48:905][  0]LogDerivedDataCache: Using Local data cache path C:/Users/GameDevClub/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.02-21.47.48:912][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.02-21.47.48:912][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.02-21.47.48:913][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-21.47.48:913][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.02-21.47.49:166][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.02-21.47.49:404][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.02-21.47.49:433][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.02-21.47.49:434][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.02-21.47.49:434][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.02-21.47.49:434][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.02-21.47.49:434][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.02-21.47.49:460][  0]LogNetVersion: SushiShop , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2343829258)
+[2018.05.02-21.47.49:589][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
+[2018.05.02-21.47.49:943][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.047408 seconds
+[2018.05.02-21.47.49:947][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.02-21.47.49:947][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.02-21.47.49:947][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.02-21.47.49:986][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.02-21.47.51:915][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.05.02-21.47.51:938][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.02-21.47.51:972][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.02-21.47.52:575][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.02-21.47.52:882][  0]SourceControl: Source control is disabled
+[2018.05.02-21.47.52:882][  0]SourceControl: Source control is disabled
+[2018.05.02-21.47.52:922][  0]SourceControl: Source control is disabled
+[2018.05.02-21.47.52:962][  0]SourceControl: Source control is disabled
+[2018.05.02-21.47.53:605][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.02-21.47.53:808][  0]LogOcInput: OculusInput pre-init called
+[2018.05.02-21.47.54:230][  0]LogEngine: Initializing Engine...
+[2018.05.02-21.47.54:231][  0]LogHMD: Oculus plugin initialized. Version: 4.18.3-3832480+++UE4+Release-4.18, OVRPlugin: 1.19.0
+[2018.05.02-21.47.54:377][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.02-21.47.54:377][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.02-21.47.54:472][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.02-21.47.54:479][  0]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-21.47.54:487][  0]LogInit: FAudioDevice initialized.
+[2018.05.02-21.47.54:532][  0]LogDerivedDataCache: Saved boot cache 0.05s 80MB C:/Users/GameDevClub/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.02-21.47.54:539][  0]LogInit: Texture streaming: Enabled
+[2018.05.02-21.47.54:612][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.02-21.47.54:612][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={C0FC365D-465C-FA17-D280-5AACAFE75C19}
+[2018.05.02-21.47.54:705][  0]LogInit: Transaction tracking system initialized
+[2018.05.02-21.47.54:938][  0]BlueprintLog: New page: Editor Load
+[2018.05.02-21.47.55:593][  0]LocalizationService: Localization service is disabled
+[2018.05.02-21.47.56:136][  0]LogConsoleResponse: Display: 
+[2018.05.02-21.47.56:265][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.02-21.47.56:265][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.02-21.47.56:265][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.02-21.47.56:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/' took 0.02s
+[2018.05.02-21.47.57:135][  0]SourceControl: Source control is disabled
+[2018.05.02-21.47.57:228][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-21.47.57:229][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.02-21.48.03:065][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-21.48.03:066][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.02-21.48.03:072][  0]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/VirtualRealityBP/Maps/StartupMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-21.48.03:072][  0]LightingResults: New page: Lighting Build
+[2018.05.02-21.48.03:107][  0]MapCheck: New page: Map Check
+[2018.05.02-21.48.03:107][  0]LightingResults: New page: Lighting Build
+[2018.05.02-21.48.03:195][  0]LogAIModule: Creating AISystem for world StartupMap
+[2018.05.02-21.48.03:202][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-21.48.03:210][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-21.48.03:252][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 41.76ms to complete.
+[2018.05.02-21.48.03:252][  0]LogFileHelpers: Loading map 'StartupMap' took 0.181
+[2018.05.02-21.48.03:364][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_1b88_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_20b8_0///####STATCAT_Advanced####
+[2018.05.02-21.48.03:364][  0]LogCollectionManager: Loaded 0 collections in 0.001264 seconds
+[2018.05.02-21.48.03:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Collections/' took 0.01s
+[2018.05.02-21.48.03:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Developers/GameDevClub/Collections/' took 0.01s
+[2018.05.02-21.48.03:437][  0]LogFileCache: Scanning file cache for directory 'C:/Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/Collections/' took 0.01s
+[2018.05.02-21.48.03:437][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.02-21.48.03:443][  0]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 2388 classes and 535 folders.
+[2018.05.02-21.48.03:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.02-21.48.03:521][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0001 seconds. Added 0 classes and 0 folders.
+[2018.05.02-21.48.03:566][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.02-21.48.03:567][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.02-21.48.03:632][  0]LogRenderer: Reallocating scene render targets to support 872x508 Format 26 NumSamples 1 (Frame:1).
+[2018.05.02-21.48.03:736][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.02-21.48.03:736][  0]LogLoad: (Engine Initialization) Total time: 19.52 seconds
+[2018.05.02-21.48.03:736][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.02-21.48.03:737][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.02-21.48.03:750][  0]LogOcInput: OculusInput is initialized
+[2018.05.02-21.48.03:767][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.02-21.48.03:796][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-21.48.03:801][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.05.02-21.48.03:813][  1]LogAssetRegistry: Asset discovery search completed in 14.2457 seconds
+[2018.05.02-21.48.03:814][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.02-21.48.03:814][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000044 seconds (updated 0 objects)
+[2018.05.02-21.48.04:779][112]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-21.48.09:683][698]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.02-21.48.10:242][698]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-21.48.10:243][698]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-21.48.10:243][698]LoadErrors: Error: /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01 : Can't find file for asset. /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2
+[2018.05.02-21.48.10:243][698]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-21.48.10:243][698]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Environment/LIGHTS/Lights1/LoungeVR_CeilingLightNew_01.uasset.
+[2018.05.02-21.48.10:447][698]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-21.48.10:447][698]LoadErrors: Failed to load /Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2.lambert2 Referenced by LoungeVR_CeilingLightNew_01
+[2018.05.02-21.48.10:447][698]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.05.02-21.48.10:447][698]LogLinker: Warning: Can't find file '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2'
+[2018.05.02-21.48.10:447][698]LogLinker: Warning: Can't find file for asset '/Game/SushiShop/Assets/Environment/LIGHTS/Lights1/lambert2' while loading NULL.
+[2018.05.02-21.48.10:492][698]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.02-21.48.10:871][698]LogAIModule: Creating AISystem for world Main
+[2018.05.02-21.48.10:904][698]Cmd: MAP LOAD FILE="../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.02-21.48.10:904][698]LightingResults: New page: Lighting Build
+[2018.05.02-21.48.10:905][698]LoadErrors: New page: Loading map: Main.umap
+[2018.05.02-21.48.10:905][698]MapCheck: New page: Map Check
+[2018.05.02-21.48.10:905][698]LightingResults: New page: Lighting Build
+[2018.05.02-21.48.10:976][698]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.02-21.48.11:037][698]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.02-21.48.11:101][698]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 63.439ms to complete.
+[2018.05.02-21.48.11:101][698]LogFileHelpers: Loading map 'Main' took 0.197
+[2018.05.02-21.48.26:810][578]LogTemp: Repeating last play command: VR Preview
+[2018.05.02-21.48.26:869][578]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-21.48.26:870][578]LogHMD: Initializing OVRPlugin session
+[2018.05.02-21.48.26:892][578]PIE: New page: PIE session: Main (May 2, 2018, 7:48:26 AM)
+[2018.05.02-21.48.26:892][578]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.05.02-21.48.26:907][578]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015034s)
+[2018.05.02-21.48.26:907][578]LogAIModule: Creating AISystem for world Main
+[2018.05.02-21.48.26:908][578]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2018.05.02-21.48.26:908][578]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.015949s)
+[2018.05.02-21.48.26:920][578]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-21.48.26:925][578]LogInit: FAudioDevice initialized.
+[2018.05.02-21.48.27:026][578]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.02-21.48.27:061][578]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-21.48.27:061][578]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-21.48.27:102][578]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.05.02-14.48.27
+[2018.05.02-21.48.27:103][578]LogWorld: Bringing up level for play took: 0.039726
+[2018.05.02-21.48.27:133][578]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.05.02-21.48.27:140][578]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main -0.534
+[2018.05.02-21.48.27:154][578]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.02-21.48.27:154][578]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.02-21.48.53:220][598]Set new viewmode: Wireframe
+[2018.05.02-21.49.27:834][705]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.49.29:701][873]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.49.30:579][952]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.49.31:412][ 27]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.49.43:201][ 88]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.49.51:024][792]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.08:170][335]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.26:215][959]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.28:971][207]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.31:482][433]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.35:738][816]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.50.44:116][570]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.21:942][974]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:065][985]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:242][  1]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:353][ 11]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:498][ 24]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:586][ 32]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:742][ 46]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:775][ 49]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:953][ 65]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.22:987][ 68]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:164][ 84]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:187][ 86]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:353][101]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:364][102]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:564][120]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:587][122]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:731][135]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:787][140]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:942][154]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.23:976][157]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:131][171]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:164][174]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:320][188]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:354][191]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:520][206]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:542][208]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:708][223]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:753][227]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:886][239]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.24:942][244]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:109][259]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:110][259]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:286][275]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:309][277]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:486][293]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:520][296]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:697][312]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:698][312]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:887][329]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.25:887][329]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:075][346]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:097][348]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:264][363]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:275][364]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:408][376]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:420][377]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:653][398]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:675][400]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:875][417]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.26:897][419]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:063][434]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:120][439]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:275][453]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:386][463]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:808][501]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.27:809][501]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.28:808][591]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.28:809][591]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.28:821][592]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.29:575][660]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.29:608][663]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.33:475][ 11]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.35:842][224]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.36:397][274]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.36:753][306]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.37:264][352]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.37:497][373]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.37:731][394]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.37:975][416]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.38:143][431]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.38:397][454]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.38:498][463]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.38:720][483]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.38:831][493]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.39:030][511]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.39:176][524]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.39:375][542]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.39:742][575]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.39:786][579]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:196][616]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:219][618]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:563][640]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:577][641]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:762][652]Set new viewmode: Lit
+[2018.05.02-21.51.40:821][654]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.40:888][656]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.41:086][664]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.41:224][670]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.41:421][679]Set new viewmode: Lit_DetailLighting
+[2018.05.02-21.51.42:091][709]Set new viewmode: ShaderComplexity
+[2018.05.02-21.51.51:213][519]Set new viewmode: Lit
+[2018.05.02-21.51.56:051][767]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.51.57:072][813]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.04:918][166]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.33:296][453]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.34:586][511]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.36:208][584]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.40:875][794]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.42:985][886]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.44:630][960]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.46:630][ 48]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.48:051][112]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.49:808][188]PIE: Warning: Attempting to move a fully simulated skeletal mesh SkeletalMeshComponent0. Please use the Teleport flag
+[2018.05.02-21.52.58:950][578]LogRenderer: Reallocating scene render targets to support 2720x2400 Format 26 NumSamples 1 (Frame:22002).
+[2018.05.02-21.53.16:263][644]LogTemp: Repeating last play command: VR Preview
+[2018.05.02-21.53.16:294][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.02-21.53.16:294][644]LogHMD: Initializing OVRPlugin session
+[2018.05.02-21.53.16:319][644]PIE: New page: PIE session: Main (May 2, 2018, 7:53:16 AM)
+[2018.05.02-21.53.16:319][644]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.05.02-21.53.16:339][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019814s)
+[2018.05.02-21.53.16:339][644]LogAIModule: Creating AISystem for world Main
+[2018.05.02-21.53.16:340][644]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2018.05.02-21.53.16:340][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.021365s)
+[2018.05.02-21.53.16:356][644]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.02-21.53.16:362][644]LogInit: FAudioDevice initialized.
+[2018.05.02-21.53.16:448][644]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
+[2018.05.02-21.53.16:472][644]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2018.05.02-21.53.16:473][644]LogLoad: Game class is 'GameModeBase'
+[2018.05.02-21.53.16:514][644]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.05.02-14.53.16
+[2018.05.02-21.53.16:515][644]LogWorld: Bringing up level for play took: 0.042233
+[2018.05.02-21.53.16:522][644]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.848
+[2018.05.02-21.53.16:535][644]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
+[2018.05.02-21.53.16:535][644]LogHMD: Allocating Oculus 2720 x 1600 depth rendertarget swapchain
+[2018.05.02-21.53.27:581][638]Set new viewmode: ShaderComplexity
+[2018.05.02-21.53.41:443][885]Set new viewmode: Lit
+[2018.05.02-21.54.10:461][486]LogRenderer: Reallocating scene render targets to support 2720x2400 Format 26 NumSamples 1 (Frame:4844).
+[2018.05.02-23.05.10:265][566]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.05.11:195][670]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.05.14:001][999]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight36)
+[2018.05.02-23.05.15:002][114]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.06.09:007][576]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight34)
+[2018.05.02-23.07.59:399][750]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2018.05.02-23.07.59:401][750]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.07.59:691][750]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.07.59:729][750]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.07.59:788][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_31, compiling. 
+[2018.05.02-23.07.59:791][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.05.02-23.07.59:795][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_32, compiling. 
+[2018.05.02-23.07.59:798][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_29, compiling. 
+[2018.05.02-23.07.59:802][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_34, compiling. 
+[2018.05.02-23.07.59:805][750]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_35, compiling. 
+[2018.05.02-23.07.59:818][750]LogSlate: Took 0.002436 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.02-23.07.59:896][750]LogStaticMesh: Allocated 492x114x64 distance field atlas = 6.8Mb, with 139 objects containing 3.2Mb backing data
+[2018.05.02-23.08.02:359][961]LogSlate: Took 0.003709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.08.03:148][ 22]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.09.51:712][960]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.09.54:677][209]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.09.57:587][555]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.01:105][876]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.01:145][876]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_33, compiling. 
+[2018.05.02-23.10.04:054][126]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.10.06:654][345]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.10.30:492][191]LogMaterialEditor: Saving and Compiling material Plain_Tiles_M
+[2018.05.02-23.10.31:288][191]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.31:374][191]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.31:490][191]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.31:583][191]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.05.02-23.10.33:807][191]TextureStreamingBuild: Display: Compiling optional shaders took 2.231 seconds.
+[2018.05.02-23.10.37:770][191]LogSavePackage: Save=14.63ms
+[2018.05.02-23.10.37:770][191]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Plain_Tiles_MD0C1961B40BDC5F8773ED88F48549269.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset'
+[2018.05.02-23.10.37:775][191]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset
+[2018.05.02-23.11.01:015][897]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.11.03:961][138]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.11.04:415][191]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.05:693][295]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.08:356][505]LogMaterialEditor: Saving and Compiling material Plain_Tiles_M
+[2018.05.02-23.11.08:696][505]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.08:782][505]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.08:905][505]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.09:007][505]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.10:940][505]TextureStreamingBuild: Display: Compiling optional shaders took 1.940 seconds.
+[2018.05.02-23.11.14:941][505]LogSavePackage: Save=13.75ms
+[2018.05.02-23.11.14:941][505]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Plain_Tiles_M0BF5A3184425F72FFC783CB12AAABB44.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset'
+[2018.05.02-23.11.14:943][505]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.11.14:954][505]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.11.16:659][699]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.11.19:315][908]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.11.19:517][931]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.20:796][ 31]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.20:893][ 35]LogMaterialEditor: Saving and Compiling material Plain_Tiles_M
+[2018.05.02-23.11.21:369][ 35]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.21:474][ 35]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.21:601][ 35]LogMaterial: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.21:704][ 35]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.05.02-23.11.23:649][ 35]TextureStreamingBuild: Display: Compiling optional shaders took 1.951 seconds.
+[2018.05.02-23.11.27:601][ 35]LogSavePackage: Save=13.72ms
+[2018.05.02-23.11.27:601][ 35]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Plain_Tiles_MCBD8FAB244E29E27FF4803BFEE2ED097.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset'
+[2018.05.02-23.11.27:604][ 35]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Plain_Tiles_M/Plain_Tiles_M.uasset
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: Base pass shader: 164 instructions
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: Base pass shader with Surface Lightmap: 185 instructions
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 241 instructions
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.11.27:608][ 35]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.12.29:534][316]LogMaterial: Missing cached shader map for material marble_Mat, compiling. 
+[2018.05.02-23.12.29:633][316]LogMaterial: Missing cached shader map for material marble_Mat, compiling. 
+[2018.05.02-23.12.29:648][316]LogMaterial: Missing cached shader map for material marble_Mat, compiling. 
+[2018.05.02-23.12.29:688][316]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: Base pass shader: 149 instructions
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: Base pass shader with Surface Lightmap: 166 instructions
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 222 instructions
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: Texture samplers: 4/16
+[2018.05.02-23.12.31:129][432]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.12.37:986][234]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.38:104][234]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.38:140][234]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.38:197][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_18, compiling. 
+[2018.05.02-23.12.38:202][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_19, compiling. 
+[2018.05.02-23.12.38:206][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2018.05.02-23.12.38:211][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling. 
+[2018.05.02-23.12.38:215][234]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_17, compiling. 
+[2018.05.02-23.12.40:887][453]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.12.40:887][453]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.12.40:887][453]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.12.40:888][453]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.12.40:888][453]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.12.40:888][453]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.12.45:139][939]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.46:817][ 80]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.46:902][ 83]LogMaterialEditor: Saving and Compiling material Marble_Light_M
+[2018.05.02-23.12.47:385][ 83]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.47:496][ 83]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.47:633][ 83]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.12.47:735][ 83]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Light_M, compiling. 
+[2018.05.02-23.12.49:659][ 83]TextureStreamingBuild: Display: Compiling optional shaders took 1.930 seconds.
+[2018.05.02-23.12.53:634][ 83]LogSavePackage: Save=12.67ms
+[2018.05.02-23.12.53:634][ 83]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Light_M07D0EA4245499202B36135A30BBC9B17.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset'
+[2018.05.02-23.12.53:637][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.12.53:643][ 83]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.03:349][242]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.13.06:013][464]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.09:121][835]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.11:954][ 86]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.11:992][ 86]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling. 
+[2018.05.02-23.13.14:553][310]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.13.17:103][543]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.21:104][ 16]LogMaterialEditor: Saving and Compiling material Marble_Light_M
+[2018.05.02-23.13.21:433][ 16]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.21:520][ 16]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.21:640][ 16]LogMaterial: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.05.02-23.13.21:740][ 16]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Light_M, compiling. 
+[2018.05.02-23.13.23:654][ 16]TextureStreamingBuild: Display: Compiling optional shaders took 1.923 seconds.
+[2018.05.02-23.13.27:636][ 16]LogSavePackage: Save=12.76ms
+[2018.05.02-23.13.27:636][ 16]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Light_M38264D624E994073D2D54AA82A9B3929.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset'
+[2018.05.02-23.13.27:639][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset
+[2018.05.02-23.13.37:362][174]LogMaterialEditor: Saving and Compiling material Marble_Light_M
+[2018.05.02-23.13.37:386][174]LogSavePackage: Save=6.31ms
+[2018.05.02-23.13.37:386][174]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Light_M9AC2AB764B5D1B05F13190B4B54AD10A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset'
+[2018.05.02-23.13.37:387][174]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Light_M/Marble_Light_M.uasset
+[2018.05.02-23.13.42:307][743]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.42:425][743]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.42:460][743]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.42:517][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2018.05.02-23.13.42:521][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling. 
+[2018.05.02-23.13.42:525][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2018.05.02-23.13.42:529][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling. 
+[2018.05.02-23.13.42:533][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling. 
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.13.45:162][955]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.47:089][167]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.13.49:702][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.52:675][739]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.13.55:290][959]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.13.58:959][395]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.13.58:995][395]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_16, compiling. 
+[2018.05.02-23.14.00:626][533]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.03:439][778]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.14.03:439][778]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.14.03:439][778]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.14.03:440][778]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.14.03:440][778]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.14.03:440][778]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.14.05:228][990]LogMaterialEditor: Saving and Compiling material Marble_Dark_M
+[2018.05.02-23.14.05:556][990]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.05:643][990]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.05:778][990]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.05:879][990]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.05.02-23.14.07:805][990]TextureStreamingBuild: Display: Compiling optional shaders took 1.932 seconds.
+[2018.05.02-23.14.11:775][990]LogSavePackage: Save=14.10ms
+[2018.05.02-23.14.11:775][990]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Dark_MBA252C0F46BB6BE3144891B900F56B0A.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset'
+[2018.05.02-23.14.11:778][990]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset
+[2018.05.02-23.14.12:445][ 68]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Middle_Table_pCube1)
+[2018.05.02-23.14.12:796][104]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.14.23:370][356]Cmd: TRANSACTION UNDO
+[2018.05.02-23.14.23:370][356]LogEditorTransaction: Undo Move Actors
+[2018.05.02-23.14.23:378][356]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.14.26:012][556]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.14.39:634][174]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.40:921][279]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.41:013][283]LogMaterialEditor: Saving and Compiling material Marble_Dark_M
+[2018.05.02-23.14.41:496][283]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.41:599][283]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.41:729][283]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.41:831][283]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.05.02-23.14.43:773][283]TextureStreamingBuild: Display: Compiling optional shaders took 1.949 seconds.
+[2018.05.02-23.14.47:751][283]LogSavePackage: Save=13.97ms
+[2018.05.02-23.14.47:751][283]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Dark_M5A292499468A7D02337B1492410FB58E.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset'
+[2018.05.02-23.14.47:753][283]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.14.47:759][283]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.14.51:758][754]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.52:902][847]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.52:984][850]LogMaterialEditor: Saving and Compiling material Marble_Dark_M
+[2018.05.02-23.14.53:472][850]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.53:574][850]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.53:700][850]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.14.53:800][850]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.05.02-23.14.55:714][850]TextureStreamingBuild: Display: Compiling optional shaders took 1.921 seconds.
+[2018.05.02-23.14.59:710][850]LogSavePackage: Save=14.22ms
+[2018.05.02-23.14.59:710][850]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Marble_Dark_M6B16098E487059291B054295E6531EDD.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset'
+[2018.05.02-23.14.59:713][850]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Marble_Dark_M/Marble_Dark_M.uasset
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.14.59:718][850]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.15.38:010][393]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bar_stool15)
+[2018.05.02-23.15.38:831][486]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.17.02:861][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.007
+[2018.05.02-23.18.18:012][347]LogEditorFactories: Performing atomic reimport of [C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_AO_R_M.tga]
+[2018.05.02-23.18.18:035][347]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_AO_R_M.tga)
+[2018.05.02-23.18.18:106][347]LogTexture: Display: Building textures: Curtains_AO_R_M (AutoDXT, 2048X2048)
+[2018.05.02-23.18.18:864][347]LogEditorFactories: -- imported successfully
+[2018.05.02-23.18.26:186][687]LogEditorFactories: Performing atomic reimport of [C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_BC.tga]
+[2018.05.02-23.18.26:209][687]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_BC.tga)
+[2018.05.02-23.18.26:279][687]LogTexture: Display: Building textures: Curtains_BC (AutoDXT, 2048X2048)
+[2018.05.02-23.18.26:822][687]LogEditorFactories: -- imported successfully
+[2018.05.02-23.18.32:154][985]LogEditorFactories: Performing atomic reimport of [C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_N.tga]
+[2018.05.02-23.18.32:178][985]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/GameDevClub/Desktop/JohnCobian/Curtains_N.tga)
+[2018.05.02-23.18.32:246][985]LogTexture: Display: Building textures: Curtains_N (AutoDXT, 2048X2048)
+[2018.05.02-23.18.33:492][985]LogEditorFactories: -- imported successfully
+[2018.05.02-23.18.34:333][ 69]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.02-23.18.50:532][686]LogSavePackage: Save=249.78ms
+[2018.05.02-23.18.50:532][686]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Curtains_AO_R_MF37B932745C9F97A6FDB0CB533B9D789.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_AO_R_M.uasset'
+[2018.05.02-23.18.50:535][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_AO_R_M.uasset
+[2018.05.02-23.18.50:812][686]LogSavePackage: Save=254.75ms
+[2018.05.02-23.18.50:812][686]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Curtains_BC6FADE1184A0C4EC6E820B189966E3CA7.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_BC.uasset'
+[2018.05.02-23.18.50:814][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_BC.uasset
+[2018.05.02-23.18.51:489][686]LogSavePackage: Save=631.44ms
+[2018.05.02-23.18.51:489][686]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Curtains_N6488C9154753F2510B8889AA3D5A2593.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_N.uasset'
+[2018.05.02-23.18.51:491][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtains_N.uasset
+[2018.05.02-23.18.52:246][771]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.18.52:362][771]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.18.52:402][771]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.18.52:468][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2018.05.02-23.18.52:473][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2018.05.02-23.18.52:479][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2018.05.02-23.18.56:339][ 93]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.18.56:339][ 93]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.18.56:339][ 93]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.18.56:339][ 93]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.02-23.18.56:339][ 93]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.19.37:021][931]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Curtain_Large_CurtainLarge_Left)
+[2018.05.02-23.19.37:865][ 26]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.19.44:065][754]LogMaterialEditor: Saving and Compiling material Curtain_M1
+[2018.05.02-23.19.44:386][754]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.19.44:460][754]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.19.44:570][754]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.19.44:685][754]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Curtain_M1, compiling. 
+[2018.05.02-23.19.47:514][754]TextureStreamingBuild: Display: Compiling optional shaders took 2.834 seconds.
+[2018.05.02-23.19.54:203][754]LogSavePackage: Save=13.07ms
+[2018.05.02-23.19.54:203][754]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Curtain_M1E668DA7C46915E0C7F0DE087CB8D4EAA.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtain_M1.uasset'
+[2018.05.02-23.19.54:205][754]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Materials/Curtain_M/Curtain_M1.uasset
+[2018.05.02-23.19.54:211][754]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.19.54:212][754]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.19.54:212][754]MaterialEditorStats: Vertex shader: 132 instructions
+[2018.05.02-23.19.54:212][754]MaterialEditorStats: Texture samplers: 6/16
+[2018.05.02-23.19.54:212][754]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.20.33:456][370]LogActorFactory: Actor Factory created Napkin_Napkin
+[2018.05.02-23.20.35:561][606]LogActorFactory: Actor Factory created Napkin_Napkin
+[2018.05.02-23.21.29:216][877]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.21.30:087][975]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin)
+[2018.05.02-23.21.38:432][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin)
+[2018.05.02-23.21.39:105][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.21.43:528][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin)
+[2018.05.02-23.21.51:741][519]Cmd: TRANSACTION UNDO
+[2018.05.02-23.21.51:741][519]LogEditorTransaction: Undo Move Actors
+[2018.05.02-23.21.51:753][519]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.21.51:808][519]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.21.54:751][735]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.21.58:180][993]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.21.58:180][993]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.21.58:180][993]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.21.58:180][993]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.02-23.21.58:180][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.22.02:363][480]Cmd: TRANSACTION UNDO
+[2018.05.02-23.22.02:363][480]LogEditorTransaction: Undo Move Actors
+[2018.05.02-23.22.02:367][480]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.22.02:403][480]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.22.05:116][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.22.05:134][680]Cmd: TRANSACTION UNDO
+[2018.05.02-23.22.05:134][680]LogEditorTransaction: Undo Move Actors
+[2018.05.02-23.22.05:140][680]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.22.05:187][680]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.22.07:896][879]Cmd: DUPLICATE
+[2018.05.02-23.22.07:896][879]Cmd: ACTOR DUPLICATE
+[2018.05.02-23.22.07:931][879]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.22.07:931][879]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.22.07:931][879]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.22.07:931][879]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.22.07:931][879]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.22.07:932][879]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.22.11:302][133]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.22.11:302][133]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.22.11:302][133]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.22.11:302][133]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.02-23.22.11:302][133]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.22.16:256][717]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.22.16:730][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bar_stool20)
+[2018.05.02-23.22.23:049][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks2)
+[2018.05.02-23.22.41:629][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin)
+[2018.05.02-23.22.46:763][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks2)
+[2018.05.02-23.22.56:608][486]Cmd: TRANSACTION UNDO
+[2018.05.02-23.22.56:608][486]LogEditorTransaction: Undo Move Actors
+[2018.05.02-23.22.56:612][486]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.22.56:648][486]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.22.59:607][704]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.22.59:607][704]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.22.59:607][704]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.22.59:607][704]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.22.59:608][704]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.22.59:608][704]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.23.02:938][967]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.23.02:938][967]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.23.02:938][967]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.23.02:938][967]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.02-23.23.02:938][967]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.23.08:154][587]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.23.21:166][109]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin2)
+[2018.05.02-23.23.24:340][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.23.24:874][535]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks)
+[2018.05.02-23.23.39:743][285]Cmd: DELETE
+[2018.05.02-23.23.39:743][285]Cmd: ACTOR DELETE
+[2018.05.02-23.23.39:748][285]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.02-23.23.39:756][285]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.05.02-23.23.40:163][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin2)
+[2018.05.02-23.23.42:287][581]Cmd: TRANSACTION UNDO
+[2018.05.02-23.23.42:287][581]LogEditorTransaction: Undo Clicking on Actors
+[2018.05.02-23.23.42:290][581]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.23.42:325][581]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.23.43:770][700]Cmd: TRANSACTION UNDO
+[2018.05.02-23.23.43:770][700]LogEditorTransaction: Undo Delete Actors
+[2018.05.02-23.23.43:794][700]LogMaterial: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.05.02-23.23.43:846][700]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: Base pass shader: 163 instructions
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: Base pass shader with Surface Lightmap: 184 instructions
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 240 instructions
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: Vertex shader: 37 instructions
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: Texture samplers: 8/16
+[2018.05.02-23.23.46:683][906]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.23.50:114][165]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.23.50:114][165]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.23.50:114][165]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.23.50:114][165]MaterialEditorStats: Texture samplers: 5/16
+[2018.05.02-23.23.50:114][165]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.05.02-23.23.53:496][559]Cmd: DELETE
+[2018.05.02-23.23.53:496][559]Cmd: ACTOR DELETE
+[2018.05.02-23.23.53:502][559]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.02-23.23.53:502][559]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.02-23.23.53:509][559]LogEditorActor: Deleted 2 Actors (0.012 secs)
+[2018.05.02-23.23.54:584][687]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin)
+[2018.05.02-23.24.12:224][764]EditorErrors: New page: Actor attachment
+[2018.05.02-23.24.40:623][901]EditorErrors: New page: Actor attachment
+[2018.05.02-23.24.44:127][315]EditorErrors: New page: Actor attachment
+[2018.05.02-23.24.46:252][565]EditorErrors: New page: Actor attachment
+[2018.05.02-23.25.00:443][224]Cmd: DUPLICATE
+[2018.05.02-23.25.00:443][224]Cmd: ACTOR DUPLICATE
+[2018.05.02-23.25.09:584][289]Cmd: DUPLICATE
+[2018.05.02-23.25.09:584][289]Cmd: ACTOR DUPLICATE
+[2018.05.02-23.25.36:914][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.05.02-23.25.39:649][803]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (bar_stool21)
+[2018.05.02-23.26.14:055][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (backWall)
+[2018.05.02-23.26.14:462][250]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.26.24:380][424]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (overheadBar2)
+[2018.05.02-23.27.05:522][463]LogSavePackage: Save=340.24ms
+[2018.05.02-23.27.05:522][463]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_Auto153E317554E2AC913744D4C8CD5FD397F.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto1.umap'
+[2018.05.02-23.27.05:523][463]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Autosaves/Game/SushiShop/Levels/Main_Auto1.umap
+[2018.05.02-23.27.05:526][463]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SushiShop/Levels/Main' took 0.362
+[2018.05.02-23.27.05:526][463]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.362
+[2018.05.02-23.27.11:130][119]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SushiBar)
+[2018.05.02-23.27.11:501][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin2)
+[2018.05.02-23.27.11:871][197]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.27.20:865][250]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Napkin_Napkin2)
+[2018.05.02-23.27.31:509][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Chopsticks2)
+[2018.05.02-23.27.46:804][259]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight25)
+[2018.05.02-23.27.47:146][295]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.05.02-23.28.39:457][133]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\GameDevClub\Desktop\JohnCobian\Water.fbx)
+[2018.05.02-23.28.39:462][133]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.02-23.28.39:462][133]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.02-23.28.39:462][133]LogFbx: ItemName: Material, ItemCount : 1
+[2018.05.02-23.28.39:462][133]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.02-23.28.39:462][133]LogFbx: ItemName: CollectionExclusive, ItemCount : 1
+[2018.05.02-23.28.39:466][133]LogFbx: Loading FBX Scene from C:\Users\GameDevClub\Desktop\JohnCobian\Water.fbx
+[2018.05.02-23.28.39:470][133]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.02-23.28.41:281][133]LogFbx: Loading FBX Scene from C:\Users\GameDevClub\Desktop\JohnCobian\Water.fbx
+[2018.05.02-23.28.41:286][133]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.02-23.28.41:291][133]LogFbx: Warning: Triangulating static mesh Water
+[2018.05.02-23.28.41:323][133]LogStaticMesh: Building static mesh Water_Water...
+[2018.05.02-23.28.41:333][133]LogStaticMesh: Built static mesh [0.01s] /Game/SushiShop/Assets/Bar/Water_Water.Water_Water
+[2018.05.02-23.28.41:349][133]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.02-23.28.41:707][133]LogMeshUtilities: Finished distance field build in 0.3s - 50x52x8 distance field, 1680 triangles, Range [-0.1, 1.0], Water_Water
+[2018.05.02-23.28.41:707][133]LogStaticMesh: Warning: Main thread blocked for 0.356s for async distance field build of Water_Water to complete!  This can happen if the mesh is rebuilt excessively.
+[2018.05.02-23.28.47:213][788]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water sushi bar)
+[2018.05.02-23.28.51:842][187]LogSavePackage: Save=11.24ms
+[2018.05.02-23.28.51:842][187]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Water_Water98896F614E3D03E96FEF249300C28361.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Bar/Water_Water.uasset'
+[2018.05.02-23.28.51:845][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Assets/Bar/Water_Water.uasset
+[2018.05.02-23.28.53:939][187]LogSavePackage: Save=343.26ms
+[2018.05.02-23.28.53:939][187]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main48DEDEB143002DE053EEFA82764DF927.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.05.02-23.28.53:942][187]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.05.02-23.28.53:989][187]LogFileHelpers: Saving map 'Main' took 2.142
+[2018.05.02-23.28.55:570][367]LogStaticMesh: Allocated 492x114x64 distance field atlas = 6.8Mb, with 147 objects containing 3.2Mb backing data
+[2018.05.02-23.29.03:465][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BenchSeat_polySurface7)
+[2018.05.02-23.29.10:096][ 69]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Water sushi bar)
+[2018.05.02-23.31.33:694][223]LogSavePackage: Save=341.12ms
+[2018.05.02-23.31.33:694][223]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainA26E9E474B46BAC64E6725AE5952E325.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.05.02-23.31.33:696][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.05.02-23.31.34:242][223]LogSavePackage: Save=478.48ms
+[2018.05.02-23.31.34:242][223]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltData3A4ABC934BCD5F9287BA82B939474036.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.05.02-23.31.34:244][223]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.05.02-23.32.11:583][637]LogSavePackage: Save=344.57ms
+[2018.05.02-23.32.11:583][637]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainB4ED77C348665565EFA8B6BBF2BA35B4.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.05.02-23.32.11:584][637]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.05.02-23.32.11:994][637]LogSavePackage: Save=356.49ms
+[2018.05.02-23.32.11:994][637]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltDataC06B77B44494F6E13D9F839491BA560D.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.05.02-23.32.11:996][637]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.05.02-23.32.13:457][807]MapCheck: New page: Map Check
+[2018.05.02-23.32.13:471][807]Cmd: MAP REBUILD ALLVISIBLE
+[2018.05.02-23.32.13:471][807]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.05.02-23.32.13:611][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.05.02-23.32.13:615][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bar_M, compiling. 
+[2018.05.02-23.32.13:620][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stainlessSteel_M_Inst, compiling. 
+[2018.05.02-23.32.13:629][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_2_2, compiling. 
+[2018.05.02-23.32.13:636][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.05.02-23.32.13:643][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Light_M, compiling. 
+[2018.05.02-23.32.13:649][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Cobain_Inst, compiling. 
+[2018.05.02-23.32.13:654][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2018.05.02-23.32.13:660][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.05.02-23.32.13:666][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicAsset01, compiling. 
+[2018.05.02-23.32.13:670][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericHMDMaterial, compiling. 
+[2018.05.02-23.32.13:675][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
+[2018.05.02-23.32.13:681][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M_Inst, compiling. 
+[2018.05.02-23.32.13:685][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tuna_M_Inst, compiling. 
+[2018.05.02-23.32.13:690][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Unagi_M_Inst, compiling. 
+[2018.05.02-23.32.13:695][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Salmon_M_Inst, compiling. 
+[2018.05.02-23.32.13:700][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.05.02-23.32.13:704][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Knife+Board_M, compiling. 
+[2018.05.02-23.32.13:709][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marble_Mat, compiling. 
+[2018.05.02-23.32.13:714][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.05.02-23.32.13:721][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Concrete_M, compiling. 
+[2018.05.02-23.32.13:725][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedCopper, compiling. 
+[2018.05.02-23.32.13:730][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_WoodAndTileOffsetPattern_Inst, compiling. 
+[2018.05.02-23.32.13:736][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Orange, compiling. 
+[2018.05.02-23.32.13:742][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sake_M, compiling. 
+[2018.05.02-23.32.13:747][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.05.02-23.32.13:752][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Curtain_M1, compiling. 
+[2018.05.02-23.32.13:757][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy emissive_light_m, compiling. 
+[2018.05.02-23.32.13:762][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_E, compiling. 
+[2018.05.02-23.32.13:767][807]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.05.02-23.32.15:103][807]TextureStreamingBuild: Display: Compiling optional shaders took 1.505 seconds.
+[2018.05.02-23.32.15:126][807]LogLevel: Display: Export Material TexCoord Scales took 0.023 seconds.
+[2018.05.02-23.32.15:155][807]TextureStreamingBuild: Display: Build Texture Streaming took 0.029 seconds.
+[2018.05.02-23.32.15:166][807]LightingResults: New page: Lighting Build - May 2, 2018, 9:32:15 AM
+[2018.05.02-23.32.15:198][807]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.05.02-23.32.15:224][807]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.05.02-23.32.15:234][807]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.05.02-23.32.15:739][807]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.05.02-23.32.15:739][807]LogSwarmInterface: [TryOpenConnection] Local Process ID is 10716
+[2018.05.02-23.32.17:885][807]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.05.02-23.32.17:886][807]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.05.02-23.32.17:886][807]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.05.02-23.32.17:886][807]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.05.02-23.32.17:886][807]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.05.02-23.32.17:886][807]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.05.02-23.32.18:055][807]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.05.02-23.32.18:055][807]MapCheck: New page: Main - May 2, 2018, 9:32:18 AM
+[2018.05.02-23.32.18:057][807]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.05.02-23.32.18:123][807]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 67.246ms to complete.
+[2018.05.02-23.32.18:145][807]LogEditorBuildUtils: Build time 0:04
+[2018.05.02-23.32.18:160][807]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Plain_Tiles_M, compiling. 
+[2018.05.02-23.32.18:166][807]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Plain_Tiles_M, compiling. 
+[2018.05.02-23.32.18:206][808]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Marble_Light_M, compiling. 
+[2018.05.02-23.32.18:214][808]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Marble_Light_M, compiling. 
+[2018.05.02-23.32.18:247][809]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Water_Inst, compiling. 
+[2018.05.02-23.32.18:266][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Marble_Dark_M, compiling. 
+[2018.05.02-23.32.18:272][810]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Marble_Dark_M, compiling. 
+[2018.05.02-23.32.18:295][811]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Curtain_M1, compiling. 
+[2018.05.02-23.32.18:302][811]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Curtain_M1, compiling. 
+[2018.05.02-23.33.36:966][397]Job is a success!
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.005s
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:      BrickData 235x5x5 = 0.2Mb
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:      Bricks at Level
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:          0: 2.1% covering 100.0% of volume
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:          1: 4.3% covering 3.1% of volume
+[2018.05.02-23.33.37:019][398]LogVolumetricLightmapImport:          2: 93.6% covering 1.1% of volume
+[2018.05.02-23.33.37:133][398]LogMaterial: Warning: Material /Game/SushiShop/Materials/Curtain_M/Curtain_M1.Curtain_M1 needed to have new flag set bUsedWithStaticLighting !
+[2018.05.02-23.33.37:134][398]LogMaterial: Warning: Material /Engine/Transient.Curtain_M1 needed to have new flag set bUsedWithStaticLighting !
+[2018.05.02-23.33.37:137][398]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.33.37:179][398]LogMaterial: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.05.02-23.33.38:657][398]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 1024X512)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 1024X512)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.05.02-23.33.38:658][398]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.05.02-23.33.38:886][398]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X1024)
+[2018.05.02-23.33.38:910][398]Lightmass on DESKTOP-TMTLRPJ: 1:18 min total, 437 ms importing, 46 ms setup, 5.18 sec photons, 1:12 min processing, 0 ms extra exporting [233/233 mappings]. Threads: 8:30 min total, 6:50 min processing.
+[2018.05.02-23.33.38:934][398]LogStaticLightingSystem: Illumination: 1:23 min (1.36 sec encoding lightmaps, 226 ms encoding shadowmaps)
+[2018.05.02-23.33.38:934][398]LogStaticLightingSystem: Lightmap texture memory:  8.0 MB (8.0 MB streaming, 0.0 MB non-streaming), 6 textures
+[2018.05.02-23.33.38:934][398]LogStaticLightingSystem: Shadowmap texture memory: 5.3 MB (5.3 MB streaming, 0.0 MB non-streaming), 1 textures
+[2018.05.02-23.33.39:901][398]DumpUnbuiltLightIteractions
+[2018.05.02-23.33.39:901][398]Lights with unbuilt interactions: 0
+[2018.05.02-23.33.39:901][398]
+[2018.05.02-23.33.39:901][398]Primitives with unbuilt interactions: 0
+[2018.05.02-23.33.39:912][399]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.05.02-23.33.39:912][399]MapCheck: New page: Main - May 2, 2018, 9:33:39 AM
+[2018.05.02-23.33.40:011][399]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 99.537ms to complete.
+[2018.05.02-23.33.42:064][520]LogSavePackage: Save=556.46ms
+[2018.05.02-23.33.42:064][520]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/MainC54BB22F4017BDEEE6C6F089D465E4C3.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap'
+[2018.05.02-23.33.42:068][520]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main.umap
+[2018.05.02-23.33.42:636][520]LogSavePackage: Save=482.99ms
+[2018.05.02-23.33.42:636][520]LogSavePackage: Moving '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Saved/Main_BuiltDataBACA44D34EA4547C9F0D35B4D99BAF64.tmp' to '../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.05.02-23.33.42:641][520]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/GameDevClub/Documents/GitHub/SushiShop/SushiShop/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: Base pass shader: 162 instructions
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: Base pass shader with Surface Lightmap: 181 instructions
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 238 instructions
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: Vertex shader: 92 instructions
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: Texture samplers: 6/16
+[2018.05.02-23.33.42:673][521]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
