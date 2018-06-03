@@ -1,0 +1,774 @@
+﻿Log file open, 06/02/18 17:13:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1562996661) SRandInit(1562996661).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 3944462, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.398784
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceCore.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceSource.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Marketplace/Substance/Binaries/Win64/UE4Editor-SubstanceLiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestruction.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ApexDestruction/Binaries/Win64/UE4Editor-ApexDestructionEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/BlueprintStats/Binaries/Win64/UE4Editor-BlueprintStats.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusAudio/Binaries/Win64/UE4Editor-OculusAudio.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusAudio/Binaries/Win64/UE4Editor-OculusAudioEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/SoundVisualizations/Binaries/Win64/UE4Editor-SoundVisualizations.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin BlueprintStats
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusAudio
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.328s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am CaptainArcher (192.168.1.7:0)
+LogHMD: Failed initializing OVRPlugin 1.21.0
+LogInit: Build: ++UE4+Release-4.19-CL-3944462
+LogInit: Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Mar 13 2018 23:12:32
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.06.03-00.13.49:986][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.03-00.13.49:986][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.03-00.13.49:999][  0]LogInit: Computer: CAPTAINARCHER
+[2018.06.03-00.13.49:999][  0]LogInit: User: ENDER
+[2018.06.03-00.13.49:999][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.06.03-00.13.49:999][  0]LogInit: High frequency timer resolution =3.417967 MHz
+[2018.06.03-00.13.49:999][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.03-00.13.49:999][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.03-00.13.49:999][  0]LogMemory: Process Physical Memory: 280.70 MB used, 280.70 MB peak
+[2018.06.03-00.13.49:999][  0]LogMemory: Process Virtual Memory: 271.88 MB used, 271.88 MB peak
+[2018.06.03-00.13.49:999][  0]LogMemory: Physical Memory: 5850.59 MB used,  10428.91 MB free, 16279.50 MB total
+[2018.06.03-00.13.49:999][  0]LogMemory: Virtual Memory: 4861.30 MB used,  10428.91 MB free, 134217728.00 MB total
+[2018.06.03-00.13.50:016][  0]LogInit: Using OS detected language (en-US).
+[2018.06.03-00.13.50:016][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.03-00.13.50:021][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.03-00.13.50:432][  0]LogStreaming: Display: Took  0.416s to EndInitTextLocalization.
+[2018.06.03-00.13.50:432][  0]LogInit: Setting process to per monitor DPI aware
+[2018.06.03-00.13.50:486][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.06.03-00.13.50:486][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.06.03-00.13.50:809][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.03-00.13.50:846][  0]LogD3D11RHI:    0. 'AMD Radeon (TM) R9 390 Series' (Feature Level 11_0)
+[2018.06.03-00.13.50:846][  0]LogD3D11RHI:       8168/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x1002
+[2018.06.03-00.13.50:848][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.06.03-00.13.50:848][  0]LogD3D11RHI:       0/0/8139 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.06.03-00.13.50:848][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.03-00.13.50:853][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.03-00.13.50:853][  0]LogD3D11RHI:     GPU DeviceId: 0x67b1 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.03-00.13.50:853][  0]LogWindows: EnumDisplayDevices:
+[2018.06.03-00.13.50:853][  0]LogWindows:    0. 'AMD Radeon (TM) R9 390 Series' (P:1 D:1)
+[2018.06.03-00.13.50:853][  0]LogWindows:    1. 'AMD Radeon (TM) R9 390 Series' (P:0 D:1)
+[2018.06.03-00.13.50:853][  0]LogWindows:    2. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:853][  0]LogWindows:    3. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:853][  0]LogWindows:    4. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    5. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    6. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    7. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    8. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    9. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    10. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    11. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:854][  0]LogWindows:    12. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:855][  0]LogWindows:    13. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:855][  0]LogWindows:    14. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:855][  0]LogWindows:    15. 'AMD Radeon (TM) R9 390 Series' (P:0 D:0)
+[2018.06.03-00.13.50:855][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.06.03-00.13.50:855][  0]LogD3D11RHI:     Adapter Name: AMD Radeon (TM) R9 390 Series
+[2018.06.03-00.13.50:855][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.06.03-00.13.50:855][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.06.03-00.13.50:855][  0]LogRHI: Texture pool is 5717 MB (70% of 8168 MB)
+[2018.06.03-00.13.50:908][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.03-00.13.50:919][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2018.06.03-00.13.50:920][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Intermediate/Shaders/WorkingDirectory/5716/).
+[2018.06.03-00.13.50:920][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ENDER/AppData/Local/Temp/UnrealShaderWorkingDir/AD01997B4F8F2C9C3A506C988F97672B/'.
+[2018.06.03-00.13.51:109][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.03-00.13.51:125][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.03-00.13.51:141][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.03-00.13.51:156][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.03-00.13.51:172][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.03-00.13.51:187][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.03-00.13.51:202][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.03-00.13.51:218][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.03-00.13.51:224][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.03-00.13.51:239][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.03-00.13.51:253][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.03-00.13.51:268][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.03-00.13.51:282][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.06.03-00.13.51:297][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.03-00.13.51:312][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.03-00.13.51:343][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.03-00.13.51:343][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.03-00.13.51:359][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.03-00.13.51:360][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.03-00.13.51:401][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.03-00.13.51:415][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.03-00.13.51:429][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.03-00.13.51:444][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.03-00.13.51:460][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.03-00.13.51:476][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.03-00.13.51:476][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.03-00.13.51:598][  0]LogXGEController: Cleaning working directory: C:/Users/ENDER/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.06.03-00.13.51:598][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.06.03-00.13.51:598][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.06.03-00.13.51:598][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.03-00.13.52:293][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: Loaded boot cache 0.08s 76MB C:/Users/ENDER/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ENDER/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.03-00.13.52:375][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.03-00.13.52:390][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.03-00.13.52:403][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ENDER/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.03-00.13.52:417][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.03-00.13.52:417][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.03-00.13.52:418][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.03-00.13.52:418][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.03-00.13.52:565][  0]LogAssetRegistry: FAssetRegistry took 0.0264 seconds to start up
+[2018.06.03-00.13.52:856][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.03-00.13.53:010][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.03-00.13.53:012][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.03-00.13.53:012][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.03-00.13.53:012][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.03-00.13.53:012][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.03-00.13.53:012][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.03-00.13.53:075][  0]LogNetVersion: SushiShop , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1089449914)
+[2018.06.03-00.13.53:490][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.061365 seconds
+[2018.06.03-00.13.53:496][  0]LogUObjectArray: 36761 objects as part of root set at end of initial load.
+[2018.06.03-00.13.53:496][  0]LogUObjectAllocator: 7320280 out of 0 bytes used by permanent object pool.
+[2018.06.03-00.13.53:496][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.03-00.13.55:265][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.06.03-00.13.55:291][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.03-00.13.55:327][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.03-00.13.55:857][  0]SourceControl: Source control is disabled
+[2018.06.03-00.13.55:857][  0]SourceControl: Source control is disabled
+[2018.06.03-00.13.55:881][  0]SourceControl: Source control is disabled
+[2018.06.03-00.13.55:905][  0]SourceControl: Source control is disabled
+[2018.06.03-00.13.56:585][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.03-00.13.56:780][  0]LogOcInput: OculusInput pre-init called
+[2018.06.03-00.13.57:084][  0]LogEngine: Initializing Engine...
+[2018.06.03-00.13.57:085][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.03-00.13.57:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.03-00.13.57:088][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.03-00.13.57:319][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.03-00.13.57:339][  0]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.06.03-00.13.57:364][  0]LogInit: FAudioDevice initialized.
+[2018.06.03-00.13.57:444][  0]LogDerivedDataCache: Saved boot cache 0.08s 89MB C:/Users/ENDER/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.06.03-00.13.57:461][  0]LogInit: Texture streaming: Enabled
+[2018.06.03-00.13.57:474][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.03-00.13.57:480][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={9FBA13D3-4771-EB23-34BC-49AA5C6F7D96}
+[2018.06.03-00.13.57:490][  0]LogInit: Transaction tracking system initialized
+[2018.06.03-00.13.57:507][  0]BlueprintLog: New page: Editor Load
+[2018.06.03-00.13.57:563][  0]LocalizationService: Localization service is disabled
+[2018.06.03-00.13.57:673][  0]LogConsoleResponse: Display: 
+[2018.06.03-00.13.57:821][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.03-00.13.57:821][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.03-00.13.57:821][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.03-00.13.57:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.03-00.13.57:821][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.03-00.13.58:299][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/' took 0.02s
+[2018.06.03-00.13.58:299][  0]SourceControl: Source control is disabled
+[2018.06.03-00.13.58:450][  0]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.03-00.15.02:474][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.06.03-00.15.02:474][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.03-00.15.02:483][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.03-00.15.02:484][  0]Cmd: MAP LOAD FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.03-00.15.02:485][  0]LightingResults: New page: Lighting Build
+[2018.06.03-00.15.02:487][  0]MapCheck: New page: Map Check
+[2018.06.03-00.15.02:487][  0]LightingResults: New page: Lighting Build
+[2018.06.03-00.15.02:999][  0]LogBlueprint: Warning: [Compiler BP_MotionController] Set Hand  is deprecated; please replace or remove it.
+[2018.06.03-00.15.02:999][  0]LogBlueprint: Warning: [Compiler BP_MotionController] Set Hand  is deprecated; Please use the Motion Source property instead of Hand
+[2018.06.03-00.15.03:019][  0]LogBlueprint: Warning: [Compiler BP_MotionController] [0076.68] Compile of BP_MotionController successful, but with 2 Warning(s) [in 34 ms] (/Game/VirtualRealityBP/Blueprints/BP_MotionController.BP_MotionController)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2018.06.03-00.15.03:691][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2018.06.03-00.15.03:728][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.404334ms] /Game/SushiShop/Assets/Props/Food/Unagi/Eel_Slice.Eel_Slice
+[2018.06.03-00.15.03:747][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.296375ms] /Game/SushiShop/Assets/Props/Food/Tuna/Import/Tuna2.Tuna2
+[2018.06.03-00.15.03:756][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.240786ms] /Game/SushiShop/Assets/Props/Food/Salmon/Salmon.Salmon
+[2018.06.03-00.15.04:969][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Small_CurtainSmall...
+[2018.06.03-00.15.04:976][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SushiShop/Assets/Environment/Curtains/SmallCurtain/Curtain_Small.Curtain_Small_CurtainSmall
+[2018.06.03-00.15.04:977][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.153893ms] /Game/SushiShop/Assets/Environment/Curtains/SmallCurtain/Curtain_Small.Curtain_Small_CurtainSmall_Pole
+[2018.06.03-00.15.04:977][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Large_CurtainLarge_Left...
+[2018.06.03-00.15.04:982][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SushiShop/Assets/Environment/Curtains/LargeCurtain/Curtain_Large.Curtain_Large_CurtainLarge_Left
+[2018.06.03-00.15.04:984][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.178469ms] /Game/SushiShop/Assets/Environment/Curtains/LargeCurtain/Curtain_Large.Curtain_Large_CurtainLarge_Pole
+[2018.06.03-00.15.04:984][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Large_CurtainLarge_Right...
+[2018.06.03-00.15.04:988][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/SushiShop/Assets/Environment/Curtains/LargeCurtain/Curtain_Large.Curtain_Large_CurtainLarge_Right
+[2018.06.03-00.15.05:174][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.710081ms] /Game/VirtualReality/Mannequin/Character/Mesh/MannequinHand_Right.MannequinHand_Right
+[2018.06.03-00.15.05:371][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.204508ms] /Game/SushiShop/Assets/Props/Food/Rice/Rice_Ball.Rice_Ball
+[2018.06.03-00.15.05:407][  0]LogAIModule: Creating AISystem for world Main
+[2018.06.03-00.15.05:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.03-00.15.05:567][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.03-00.15.05:715][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 147.578ms to complete.
+[2018.06.03-00.15.05:715][  0]LogFileHelpers: Loading map 'Main' took 3.230
+[2018.06.03-00.15.05:872][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_2970_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_98c_0///####STATCAT_Advanced####
+[2018.06.03-00.15.05:872][  0]LogCollectionManager: Loaded 0 collections in 0.000942 seconds
+[2018.06.03-00.15.05:940][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Saved/Collections/' took 0.01s
+[2018.06.03-00.15.05:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/Developers/ENDER/Collections/' took 0.01s
+[2018.06.03-00.15.05:941][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/Collections/' took 0.01s
+[2018.06.03-00.15.05:941][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.06.03-00.15.05:949][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2482 classes and 580 folders.
+[2018.06.03-00.15.05:954][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.06.03-00.15.06:015][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.06.03-00.15.06:088][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.03-00.15.06:090][  0]LogSlate: Took 0.000208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.03-00.15.06:193][  0]LogRenderer: Reallocating scene render targets to support 1228x688 Format 26 NumSamples 1 (Frame:1).
+[2018.06.03-00.15.06:563][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.06.03-00.15.06:563][  0]LogLoad: (Engine Initialization) Total time: 80.22 seconds
+[2018.06.03-00.15.06:563][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.03-00.15.06:591][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.03-00.15.06:611][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2018.06.03-00.15.06:624][  1]LogAssetRegistry: Asset discovery search completed in 74.0813 seconds
+[2018.06.03-00.15.06:626][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.03-00.15.06:626][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000068 seconds (updated 0 objects)
+[2018.06.03-00.15.10:429][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.16:489][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.19.16:550][212]LogTemp: Repeating last play command: Simulate
+[2018.06.03-00.19.16:564][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.03-00.19.16:565][212]PIE: New page: SIE session: Main (Jun 2, 2018, 10:19:16 AM)
+[2018.06.03-00.19.16:565][212]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.06.03-00.19.16:601][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035616s)
+[2018.06.03-00.19.16:602][212]LogAIModule: Creating AISystem for world Main
+[2018.06.03-00.19.16:602][212]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2018.06.03-00.19.16:602][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.037054s)
+[2018.06.03-00.19.16:616][212]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.06.03-00.19.16:635][212]LogInit: FAudioDevice initialized.
+[2018.06.03-00.19.16:683][212]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/LevelHandling/VR_GameMode'
+[2018.06.03-00.19.16:683][212]LogLinker: Warning: Can't find file '/Game/SushiShop/BluePrints/LevelHandling/VR_GameMode'
+[2018.06.03-00.19.16:683][212]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/SushiShop/BluePrints/LevelHandling/VR_GameMode.VR_GameMode_C'
+[2018.06.03-00.19.16:683][212]LogLoad: Game class is 'GameModeBase'
+[2018.06.03-00.19.16:771][212]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.06.02-17.19.16
+[2018.06.03-00.19.16:773][212]LogWorld: Bringing up level for play took: 0.088270
+[2018.06.03-00.19.16:773][212]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.03-00.19.16:775][212]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.06.03-00.19.16:778][212]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.19.16:778][212]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.19.16:779][212]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.299
+[2018.06.03-00.19.26:146][164]LogRenderer: Reallocating scene render targets to support 1508x836 Format 26 NumSamples 1 (Frame:1000).
+[2018.06.03-00.19.26:211][165]LogRenderer: Reallocating scene render targets to support 2052x1128 Format 26 NumSamples 1 (Frame:1002).
+[2018.06.03-00.19.26:211][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.33:774][648]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.34:717][751]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.37:782][907]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:1686).
+[2018.06.03-00.19.39:889][907]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00006.png
+[2018.06.03-00.19.39:949][907]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.06.03-00.19.49:414][409]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SushiBar)
+[2018.06.03-00.19.49:538][409]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.52:293][633]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BenchSeat_polySurface33)
+[2018.06.03-00.19.52:393][633]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.19.56:943][160]Cmd: SELECT NONE
+[2018.06.03-00.19.58:184][216]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.19.58:259][221]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:2356).
+[2018.06.03-00.20.00:176][221]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00007.png
+[2018.06.03-00.20.10:600][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.20.10:690][868]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:3025).
+[2018.06.03-00.20.12:670][868]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00008.png
+[2018.06.03-00.20.19:555][245]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.20.19:634][251]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:3434).
+[2018.06.03-00.20.21:641][251]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00009.png
+[2018.06.03-00.20.32:603][973]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.20.32:689][981]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:4194).
+[2018.06.03-00.20.34:755][981]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00010.png
+[2018.06.03-00.20.42:805][450]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.20.42:910][459]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:4715).
+[2018.06.03-00.20.45:143][459]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00011.png
+[2018.06.03-00.21.12:973][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.21.13:034][820]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:6156).
+[2018.06.03-00.21.14:967][820]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00012.png
+[2018.06.03-00.21.32:429][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.21.32:500][905]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:7266).
+[2018.06.03-00.21.34:720][905]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00013.png
+[2018.06.03-00.21.53:160][496]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.21.53:212][500]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2018.06.03-00.21.53:893][532]LogSlate: Slate User Unregistered.  User Index 8
+[2018.06.03-00.21.53:893][532]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.21.55:456][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.21.57:463][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.22.01:654][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.22.06:638][866]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.06.03-00.22.09:953][213]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight14)
+[2018.06.03-00.22.12:228][427]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight5)
+[2018.06.03-00.22.13:834][558]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight6)
+[2018.06.03-00.22.15:211][690]LogEditorViewport: Clicking on Actor (CTRL LMB): SpotLight (SpotLight7)
+[2018.06.03-00.22.26:503][958]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.22.36:135][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.22.57:813][390]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.06.03-00.23.10:430][799]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight10)
+[2018.06.03-00.23.11:128][875]Cmd: DELETE
+[2018.06.03-00.23.11:129][875]Cmd: ACTOR DELETE
+[2018.06.03-00.23.11:142][875]LogEditorActor: Deleted Actor: SpotLight
+[2018.06.03-00.23.11:152][875]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.06.03-00.23.14:421][242]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight11)
+[2018.06.03-00.23.15:075][309]Cmd: DELETE
+[2018.06.03-00.23.15:075][309]Cmd: ACTOR DELETE
+[2018.06.03-00.23.15:089][309]LogEditorActor: Deleted Actor: SpotLight
+[2018.06.03-00.23.15:098][309]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.06.03-00.23.17:707][585]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight12)
+[2018.06.03-00.23.18:305][648]Cmd: DELETE
+[2018.06.03-00.23.18:305][648]Cmd: ACTOR DELETE
+[2018.06.03-00.23.18:318][648]LogEditorActor: Deleted Actor: SpotLight
+[2018.06.03-00.23.18:327][648]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.06.03-00.23.20:354][860]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight16)
+[2018.06.03-00.23.21:735][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor2)
+[2018.06.03-00.23.22:293][ 69]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight13)
+[2018.06.03-00.23.22:676][105]Cmd: DELETE
+[2018.06.03-00.23.22:676][105]Cmd: ACTOR DELETE
+[2018.06.03-00.23.22:690][105]LogEditorActor: Deleted Actor: SpotLight
+[2018.06.03-00.23.22:700][105]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.06.03-00.23.31:007][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.23.31:073][ 60]MapCheck: New page: Map Check
+[2018.06.03-00.23.31:119][ 60]Cmd: MAP REBUILD ALLVISIBLE
+[2018.06.03-00.23.31:119][ 60]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.06.03-00.23.31:432][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.06.03-00.23.31:440][ 60]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.03-00.23.31:440][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Bar_M, compiling. 
+[2018.06.03-00.23.31:445][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedSteel, compiling. 
+[2018.06.03-00.23.31:451][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_2_2, compiling. 
+[2018.06.03-00.23.31:457][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plain_Tiles_M, compiling. 
+[2018.06.03-00.23.31:463][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Light_M, compiling. 
+[2018.06.03-00.23.31:469][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Cobian_Inst, compiling. 
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.03-00.23.31:475][ 60]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.03-00.23.31:475][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicAsset01, compiling. 
+[2018.06.03-00.23.31:480][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy GenericHMDMaterial, compiling. 
+[2018.06.03-00.23.31:487][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Water_Inst, compiling. 
+[2018.06.03-00.23.31:493][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Plates_M_Inst, compiling. 
+[2018.06.03-00.23.31:498][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tuna_M_Inst, compiling. 
+[2018.06.03-00.23.31:506][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Unagi_M_Inst, compiling. 
+[2018.06.03-00.23.31:513][ 60]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.03-00.23.31:514][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Salmon_M_Inst, compiling. 
+[2018.06.03-00.23.31:521][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BasicShapeMaterial, compiling. 
+[2018.06.03-00.23.31:528][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Knife+Board_M, compiling. 
+[2018.06.03-00.23.31:537][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Concrete_M, compiling. 
+[2018.06.03-00.23.31:543][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy marble_Mat, compiling. 
+[2018.06.03-00.23.31:549][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Marble_Dark_M, compiling. 
+[2018.06.03-00.23.31:555][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Metal_BrushedCopper, compiling. 
+[2018.06.03-00.23.31:560][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tile_WoodAndTileOffsetPattern_Inst, compiling. 
+[2018.06.03-00.23.31:568][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Leather_M, compiling. 
+[2018.06.03-00.23.31:573][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sake_M, compiling. 
+[2018.06.03-00.23.31:578][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy bamboo_light_Mat, compiling. 
+[2018.06.03-00.23.31:584][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Curtain_M1, compiling. 
+[2018.06.03-00.23.31:590][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Glass_E, compiling. 
+[2018.06.03-00.23.31:597][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SushiBoat_M, compiling. 
+[2018.06.03-00.23.31:604][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Sake_Retail_M, compiling. 
+[2018.06.03-00.23.31:612][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2018.06.03-00.23.31:618][ 60]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Cobian_Rice_Inst, compiling. 
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 21
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 19
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 18
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 17
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 16
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 13
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 11
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 9
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 8
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 7
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 6
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 3
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.06.03-00.23.33:112][ 60]LogShaderCompilers: Display: Shaders left to compile 1
+[2018.06.03-00.23.33:112][ 60]TextureStreamingBuild: Display: Compiling optional shaders took 1.687 seconds.
+[2018.06.03-00.23.33:367][ 60]LogLevel: Display: Export Material TexCoord Scales took 0.254 seconds.
+[2018.06.03-00.23.33:460][ 60]TextureStreamingBuild: Display: Build Texture Streaming took 0.093 seconds.
+[2018.06.03-00.23.33:481][ 60]LightingResults: New page: Lighting Build - Jun 2, 2018, 10:23:33 AM
+[2018.06.03-00.23.33:515][ 60]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.06.03-00.23.33:562][ 60]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.06.03-00.23.33:572][ 60]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.06.03-00.23.34:080][ 60]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.06.03-00.23.34:080][ 60]LogSwarmInterface: [TryOpenConnection] Local Process ID is 5716
+[2018.06.03-00.23.38:655][ 60]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2018.06.03-00.23.38:656][ 60]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.06.03-00.23.38:656][ 60]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.06.03-00.23.38:656][ 60]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.06.03-00.23.38:656][ 60]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.06.03-00.23.38:656][ 60]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.06.03-00.23.38:823][ 60]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.06.03-00.23.38:823][ 60]MapCheck: New page: Main - Jun 2, 2018, 10:23:38 AM
+[2018.06.03-00.23.38:823][ 60]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2018.06.03-00.23.38:956][ 60]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 132.616ms to complete.
+[2018.06.03-00.23.38:979][ 60]LogEditorBuildUtils: Build time 0:07
+[2018.06.03-00.23.57:141][115]Job is a success!
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.009s
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:      BrickData 70x5x5 = 0.1Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:      Bricks at Level
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:          0: 7.1% covering 100.0% of volume
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:          1: 14.3% covering 3.1% of volume
+[2018.06.03-00.23.57:608][116]LogVolumetricLightmapImport:          2: 78.6% covering 0.3% of volume
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: LQ_Lightmap_1_4 (DXT1, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 1024X1024)
+[2018.06.03-00.23.59:482][116]LogTexture: Display: Building textures: LQ_Lightmap_1_5 (DXT1, 1024X1024)
+[2018.06.03-00.23.59:513][116]Lightmass on CAPTAINARCHER: 19.9 sec total, 196 ms importing, 108 ms setup, 3.36 sec photons, 16.2 sec processing, 0 ms extra exporting [482/482 mappings]. Threads: 2:58 min total, 2:14 min processing.
+[2018.06.03-00.23.59:536][116]LogStaticLightingSystem: Illumination: 25.6 sec (1.62 sec encoding lightmaps, 0 ms encoding shadowmaps)
+[2018.06.03-00.23.59:536][116]LogStaticLightingSystem: Lightmap texture memory:  10.0 MB (10.0 MB streaming, 0.0 MB non-streaming), 10 textures
+[2018.06.03-00.23.59:537][116]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2018.06.03-00.23.59:673][116]DumpUnbuiltLightIteractions
+[2018.06.03-00.23.59:673][116]Lights with unbuilt interactions: 0
+[2018.06.03-00.23.59:673][116]
+[2018.06.03-00.23.59:673][116]Primitives with unbuilt interactions: 0
+[2018.06.03-00.23.59:752][117]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.06.03-00.23.59:752][117]MapCheck: New page: Main - Jun 2, 2018, 10:23:59 AM
+[2018.06.03-00.23.59:881][117]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.159ms to complete.
+[2018.06.03-00.26.00:738][787]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.26.00:866][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Levels/Main" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.03-00.26.01:535][797]LogSavePackage: Save=648.43ms
+[2018.06.03-00.26.01:535][797]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Saved/MainCF9725EE4472AD144520128A52B8F69E.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main.umap'
+[2018.06.03-00.26.01:538][797]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main.umap
+[2018.06.03-00.26.01:564][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SushiShop/Levels/Main_BuiltData" FILE="C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main_BuiltData.uasset" SILENT=true
+[2018.06.03-00.26.02:093][797]LogSavePackage: Save=507.19ms
+[2018.06.03-00.26.02:093][797]LogSavePackage: Moving 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Saved/Main_BuiltData21DBCFC647AAC459438B66AE180714C0.tmp' to 'C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main_BuiltData.uasset'
+[2018.06.03-00.26.02:097][797]LogSavePackage: Display: Finished SavePackage C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main_BuiltData.uasset
+[2018.06.03-00.26.08:213][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.26.08:277][517]LogTemp: Repeating last play command: Simulate
+[2018.06.03-00.26.08:291][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.03-00.26.08:291][517]PIE: New page: SIE session: Main (Jun 2, 2018, 10:26:08 AM)
+[2018.06.03-00.26.08:291][517]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.06.03-00.26.08:327][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036172s)
+[2018.06.03-00.26.08:328][517]LogAIModule: Creating AISystem for world Main
+[2018.06.03-00.26.08:328][517]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2018.06.03-00.26.08:328][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.037489s)
+[2018.06.03-00.26.08:342][517]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.06.03-00.26.08:360][517]LogInit: FAudioDevice initialized.
+[2018.06.03-00.26.08:392][517]LogLoad: Game class is 'GameModeBase'
+[2018.06.03-00.26.08:478][517]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.06.02-17.26.08
+[2018.06.03-00.26.08:480][517]LogWorld: Bringing up level for play took: 0.087337
+[2018.06.03-00.26.08:480][517]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.03-00.26.08:482][517]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.26.08:482][517]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.26.08:484][517]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 0.004
+[2018.06.03-00.26.10:977][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (backWall)
+[2018.06.03-00.26.12:558][815]LogSlate: Slate User Unregistered.  User Index 8
+[2018.06.03-00.26.12:559][815]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.26.13:387][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.26.13:462][912]LogTemp: Repeating last play command: Simulate
+[2018.06.03-00.26.13:477][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.03-00.26.13:477][912]PIE: New page: SIE session: Main (Jun 2, 2018, 10:26:13 AM)
+[2018.06.03-00.26.13:477][912]LogPlayLevel: Creating play world package: /Game/SushiShop/Levels/UEDPIE_0_Main
+[2018.06.03-00.26.13:512][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035362s)
+[2018.06.03-00.26.13:513][912]LogAIModule: Creating AISystem for world Main
+[2018.06.03-00.26.13:513][912]LogPlayLevel: PIE: World Init took: (0.000851s)
+[2018.06.03-00.26.13:513][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SushiShop/Levels/Main.Main to /Game/SushiShop/Levels/UEDPIE_0_Main.Main (0.036497s)
+[2018.06.03-00.26.13:527][912]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.06.03-00.26.13:544][912]LogInit: FAudioDevice initialized.
+[2018.06.03-00.26.13:579][912]LogLoad: Game class is 'GameModeBase'
+[2018.06.03-00.26.13:664][912]LogWorld: Bringing World /Game/SushiShop/Levels/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2018.06.02-17.26.13
+[2018.06.03-00.26.13:666][912]LogWorld: Bringing up level for play took: 0.086290
+[2018.06.03-00.26.13:667][912]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.06.03-00.26.13:668][912]LogSlate: New Slate User Created.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.26.13:668][912]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2018.06.03-00.26.13:670][912]PIE: Play in editor start time for /Game/SushiShop/Levels/UEDPIE_0_Main 1.19
+[2018.06.03-00.26.20:706][546]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Curtain_Large_CurtainLarge_Left3)
+[2018.06.03-00.26.21:294][567]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.26.22:462][625]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Curtain_Large_CurtainLarge_Left3)
+[2018.06.03-00.26.23:341][661]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (Curtain_Large_CurtainLarge_Left3)
+[2018.06.03-00.26.23:415][662]LogEditorViewport: Clicking on Component (LMB): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2018.06.03-00.26.23:999][694]LogEditorViewport: Clicking on Component (context menu): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2018.06.03-00.26.24:067][694]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.26.28:134][167]LogEditorViewport: Clicking on Component (context menu): SkeletalMeshComponent (SkeletalMeshComponent0)
+[2018.06.03-00.26.28:199][167]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.26.31:507][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.06.03-00.26.32:059][574]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2018.06.03-00.26.32:128][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.03-00.26.48:185][460]Cmd: SELECT NONE
+[2018.06.03-00.26.49:837][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.26.57:496][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.03-00.26.57:582][994]LogRenderer: Reallocating scene render targets to support 5128x2812 Format 26 NumSamples 1 (Frame:1361).
+[2018.06.03-00.26.59:297][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_BaseColor.png"
+[2018.06.03-00.26.59:807][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Specular.png"
+[2018.06.03-00.27.00:257][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SubsurfaceColor.png"
+[2018.06.03-00.27.01:639][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_WorldNormal.png"
+[2018.06.03-00.27.02:072][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyRGB.png"
+[2018.06.03-00.27.02:533][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Opacity.png"
+[2018.06.03-00.27.02:986][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyA.png"
+[2018.06.03-00.27.03:449][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepth.png"
+[2018.06.03-00.27.04:296][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Roughness.png"
+[2018.06.03-00.27.04:767][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Metallic.png"
+[2018.06.03-00.27.05:223][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_LightingModel.png"
+[2018.06.03-00.27.05:657][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepthWorldUnits.png"
+[2018.06.03-00.27.07:288][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneColor.png"
+[2018.06.03-00.27.07:826][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PreTonemapHDRColor.png"
+[2018.06.03-00.27.09:482][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PostTonemapHDRColor.png"
+[2018.06.03-00.27.11:041][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_BaseColor.png"
+[2018.06.03-00.27.11:538][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Specular.png"
+[2018.06.03-00.27.11:992][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SubsurfaceColor.png"
+[2018.06.03-00.27.13:349][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_WorldNormal.png"
+[2018.06.03-00.27.13:841][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyRGB.png"
+[2018.06.03-00.27.14:283][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Opacity.png"
+[2018.06.03-00.27.14:752][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyA.png"
+[2018.06.03-00.27.15:223][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepth.png"
+[2018.06.03-00.27.16:067][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Roughness.png"
+[2018.06.03-00.27.16:530][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Metallic.png"
+[2018.06.03-00.27.16:977][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_LightingModel.png"
+[2018.06.03-00.27.17:455][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepthWorldUnits.png"
+[2018.06.03-00.27.19:112][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneColor.png"
+[2018.06.03-00.27.19:651][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PreTonemapHDRColor.png"
+[2018.06.03-00.27.21:316][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PostTonemapHDRColor.png"
+[2018.06.03-00.27.22:870][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_BaseColor.png"
+[2018.06.03-00.27.23:391][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Specular.png"
+[2018.06.03-00.27.23:855][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SubsurfaceColor.png"
+[2018.06.03-00.27.25:208][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_WorldNormal.png"
+[2018.06.03-00.27.25:659][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyRGB.png"
+[2018.06.03-00.27.26:101][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Opacity.png"
+[2018.06.03-00.27.26:540][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyA.png"
+[2018.06.03-00.27.27:020][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepth.png"
+[2018.06.03-00.27.27:849][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Roughness.png"
+[2018.06.03-00.27.28:304][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Metallic.png"
+[2018.06.03-00.27.28:749][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_LightingModel.png"
+[2018.06.03-00.27.29:214][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepthWorldUnits.png"
+[2018.06.03-00.27.30:864][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneColor.png"
+[2018.06.03-00.27.31:405][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PreTonemapHDRColor.png"
+[2018.06.03-00.27.33:044][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PostTonemapHDRColor.png"
+[2018.06.03-00.27.34:625][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_BaseColor.png"
+[2018.06.03-00.27.35:162][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Specular.png"
+[2018.06.03-00.27.35:615][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SubsurfaceColor.png"
+[2018.06.03-00.27.36:962][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_WorldNormal.png"
+[2018.06.03-00.27.37:409][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyRGB.png"
+[2018.06.03-00.27.37:853][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Opacity.png"
+[2018.06.03-00.27.38:293][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SeparateTranslucencyA.png"
+[2018.06.03-00.27.38:766][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepth.png"
+[2018.06.03-00.27.39:620][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Roughness.png"
+[2018.06.03-00.27.40:069][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_Metallic.png"
+[2018.06.03-00.27.46:320][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_LightingModel.png"
+[2018.06.03-00.27.46:320][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneDepthWorldUnits.png"
+[2018.06.03-00.27.46:320][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_SceneColor.png"
+[2018.06.03-00.27.46:320][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PreTonemapHDRColor.png"
+[2018.06.03-00.27.46:320][994]LogConsoleResponse: Display: Content was saved to "C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014_PostTonemapHDRColor.png"
+[2018.06.03-00.27.46:352][994]LogClient: High resolution screenshot saved as C:/Users/ENDER/Documents/GitHub/SushiShop/SushiShop/Saved/Screenshots/Windows/HighresScreenshot00014.png
+[2018.06.03-00.27.46:353][994]LogSlate: Window 'High Resolution Screenshot' being destroyed
+[2018.06.03-00.27.46:432][995]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (backWall)
+[2018.06.03-00.27.52:176][ 12]LogSlate: Window 'SushiShop - Unreal Editor' being destroyed
