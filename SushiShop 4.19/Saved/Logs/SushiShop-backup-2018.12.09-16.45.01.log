@@ -1,0 +1,719 @@
+﻿Log file open, 12/09/18 16:40:59
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: SushiShop
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.287223
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlueprintStats
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusAudio
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundVisualizations
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.110s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8550U CPU @ 1.80GHz, GPU: Intel(R) UHD Graphics 620
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.12.10-00.40.59:384][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-00.40.59:384][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.12.10-00.40.59:402][  0]LogHAL: Display: Platform has ~ 16 GB [17091371008 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.12.10-00.40.59:402][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.12.10-00.40.59:402][  0]LogInit: Going up to parent DeviceProfile []
+[2018.12.10-00.40.59:403][  0]LogInit: Computer: DESKTOP-2QNA1SC
+[2018.12.10-00.40.59:403][  0]LogInit: User: darkm
+[2018.12.10-00.40.59:403][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.12.10-00.40.59:403][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2018.12.10-00.40.59:403][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.12.10-00.40.59:403][  0]LogMemory: Platform Memory Stats for Windows
+[2018.12.10-00.40.59:403][  0]LogMemory: Process Physical Memory: 101.28 MB used, 101.28 MB peak
+[2018.12.10-00.40.59:403][  0]LogMemory: Process Virtual Memory: 91.21 MB used, 91.21 MB peak
+[2018.12.10-00.40.59:403][  0]LogMemory: Physical Memory: 5764.74 MB used,  10534.86 MB free, 16299.60 MB total
+[2018.12.10-00.40.59:403][  0]LogMemory: Virtual Memory: 4646.76 MB used,  10534.86 MB free, 134217728.00 MB total
+[2018.12.10-00.40.59:420][  0]LogInit: Using OS detected language (en-US).
+[2018.12.10-00.40.59:420][  0]LogInit: Using OS detected locale (en-US).
+[2018.12.10-00.40.59:420][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.12.10-00.40.59:754][  0]LogStreaming: Display: Took  0.334s to InitEngineTextLocalization.
+[2018.12.10-00.40.59:754][  0]LogInit: Setting process to per monitor DPI aware
+[2018.12.10-00.40.59:781][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.12.10-00.40.59:781][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.12.10-00.40.59:964][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-00.40.59:965][  0]LogD3D11RHI: D3D11 adapters:
+[2018.12.10-00.41.00:008][  0]LogD3D11RHI:    0. 'Radeon 500 Series' (Feature Level 11_0)
+[2018.12.10-00.41.00:008][  0]LogD3D11RHI:       2029/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.12.10-00.41.00:023][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2018.12.10-00.41.00:023][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.12.10-00.41.00:025][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.12.10-00.41.00:025][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.12.10-00.41.00:025][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.12.10-00.41.00:032][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.12.10-00.41.00:033][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2018.12.10-00.41.00:033][  0]LogWindows: EnumDisplayDevices:
+[2018.12.10-00.41.00:033][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2018.12.10-00.41.00:033][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.12.10-00.41.00:033][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2018.12.10-00.41.00:033][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.12.10-00.41.00:033][  0]LogD3D11RHI:     Adapter Name: Radeon 500 Series
+[2018.12.10-00.41.00:033][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.12.10-00.41.00:033][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.12.10-00.41.00:033][  0]LogRHI: Texture pool is 1420 MB (70% of 2029 MB)
+[2018.12.10-00.41.00:082][  0]LogD3D11RHI: Async texture creation enabled
+[2018.12.10-00.41.00:093][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2018.12.10-00.41.00:094][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop 4.19/Intermediate/Shaders/WorkingDirectory/9248/).
+[2018.12.10-00.41.00:094][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/darkm/AppData/Local/Temp/UnrealShaderWorkingDir/A2D5F27E41F97FAB0B6D28A9D9B32137/'.
+[2018.12.10-00.41.00:361][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.12.10-00.41.00:377][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.12.10-00.41.00:392][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.12.10-00.41.00:408][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.12.10-00.41.00:423][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.12.10-00.41.00:438][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.12.10-00.41.00:453][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.12.10-00.41.00:469][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.12.10-00.41.00:475][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:554][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.12.10-00.41.00:555][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.12.10-00.41.00:619][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-00.41.00:619][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.12.10-00.41.00:645][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-00.41.00:645][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.12.10-00.41.00:659][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.12.10-00.41.00:673][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.12.10-00.41.00:687][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.12.10-00.41.00:702][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.12.10-00.41.00:710][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.12.10-00.41.00:710][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.12.10-00.41.00:770][  0]LogXGEController: Cleaning working directory: C:/Users/darkm/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.12.10-00.41.00:770][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.12.10-00.41.00:770][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.12.10-00.41.00:770][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.12.10-00.41.01:465][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/darkm/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/darkm/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop 4.19/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop 4.19/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.12.10-00.41.01:514][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.12.10-00.41.01:526][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.12.10-00.41.01:538][  0]LogDerivedDataCache: Using Local data cache path C:/Users/darkm/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.12.10-00.41.01:538][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.12.10-00.41.01:538][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.12.10-00.41.01:540][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.12.10-00.41.03:066][  0]LogSlate: Using FreeType 2.6.0
+[2018.12.10-00.41.03:067][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.12.10-00.41.03:140][  0]LogShaderCompilers: Display: Shaders left to compile 1953
+[2018.12.10-00.41.03:140][  0]LogShaderCompilers: Display: Shaders left to compile 1952
+[2018.12.10-00.41.03:140][  0]LogShaderCompilers: Display: Shaders left to compile 1951
+[2018.12.10-00.41.03:140][  0]LogShaderCompilers: Display: Shaders left to compile 1950
+[2018.12.10-00.41.03:140][  0]LogShaderCompilers: Display: Shaders left to compile 1949
+[2018.12.10-00.41.03:140][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2018.12.10-00.41.03:666][  0]LogShaderCompilers: Display: Shaders left to compile 1948
+[2018.12.10-00.41.03:666][  0]LogShaderCompilers: Display: Shaders left to compile 1947
+[2018.12.10-00.41.03:666][  0]LogShaderCompilers: Display: Shaders left to compile 1946
+[2018.12.10-00.41.03:667][  0]LogInit: Selected Device Profile: [Windows]
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1945
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1944
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1943
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1942
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1941
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1940
+[2018.12.10-00.41.03:908][  0]LogShaderCompilers: Display: Shaders left to compile 1939
+[2018.12.10-00.41.03:908][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.12.10-00.41.03:916][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.12.10-00.41.03:916][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.12.10-00.41.03:916][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.12.10-00.41.03:916][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.12.10-00.41.03:933][  0]LogShaderCompilers: Display: Shaders left to compile 1938
+[2018.12.10-00.41.03:933][  0]LogMaterial: Display: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2018.12.10-00.41.04:030][  0]LogShaderCompilers: Display: Shaders left to compile 1937
+[2018.12.10-00.41.04:030][  0]LogShaderCompilers: Display: Shaders left to compile 1936
+[2018.12.10-00.41.04:030][  0]LogShaderCompilers: Display: Shaders left to compile 1935
+[2018.12.10-00.41.04:030][  0]LogShaderCompilers: Display: Shaders left to compile 1934
+[2018.12.10-00.41.04:030][  0]LogNetVersion: SushiShop 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1470877702)
+[2018.12.10-00.41.04:097][  0]LogMeshUtilities: Finished distance field build in 0.1s - 14x8x8 distance field, 4528 triangles, Range [-0.1, 0.6], MatineeCam_SM
+[2018.12.10-00.41.04:097][  0]LogMaterial: Display: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2018.12.10-00.41.04:273][  0]LogShaderCompilers: Display: Shaders left to compile 1997
+[2018.12.10-00.41.04:273][  0]LogNavigation: Error: [/Script/Engine.NavigationSystem] found in the DefaultEngine.ini file. This class has been moved. Please rename that section to [/Script/NavigationSystem.NavigationSystemV1]
+[2018.12.10-00.41.04:315][  0]LogMaterial: Display: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2018.12.10-00.41.04:418][  0]LogShaderCompilers: Display: Shaders left to compile 1996
+[2018.12.10-00.41.04:418][  0]LogShaderCompilers: Display: Shaders left to compile 1995
+[2018.12.10-00.41.04:418][  0]LogShaderCompilers: Display: Shaders left to compile 2039
+[2018.12.10-00.41.04:418][  0]LogMaterial: Display: Missing cached shader map for material BaseFlattenMaterial, compiling. 
+[2018.12.10-00.41.04:551][  0]LogShaderCompilers: Display: Shaders left to compile 2097
+[2018.12.10-00.41.04:551][  0]LogShaderCompilers: Display: Shaders left to compile 2096
+[2018.12.10-00.41.04:551][  0]LogMaterial: Display: Missing cached shader map for material Xray, compiling. 
+[2018.12.10-00.41.04:579][  0]LogMaterial: Display: Missing cached shader map for material Main, compiling. 
+[2018.12.10-00.41.04:643][  0]LogShaderCompilers: Display: Shaders left to compile 2117
+[2018.12.10-00.41.04:643][  0]LogMaterial: Display: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
+[2018.12.10-00.41.04:659][  0]LogMaterial: Display: Missing cached shader map for material TransformGizmoMaterial, compiling. 
+[2018.12.10-00.41.04:706][  0]LogMaterial: Display: Missing cached shader map for material CineMat, compiling. 
+[2018.12.10-00.41.04:809][  0]LogShaderCompilers: Display: Shaders left to compile 2143
+[2018.12.10-00.41.04:809][  0]LogShaderCompilers: Display: Shaders left to compile 2201
+[2018.12.10-00.41.04:809][  0]LogMaterial: Display: Missing cached shader map for material M_SimpleOpaque, compiling. 
+[2018.12.10-00.41.04:856][  0]LogMaterial: Display: Missing cached shader map for material M_SimpleTranslucent, compiling. 
+[2018.12.10-00.41.05:012][  0]LogShaderCompilers: Display: Shaders left to compile 2231
+[2018.12.10-00.41.05:012][  0]LogShaderCompilers: Display: Shaders left to compile 2230
+[2018.12.10-00.41.05:012][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:024][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:049][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:067][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:094][  0]LogShaderCompilers: Display: Shaders left to compile 2294
+[2018.12.10-00.41.05:094][  0]LogShaderCompilers: Display: Shaders left to compile 2298
+[2018.12.10-00.41.05:094][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:118][  0]LogMaterial: Display: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2018.12.10-00.41.05:231][  0]LogMaterial: Display: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2018.12.10-00.41.05:251][  0]LogShaderCompilers: Display: Shaders left to compile 2334
+[2018.12.10-00.41.05:251][  0]LogMaterial: Display: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2018.12.10-00.41.05:389][  0]LogShaderCompilers: Display: Shaders left to compile 2333
+[2018.12.10-00.41.05:389][  0]LogMaterial: Display: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2018.12.10-00.41.05:421][  0]LogMaterial: Display: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2018.12.10-00.41.05:475][  0]LogMaterial: Display: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2018.12.10-00.41.05:538][  0]LogMaterial: Display: Missing cached shader map for material GearVRControllerMaterial, compiling. 
+[2018.12.10-00.41.05:748][  0]LogShaderCompilers: Display: Shaders left to compile 2455
+[2018.12.10-00.41.05:748][  0]LogShaderCompilers: Display: Shaders left to compile 2476
+[2018.12.10-00.41.05:748][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.183223 seconds
+[2018.12.10-00.41.05:759][  0]LogUObjectArray: 38460 objects as part of root set at end of initial load.
+[2018.12.10-00.41.05:759][  0]LogUObjectAllocator: 6697280 out of 0 bytes used by permanent object pool.
+[2018.12.10-00.41.05:759][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2475
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2474
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2473
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2472
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2471
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2470
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2469
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2468
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2467
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2466
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2465
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2464
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2463
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2462
+[2018.12.10-00.41.06:882][  0]LogShaderCompilers: Display: Shaders left to compile 2461
+[2018.12.10-00.41.06:918][  0]LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2018.12.10-00.41.06:942][  0]LogShaderCompilers: Display: Shaders left to compile 2460
+[2018.12.10-00.41.06:942][  0]LogMaterial: Display: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2018.12.10-00.41.07:067][  0]LogMaterial: Display: Missing cached shader map for material BaseColor, compiling. 
+[2018.12.10-00.41.07:097][  0]LogMaterial: Display: Missing cached shader map for material CustomDepth, compiling. 
+[2018.12.10-00.41.07:165][  0]LogMaterial: Display: Missing cached shader map for material CustomStencil, compiling. 
+[2018.12.10-00.41.07:186][  0]LogMaterial: Display: Missing cached shader map for material FinalImage, compiling. 
+[2018.12.10-00.41.07:202][  0]LogShaderCompilers: Display: Shaders left to compile 2517
+[2018.12.10-00.41.07:202][  0]LogMaterial: Display: Missing cached shader map for material LightingModel, compiling. 
+[2018.12.10-00.41.07:221][  0]LogMaterial: Display: Missing cached shader map for material MaterialAO, compiling. 
+[2018.12.10-00.41.07:242][  0]LogMaterial: Display: Missing cached shader map for material Metallic, compiling. 
+[2018.12.10-00.41.07:267][  0]LogMaterial: Display: Missing cached shader map for material Opacity, compiling. 
+[2018.12.10-00.41.07:287][  0]LogMaterial: Display: Missing cached shader map for material Roughness, compiling. 
+[2018.12.10-00.41.07:304][  0]LogMaterial: Display: Missing cached shader map for material SceneColor, compiling. 
+[2018.12.10-00.41.07:327][  0]LogMaterial: Display: Missing cached shader map for material SceneDepth, compiling. 
+[2018.12.10-00.41.07:354][  0]LogMaterial: Display: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
+[2018.12.10-00.41.07:377][  0]LogMaterial: Display: Missing cached shader map for material SeparateTranslucencyA, compiling. 
+[2018.12.10-00.41.07:398][  0]LogMaterial: Display: Missing cached shader map for material Specular, compiling. 
+[2018.12.10-00.41.07:432][  0]LogMaterial: Display: Missing cached shader map for material SubsurfaceColor, compiling. 
+[2018.12.10-00.41.07:456][  0]LogMaterial: Display: Missing cached shader map for material WorldNormal, compiling. 
+[2018.12.10-00.41.07:496][  0]LogShaderCompilers: Display: Shaders left to compile 2604
+[2018.12.10-00.41.07:496][  0]LogMaterial: Display: Missing cached shader map for material AmbientOcclusion, compiling. 
+[2018.12.10-00.41.07:537][  0]LogMaterial: Display: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
+[2018.12.10-00.41.07:558][  0]LogMaterial: Display: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
+[2018.12.10-00.41.07:586][  0]LogShaderCompilers: Display: Shaders left to compile 2633
+[2018.12.10-00.41.07:586][  0]LogMaterial: Display: Missing cached shader map for material PreTonemapHDRColor, compiling. 
+[2018.12.10-00.41.07:612][  0]LogMaterial: Display: Missing cached shader map for material PostTonemapHDRColor, compiling. 
+[2018.12.10-00.41.07:702][  0]LogShaderCompilers: Display: Shaders left to compile 2656
+[2018.12.10-00.41.07:702][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.12.10-00.41.07:718][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.12.10-00.41.07:859][  0]LogShaderCompilers: Display: Shaders left to compile 2655
+[2018.12.10-00.41.07:859][  0]LogMaterial: Display: Missing cached shader map for material touchController_mat, compiling. 
+[2018.12.10-00.41.07:987][  0]LogShaderCompilers: Display: Shaders left to compile 2654
+[2018.12.10-00.41.07:987][  0]LogMaterial: Display: Missing cached shader map for material PokeAHoleMaterial, compiling. 
+[2018.12.10-00.41.08:035][  0]LogMaterial: Display: Missing cached shader map for material DefaultMaterial, compiling. 
+[2018.12.10-00.41.08:319][  0]LogShaderCompilers: Display: Shaders left to compile 2724
+[2018.12.10-00.41.08:319][  0]SourceControl: Source control is disabled
+[2018.12.10-00.41.08:319][  0]SourceControl: Source control is disabled
+[2018.12.10-00.41.08:323][  0]SourceControl: Source control is disabled
+[2018.12.10-00.41.08:325][  0]SourceControl: Source control is disabled
+[2018.12.10-00.41.08:600][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.12.10-00.41.08:776][  0]LogOcInput: OculusInput pre-init called
+[2018.12.10-00.41.08:851][  0]LogShaderCompilers: Display: Shaders left to compile 2841
+[2018.12.10-00.41.08:851][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshot, compiling. 
+[2018.12.10-00.41.08:882][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotMask, compiling. 
+[2018.12.10-00.41.08:928][  0]LogMaterial: Display: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
+[2018.12.10-00.41.08:990][  0]LogShaderCompilers: Display: Shaders left to compile 2868
+[2018.12.10-00.41.08:990][  0]LogEngine: Initializing Engine...
+[2018.12.10-00.41.08:992][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.12.10-00.41.09:001][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-00.41.09:001][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-00.41.09:001][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-00.41.09:001][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-00.41.09:014][  0]LogMaterial: Display: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
+[2018.12.10-00.41.09:348][  0]LogShaderCompilers: Display: Shaders left to compile 2875
+[2018.12.10-00.41.09:349][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
+[2018.12.10-00.41.10:124][  0]LogShaderCompilers: Display: Shaders left to compile 3124
+[2018.12.10-00.41.10:124][  0]LogShaderCompilers: Display: Shaders left to compile 3123
+[2018.12.10-00.41.10:124][  0]LogShaderCompilers: Display: Shaders left to compile 3122
+[2018.12.10-00.41.10:133][  0]LogMaterial: Display: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
+[2018.12.10-00.41.10:342][  0]LogMaterial: Display: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
+[2018.12.10-00.41.11:209][  0]LogShaderCompilers: Display: Shaders left to compile 4103
+[2018.12.10-00.41.11:209][  0]LogMeshUtilities: Finished distance field build in 6.7s - 48x48x48 distance field, 528 triangles, Range [-0.6, 1.0], Sphere
+[2018.12.10-00.41.11:209][  0]LogMeshUtilities: Finished distance field build in 0.1s - 9x8x9 distance field, 192 triangles, Range [-0.2, 0.6], Cylinder
+[2018.12.10-00.41.11:209][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 14641 triangles, Range [-0.1, 1.0], RightTouchController
+[2018.12.10-00.41.11:210][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 14531 triangles, Range [-0.1, 1.0], LeftTouchController
+[2018.12.10-00.41.11:210][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 640 triangles, Range [-0.2, 0.4], RiftHMD
+[2018.12.10-00.41.11:210][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 835 triangles, Range [-0.1, 0.8], GearVRController
+[2018.12.10-00.41.11:210][  0]LogShaderCompilers: Display: Shaders left to compile 4102
+[2018.12.10-00.41.11:210][  0]LogMeshUtilities: Discarded distance field for SplineEditorMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.11:210][  0]LogMeshUtilities: Finished distance field build in 0.1s - 15x15x8 distance field, 60 triangles, Range [-0.2, 1.0], SplineEditorMesh
+[2018.12.10-00.41.11:224][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
+[2018.12.10-00.41.12:007][  0]LogMaterial: Display: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
+[2018.12.10-00.41.12:226][  0]LogMaterial: Display: Missing cached shader map for material VertexColorMaterial, compiling. 
+[2018.12.10-00.41.12:382][  0]LogShaderCompilers: Display: Shaders left to compile 5849
+[2018.12.10-00.41.12:382][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
+[2018.12.10-00.41.12:424][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
+[2018.12.10-00.41.12:457][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
+[2018.12.10-00.41.12:489][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
+[2018.12.10-00.41.12:524][  0]LogMaterial: Display: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
+[2018.12.10-00.41.12:561][  0]LogMaterial: Display: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
+[2018.12.10-00.41.12:585][  0]LogMaterial: Display: Missing cached shader map for material DebugMeshMaterial, compiling. 
+[2018.12.10-00.41.12:622][  0]LogMaterial: Display: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
+[2018.12.10-00.41.12:687][  0]LogShaderCompilers: Display: Shaders left to compile 6113
+[2018.12.10-00.41.12:687][  0]LogMaterial: Display: Missing cached shader map for material GizmoMaterial, compiling. 
+[2018.12.10-00.41.12:721][  0]LogMaterial: Display: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
+[2018.12.10-00.41.12:754][  0]LogMaterial: Display: Missing cached shader map for material GeomMaterial, compiling. 
+[2018.12.10-00.41.12:781][  0]LogMaterial: Display: Missing cached shader map for material EditorBrushMaterial, compiling. 
+[2018.12.10-00.41.12:814][  0]LogMaterial: Display: Missing cached shader map for material BoneWeightMaterial, compiling. 
+[2018.12.10-00.41.12:976][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial, compiling. 
+[2018.12.10-00.41.13:004][  0]LogMaterial: Display: Missing cached shader map for material ClothMaterial_WF, compiling. 
+[2018.12.10-00.41.13:038][  0]LogMaterial: Display: Missing cached shader map for material DebugEditorMaterial, compiling. 
+[2018.12.10-00.41.13:075][  0]LogMaterial: Display: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
+[2018.12.10-00.41.13:190][  0]LogUObjectGlobals: Warning: Class /Script/Engine.NavigationSystem is not a child class of Class /Script/Engine.NavigationSystemBase
+[2018.12.10-00.41.13:204][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.12.10-00.41.13:240][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.12.10-00.41.13:276][  0]LogShaderCompilers: Display: Shaders left to compile 6336
+[2018.12.10-00.41.13:276][  0]LogInit: XAudio2 using 'Speakers (Logitech G533 Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.12.10-00.41.13:333][  0]LogShaderCompilers: Display: Shaders left to compile 6335
+[2018.12.10-00.41.13:333][  0]LogInit: FAudioDevice initialized.
+[2018.12.10-00.41.13:334][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.12.10-00.41.13:442][  0]LogDerivedDataCache: Saved boot cache 0.11s 73MB C:/Users/darkm/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.12.10-00.41.13:511][  0]LogInit: Texture streaming: Enabled
+[2018.12.10-00.41.13:554][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.12.10-00.41.13:595][  0]LogShaderCompilers: Display: Shaders left to compile 6334
+[2018.12.10-00.41.13:595][  0]LogInit: Transaction tracking system initialized
+[2018.12.10-00.41.13:661][  0]BlueprintLog: New page: Editor Load
+[2018.12.10-00.41.13:876][  0]LocalizationService: Localization service is disabled
+[2018.12.10-00.41.14:067][  0]LogShaderCompilers: Display: Shaders left to compile 6333
+[2018.12.10-00.41.14:067][  0]LogShaderCompilers: Display: Shaders left to compile 6332
+[2018.12.10-00.41.14:097][  0]LogShaderCompilers: Display: Shaders left to compile 6331
+[2018.12.10-00.41.14:097][  0]LogMaterial: Display: Missing cached shader map for material Cross_Mat, compiling. 
+[2018.12.10-00.41.14:129][  0]LogMaterial: Display: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
+[2018.12.10-00.41.14:166][  0]LogMaterial: Display: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
+[2018.12.10-00.41.14:201][  0]LogMaterial: Display: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
+[2018.12.10-00.41.14:231][  0]LogMaterial: Display: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
+[2018.12.10-00.41.14:267][  0]LogMaterial: Display: Missing cached shader map for material Tick_Mat, compiling. 
+[2018.12.10-00.41.14:305][  0]LogShaderCompilers: Display: Shaders left to compile 6390
+[2018.12.10-00.41.14:305][  0]LogMaterial: Display: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
+[2018.12.10-00.41.14:334][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial, compiling. 
+[2018.12.10-00.41.14:359][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Current, compiling. 
+[2018.12.10-00.41.14:387][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_X, compiling. 
+[2018.12.10-00.41.14:410][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Y, compiling. 
+[2018.12.10-00.41.14:439][  0]LogMaterial: Display: Missing cached shader map for material WidgetMaterial_Z, compiling. 
+[2018.12.10-00.41.14:464][  0]LogMaterial: Display: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
+[2018.12.10-00.41.14:590][  0]LogShaderCompilers: Display: Shaders left to compile 6481
+[2018.12.10-00.41.14:590][  0]LogMaterial: Display: Missing cached shader map for material LevelGridMaterial, compiling. 
+[2018.12.10-00.41.14:691][  0]LogMaterial: Display: Missing cached shader map for material BlinkingCaret, compiling. 
+[2018.12.10-00.41.14:787][  0]LogMaterial: Display: Missing cached shader map for material M_StreamingPause, compiling. 
+[2018.12.10-00.41.14:841][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.12.10-00.41.14:841][  0]LogCook: Display: Mobile HDR setting 1
+[2018.12.10-00.41.14:842][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.12.10-00.41.14:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.12.10-00.41.14:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.12.10-00.41.14:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.12.10-00.41.14:842][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.12.10-00.41.15:158][  0]LogFileCache: Scanning file cache for directory 'C:/Users/darkm/Documents/GitHub/SushiShop/SushiShop 4.19/Content/' took 0.05s
+[2018.12.10-00.41.15:158][  0]LogShaderCompilers: Display: Shaders left to compile 6518
+[2018.12.10-00.41.15:158][  0]LogShaderCompilers: Display: Shaders left to compile 6517
+[2018.12.10-00.41.15:158][  0]SourceControl: Source control is disabled
+[2018.12.10-00.41.15:158][  0]Cmd: MAP LOAD FILE="../../../../../../Users/darkm/Documents/GitHub/SushiShop/SushiShop 4.19/Content/SushiShop/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.12.10-00.41.15:159][  0]LightingResults: New page: Lighting Build
+[2018.12.10-00.41.15:166][  0]MapCheck: New page: Map Check
+[2018.12.10-00.41.15:166][  0]LightingResults: New page: Lighting Build
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6516
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6515
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6514
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6513
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6512
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6511
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6510
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6509
+[2018.12.10-00.41.25:076][  0]LogShaderCompilers: Display: Shaders left to compile 6508
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6507
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6506
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6505
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6504
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6503
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6502
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6501
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6500
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6499
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6498
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6497
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6496
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6495
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6494
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6493
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6492
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6491
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6490
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6489
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6488
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6487
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6486
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6485
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6484
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6483
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6482
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6481
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6480
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6479
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6478
+[2018.12.10-00.41.25:077][  0]LogShaderCompilers: Display: Shaders left to compile 6477
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6476
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6475
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6474
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6473
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6472
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6471
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6470
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6469
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6468
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6467
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6466
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6465
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6464
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6463
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6462
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6461
+[2018.12.10-00.41.25:078][  0]LogShaderCompilers: Display: Shaders left to compile 6460
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6459
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6458
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6457
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6456
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6455
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6454
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6453
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6452
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6451
+[2018.12.10-00.41.30:089][  0]LogShaderCompilers: Display: Shaders left to compile 6450
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6449
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6448
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6447
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6446
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6445
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6444
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6443
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6442
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6441
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6440
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6439
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6438
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6437
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6436
+[2018.12.10-00.41.30:090][  0]LogShaderCompilers: Display: Shaders left to compile 6435
+[2018.12.10-00.41.31:101][  0]LogShaderCompilers: Display: Shaders left to compile 6434
+[2018.12.10-00.41.31:101][  0]LogShaderCompilers: Display: Shaders left to compile 6433
+[2018.12.10-00.41.31:101][  0]LogShaderCompilers: Display: Shaders left to compile 6432
+[2018.12.10-00.41.31:101][  0]LogShaderCompilers: Display: Shaders left to compile 6431
+[2018.12.10-00.41.31:101][  0]LogShaderCompilers: Display: Shaders left to compile 6430
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6429
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6428
+[2018.12.10-00.41.32:210][  0]LogMeshUtilities: Finished distance field build in 20.3s - 64x64x64 distance field, 3968 triangles, Range [-0.1, 1.0], EditorSkySphere
+[2018.12.10-00.41.32:210][  0]LogMeshUtilities: Discarded distance field for Plane as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.32:210][  0]LogMeshUtilities: Finished distance field build in 0.1s - 15x15x8 distance field, 2 triangles, Range [-0.2, 1.0], Plane
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6427
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6426
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6425
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6424
+[2018.12.10-00.41.32:210][  0]LogShaderCompilers: Display: Shaders left to compile 6423
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6422
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6421
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6420
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6419
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6418
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6417
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6416
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6415
+[2018.12.10-00.41.33:212][  0]LogShaderCompilers: Display: Shaders left to compile 6414
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6413
+[2018.12.10-00.41.34:475][  0]LogMeshUtilities: Finished distance field build in 1.8s - 30x30x29 distance field, 284 triangles, Range [-0.4, 1.0], Cone
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6412
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6411
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6410
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6409
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6408
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6407
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6406
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6405
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6404
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6403
+[2018.12.10-00.41.34:475][  0]LogShaderCompilers: Display: Shaders left to compile 6402
+[2018.12.10-00.41.34:487][  0]LogMaterial: Display: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2018.12.10-00.41.34:581][  0]LogMaterial: Display: Missing cached shader map for material Tuna_M, compiling. 
+[2018.12.10-00.41.34:679][  0]LogMaterial: Display: Missing cached shader map for material Salmon_M, compiling. 
+[2018.12.10-00.41.35:056][  0]LogShaderCompilers: Display: Shaders left to compile 6531
+[2018.12.10-00.41.35:056][  0]LogShaderCompilers: Display: Shaders left to compile 6530
+[2018.12.10-00.41.35:056][  0]LogMaterial: Display: Missing cached shader map for material Unagi_M, compiling. 
+[2018.12.10-00.41.35:241][  0]LogMaterial: Display: Missing cached shader map for material Rice_M, compiling. 
+[2018.12.10-00.41.35:322][  0]LogMaterial: Display: Missing cached shader map for material SushiBoat_M, compiling. 
+[2018.12.10-00.41.35:398][  0]LogMaterial: Display: Missing cached shader map for material Concrete_M, compiling. 
+[2018.12.10-00.41.35:486][  0]LogMeshUtilities: Finished distance field build in 2.1s - 30x30x30 distance field, 512 triangles, Range [-0.6, 0.8], Cylinder
+[2018.12.10-00.41.35:512][  0]LogMaterial: Display: Missing cached shader map for material Sake_Retail_M, compiling. 
+[2018.12.10-00.41.35:574][  0]LogMaterial: Display: Missing cached shader map for material Sake_M, compiling. 
+[2018.12.10-00.41.35:631][  0]LogMaterial: Display: Missing cached shader map for material Wasabi_M, compiling. 
+[2018.12.10-00.41.35:662][  0]LogMaterial: Display: Missing cached shader map for material Ginger_M, compiling. 
+[2018.12.10-00.41.35:849][  0]LogShaderCompilers: Display: Shaders left to compile 7257
+[2018.12.10-00.41.35:849][  0]LogMaterial: Display: Missing cached shader map for material Curtain_M1, compiling. 
+[2018.12.10-00.41.35:986][  0]LogShaderCompilers: Display: Shaders left to compile 7256
+[2018.12.10-00.41.35:986][  0]LogMaterial: Display: Missing cached shader map for material Knife+Board_M, compiling. 
+[2018.12.10-00.41.36:035][  0]LogMaterial: Display: Missing cached shader map for material M_TeleportPreviews, compiling. 
+[2018.12.10-00.41.36:056][  0]LogMaterial: Display: Missing cached shader map for material M_SplineArcMat, compiling. 
+[2018.12.10-00.41.36:092][  0]LogMaterial: Display: Missing cached shader map for material M_ArcEndpoint, compiling. 
+[2018.12.10-00.41.36:206][  0]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave Di0nysys_-_Way_of_the_Sword...
+[2018.12.10-00.41.36:277][  0]LogShaderCompilers: Display: Shaders left to compile 7488
+[2018.12.10-00.41.36:277][  0]LogTemp: Couldn't find amount to resample to.
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7487
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7486
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7485
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7484
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7483
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 2.3s - 30x30x30 distance field, 960 triangles, Range [-0.6, 1.0], Sphere
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 230 triangles, Range [0.0, 1.0], Knife_Yanagiba
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 228 triangles, Range [0.0, 0.3], Napkin_Napkin
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 120 triangles, Range [-0.3, 0.8], Ginger_Scoop
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 120 triangles, Range [-0.3, 0.8], Wasabi_Scoop
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7482
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 608 triangles, Range [-0.1, 0.8], Sake_Glass
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7481
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 1728 triangles, Range [-0.0, 0.5], Sake_Bottle_Large
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7480
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 1616 triangles, Range [-0.1, 0.6], Sake_Bottle_Small
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 624 triangles, Range [-0.1, 0.4], Sake_Retail_1_Sake_Retail_1
+[2018.12.10-00.41.43:873][  0]LogShaderCompilers: Display: Shaders left to compile 7479
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 432 triangles, Range [-0.1, 0.4], SalmonFillet1
+[2018.12.10-00.41.43:873][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 624 triangles, Range [-0.2, 0.4], Sake_Retail_2_Sake_Retail_2
+[2018.12.10-00.41.43:874][  0]LogMeshUtilities: Discarded distance field for TeaCup_TeaCup_Liquid as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.43:874][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 20 triangles, Range [-0.4, 1.0], TeaCup_TeaCup_Liquid
+[2018.12.10-00.41.43:874][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 880 triangles, Range [-0.0, 0.6], TeaCup_TeaCup
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7478
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7477
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7476
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7475
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7474
+[2018.12.10-00.41.43:874][  0]LogMeshUtilities: Finished distance field build in 2.3s - 30x30x30 distance field, 48 triangles, Range [-0.6, 0.6], Cube
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7473
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7472
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7471
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7470
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7469
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7468
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7467
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7466
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7465
+[2018.12.10-00.41.43:874][  0]LogMeshUtilities: Finished distance field build in 2.6s - 28x28x38 distance field, 448 triangles, Range [-0.5, 0.6], EditorCylinder
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7464
+[2018.12.10-00.41.43:874][  0]LogShaderCompilers: Display: Shaders left to compile 7463
+[2018.12.10-00.41.44:086][  0]LogShaderCompilers: Display: Shaders left to compile 7462
+[2018.12.10-00.41.44:086][  0]LogMeshUtilities: Finished distance field build in 0.8s - 8x38x38 distance field, 32 triangles, Range [-0.1, 1.0], EditorPlane
+[2018.12.10-00.41.44:086][  0]LogMaterial: Display: Missing cached shader map for material Glass_E, compiling. 
+[2018.12.10-00.41.44:132][  0]LogMeshUtilities: Discarded distance field for 1x1_cube as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.44:133][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 8 triangles, Range [-0.5, 0.6], 1x1_cube
+[2018.12.10-00.41.44:133][  0]LogShaderCompilers: Display: Shaders left to compile 7461
+[2018.12.10-00.41.44:133][  0]LogMaterial: Display: Missing cached shader map for material Metal_BrushedSteel, compiling. 
+[2018.12.10-00.41.44:184][  0]LogMeshUtilities: Discarded distance field for Tablet_polySurface1 as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.44:184][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 8 triangles, Range [-0.3, 0.7], Tablet_polySurface1
+[2018.12.10-00.41.44:184][  0]LogMaterial: Display: Missing cached shader map for material Plates_M, compiling. 
+[2018.12.10-00.41.44:282][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 208 triangles, Range [-0.0, 0.3], Tablet_polySurface2
+[2018.12.10-00.41.44:282][  0]LogMeshUtilities: Finished distance field build in 0.0s - 8x8x8 distance field, 100 triangles, Range [-0.0, 0.4], Plate_Small
+[2018.12.10-00.41.44:282][  0]LogMeshUtilities: Finished distance field build in 0.1s - 11x8x8 distance field, 3378 triangles, Range [-0.0, 0.9], SushiBoat_SushiBoat
+[2018.12.10-00.41.44:282][  0]LogMaterial: Display: Missing cached shader map for material Water, compiling. 
+[2018.12.10-00.41.44:418][  0]LogMaterial: Display: Missing cached shader map for material Water, compiling. 
+[2018.12.10-00.41.44:518][  0]LogMaterial: Display: Missing cached shader map for material M_HandMat, compiling. 
+[2018.12.10-00.41.44:610][  0]LogMaterial: Display: Missing cached shader map for material Glass_2_M, compiling. 
+[2018.12.10-00.41.44:680][  0]LogMaterial: Display: Missing cached shader map for material Cobian_M, compiling. 
+[2018.12.10-00.41.44:881][  0]LogMaterial: Display: Missing cached shader map for material Cobian_M, compiling. 
+[2018.12.10-00.41.45:067][  0]LogMeshUtilities: Finished distance field build in 0.6s - 30x30x8 distance field, 192 triangles, Range [-0.0, 0.7], SM_FatCylinder
+[2018.12.10-00.41.45:072][  0]LogMaterial: Display: Missing cached shader map for material Bar_M, compiling. 
+[2018.12.10-00.41.45:123][  0]LogMaterial: Display: Missing cached shader map for material Tile_WoodAndTileOffsetPattern, compiling. 
+[2018.12.10-00.41.45:170][  0]LogMaterial: Display: Missing cached shader map for material GenericHMDMaterial, compiling. 
+[2018.12.10-00.41.45:219][  0]LogMeshUtilities: Finished distance field build in 0.3s - 25x15x8 distance field, 196 triangles, Range [0.0, 0.7], BeaconDirection
+[2018.12.10-00.41.45:219][  0]LogMaterial: Display: Missing cached shader map for material Plain_Tiles_M, compiling. 
+[2018.12.10-00.41.45:314][  0]LogMeshUtilities: Discarded distance field for BeamMesh as mesh was not closed!  Assign a two-sided material to fix.
+[2018.12.10-00.41.45:314][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 384 triangles, Range [-0.5, 0.6], BeamMesh
+[2018.12.10-00.41.45:314][  0]LogMeshUtilities: Finished distance field build in 0.1s - 8x8x8 distance field, 44 triangles, Range [0.0, 1.0], SushiBoat_SushiBoatSail
+[2018.12.10-00.41.45:315][  0]LogMaterial: Display: Missing cached shader map for material marble_Mat, compiling. 
+[2018.12.10-00.41.45:364][  0]LogMaterial: Display: Missing cached shader map for material Marble_Light_M, compiling. 
+[2018.12.10-00.41.45:462][  0]LogMaterial: Display: Missing cached shader map for material Marble_Dark_M, compiling. 
+[2018.12.10-00.41.46:634][  0]LogShaderCompilers: Display: Shaders left to compile 8727
+[2018.12.10-00.41.46:641][  0]LogMaterial: Display: Missing cached shader map for material Leather_M, compiling. 
+[2018.12.10-00.41.46:775][  0]LogMaterial: Display: Missing cached shader map for material bamboo_light_Mat, compiling. 
+[2018.12.10-00.41.46:881][  0]LogMaterial: Display: Missing cached shader map for material Caustic_Light_M, compiling. 
+[2018.12.10-00.41.46:903][  0]LogMaterial: Display: Missing cached shader map for material BasicAsset01, compiling. 
+[2018.12.10-00.41.46:986][  0]LogMaterial: Display: Missing cached shader map for material Metal_BrushedCopper, compiling. 
+[2018.12.10-00.41.47:085][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Large_CurtainLarge_Left...
+[2018.12.10-00.41.47:099][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SushiShop/Assets/Environment/Curtains/LargeCurtain/Curtain_Large.Curtain_Large_CurtainLarge_Left
+[2018.12.10-00.41.47:103][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Large_CurtainLarge_Right...
+[2018.12.10-00.41.47:114][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SushiShop/Assets/Environment/Curtains/LargeCurtain/Curtain_Large.Curtain_Large_CurtainLarge_Right
+[2018.12.10-00.41.47:256][  0]LogSkeletalMesh: Building Skeletal Mesh Curtain_Small_CurtainSmall...
+[2018.12.10-00.41.47:257][  0]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/SushiShop/Assets/Environment/Curtains/SmallCurtain/Curtain_Small.Curtain_Small_CurtainSmall
+[2018.12.10-00.41.47:511][  0]LogAIModule: Creating AISystem for world Main
